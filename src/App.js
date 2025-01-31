@@ -11,7 +11,7 @@ const Header = () => (
 const HeroSection = () => (
   <section style={{ textAlign: "center", padding: "80px 20px", backgroundColor: "#1a202c", color: "white" }}>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-    <img src="/logo.png" alt="Company Logo" style={{ width: "50%" }} />
+    <img src="/logo.png" alt="Company Logo" style={{ width: "65%" }} />
     <h1 style={{ fontSize: "2.5rem", fontWeight: "bold" }}>Empower Your Business with Expert Software Solutions</h1>
     <p style={{ fontSize: "1.2rem", marginTop: "10px" }}>Helping businesses grow with modern technology.</p>
     <button style={{ marginTop: "20px", padding: "10px 20px", fontSize: "1rem", backgroundColor: "#4299e1", color: "white", border: "none", borderRadius: "5px", cursor: "pointer" }}>Get Started</button>
