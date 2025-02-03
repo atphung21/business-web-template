@@ -1,4 +1,5 @@
 import React from "react";
+import ContactForm from "./ContactModalForm";
 
 const Header = () => (
   <header style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "16px", backgroundColor: "#1a202c", color: "white" }}>
@@ -14,7 +15,7 @@ const HeroSection = () => (
     <img src="/logo.png" alt="Company Logo" style={{ width: "70%", 'border-radius': '80px' }} />
     <h1 style={{ fontSize: "2.5rem", fontWeight: "bold" }}>Empower Your Business with Expert Software Solutions</h1>
     <p style={{ fontSize: "1.2rem", marginTop: "10px" }}>Helping businesses grow with modern technology.</p>
-    <button style={{ marginTop: "20px", padding: "10px 20px", fontSize: "1rem", backgroundColor: "#4299e1", color: "white", border: "none", borderRadius: "5px", cursor: "pointer" }}>Get Started</button>
+    <ContactForm />
   </section>
 );
 
