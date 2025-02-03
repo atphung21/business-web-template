@@ -12,7 +12,7 @@ const Header = () => (
 const HeroSection = () => (
   <section style={{ textAlign: "center", padding: "80px 20px", backgroundColor: "#1a202c", color: "white" }}>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-    <img src="/logo.png" alt="Company Logo" style={{ width: "70%", 'border-radius': '80px' }} />
+    <img src="/logo.png" alt="Company Logo" style={{ width: "60%", 'border-radius': '85px' }} />
     <h1 style={{ fontSize: "2.5rem", fontWeight: "bold" }}>Empower Your Business with Expert Software Solutions</h1>
     <p style={{ fontSize: "1.2rem", marginTop: "10px" }}>Helping businesses grow with modern technology.</p>
     <ContactForm />

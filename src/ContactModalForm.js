@@ -48,17 +48,27 @@ const ContactForm = () => {
                 <label className="form-label">Name: </label>
                 <input
                   type="text"
-                  {...register("name", { required: "Name is required" })}
+                  {...register("name", { required: "Name is required." })}
                   className="form-input"
                 />
                 {errors.name && <p className="error-message">{errors.name.message}</p>}
               </div>
 
               <div>
+                <label className="form-label">Phone: </label>
+                <input
+                  type="text"
+                  {...register("phone", { required: "Phone number is required." })}
+                  className="form-input"
+                />
+                {errors.phone && <p className="error-message">{errors.phone.message}</p>}
+              </div>
+
+              <div>
                 <label className="form-label">Email: </label>
                 <input
                   type="email"
-                  {...register("email", { required: "Email is required", pattern: { value: /^[^@\s]+@[^@\s]+\.[^@\s]+$/, message: "Invalid email" } })}
+                  {...register("email", { required: "Email is required.", pattern: { value: /^[^@\s]+@[^@\s]+\.[^@\s]+$/, message: "Invalid email" } })}
                   className="form-input"
                 />
                 {errors.email && <p className="error-message">{errors.email.message}</p>}
@@ -68,7 +78,7 @@ const ContactForm = () => {
                 <label className="form-label">Subject: </label>
                 <input
                   type="text"
-                  {...register("subject", { required: "Subject is required" })}
+                  {...register("subject", { required: "Subject is required." })}
                   className="form-input"
                 />
                 {errors.subject && <p className="error-message">{errors.subject.message}</p>}
@@ -77,7 +87,7 @@ const ContactForm = () => {
               <div>
                 <label className="form-label">Message: </label>
                 <textarea
-                  {...register("message", { required: "Message is required" })}
+                  {...register("message", { required: "Message is required." })}
                   className="form-textarea"
                   rows="4"
                 ></textarea>
