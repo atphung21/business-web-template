@@ -47,7 +47,7 @@ const ContactSection = () => (
   <section style={{ padding: "50px 20px", backgroundColor: "#e2e8f0", textAlign: "center" }}>
     <h2 style={{ fontSize: "2rem", fontWeight: "bold" }}>Contact Us</h2>
     <p style={{ fontSize: "1rem", fontWeight: "bold", color: "#4a5568" }}>Phone: (714) 702-5483</p>
-    <p style={{ fontSize: "1rem", fontWeight: "bold", color: "#4a5568" }}>Email: atphung@atpconsultingservices.com</p>
+    <p style={{ fontSize: "1rem", fontWeight: "bold", color: "#4a5568" }}>Email: info@atpconsultingservices.com</p>
     <p style={{ fontSize: "1rem", color: "#4a5568", fontWeight: "bold" }}>Reach out to us for inquiries and consultations.</p>
   </section>
 );
