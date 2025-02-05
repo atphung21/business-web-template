@@ -32,7 +32,7 @@ const ServicesSection = () => (
     <div style={{ display: "flex", justifyContent: "center", flexWrap: "wrap", marginTop: "20px" }}>
       <ServiceCard title="Custom Software Development" description="Tailored solutions to fit your business needs." />
       <ServiceCard title="Cloud Consulting" description="Helping you migrate and optimize cloud solutions." />
-      <ServiceCard title="Business Automation" description="Streamlining your workflows with technology." />
+      <ServiceCard title="Business Automation" description="Streamlining your workflows with technology."/>
     </div>
   </section>
 );
@@ -50,6 +50,11 @@ const ContactSection = () => (
     <p style={{ fontSize: "1rem", fontWeight: "bold", color: "#4a5568" }}>Phone: (714) 702-5483</p>
     <a style={{ fontSize: "1rem", fontWeight: "bold", color: "#4a5568" }} href="mailto:info@atpconsultingservices.com?subject=Services Information&body=Inquiry: , Contact Number: , Email: ,">Email: info@atpconsultingservices.com</a>
     <p style={{ fontSize: "1rem", color: "#4a5568", fontWeight: "bold" }}>Reach out to us for inquiries and consultations.</p>
+    <a style={{ fontSize: "1rem", fontWeight: "bold", color: "#4a5568" }} href="https://www.blackjack.atpconsultingservices.com">
+      <button style={{ marginTop: "20px", padding: "10px 20px", fontSize: "1rem", backgroundColor: "#4299e1", color: "white", border: "none", borderRadius: "5px", cursor: "pointer" }}>
+      Try Playing Retro Blackjack!
+      </button>
+    </a>
   </section>
 );
 
