@@ -2,10 +2,10 @@ import React from "react";
 import ContactForm from "./ContactModalForm";
 
 const Header = () => (
-  <header style={{ display: "flex", justifyContent: "center", alignItems: "center", padding: "16px", backgroundColor: "#edf2f7", color: "black" }}>
+  <header style={{ display: "flex", justifyContent: "center", alignItems: "center", padding: "16px", backgroundColor: "#edf2f7", color: "rgba(0, 0, 0, 0.7)" }}>
     <div style={{ display: "flex", alignItems: "center", gap: "1rem", justifyContent: "center" }}>
       <img src="/software_consulting_emblem.png" alt="Company Emblem" style={{ width: "6%", 'border-radius': '1rem' }} />  
-      <h1 style={{ fontSize: "2.5rem", fontWeight: "bold", "font-family": 'Helvetica Neue' }}>ATP Software Consulting Services</h1>
+      <h1 style={{ fontSize: "2rem", fontWeight: "bold", "font-family": 'Helvetica' }}>ATP SOFTWARE CONSULTING SERVICES</h1>
     </div>
   </header>
 );
