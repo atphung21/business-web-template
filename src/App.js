@@ -4,8 +4,8 @@ import ContactForm from "./ContactModalForm";
 const Header = () => (
   <header style={{ display: "flex", justifyContent: "center", alignItems: "center", padding: "16px", backgroundColor: "#edf2f7", color: "rgba(0, 0, 0, 0.7)" }}>
     <div style={{ display: "flex", alignItems: "center", gap: "1rem", justifyContent: "center" }}>
-      <img src="/software_consulting_emblem.png" alt="Company Emblem" style={{ width: "6%", 'border-radius': '1rem' }} />  
-      <h1 style={{ fontSize: "2rem", fontWeight: "bold", "font-family": 'Helvetica' }}>ATP SOFTWARE CONSULTING SERVICES</h1>
+      <img src="/software_consulting_emblem.png" alt="Company Emblem" style={{ width: "3rem", 'border-radius': '1rem' }} />  
+      <h1 style={{ fontSize: "1.5rem", fontWeight: "bold", "font-family": 'Helvetica' }}>ATP SOFTWARE CONSULTING SERVICES</h1>
     </div>
   </header>
 );
@@ -30,7 +30,7 @@ const ServiceCard = ({ title, description }) => (
 const ServicesSection = () => (
   <section style={{ padding: "1.5rem 1rem", backgroundColor: "#edf2f7", textAlign: "center" }}>
     <h2 style={{ fontSize: "2rem", fontWeight: "bold" }}>Our Services</h2>
-    <div style={{ display: "list-items", justifyContent: "center", flexWrap: "wrap", marginTop: "1rem", marginLeft: "5rem", marginRight: "5rem" }}>
+    <div style={{ display: "list-items", justifyContent: "center", flexWrap: "wrap", marginTop: "1rem", marginLeft: "2rem", marginRight: "2rem" }}>
       <ServiceCard title="Business Consultation" description="Provide expert guidance to help your businesses leverage technology for efficiency and growth."/> 
       <ServiceCard title="Website Creation & Enhancement" description="Tailored solutions to fit your business needs." />
       <ServiceCard title="SEO Optimization" description="Optimize your website to rank higher on search engines, improve visibility, and attract organic traffic."/>
