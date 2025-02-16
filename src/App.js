@@ -28,7 +28,7 @@ const ServiceCard = ({ title, description }) => (
 );
 
 const ServicesSection = () => (
-  <section style={{ padding: "1.5rem 1rem", backgroundColor: "#edf2f7", textAlign: "center" }}>
+  <section style={{ padding: "1rem 1rem", backgroundColor: "#edf2f7", textAlign: "center" }}>
     <h2 style={{ fontSize: "2rem", fontWeight: "bold" }}>Our Services</h2>
     <div style={{ display: "list-items", justifyContent: "center", flexWrap: "wrap", marginTop: "1rem", marginLeft: "0.75rem", marginRight: "0.75rem" }}>
       <ServiceCard title="Business Consultation" description="Provide expert guidance to help your businesses leverage technology for efficiency and growth."/> 
