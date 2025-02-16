@@ -96,18 +96,18 @@ const ContactForm = () => {
 
               <div className="form-actions">
                 <button
-                  type="submit"
-                  className="submit-button"
-                  disabled={isSubmitting}
-                >
-                  {isSubmitting ? "Sending..." : "Send Message"}
-                </button>
-                <button
                   type="button"
                   onClick={() => setIsOpen(false)}
                   className="close-button"
                 >
-                  Close
+                  Cancel
+                </button>
+                <button
+                  type="submit"
+                  className="submit-button"
+                  disabled={isSubmitting}
+                >
+                  {isSubmitting ? "Sending..." : "Submit"}
                 </button>
               </div>
             </form>
