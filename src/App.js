@@ -1,14 +1,8 @@
 import React from "react";
 import ContactForm from "./ContactModalForm";
-
-const Header = () => (
-  <header style={{ display: "flex", justifyContent: "center", alignItems: "center", padding: "16px", backgroundColor: "#edf2f7", color: "rgba(0, 0, 0, 0.7)" }}>
-    <div style={{ display: "flex", alignItems: "center", gap: "1rem", justifyContent: "center" }}>
-      <img src="/software_consulting_emblem.png" alt="Company Emblem" style={{ width: "3rem", 'border-radius': '1rem', justifyContent: "center" }} />  
-      <h1 style={{ fontSize: "100%", fontWeight: "bold", "font-family": 'Helvetica' }}>ATP SOFTWARE CONSULTING SERVICES</h1>
-    </div>
-  </header>
-);
+import { Header } from './components/header/Header';
+import { ServiceCard } from './components/serviceCard/ServiceCard';
+import { AboutUsSection } from './components/aboutUsSection/AboutUsSection';
 
 const HeroSection = () => (
   <section style={{ textAlign: "center", padding: "80px 20px", backgroundColor: "#1a202c", color: "white" }}>
@@ -18,13 +12,6 @@ const HeroSection = () => (
     <p style={{ fontSize: "1.2rem", marginTop: "10px" }}>Helping businesses grow with modern technology.</p>
     <ContactForm />
   </section>
-);
-
-const ServiceCard = ({ title, description }) => (
-  <div style={{ boxShadow: "0px 2px 5px rgba(0, 0, 0, 0.1)", padding: "20px", backgroundColor: "white", borderRadius: "8px", textAlign: "center", margin: "0.5rem", flexWrap: "wrap" }}>
-    <h3 style={{ fontSize: "1.5rem", fontWeight: "bold" }}>{title}</h3>
-    <p style={{ fontSize: "1rem", color: "#4a5568" }}>{description}</p>
-  </div>
 );
 
 const ServicesSection = () => (
@@ -40,13 +27,6 @@ const ServicesSection = () => (
       <ServiceCard title="Social Media Integration & Management" description="Help businesses connect and manage their social media platforms effectively, ensuring brand consistency, audience engagement, and cross-platform integration." />
       <ServiceCard title="Business Automation" description="Streamlining your workflows with technology."/>
     </div>
-  </section>
-);
-
-const AboutSection = () => (
-  <section style={{ padding: "50px 20px", backgroundColor: "white", textAlign: "center" }}>
-    <h2 style={{ fontSize: "2rem", fontWeight: "bold" }}>About Us</h2>
-    <p style={{ fontSize: "1rem", color: "#4a5568" }}>We are a team of experienced software consultants dedicated to helping businesses succeed.</p>
   </section>
 );
 
@@ -73,10 +53,10 @@ const Footer = () => (
 const LandingPage = () => (
   <div>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-    <Header />
+    <Header headerTitle='ATP SOFTWARE CONSULTING SERVICES' />
     <HeroSection />
     <ServicesSection />
-    <AboutSection />
+    <AboutUsSection description='We are a team of experienced software consultants dedicated to helping businesses succeed.' />
     <ContactSection />
     <Footer />
   </div>
