@@ -252,7 +252,7 @@ const ContactSection = () => {
   <section
     style={{
       padding: "50px 20px",
-      backgroundColor: "#e2e8f0",
+      backgroundColor: "white",
       textAlign: "center",
     }}
   >
