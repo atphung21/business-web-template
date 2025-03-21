@@ -85,8 +85,8 @@ const HeroSection = () => (
           }}
         >
           Expertise You Can Rely On.
+          <ContactForm />
         </p>
-        <ContactForm />
       </div>
       <img
         src="/ito-doctor.webp"
