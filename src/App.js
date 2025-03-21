@@ -93,7 +93,7 @@ const HeroSection = () => (
         alt="Company Logo"
         style={{
           minWidth: "50%",
-          maxWidth: "34vh",
+          maxWidth: "33vh",
           borderRadius: "5px",
         }}
       />
