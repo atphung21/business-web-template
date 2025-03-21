@@ -24,7 +24,7 @@ export const AboutUsSection = ({ title, description }) => (
       style={{
         display: "grid",
         gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr)",
-        gap: "20px",
+        gap: "8px",
       }}
     >
       <ServiceCard

@@ -93,7 +93,7 @@ const HeroSection = () => (
         alt="Company Logo"
         style={{
           minWidth: "60%",
-          maxWidth: "30vh",
+          maxWidth: "32vh",
           borderRadius: "5px",
         }}
       />
@@ -241,7 +241,14 @@ const ServicesSection = () => (
   </section>
 );
 
-const ContactSection = () => (
+const ContactSection = () => {
+  // const handlePhoneClick = () => {
+  //   if (window.confirm(`Do you want to call ${phoneNumber}?`)) {
+  //     window.location.href = `tel:${phoneNumber}`;
+  //   }
+  // };
+
+  return (
   <section
     style={{
       padding: "50px 20px",
@@ -301,7 +308,7 @@ const ContactSection = () => (
       MEDICARE.GOV OR 1-800-MEDICARE TO GET INFORMATION ON ALL OF YOUR OPTIONS.
     </p>
   </section>
-);
+)};
 
 const Footer = () => (
   <footer
