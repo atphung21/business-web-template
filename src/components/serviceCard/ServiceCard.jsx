@@ -12,7 +12,14 @@ import React from "react";
 //     </div>
 // );
 
-export const ServiceCard = ({ title, description, image, imageSide }) => {
+export const ServiceCard = ({
+  title,
+  description,
+  image,
+  imageSide,
+  subDescription,
+  bulletPoints,
+}) => {
   const isImageLeft = imageSide === "left";
 
   return (
@@ -50,6 +57,8 @@ export const ServiceCard = ({ title, description, image, imageSide }) => {
             fontSize: "2rem",
             fontWeight: "normal",
             fontFamily: '"Playfair Display", Georgia, serif',
+            paddingLeft: "20px",
+            textAlign: 'left',
           }}
         >
           {title}
@@ -59,9 +68,24 @@ export const ServiceCard = ({ title, description, image, imageSide }) => {
             fontSize: "1rem",
             color: "#4a5568",
             fontFamily: '"Playfair Display", Georgia, serif',
+            textAlign: 'left',
+            paddingLeft: "20px",
           }}
         >
           {description}
+          <br></br>
+          {bulletPoints && (
+            <ul style={{ maxWidth: '25vh', alignContent: 'left', paddingLeft: '2vh' }}>
+              {bulletPoints.map((item, index) => (
+                <li key={index}  style={{ textAlign: 'left', marginBottom: '8px' }}>
+                  {item}
+                </li>
+              ))}
+            </ul>
+          )}
+          <br></br>
+          <br></br>
+          {subDescription}
         </p>
       </div>
     </div>

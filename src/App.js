@@ -195,6 +195,14 @@ const ServicesSection = () => (
         description="We are licensed & certified in multiple states and are here to help. We concentrate on the following areas:"
         image="/licensed-certified.webp"
         imageSide="left"
+        subDescription={<><strong>CA Insurance Business Entity License:</strong> <span>#6004491</span></>}
+        bulletPoints={[
+          "Medicare Plans",
+          "Individual & Families Plans",
+          "Covered CA Plans",
+          "Employer-Sponsored Plans",
+          "Final Expense Policies",
+        ]}
       />
       <ServiceCard
         title="No-Cost Services"
