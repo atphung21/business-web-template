@@ -36,7 +36,7 @@ const ContactForm = () => {
 
   return (
     <div>
-      <button style={{ marginTop: "20px", padding: "20px 20px", fontSize: "1rem", backgroundColor: "white", color: "black", border: "none", borderRadius: "0px", cursor: "pointer", fontWeight: "bold" }} onClick={() => setIsOpen(true)} className="contact-button">
+      <button style={{ marginTop: "20px", padding: "20px 20px", fontSize: "0.80rem", backgroundColor: "white", color: "black", borderRadius: "3px", cursor: "pointer", fontWeight: "bold", fontFamily: '"Open Sans", arial, sans-serif', letterSpacing: "5px", width: '100%' }} onClick={() => setIsOpen(true)} className="contact-button">
         FREE CONSULTATION
       </button>
       {isOpen && (

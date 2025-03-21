@@ -12,19 +12,18 @@ const HeroSection = () => (
       padding: "20px",
       backgroundColor: "white",
       color: "white",
+      flex: "0 1 30vh",
+      flexWrap: "wrap",
+      alignItems: "center",
+      margin: "0.5rem auto",
     }}
   >
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    ></meta>
     <img
       src="/jessica_ito.png"
       alt="Company Logo"
       style={{
-        "min-width": "20rem",
-        "max-width": "60%",
-        "border-radius": "20px",
+        minWidth: "20rem",
+        maxWidth: "100%",
       }}
     />
     <div
@@ -33,28 +32,25 @@ const HeroSection = () => (
         justifyContent: "center",
         alignContent: "center",
         padding: "2rem",
-        maxHeight: "50rem",
         backgroundColor: "#e2e8f0",
-        "border-radius": "20px",
-        maxWidth: "100%",
+        borderRadius: "10px",
+        flex: "0 1 30vh",
+        flexWrap: "wrap",
+        width: "80%",
+        margin: "1.5rem auto",
+        boxShadow: "0px 2px 5px rgba(0, 0, 0, 0.1)",
       }}
     >
-      <img
-        src="/ito-doctor.webp"
-        alt="Company Logo"
-        style={{
-          "max-width": "30%",
-          "border-radius": "2px",
-        }}
-      />
       <div
         style={{
           flexDirection: "column",
+          justifyContent: "center",
           alignContent: "center",
           backgroundColor: "rgb(90, 90, 90)",
           padding: "3rem",
-          width: "50%",
-          "border-radius": "5px",
+          minWidth: "10%",
+          maxWidth: "20vh",
+          borderRadius: "5px 5px 5px 5px",
         }}
       >
         <h1
@@ -92,6 +88,15 @@ const HeroSection = () => (
         </p>
         <ContactForm />
       </div>
+      <img
+        src="/ito-doctor.webp"
+        alt="Company Logo"
+        style={{
+          minWidth: "60%",
+          maxWidth: "30vh",
+          borderRadius: "5px",
+        }}
+      />
     </div>
   </section>
 );
