@@ -30,7 +30,7 @@ import React from 'react';
                 gap: "4rem",        // Creates spacing between image and text
                 flexWrap: "wrap",
                 letterSpacing: "2px",
-                width: "fit-content(80%)",
+                width: "fit-content(100%)",
                 margin: "2rem auto",
             }}
         >
