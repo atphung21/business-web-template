@@ -92,8 +92,8 @@ const HeroSection = () => (
         src="/ito-doctor.webp"
         alt="Company Logo"
         style={{
-          minWidth: "60%",
-          maxWidth: "32vh",
+          minWidth: "50%",
+          maxWidth: "34vh",
           borderRadius: "5px",
         }}
       />
