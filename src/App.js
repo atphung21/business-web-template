@@ -285,7 +285,7 @@ const LandingPage = () => (
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0"
-    ></meta>
+    >
     <Header
       headerTitle={
         <AddressLink
@@ -301,6 +301,7 @@ const LandingPage = () => (
     <AboutUsSection title="Testimonials" description="" />
     <ContactSection />
     <Footer />
+    </meta>
   </div>
 );
 
