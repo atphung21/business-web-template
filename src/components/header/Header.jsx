@@ -14,6 +14,7 @@ export const Header = ({ headerTitle, phoneNumber, fontColor }) => {
         alignItems: "center",
         paddingTop: "0.025rem",
         backgroundColor: "rgb(90, 90, 90)",
+        maxWidth: "100%",
       }}
     >
       <div
@@ -22,6 +23,7 @@ export const Header = ({ headerTitle, phoneNumber, fontColor }) => {
           alignItems: "center",
           gap: "0.5rem",
           justifyContent: "center",
+          maxWidth: "90%",
         }}
       >
         <h1

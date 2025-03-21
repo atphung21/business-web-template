@@ -36,8 +36,8 @@ const ContactForm = () => {
 
   return (
     <div>
-      <button style={{ marginTop: "20px", padding: "10px 20px", fontSize: "1rem", backgroundColor: "#4299e1", color: "white", border: "none", borderRadius: "5px", cursor: "pointer" }} onClick={() => setIsOpen(true)} className="contact-button">
-        Get Started
+      <button style={{ marginTop: "20px", padding: "20px 20px", fontSize: "1rem", backgroundColor: "white", color: "black", border: "none", borderRadius: "0px", cursor: "pointer", fontWeight: "bold" }} onClick={() => setIsOpen(true)} className="contact-button">
+        FREE CONSULTATION
       </button>
       {isOpen && (
         <div className="modal-overlay">

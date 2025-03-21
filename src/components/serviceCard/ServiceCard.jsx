@@ -30,10 +30,14 @@ import React from 'react';
                 gap: "4rem",        // Creates spacing between image and text
                 flexWrap: "wrap",
                 letterSpacing: "2px",
-                width: "80rem",
+                width: "fit-content(80%)",
                 margin: "2rem auto",
             }}
         >
+              <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    ></meta>
             <div style={{ flex: "0 1 30%" }}> {/* Controls image size */}
                 {image && <img src={image} alt={title} style={{ width: "100%", borderRadius: "8px" }} />}
             </div>
