@@ -19,6 +19,7 @@ export const ServiceCard = ({
   imageSide,
   subDescription,
   bulletPoints,
+  backgroundColor,
 }) => {
   const isImageLeft = imageSide === "left";
 
@@ -28,8 +29,8 @@ export const ServiceCard = ({
         display: "flex",
         flexDirection: isImageLeft ? "row" : "row-reverse",
         boxShadow: "0px 2px 5px rgba(0, 0, 0, 0.1)",
-        padding: "3.5rem",
-        backgroundColor: "white",
+        padding: "3rem",
+        backgroundColor: backgroundColor ? backgroundColor : "white",
         borderRadius: "8px",
         textAlign: "center", // Align text for better reading
         alignItems: "center",
@@ -42,7 +43,6 @@ export const ServiceCard = ({
     >
       <div style={{ flex: "0 1 30vh" }}>
         {" "}
-        {/* Controls image size */}
         {image && (
           <img
             src={image}
