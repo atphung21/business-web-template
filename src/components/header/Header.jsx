@@ -45,7 +45,7 @@ export const Header = ({ headerTitle, phoneNumber, fontColor }) => {
           }}
           onClick={handlePhoneClick}
         >
-          {"-"} {phoneNumber}
+          {" "} {phoneNumber}
         </span>
       </div>
     </header>
