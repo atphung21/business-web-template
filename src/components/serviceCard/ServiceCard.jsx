@@ -27,19 +27,19 @@ import React from 'react';
                 borderRadius: "8px",
                 textAlign: "center",  // Align text for better reading
                 alignItems: "center",
-                gap: "4rem",        // Creates spacing between image and text
+                gap: "1rem",        // Creates spacing between image and text
                 flexWrap: "wrap",
                 letterSpacing: "2px",
                 width: "fit-content(100%)",
-                margin: "2rem auto",
+                margin: "1.5rem auto",
             }}
         >
               <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     ></meta>
-            <div style={{ flex: "0 1 30%" }}> {/* Controls image size */}
-                {image && <img src={image} alt={title} style={{ width: "100%", borderRadius: "8px" }} />}
+            <div style={{ flex: "0 1 30vh" }}> {/* Controls image size */}
+                {image && <img src={image} alt={title} style={{ width: '100%', borderRadius: "8px" }} />}
             </div>
             <div style={{ flex: "1" }}>
                 <h3 style={{ fontSize: "2rem", fontWeight: "normal", fontFamily: '"Playfair Display", Georgia, serif' }}>{title}</h3>
