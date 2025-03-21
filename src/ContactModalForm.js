@@ -35,8 +35,8 @@ const ContactForm = () => {
   };
 
   return (
-    <div>
-      <button style={{ marginTop: "20px", padding: "20px 20px", fontSize: "0.80rem", backgroundColor: "white", color: "black", borderRadius: "3px", cursor: "pointer", fontWeight: "bold", fontFamily: '"Open Sans", arial, sans-serif', letterSpacing: "5px", width: '100%' }} onClick={() => setIsOpen(true)} className="contact-button">
+    <div style={{ display: 'flex', marginTop: "30px", padding: '10px', borderRadius: "3px", cursor: "pointer", alignText: 'center', alignContent: 'center' }}>
+      <button style={{  margin: '5px auto', padding: "15px 10px 15px 10px", fontSize: "0.85rem", backgroundColor: "rgb(255, 255, 255)", color: "black", borderRadius: "2px", cursor: "pointer", fontWeight: "bold", fontFamily: '"Open Sans", arial, sans-serif', letterSpacing: "3px", alignContent: 'center', alignText: 'center' }}  onClick={() => setIsOpen(true)} className="contact-button">
         FREE CONSULTATION
       </button>
       {isOpen && (

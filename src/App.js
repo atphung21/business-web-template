@@ -298,7 +298,7 @@ const ContactSection = () => (
 const Footer = () => (
   <footer
     style={{
-      backgroundColor: "#1a202c",
+      backgroundColor: "rgb(90, 90, 90)",
       color: "white",
       textAlign: "center",
       padding: "20px",
