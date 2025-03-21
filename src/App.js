@@ -43,7 +43,7 @@ const HeroSection = () => (
         src="/ito-doctor.webp"
         alt="Company Logo"
         style={{
-          "max-width": "45%",
+          "max-width": "30%",
           "border-radius": "2px",
         }}
       />
