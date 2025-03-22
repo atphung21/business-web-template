@@ -46,7 +46,7 @@ const HeroSection = () => (
           flexDirection: "column",
           justifyContent: "center",
           alignContent: "center",
-          backgroundColor: "rgb(90, 90, 90)",
+          backgroundColor: "rgb(90, 90, 90, 0.85)",
           padding: "3rem",
           minWidth: "10%",
           maxWidth: "20vh",
@@ -313,7 +313,7 @@ const ContactSection = () => {
 const Footer = () => (
   <footer
     style={{
-      backgroundColor: "rgb(90, 90, 90)",
+      backgroundColor: "rgb(90, 90, 90, 0.85)",
       color: "white",
       textAlign: "center",
       padding: "20px",

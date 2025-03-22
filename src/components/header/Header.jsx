@@ -13,7 +13,7 @@ export const Header = ({ headerTitle, phoneNumber, fontColor }) => {
         justifyContent: "center",
         alignItems: "center",
         paddingTop: "0.025rem",
-        backgroundColor: "rgb(90, 90, 90)",
+        backgroundColor: "rgb(90, 90, 90, 0.85)",
         maxWidth: "100%",
       }}
     >
