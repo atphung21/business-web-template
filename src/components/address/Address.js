@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export const AddressLink = ({ address, addressLabel, fontColor, phoneNumber }) => {
   const openMaps = () => {
     const encodedAddress = encodeURIComponent(address);
@@ -23,7 +24,7 @@ export const AddressLink = ({ address, addressLabel, fontColor, phoneNumber }) =
           }}
           onClick={openMaps}
         >
-          {address} {' '}
+          {address} {' '} {phoneNumber}
         </span>
       </p>
     </div>
