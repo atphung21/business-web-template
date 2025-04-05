@@ -2,26 +2,10 @@ import React from "react";
 import { Header } from "../header/Header";
 import { AboutUsSection } from "../aboutUsSection/AboutUsSection";
 import { AddressLink } from "../address/Address";
-import ContactSection from "../contactUs/ContactUs";
+import { ContactSection } from "../contactUs/ContactUs";
 import { HeroSection } from "../heroSection/HeroSection";
 import { ServicesSection } from "../servicesSection/ServicesSection";
-
-
-const Footer = () => (
-  <footer
-    style={{
-      backgroundColor: "rgb(90, 90, 90, 0.85)",
-      color: "white",
-      textAlign: "center",
-      padding: "20px",
-    }}
-  >
-    <p>
-      &copy; Copyright {new Date().getFullYear()} I.T.O. Insurance Agency - All
-      Rights Reserved.
-    </p>
-  </footer>
-);
+import { Footer } from "../footer/Footer";
 
 export const LandingPage = () => (
   <div>
@@ -33,12 +17,11 @@ export const LandingPage = () => (
       headerTitle={
         <AddressLink
           fontColor={"white"}
-          address="12818 BROOKHURST STREET, GARDEN GROVE CA 92840"
-          phoneNumber={"(949) 317-2220 ext. 2"}
-          addressLabel={"Visit Us At:"}
+          address="12818 BROOKHURST STREET, GARDEN GROVE, CA 92840"
         />
       }
-      phoneNumber={"(949) 317-2220 ext. 2"}
+      phoneNumber={"(949) 317-2220"}
+      extension={'2'}
       fontColor={"white"}
     />
     <HeroSection />

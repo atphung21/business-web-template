@@ -1,51 +1,56 @@
 import React from "react";
-export const Header = ({ headerTitle, phoneNumber, fontColor }) => {
+export const Header = ({ headerTitle, phoneNumber, fontColor, extension }) => {
   const handlePhoneClick = () => {
-    if (window.confirm(`Do you want to call ${phoneNumber}?`)) {
-      window.location.href = `tel:${phoneNumber}`;
+    const formattedNumber = extension 
+      ? `${phoneNumber},${extension}` // `,` = short pause before extension
+      : phoneNumber;
+
+    if (window.confirm(`Do you want to call ${phoneNumber}${extension ? ` ext. ${extension}` : ''}?`)) {
+      window.location.href = `tel:${formattedNumber}`;
     }
   };
 
   return (
     <header
       style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        paddingTop: "0.025rem",
-        backgroundColor: "rgb(90, 90, 90, 0.85)",
+        position: 'relative',
+        textAlign: 'center',
+        backgroundColor: "rgb(90, 90, 90, 0.95)",
         maxWidth: "100%",
+        height: "100%"
       }}
     >
       <div
         style={{
-          display: "flex",
-          alignItems: "center",
-          gap: "0.5rem",
-          justifyContent: "center",
           maxWidth: "90%",
+          alignItems: "center",
+          justifyContent: "center",
         }}
       >
-        <h1
+        <p1
           style={{
-            fontSize: "100%",
-            fontWeight: "bold",
+            fontSize: "1rem",
+            fontWeight: "normal",
             "font-family": "Helvetica",
           }}
         >
-          {headerTitle}
-        </h1>
+          {headerTitle ? headerTitle : ' '} {'  '}
+        </p1>
         <span
           style={{
             color: fontColor,
             cursor: "pointer",
             fontSize: "1rem",
             textDecorationThickness: "normal",
-            fontFamily: '"Playfair Display", Georgia, serif',
+            fontFamily: '"Open Sans", arial, sans-serif',
+            position: 'absolute',
+            transform: 'translateY(-50%)',
+            top: '50%',
+            right: '25px',
           }}
           onClick={handlePhoneClick}
         >
-          {" "} {phoneNumber}
+          {" "} {phoneNumber} {" "}  {extension ? `ext. ${extension}` : '' }
         </span>
       </div>
     </header>
