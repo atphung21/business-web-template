@@ -42,7 +42,7 @@ const NavigationBar = () => {
 
   const navLinkStyle = ({ isActive }) => ({
     color: isActive ? "black" : "black",
-    textDecoration: isActive ? "none" : "none",
+    textDecoration: isActive ? "underline" : "none",
   });
 
   const dropDownStyle = (menu) => ({
@@ -122,7 +122,7 @@ const NavigationBar = () => {
             </div>
             <div style={{ padding: "0.5rem 0.5rem" }}>
               <NavLink
-                style={{ textDecoration: "none", color: "black" }}
+                style={navLinkStyle}
                 to="/meet-the-agents"
               >
                 Meet the Agents
@@ -144,7 +144,7 @@ const NavigationBar = () => {
           <div style={dropDownStyle("Product")}>
             <div style={{ padding: "0.5rem 0.5rem" }}>
               <NavLink
-                style={{ textDecoration: "none", color: "black" }}
+                style={navLinkStyle}
                 to="/health-insurance-101"
               >
                 Health Insurance 101
@@ -152,7 +152,7 @@ const NavigationBar = () => {
             </div>
             <div style={{ padding: "0.5rem 0.5rem" }}>
               <NavLink
-                style={{ textDecoration: "none", color: "black" }}
+                style={navLinkStyle}
                 to="/individual-family-plans"
               >
                 Individual & Family Plans
@@ -160,7 +160,7 @@ const NavigationBar = () => {
             </div>
             <div style={{ padding: "0.5rem 0.5rem" }}>
               <NavLink
-                style={{ textDecoration: "none", color: "black" }}
+                style={navLinkStyle}
                 to="/medicare-plans"
               >
                 Medicare Plans
@@ -168,7 +168,7 @@ const NavigationBar = () => {
             </div>
             <div style={{ padding: "0.5rem 0.5rem" }}>
               <NavLink
-                style={{ textDecoration: "none", color: "black" }}
+                style={navLinkStyle}
                 to="/employer-sponsored-plans"
               >
                 Employer - Sponsored Plans
@@ -176,7 +176,7 @@ const NavigationBar = () => {
             </div>
             <div style={{ padding: "0.5rem 0.5rem" }}>
               <NavLink
-                style={{ textDecoration: "none", color: "black" }}
+                style={navLinkStyle}
                 to="/final-expense-plans"
               >
                 Final Expense Plans
@@ -186,20 +186,20 @@ const NavigationBar = () => {
         </div>
         <div style={{ position: "relative" }}>
           <NavLink
-            style={{ textDecoration: "none", color: "black" }}
+            style={navLinkStyle}
             to="/testimonials"
           >
             TESTIMONIALS
           </NavLink>
         </div>
         <div style={{ position: "relative" }}>
-          <NavLink style={{ textDecoration: "none", color: "black" }} to="/faq">
+          <NavLink style={navLinkStyle} to="/faq">
             FAQ
           </NavLink>
         </div>
         <div style={{ position: "relative" }}>
           <NavLink
-            style={{ textDecoration: "none", color: "black" }}
+            style={navLinkStyle}
             to="/become-an-agent"
           >
             BECOME AN AGENT
@@ -207,7 +207,7 @@ const NavigationBar = () => {
         </div>
         <div style={{ position: "relative" }}>
           <NavLink
-            style={{ textDecoration: "none", color: "black" }}
+            style={navLinkStyle}
             to="/contact-us"
           >
             CONTACT US
