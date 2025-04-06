@@ -43,9 +43,8 @@ export const TestimonialsPage = ({ title, description }) => (
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(20rem, 3fr)",
-          gap: "2.5rem",
-          padding: '5px'
+          gridTemplateColumns: "repeat(auto-fit, minmax(24rem, 1fr)",
+          gap: "0.8rem",
         }}
       >
         <ServiceCard
