@@ -6,6 +6,8 @@ export const ImageRow = ({
   imageHeight = "30vh",
   gap = "2rem",
   description,
+  fontSize = "1.5rem",
+  fontFamily = '"Playfair Display", Georgia, serif',
 }) => {
   return (
     <>
@@ -45,21 +47,20 @@ export const ImageRow = ({
           />
         ))}
       </div>
-      <div style={{ justifyContent: "center", alignItems: "center", paddingTop: "6rem", paddingBottom: '6rem', width: '100%' }}>
-        <h2
+      <div style={{ transform: "translateX(50%)", width: '50%', justifyContent: "center", alignItems: "center", paddingTop: "5rem", paddingBottom: '6rem' }}>
+        <p
           style={{
-            width: "100%", // Ensure it takes full width for centering
-            fontSize: "1.25rem",
+            fontSize: fontSize,
             fontWeight: "normal",
-            fontFamily: '"Playfair Display", Georgia, serif',
+            fontFamily: fontFamily,
             textAlign: "center",
             justifyContent: "center", // Center the text
-            letterSpacing: "1px", // Adds some spacing between letters for aesthetics
+            letterSpacing: "1.5px", // Adds some spacing between letters for aesthetics
             alignItems: "center",
           }}
         >
           {description}
-        </h2>
+        </p>
       </div>
     </>
   );

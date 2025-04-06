@@ -4,6 +4,14 @@ import { LandingPage } from "./components/landingPage/LandingPage";
 import { BecomeAnAgentPage } from './pages/BecomeAnAgentPage';
 import { TestimonialsPage } from './pages/TestimonialsPage';
 import { FaqPage } from './pages/FaqPage';
+import { MeetTheFounderPage } from './pages/MeetTheFounderPage';
+import { MeetTheAgentsPage } from './pages/MeetTheAgentsPage';
+import { MedicarePlansPage } from './pages/MedicarePlansPage';
+// import { ContactUsPage } from './pages/ContactUsPage';
+// import { EmployerSponsoredPage } from './pages/EmployerSponsoredPage';
+// import { FinalExpensePlansPage } from './pages/FinalExpensePlansPage';
+// import { HealthInsurance101Page } from './pages/HealthInsurance101Page';
+// import { IndividualAndFamilyPlansPage } from './pages/IndividualAndFamilyPlansPage';
 
 const App = () => {
     return (
@@ -14,6 +22,9 @@ const App = () => {
                     <Route path="/become-an-agent" element={<BecomeAnAgentPage />} />
                     <Route path="/testimonials" element={<TestimonialsPage title={'Testimonials'} description={"The work isn't done when you're happy; the work is done when your client is smiling."} />} />
                     <Route path="/faq" element={<FaqPage title={'Frequently Asked Questions'} />} />
+                    <Route path="/meet-the-founder" element={<MeetTheFounderPage />} />
+                    <Route path="/meet-the-agents" element={<MeetTheAgentsPage />} />
+                    <Route path="/medicare-plans" element={<MedicarePlansPage />} />
                 </Routes>
             </div>
         </Router>
