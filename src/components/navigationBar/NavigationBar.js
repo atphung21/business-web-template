@@ -76,7 +76,7 @@ const NavigationBar = () => {
     letterSpacing: "0.2rem",
     fontFamily: '"Open Sans", arial, sans-serif',
     fontWeight: 200,
-    padding: isMobile ? "1rem 4rem" : "0rem 2rem 0rem 0rem",
+    padding: isMobile ? "1rem 4rem" : "0rem 2rem 2rem 0rem",
     justifyContent: "center",
     textAlign: isMobile ? "left" : "center", // Align text to the left on mobile for better readability
   };
