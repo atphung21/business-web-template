@@ -27,7 +27,7 @@ export const LandingPage = () => (
     <HeroSection />
     <ServicesSection />
     <AboutUsSection title="Testimonials" description="" />
-    <ContactSection />
+    <ContactSection contactHeader={'Get Started Today!'} phoneNumber={'(949) 317-2220'} extension={'2'} email={'info@itoinsuranceagency.com'} fax={'(949) 301-9611'}/>
     <Footer />
   </div>
 );

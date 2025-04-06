@@ -27,6 +27,7 @@ export const ServiceCard = ({
         letterSpacing: "2px",
         width: "fit-content(100%)",
         margin: "1.5rem auto",
+        justifyContent: 'center',
       }}
     >
       <div style={{ flex: "0 1 30vh" }}>
