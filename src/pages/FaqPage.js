@@ -75,22 +75,22 @@ export const FaqPage = ({ title, description }) => (
             <br></br>
             <p><b>Special Enrollment Period (SEP)</b></p>
             <p>Under <b>Individual & Families (off-exchange)/Covered CA Plans(on-exchange)</b>, SEP is available the rest of the year by qualifying for a special life event, such as:</p>
-            <p>- having a baby</p>
-            <p>- getting married</p>
-            <p>- getting divorced</p>
-            <p>- moving from plan service area</p>
-            <p>- losing employer coverage involuntarily</p>
-            <p>- turing 26</p>
-            <p>- etc.</p>
+            <li>Having a baby</li>
+            <li>Getting married</li>
+            <li>Getting divorced</li>
+            <li>Moving from plan service area</li>
+            <li>Losing employer coverage involuntarily</li>
+            <li>Turning 26</li>
+            <li>Etc.</li>
             <br></br>
             <p>Under <b>Medicare Advantage & Prescription Drug Plans</b>, SEP includes:</p>
             <br></br>
-            <p>- turning 65 or qualifying for Medicare </p>
-            <p>- qualifying for Prescription Extra Help, a Medicare Savings Program, or Medicaid/Medi-Cal</p>
-            <p>- moving from plan service area</p>
-            <p>- retiring from employer coverage</p>
-            <p>- Medicare Advantage Open Enrollment Period (OEP)- from January through March</p>
-            <p>- eligible for Chronic Plan based on conditions such as diabetes, heart/lung disease, etc.</p>
+            <li>Turning 65 or qualifying for Medicare </li>
+            <li>Qualifying for Prescription Extra Help, a Medicare Savings Program, or Medicaid/Medi-Cal</li>
+            <li>Moving from plan service area</li>
+            <li>Retiring from employer coverage</li>
+            <li>Medicare Advantage Open Enrollment Period (OEP)- from January through March</li>
+            <li>Eligible for Chronic Plan based on conditions such as diabetes, heart/lung disease, etc.</li>
             <br></br>
             <h2>Do I qualify?</h2>
             <p>Since the implementation of the Affordable Cares Act (ACA) there are no pre-existing conditions for the following:</p>
