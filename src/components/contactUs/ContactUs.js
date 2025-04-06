@@ -39,7 +39,7 @@ export const ContactSection = ({
           fontSize: "2.75rem",
           fontWeight: "normal",
           fontFamily: '"Playfair Display", Georgia, serif',
-          letterSpacing: '2px',
+          letterSpacing: "2px",
         }}
       >
         {contactHeader ? contactHeader : ""}
@@ -51,13 +51,20 @@ export const ContactSection = ({
           fontWeight: "normal",
           color: "#4a5568",
           cursor: "pointer",
-          letterSpacing: '1px',
+          letterSpacing: "1px",
         }}
       >
         {phoneNumber ? `Phone: ${phoneNumber}` : ""}{" "}
         {extension ? ` ext. ${extension}` : ""}
       </p>
-      <p style={{ fontSize: "1rem", fontWeight: "normal", color: "#4a5568",  letterSpacing: '1px' }}>
+      <p
+        style={{
+          fontSize: "1rem",
+          fontWeight: "normal",
+          color: "#4a5568",
+          letterSpacing: "1px",
+        }}
+      >
         {fax ? `Fax: ${fax}` : ""}{" "}
       </p>
       <a
@@ -66,7 +73,7 @@ export const ContactSection = ({
           fontWeight: "normal",
           color: "#4a5568",
           letterSpacing: "2px",
-          textDecoration: 'none',
+          textDecoration: "none",
           fontFamily: '"Open Sans", arial, sans-serif',
         }}
         href={
@@ -86,8 +93,8 @@ export const ContactSection = ({
           fontWeight: "normal",
           color: "rgb(89, 89, 89)",
           fontFamily: '"Open Sans", arial, sans-serif',
-          letterSpacing: '1px',
-          transform: 'translateY(-70%)',
+          letterSpacing: "1px",
+          transform: "translateY(-70%)",
         }}
       >
         <AddressLink
@@ -107,8 +114,8 @@ export const ContactSection = ({
           fontFamily: '"Playfair Display", Georgia, serif',
           width: "50%",
           justifyContent: "center",
-          letterSpacing: '1px',
-          transform: 'translateX(50%) translateY(-100%)',
+          letterSpacing: "1px",
+          transform: "translateX(50%) translateY(-100%)",
         }}
       >
         WE DO NOT OFFER EVERY PLAN AVAILABLE IN YOUR AREA. ANY INFORMATION WE

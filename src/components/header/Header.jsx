@@ -31,7 +31,7 @@ export const Header = ({ headerTitle, phoneNumber, fontColor, extension }) => {
           style={{
             fontSize: "1rem",
             fontWeight: "normal",
-            "font-family": "Helvetica",
+            fontFamily: "Helvetica",
           }}
         >
           {headerTitle ? headerTitle : ' '} {'  '}

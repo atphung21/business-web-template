@@ -6,6 +6,8 @@ import { ContactSection } from "../contactUs/ContactUs";
 import { HeroSection } from "../heroSection/HeroSection";
 import { ServicesSection } from "../servicesSection/ServicesSection";
 import { Footer } from "../footer/Footer";
+import NavigationBar from "../navigationBar/NavigationBar";
+import { CompanyLogo } from "../companyLogo/CompanyLogo";
 
 export const LandingPage = () => (
   <div>
@@ -24,6 +26,8 @@ export const LandingPage = () => (
       extension={'2'}
       fontColor={"white"}
     />
+    <CompanyLogo />
+    <NavigationBar />
     <HeroSection />
     <ServicesSection />
     <AboutUsSection title="Testimonials" description="" />
