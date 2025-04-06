@@ -115,7 +115,7 @@ export const ContactSection = ({
           width: "50%",
           justifyContent: "center",
           letterSpacing: "1px",
-          transform: "translateX(50%) translateY(-100%)",
+          transform: "translateX(50%) translateY(-40%)",
         }}
       >
         WE DO NOT OFFER EVERY PLAN AVAILABLE IN YOUR AREA. ANY INFORMATION WE
