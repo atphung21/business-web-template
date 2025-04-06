@@ -1,0 +1,30 @@
+import React from "react";
+import { Header } from "../components/header/Header";
+import { CompanyLogo } from "../components/companyLogo/CompanyLogo";
+import NavigationBar from "../components/navigationBar/NavigationBar";
+import { AddressLink } from "../components/address/Address";
+import { Footer } from "../components/footer/Footer";
+import { ContactSection } from "../components/contactUs/ContactUs";
+import { ImageRow } from "../components/imageRow/ImageRow";
+
+export const MeetTheAgentsPage = () => (
+    <div>
+      <Header
+        headerTitle={
+          <AddressLink
+            fontColor={"white"}
+            address="12818 BROOKHURST STREET, GARDEN GROVE, CA 92840"
+          />
+        }
+        // phoneNumber={"(949) 317-2220"}
+        // extension={'2'}
+        fontColor={"white"}
+      />
+      <CompanyLogo />
+      <NavigationBar />
+      <ImageRow images={["/jessica.webp"]}  header={"Meet the Agents"} description={'Jessica Q Tcheng, Founder/Licensed Agent'} />
+      <ContactSection phoneNumber={'(949) 317-2220'} extension={'2'} email={'info@itoinsuranceagency.com'} fax={'(949) 301-9611'}/>
+      <Footer />
+    </div>
+  );
+  
