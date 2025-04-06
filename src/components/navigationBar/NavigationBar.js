@@ -3,11 +3,27 @@ import { NavLink } from "react-router-dom";
 
 const NavigationBar = () => {
   const [openDropdown, setOpenDropdown] = useState(null);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
   const dropdownRefs = useRef({});
 
   const toggleDropdown = (menu) => {
     setOpenDropdown((prev) => (prev === menu ? null : menu));
   };
+
+  // Update screen size
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+      if (window.innerWidth > 768) {
+        setMenuOpen(false);
+      }
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   // Close dropdowns on outside click
   useEffect(() => {
@@ -45,135 +61,162 @@ const NavigationBar = () => {
     letterSpacing: "0.5px",
   });
 
-  return (
-    <nav
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        gap: "1.5rem",
-        padding: "5px 0 0 0",
-        backgroundColor: "white",
-        position: "relative",
-        letterSpacing: "0.2rem",
-        fontFamily: '"Open Sans", arial, sans-serif',
-        fontWeight: 200,
-      }}
-    >
-      <div style={{ position: "relative" }}>
-        <NavLink style={navLinkStyle} to="/">
-          HOME
-        </NavLink>
-      </div>
-      <div
-        style={{ position: "relative" }}
-        ref={(el) => (dropdownRefs.current["Meet the Team"] = el)}
-      >
-        <span
-          onClick={() => toggleDropdown("Meet the Team")}
-          style={{ cursor: "pointer" }}
-        >
-          MEET THE TEAM {openDropdown ? "▾" : "<"}
-        </span>
-        <div style={dropDownStyle("Meet the Team")}>
-          <div style={{ padding: "0.5rem 0.5rem" }}>
-            <NavLink style={navLinkStyle} to="/meet-the-founder">
-              Meet the Founder
-            </NavLink>
-          </div>
-          <div style={{ padding: "0.5rem 0.5rem" }}>
-            <NavLink
-              style={{ textDecoration: "none", color: "black" }}
-              to="/meet-the-agents"
-            >
-              Meet the Agents
-            </NavLink>
-          </div>
-        </div>
-      </div>
-      <div
-        style={{ position: "relative" }}
-        ref={(el) => (dropdownRefs.current["Product"] = el)}
-      >
-        <span
-          onClick={() => toggleDropdown("Product")}
-          style={{ cursor: "pointer" }}
-        >
-          PRODUCTS & SERVICES {openDropdown ? "▾" : "<"}
-        </span>
+  const toggleMenu = () => setMenuOpen((prev) => !prev);
 
-        <div style={dropDownStyle("Product")}>
-          <div style={{ padding: "0.5rem 0.5rem" }}>
-            <NavLink
-              style={{ textDecoration: "none", color: "black" }}
-              to="/health-insurance-101"
-            >
-              Health Insurance 101
-            </NavLink>
-          </div>
-          <div style={{ padding: "0.5rem 0.5rem" }}>
-            <NavLink
-              style={{ textDecoration: "none", color: "black" }}
-              to="/individual-family-plans"
-            >
-              Individual & Family Plans
-            </NavLink>
-          </div>
-          <div style={{ padding: "0.5rem 0.5rem" }}>
-            <NavLink
-              style={{ textDecoration: "none", color: "black" }}
-              to="/medicare-plans"
-            >
-              Medicare Plans
-            </NavLink>
-          </div>
-          <div style={{ padding: "0.5rem 0.5rem" }}>
-            <NavLink
-              style={{ textDecoration: "none", color: "black" }}
-              to="/employer-sponsored-plans"
-            >
-              Employer - Sponsored Plans
-            </NavLink>
-          </div>
-          <div style={{ padding: "0.5rem 0.5rem" }}>
-            <NavLink
-              style={{ textDecoration: "none", color: "black" }}
-              to="/final-expense-plans"
-            >
-              Final Expense Plans
-            </NavLink>
+  const navStyle = {
+    display: isMobile ? (menuOpen ? "flex" : "none") : "flex",
+    flexDirection: isMobile ? "column" : "row",
+    alignItems: isMobile ? "flex-start" : "center",
+    textWrap: isMobile ? "wrap" : "nowrap", // Allow wrapping on mobile
+    flexWrap: isMobile ? "wrap" : "nowrap", // Allow wrapping on mobile
+    gap: "1.5rem",
+    backgroundColor: "white",
+    position: "relative",
+    width: "100%",
+    letterSpacing: "0.2rem",
+    fontFamily: '"Open Sans", arial, sans-serif',
+    fontWeight: 200,
+    padding: isMobile ? "1rem 4rem" : "0rem 2rem 0rem 0rem",
+    justifyContent: "center",
+    textAlign: isMobile ? "left" : "center", // Align text to the left on mobile for better readability
+  };
+
+  return (
+    <>
+      {/* Hamburger Toggle Button */}
+      {isMobile && (
+        <div
+          style={{
+            padding: "1rem 4rem",
+            backgroundColor: "white",
+            textAlign: "left",
+          }}
+        >
+          <span onClick={toggleMenu} style={{ fontSize: "1.75rem" }}>
+            ☰
+          </span>
+        </div>
+      )}
+
+      <nav style={navStyle}>
+        <div style={{ position: "relative" }}>
+          <NavLink style={navLinkStyle} to="/">
+            HOME
+          </NavLink>
+        </div>
+        <div
+          ariaExpanded={openDropdown === "Meet the Team" ? "true" : "false"}
+          style={{ position: "relative" }}
+          ref={(el) => (dropdownRefs.current["Meet the Team"] = el)}
+        >
+          <span
+            onClick={() => toggleDropdown("Meet the Team")}
+            style={{ cursor: "pointer" }}
+          >
+            MEET THE TEAM {openDropdown ? "▾" : "<"}
+          </span>
+          <div style={dropDownStyle("Meet the Team")}>
+            <div style={{ padding: "0.5rem 0.5rem" }}>
+              <NavLink style={navLinkStyle} to="/meet-the-founder">
+                Meet the Founder
+              </NavLink>
+            </div>
+            <div style={{ padding: "0.5rem 0.5rem" }}>
+              <NavLink
+                style={{ textDecoration: "none", color: "black" }}
+                to="/meet-the-agents"
+              >
+                Meet the Agents
+              </NavLink>
+            </div>
           </div>
         </div>
-      </div>
-      <div style={{ position: "relative" }}>
-        <NavLink
-          style={{ textDecoration: "none", color: "black" }}
-          to="/testimonials"
+        <div
+          ariaExpanded={openDropdown === "Product" ? "true" : "false"}
+          style={{ position: "relative" }}
+          ref={(el) => (dropdownRefs.current["Product"] = el)}
         >
-          TESTIMONIALS
-        </NavLink>
-      </div>
-      <div style={{ position: "relative" }}>
-        <NavLink style={{ textDecoration: "none", color: "black" }} to="/faq">
-          FAQ
-        </NavLink>
-      </div>
-      <div style={{ position: "relative" }}>
-        <NavLink
-          style={{ textDecoration: "none", color: "black" }}
-          to="/become-an-agent"
-        >
-          BECOME AN AGENT
-        </NavLink>
-      </div>
-      <div style={{ position: "relative" }}>
-        <NavLink
-          style={{ textDecoration: "none", color: "black" }}
-          to="/contact-us"
-        >
-          CONTACT US
-        </NavLink>
-      </div>
-    </nav>
+          <span
+            onClick={() => toggleDropdown("Product")}
+            style={{ cursor: "pointer" }}
+          >
+            PRODUCTS & SERVICES {openDropdown ? "▾" : "<"}
+          </span>
+
+          <div style={dropDownStyle("Product")}>
+            <div style={{ padding: "0.5rem 0.5rem" }}>
+              <NavLink
+                style={{ textDecoration: "none", color: "black" }}
+                to="/health-insurance-101"
+              >
+                Health Insurance 101
+              </NavLink>
+            </div>
+            <div style={{ padding: "0.5rem 0.5rem" }}>
+              <NavLink
+                style={{ textDecoration: "none", color: "black" }}
+                to="/individual-family-plans"
+              >
+                Individual & Family Plans
+              </NavLink>
+            </div>
+            <div style={{ padding: "0.5rem 0.5rem" }}>
+              <NavLink
+                style={{ textDecoration: "none", color: "black" }}
+                to="/medicare-plans"
+              >
+                Medicare Plans
+              </NavLink>
+            </div>
+            <div style={{ padding: "0.5rem 0.5rem" }}>
+              <NavLink
+                style={{ textDecoration: "none", color: "black" }}
+                to="/employer-sponsored-plans"
+              >
+                Employer - Sponsored Plans
+              </NavLink>
+            </div>
+            <div style={{ padding: "0.5rem 0.5rem" }}>
+              <NavLink
+                style={{ textDecoration: "none", color: "black" }}
+                to="/final-expense-plans"
+              >
+                Final Expense Plans
+              </NavLink>
+            </div>
+          </div>
+        </div>
+        <div style={{ position: "relative" }}>
+          <NavLink
+            style={{ textDecoration: "none", color: "black" }}
+            to="/testimonials"
+          >
+            TESTIMONIALS
+          </NavLink>
+        </div>
+        <div style={{ position: "relative" }}>
+          <NavLink style={{ textDecoration: "none", color: "black" }} to="/faq">
+            FAQ
+          </NavLink>
+        </div>
+        <div style={{ position: "relative" }}>
+          <NavLink
+            style={{ textDecoration: "none", color: "black" }}
+            to="/become-an-agent"
+          >
+            BECOME AN AGENT
+          </NavLink>
+        </div>
+        <div style={{ position: "relative" }}>
+          <NavLink
+            style={{ textDecoration: "none", color: "black" }}
+            to="/contact-us"
+          >
+            CONTACT US
+          </NavLink>
+        </div>
+      </nav>
+    </>
   );
 };
 
