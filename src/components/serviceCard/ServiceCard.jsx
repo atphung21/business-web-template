@@ -9,6 +9,8 @@ export const ServiceCard = ({
   bulletPoints,
   backgroundColor,
   headerTitle,
+  subDescription2,
+  subDescription3
 }) => {
   const isImageLeft = imageSide === "left";
 
@@ -103,6 +105,10 @@ export const ServiceCard = ({
             <br></br>
             <br></br>
             {subDescription}
+            {subDescription2 ? (<><br></br><br></br></>) : null}
+            {subDescription2}
+            {subDescription3 ? (<><br></br><br></br></>) : null}
+            {subDescription3}
           </p>
         </div>
       </div>
