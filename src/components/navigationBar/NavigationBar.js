@@ -78,7 +78,7 @@ const NavigationBar = () => {
     fontWeight: 200,
     padding: isMobile ? "1rem 4rem" : "0rem 2rem 2rem 0rem",
     justifyContent: "center",
-    textAlign: isMobile ? "left" : "center", // Align text to the left on mobile for better readability
+    textAlign: isMobile ? "left" : "left", // Align text to the left on mobile for better readability
   };
 
   return (
@@ -105,7 +105,6 @@ const NavigationBar = () => {
           </NavLink>
         </div>
         <div
-          ariaExpanded={openDropdown === "Meet the Team" ? "true" : "false"}
           style={{ position: "relative" }}
           ref={(el) => (dropdownRefs.current["Meet the Team"] = el)}
         >
@@ -113,7 +112,7 @@ const NavigationBar = () => {
             onClick={() => toggleDropdown("Meet the Team")}
             style={{ cursor: "pointer" }}
           >
-            MEET THE TEAM {openDropdown ? "▾" : "<"}
+            MEET THE TEAM {openDropdown === "Meet the Team" ? "▾" : "◂"}
           </span>
           <div style={dropDownStyle("Meet the Team")}>
             <div style={{ padding: "0.5rem 0.5rem" }}>
@@ -132,7 +131,6 @@ const NavigationBar = () => {
           </div>
         </div>
         <div
-          ariaExpanded={openDropdown === "Product" ? "true" : "false"}
           style={{ position: "relative" }}
           ref={(el) => (dropdownRefs.current["Product"] = el)}
         >
@@ -140,7 +138,7 @@ const NavigationBar = () => {
             onClick={() => toggleDropdown("Product")}
             style={{ cursor: "pointer" }}
           >
-            PRODUCTS & SERVICES {openDropdown ? "▾" : "<"}
+            PRODUCTS & SERVICES {openDropdown === "Product" ? "▾" : "◂"}
           </span>
 
           <div style={dropDownStyle("Product")}>
