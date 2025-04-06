@@ -5,14 +5,10 @@ import { BecomeAnAgentPage } from './pages/BecomeAnAgentPage';
 import { TestimonialsPage } from './pages/TestimonialsPage';
 import { FaqPage } from './pages/FaqPage';
 
-
-const Contact = () => <h1>Contact Page</h1>;
-
 const App = () => {
     return (
         <Router>
             <div>
-                {/* Routes for Page Navigation */}
                 <Routes>
                     <Route path="/" element={<LandingPage />} />
                     <Route path="/become-an-agent" element={<BecomeAnAgentPage />} />
