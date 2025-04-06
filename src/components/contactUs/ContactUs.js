@@ -1,5 +1,6 @@
 import React from "react";
 import { AddressLink } from "../address/Address";
+import { FaInstagram, FaYelp, FaFacebookF } from 'react-icons/fa';
 
 export const ContactSection = ({
   contactHeader,
@@ -24,6 +25,13 @@ export const ContactSection = ({
     }
   };
 
+  const iconStyle = {
+    fontSize: "1.5rem",
+    color: "red",
+    textDecoration: "none",
+    padding: '1rem'
+  };
+
   return (
     <section
       style={{
@@ -44,6 +52,33 @@ export const ContactSection = ({
       >
         {contactHeader ? contactHeader : ""}
       </h2>
+      <a
+        href="https://www.instagram.com/i.t.o.insuranceagency/"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={iconStyle}
+      >
+        <FaInstagram />
+      </a>
+      <a
+        href="https://www.yelp.com/biz/jessica-q-tcheng-ito-insurance-agency-garden-grove?osq=ito+insurance"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={iconStyle}
+      >
+        <FaYelp />
+      </a>
+      <a
+        href="https://www.facebook.com/i.t.o.insuranceagency/"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{    fontSize: "1.5rem",
+        color: "blue",
+        textDecoration: "none",
+        padding: '1rem'}}
+      >
+        <FaFacebookF />
+      </a>
       <p
         onClick={handlePhoneClick}
         style={{
