@@ -16,13 +16,13 @@ export const Header = ({ headerTitle, phoneNumber, fontColor, extension }) => {
         position: 'relative',
         textAlign: 'center',
         backgroundColor: "rgb(90, 90, 90, 0.95)",
-        maxWidth: "100%",
+        width: "100%",
         height: "100%"
       }}
     >
       <div
         style={{
-          maxWidth: "90%",
+          maxWidth: "100%",
           alignItems: "center",
           justifyContent: "center",
         }}

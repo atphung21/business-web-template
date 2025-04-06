@@ -22,8 +22,8 @@ export const LandingPage = () => (
           address="12818 BROOKHURST STREET, GARDEN GROVE, CA 92840"
         />
       }
-      phoneNumber={"(949) 317-2220"}
-      extension={'2'}
+      // phoneNumber={"(949) 317-2220"}
+      // extension={'2'}
       fontColor={"white"}
     />
     <CompanyLogo />

@@ -5,7 +5,7 @@ import NavigationBar from "../components/navigationBar/NavigationBar";
 import { AddressLink } from "../components/address/Address";
 import { Footer } from "../components/footer/Footer";
 import { ContactSection } from "../components/contactUs/ContactUs";
-import { ImageRow } from "../components/imageRow/ImageRow"; // Ensure this component exists if you want to use it in the page
+import { ImageRow } from "../components/imageRow/ImageRow";
 
 export const BecomeAnAgentPage = () => (
     <div>
@@ -16,8 +16,8 @@ export const BecomeAnAgentPage = () => (
             address="12818 BROOKHURST STREET, GARDEN GROVE, CA 92840"
           />
         }
-        phoneNumber={"(949) 317-2220"}
-        extension={'2'}
+        // phoneNumber={"(949) 317-2220"}
+        // extension={'2'}
         fontColor={"white"}
       />
       <CompanyLogo />

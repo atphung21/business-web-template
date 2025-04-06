@@ -19,13 +19,13 @@ export const HeroSection = () => (
           justifyContent: "center",
           alignContent: "center",
           padding: "2rem",
-          backgroundColor: "#e2e8f0",
+          backgroundColor: "white",
           borderRadius: "10px",
           flex: "0 1 30vh",
           flexWrap: "wrap",
           width: "80%",
           margin: "1.5rem auto",
-          boxShadow: "0px 2px 5px rgba(0, 0, 0, 0.1)",
+          boxShadow: "0px 2px 5px rgba(0, 0, 0, 0.4)",
         }}
       >
         <div
