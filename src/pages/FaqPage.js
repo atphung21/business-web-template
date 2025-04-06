@@ -26,7 +26,7 @@ export const FaqPage = ({ title, description }) => (
       style={{
         padding: "50px 20px",
         backgroundColor: "#edf2f7",
-        textAlign: "left",
+        textAlign: "center",
         letterSpacing: "3px",
       }}
     >
