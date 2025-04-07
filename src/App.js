@@ -11,7 +11,7 @@ import { ContactUsPage } from './pages/ContactUsPage';
 import { EmployerSponsoredPlansPage } from './pages/EmployerSponsoredPlansPage';
 import { FinalExpensePlansPage } from './pages/FinalExpensePlansPage';
 // import { HealthInsurance101Page } from './pages/HealthInsurance101Page';
-// import { IndividualAndFamilyPlansPage } from './pages/IndividualAndFamilyPlansPage';
+import { IndividualAndFamilyPlansPage } from './pages/IndividualAndFamilyPlansPage';
 
 const App = () => {
     return (
@@ -28,6 +28,7 @@ const App = () => {
                     <Route path="/contact-us" element={<ContactUsPage />} />
                     <Route path="/final-expense-plans" element={<FinalExpensePlansPage />} />
                     <Route path="/employer-sponsored-plans" element={<EmployerSponsoredPlansPage />} />
+                    <Route path="/individual-family-plans" element={<IndividualAndFamilyPlansPage />} />
                 </Routes>
             </div>
         </Router>
