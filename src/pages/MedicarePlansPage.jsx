@@ -9,7 +9,7 @@ import { ImageRow } from "../components/imageRow/ImageRow";
 
 const MedicareOverview = () => {
   const containerStyle = {
-    maxWidth: "800px",
+    maxWidth: "100%",
     margin: "2rem auto",
     padding: "2rem",
     textAlign: "left",

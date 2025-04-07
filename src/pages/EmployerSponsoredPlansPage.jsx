@@ -9,7 +9,7 @@ import { ImageRow } from "../components/imageRow/ImageRow";
 
 const GroupInsuranceInfo = () => {
     const containerStyle = {
-      maxWidth: '700px',
+      maxWidth: '100%',
       margin: '2rem auto',
       padding: '2rem',
       textAlign: 'left',

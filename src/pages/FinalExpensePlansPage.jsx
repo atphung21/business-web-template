@@ -9,7 +9,7 @@ import { ImageRow } from "../components/imageRow/ImageRow";
 
 const FinalExpenseInfo = () => {
     const containerStyle = {
-      maxWidth: '700px',
+      maxWidth: '100%',
       margin: '4rem auto',
       padding: '2rem',
       textAlign: 'left',

@@ -9,20 +9,20 @@ import { ImageRow } from "../components/imageRow/ImageRow";
 
 const HealthInsuranceOverview = () => {
   const containerStyle = {
-    maxWidth: "800px",
-    margin: "2rem auto",
-    padding: "2rem",
+    maxWidth: "100%",
+    margin: "1.5rem auto",
+    padding: "1.5rem",
     textAlign: "left",
     lineHeight: "1.8",
     backgroundColor: "#fff",
     borderRadius: "8px",
     fontFamily: "Georgia, serif",
     boxShadow: "0 0 20px rgba(0, 0, 0, 0.05)",
-    fontSize: "1rem", // Adjust font size for readability
+    fontSize: ".95rem", // Adjust font size for readability
   };
 
   const listStyle = {
-    marginLeft: "1.5rem",
+    marginLeft: "0.25rem",
   };
 
   return (
