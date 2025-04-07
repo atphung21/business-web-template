@@ -3,7 +3,7 @@ import React from "react";
 export const ImageRow = ({
   header,
   images,
-  imageHeight = "30vh",
+  imageHeight = "20vh",
   gap = "2rem",
   description,
   fontSize = "1.5rem",
