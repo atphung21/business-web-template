@@ -5,7 +5,6 @@ import NavigationBar from "../components/navigationBar/NavigationBar";
 import { AddressLink } from "../components/address/Address";
 import { Footer } from "../components/footer/Footer";
 import { ContactSection } from "../components/contactUs/ContactUs";
-import { ImageRow } from "../components/imageRow/ImageRow";
 import { ContactUsForm } from "../components/contactUsForm/ContactUsForm";
 
 export const ContactUsPage = () => {
