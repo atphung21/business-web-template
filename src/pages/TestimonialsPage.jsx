@@ -43,7 +43,7 @@ export const TestimonialsPage = ({ title, description }) => (
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(24rem, 1fr)",
+          gridTemplateColumns: "repeat(auto-fit, minmax(23rem, 1fr)",
           gap: "0.8rem",
         }}
       >
