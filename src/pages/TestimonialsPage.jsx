@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Header } from "../components/header/Header";
 import { CompanyLogo } from "../components/companyLogo/CompanyLogo";
 import NavigationBar from "../components/navigationBar/NavigationBar";
@@ -7,7 +7,30 @@ import { Footer } from "../components/footer/Footer";
 import { ContactSection } from "../components/contactUs/ContactUs";
 import { ServiceCard } from "../components/serviceCard/ServiceCard";
 
-export const TestimonialsPage = ({ title, description }) => (
+
+export const TestimonialsPage = ({ title, description }) => {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [gridColumns, setGridColumns] = useState('repeat(3, 1fr)');
+  
+  useEffect(() => {
+    const handleResize = () => {
+      const width = window.innerWidth;
+      setWindowWidth(width);
+      if (width < 640) {
+        setGridColumns('1fr');
+      } else if (width < 1024) {
+        setGridColumns('repeat(2, 1fr)');
+      } else {
+        setGridColumns('repeat(3, 1fr)');
+      }
+    };
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  console.log(windowWidth, 'windowWith');
+  return (
   <div>
     <Header
       headerTitle={
@@ -40,8 +63,11 @@ export const TestimonialsPage = ({ title, description }) => (
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(23rem, 1fr)",
+          gridTemplateColumns: gridColumns,
           gap: "0.8rem",
+          justifyContent: "center",
+          maxWidth: "1200px",
+          margin: "0 auto"
         }}
       >
         <ServiceCard
@@ -179,4 +205,4 @@ export const TestimonialsPage = ({ title, description }) => (
       />
       <Footer />
   </div>
-);
+)};
