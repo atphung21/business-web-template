@@ -6,9 +6,11 @@ import { AddressLink } from "../components/address/Address";
 import { Footer } from "../components/footer/Footer";
 import { ContactSection } from "../components/contactUs/ContactUs";
 import { ImageRow } from "../components/imageRow/ImageRow";
+import { ContactUsForm } from "../components/contactUsForm/ContactUsForm";
 
-export const BecomeAnAgentPage = () => (
-    <div>
+export const ContactUsPage = () => {
+
+   return ( <div>
       <Header
         headerTitle={
           <AddressLink
@@ -20,9 +22,9 @@ export const BecomeAnAgentPage = () => (
       />
       <CompanyLogo />
       <NavigationBar />
-      <ImageRow images={["/office.webp", "/laptop.webp", "/hands.webp"]}  header={"Become An Agent"} description={'Start a rewarding career in the health industry.  Be your own boss, with flexible hours.  Contact us for more details.'} />
+      <ContactUsForm />
       <ContactSection phoneNumber={'(949) 317-2220'} extension={'2'} email={'info@itoinsuranceagency.com'} fax={'(949) 301-9611'}/>
       <Footer />
     </div>
-  );
+  )};
   

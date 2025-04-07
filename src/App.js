@@ -7,7 +7,7 @@ import { FaqPage } from './pages/FaqPage';
 import { MeetTheFounderPage } from './pages/MeetTheFounderPage';
 import { MeetTheAgentsPage } from './pages/MeetTheAgentsPage';
 import { MedicarePlansPage } from './pages/MedicarePlansPage';
-// import { ContactUsPage } from './pages/ContactUsPage';
+import { ContactUsPage } from './pages/ContactUsPage';
 // import { EmployerSponsoredPage } from './pages/EmployerSponsoredPage';
 // import { FinalExpensePlansPage } from './pages/FinalExpensePlansPage';
 // import { HealthInsurance101Page } from './pages/HealthInsurance101Page';
@@ -25,6 +25,7 @@ const App = () => {
                     <Route path="/meet-the-founder" element={<MeetTheFounderPage />} />
                     <Route path="/meet-the-agents" element={<MeetTheAgentsPage />} />
                     <Route path="/medicare-plans" element={<MedicarePlansPage />} />
+                    <Route path="/contact-us" element={<ContactUsPage />} />
                 </Routes>
             </div>
         </Router>
