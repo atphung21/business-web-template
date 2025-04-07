@@ -1,5 +1,4 @@
 import React from "react";
-import ContactForm from "../contactModalForm/ContactModalForm";
 export const HeroSection = () => (
   <section
     style={{
