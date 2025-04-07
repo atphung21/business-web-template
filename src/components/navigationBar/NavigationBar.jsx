@@ -92,8 +92,8 @@ const NavigationBar = () => {
             textAlign: "left",
           }}
         >
-          <span onClick={toggleMenu} style={{ fontSize: "1.75rem" }}>
-            ☰
+          <span onClick={toggleMenu} style={{ fontSize: "1.75rem", fontFamily: '"Open Sans", arial, sans-serif', letterSpacing: "0.2rem" }}>
+            ☰ Menu
           </span>
         </div>
       )}
