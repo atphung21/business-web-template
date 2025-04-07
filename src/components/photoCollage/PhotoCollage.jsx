@@ -24,10 +24,10 @@ export const PhotoCollage = ({ images, interval = 5000 }) => {
 
   const mainImage = {
     width: '100%',
-    height: '70vh',
+    height: 'auto',
     borderRadius: '8px',
-    objectFit: 'cover',
-    maxHeight: '90%'
+    objectFit: 'contain',
+    maxHeight: '50rem'
   };
 
   const thumbnails = {

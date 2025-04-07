@@ -95,7 +95,7 @@ export const MeetTheFounderPage = () => (
       <NavigationBar />
       <ServiceCard  headerTitle={"Meet the Founder"} image={"/jessica.webp"} imageSide={'left'}  title={"Jessica Q Tcheng, Founder/Licensed Agent"} description={'Jessica has been licensed since 2010.  With over 10 years of experience within the insurance industry, her clients have confidence in her knowledge & expertise.  She is able to relate to each client’s unique needs so feel free to reach out to her if you are looking for a full, comprehensive explanation of your options.'}/>
       <JessicaStory />
-      <PhotoCollage images={["jessAndDad.webp", "jessDad.webp", "jessDad2.webp", "jessFamily.webp", "jessParents.webp"]}/>
+      <PhotoCollage images={["jessAndDad.webp", "jessDad.webp", "jessDad2.webp", "jessFamily.webp", "jessParents.webp", "babyJessica.webp"]}/>
       <ContactSection phoneNumber={'(949) 317-2220'} extension={'2'} email={'info@itoinsuranceagency.com'} fax={'(949) 301-9611'}/>
       <Footer />
     </div>
