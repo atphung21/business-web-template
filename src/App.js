@@ -20,7 +20,7 @@ const App = () => {
                 <Routes>
                     <Route path="/" element={<LandingPage />} />
                     <Route path="/become-an-agent" element={<BecomeAnAgentPage />} />
-                    <Route path="/testimonials" element={<TestimonialsPage title={'Testimonials'} description={'"The work isn\'t done when you\'re happy; the work is done when your client is smiling."'} />} />
+                    <Route path="/testimonials" element={<TestimonialsPage title={'Testimonials'} description={'"The work isn\'t done when you\'re happy; the work is done when your client is smiling." - Trent W. Nelson'} />} />
                     <Route path="/faq" element={<FaqPage title={'Frequently Asked Questions'} />} />
                     <Route path="/meet-the-founder" element={<MeetTheFounderPage />} />
                     <Route path="/meet-the-agents" element={<MeetTheAgentsPage />} />
