@@ -10,7 +10,7 @@ import { MedicarePlansPage } from './pages/MedicarePlansPage';
 import { ContactUsPage } from './pages/ContactUsPage';
 import { EmployerSponsoredPlansPage } from './pages/EmployerSponsoredPlansPage';
 import { FinalExpensePlansPage } from './pages/FinalExpensePlansPage';
-// import { HealthInsurance101Page } from './pages/HealthInsurance101Page';
+import { HealthInsurance101Page } from './pages/HealthInsurance101Page';
 import { IndividualAndFamilyPlansPage } from './pages/IndividualAndFamilyPlansPage';
 
 const App = () => {
@@ -29,6 +29,7 @@ const App = () => {
                     <Route path="/final-expense-plans" element={<FinalExpensePlansPage />} />
                     <Route path="/employer-sponsored-plans" element={<EmployerSponsoredPlansPage />} />
                     <Route path="/individual-family-plans" element={<IndividualAndFamilyPlansPage />} />
+                    <Route path="/health-insurance-101" element={<HealthInsurance101Page />} />
                 </Routes>
             </div>
         </Router>
