@@ -4,7 +4,7 @@
  */
 
 export const business = {
-  name: "ATP Software Consulting Services",
+  name: "ATP Consulting Services",
   shortName: "ATP Consulting",
   tagline: "Local technology partner for small businesses",
   phone: "(657) 841-0997",
@@ -178,7 +178,7 @@ export const processSteps = [
 ];
 
 export const about = {
-  headline: "About ATP Consulting",
+  headline: "About ATP Consulting Services",
   paragraphs: [
     "ATP Software Consulting Services partners with small businesses in the community to make technology approachable and profitable. Whether you need your first website, better visibility on Google, or help connecting your tools, we focus on solutions that fit real-world small business budgets.",
     "As a software engineer-led consultancy, we bring technical depth with a personal touch — explaining options clearly and delivering work you can trust long after launch.",
