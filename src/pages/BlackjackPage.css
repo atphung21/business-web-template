@@ -1,0 +1,47 @@
+.blackjack-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #061f16;
+}
+
+.blackjack-page__header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 0.65rem 1rem;
+  background: #0f172a;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.25);
+}
+
+.blackjack-page__back {
+  color: #93c5fd;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.blackjack-page__back:hover {
+  color: #fff;
+}
+
+.blackjack-page__title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.blackjack-page__badge {
+  margin-left: auto;
+  font-size: 0.75rem;
+  color: #64748b;
+}
+
+.blackjack-page__frame {
+  flex: 1;
+  width: 100%;
+  border: none;
+  background: #0b3d2e;
+}
