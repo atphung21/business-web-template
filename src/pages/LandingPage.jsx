@@ -202,11 +202,22 @@ const ContactSection = () => (
           <ContactFormFields formId="contact-inline-form" />
         </div>
       </div>
-      <p className="contact-section__demo">
-        <Link to="/blackjack" className="contact-section__demo-link">
-          Try our interactive Blackjack demo →
+      <div className="demo-cta">
+        <Link to="/blackjack" className="demo-cta__card">
+          <span className="demo-cta__eyebrow">Portfolio demo</span>
+          <span className="demo-cta__title">Interactive Blackjack</span>
+          <span className="demo-cta__text">
+            Explore a custom game we built — betting, split, insurance, and sound
+            effects.
+          </span>
+          <span className="demo-cta__action">
+            Try the demo
+            <span className="demo-cta__arrow" aria-hidden="true">
+              →
+            </span>
+          </span>
         </Link>
-      </p>
+      </div>
     </div>
   </section>
 );

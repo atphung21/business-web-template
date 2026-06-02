@@ -194,13 +194,13 @@ export const testimonials = [
     quote:
       "Our new website makes complex insurance look simple. Our clients love how informative it is, and we’ve seen a massive boost in inquiries since launching!",
     name: "Jessica",
-    business: "I.T.O. Insurance Agency, Garden Grove",
+    business: "I.T.O. Insurance Agency - Garden Grove, CA",
   },
   {
     quote:
       "The live availability feature completely automated our scheduling—our calendar has never been fuller!",
     name: "Christy",
-    business: "Elite Nail Salon & Lounge, Mission Viejo",
+    business: "Elite Nail Salon & Lounge - Mission Viejo, CA",
   },
 ];
 

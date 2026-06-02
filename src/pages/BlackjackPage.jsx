@@ -11,7 +11,7 @@ const BlackjackPage = () => {
     <div className="blackjack-page">
       <header className="blackjack-page__header">
         <Link to="/" className="blackjack-page__back">
-          ← Back to ATP Consulting Services, LLC.
+          ← Back to ATP Consulting Services
         </Link>
         <p className="blackjack-page__title">Blackjack Demo</p>
         <span className="blackjack-page__badge">Interactive Demo</span>
