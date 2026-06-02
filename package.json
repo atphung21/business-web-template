@@ -15,7 +15,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && wrangler deploy",
+    "preview": "npm run build && wrangler dev"
   },
   "eslintConfig": {
     "extends": [
@@ -36,6 +38,7 @@
     ]
   },
   "devDependencies": {
-    "web-vitals": "^4.2.4"
+    "web-vitals": "^4.2.4",
+    "wrangler": "^4.96.0"
   }
 }
