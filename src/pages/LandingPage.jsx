@@ -1,29 +1,29 @@
 import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
-import { scrollToSection, handleInitialHash } from "../utils/scroll";
 import "../App.css";
-import ContactModal from "../components/contact/ContactModal";
+import { AboutUsSection } from "../components/aboutUsSection/AboutUsSection";
+import { LogoHero } from "../components/brand/LogoHero";
 import { ContactFormFields } from "../components/contact/ContactFormFields";
+import ContactModal from "../components/contact/ContactModal";
 import "../components/contact/contact.css";
 import { Header } from "../components/header/Header";
-import { LogoHero } from "../components/brand/LogoHero";
 import { Nav } from "../components/nav/Nav";
-import { ServicesCarousel } from "../components/servicesCarousel/ServicesCarousel";
 import { PackageCard } from "../components/packageCard/PackageCard";
-import { AboutUsSection } from "../components/aboutUsSection/AboutUsSection";
+import { ServicesCarousel } from "../components/servicesCarousel/ServicesCarousel";
 import {
-  business,
-  hero,
-  trustPoints,
-  services,
-  servicesLead,
-  servicesIncludedNote,
-  websitePackages,
-  processSteps,
   about,
-  testimonials,
+  business,
   faq,
+  hero,
+  processSteps,
+  services,
+  servicesIncludedNote,
+  servicesLead,
+  testimonials,
+  trustPoints,
+  websitePackages,
 } from "../content/siteContent";
+import { handleInitialHash, scrollToSection } from "../utils/scroll";
 
 const HeroSection = ({ onConsultClick }) => (
   <section className="hero-section" aria-labelledby="hero-heading">
@@ -89,8 +89,8 @@ const PackagesSection = () => (
     <div className="section__inner">
       <h2 className="section__title">Website Packages</h2>
       <p className="section__lead">
-        Every business is different. These tiers help you understand what type of
-        site fits your goals — final pricing is customized after a free
+        Every business is different. These tiers help you understand what type
+        of site fits your goals — final pricing is customized after a free
         consultation.
       </p>
       <div className="packages-grid">
@@ -131,7 +131,10 @@ const ProcessSection = () => (
 );
 
 const TestimonialsSection = () => (
-  <section className="section testimonials-section" aria-label="Client testimonials">
+  <section
+    className="section testimonials-section"
+    aria-label="Client testimonials"
+  >
     <div className="section__inner">
       <h2 className="section__title">What Clients Say</h2>
       <p className="section__lead section__lead--muted">
@@ -140,7 +143,10 @@ const TestimonialsSection = () => (
       </p>
       <div className="testimonials-grid">
         {testimonials.map((item) => (
-          <blockquote key={item.name + item.business} className="testimonial-card">
+          <blockquote
+            key={item.name + item.business}
+            className="testimonial-card"
+          >
             <p>&ldquo;{item.quote}&rdquo;</p>
             <footer>
               <cite>{item.name}</cite>
@@ -187,7 +193,9 @@ const ContactSection = () => (
           </ul>
           <p className="contact-layout__detail">
             <strong>Phone</strong>
-            <a href={`tel:${business.phone.replace(/\D/g, "")}`}>{business.phone}</a>
+            <a href={`tel:${business.phone.replace(/\D/g, "")}`}>
+              {business.phone}
+            </a>
           </p>
           <p className="contact-layout__detail">
             <strong>Email</strong>
@@ -204,11 +212,11 @@ const ContactSection = () => (
       </div>
       <div className="demo-cta">
         <Link to="/blackjack" className="demo-cta__card">
-          <span className="demo-cta__eyebrow">Portfolio demo</span>
+          <span className="demo-cta__eyebrow">Custom Demo</span>
           <span className="demo-cta__title">Interactive Blackjack</span>
           <span className="demo-cta__text">
-            Explore a custom game we built — betting, split, insurance, and sound
-            effects.
+            Explore a custom game we built — betting, split, insurance, and
+            sound effects.
           </span>
           <span className="demo-cta__action">
             Try the demo
@@ -247,7 +255,10 @@ const LandingPage = () => {
   return (
     <div className="landing-page">
       <Header />
-      <Nav businessName={business.shortName} onConsultClick={openConsultation} />
+      <Nav
+        businessName={business.shortName}
+        onConsultClick={openConsultation}
+      />
       <HeroSection onConsultClick={openConsultation} />
       <TrustSection />
       <ServicesSection />
