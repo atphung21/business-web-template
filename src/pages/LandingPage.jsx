@@ -130,6 +130,34 @@ const ProcessSection = () => (
   </section>
 );
 
+const DemoSection = () => (
+  <section id="demo" className="section demo-section" aria-labelledby="demo-heading">
+    <div className="section__inner section__inner--narrow">
+      <h2 id="demo-heading" className="section__title">
+        See Our Work
+      </h2>
+      <p className="section__lead">
+        We build more than business sites — explore this interactive Blackjack demo
+        with betting, split, insurance, and sound effects.
+      </p>
+      <Link to="/blackjack" className="demo-cta__card">
+        <span className="demo-cta__eyebrow">Custom demo</span>
+        <span className="demo-cta__title">Interactive Blackjack</span>
+        <span className="demo-cta__text">
+          A portfolio project showcasing custom development, polished UI, and
+          game logic — the same quality we bring to client websites.
+        </span>
+        <span className="demo-cta__action">
+          Try the demo
+          <span className="demo-cta__arrow" aria-hidden="true">
+            →
+          </span>
+        </span>
+      </Link>
+    </div>
+  </section>
+);
+
 const TestimonialsSection = () => (
   <section
     className="section testimonials-section"
@@ -210,22 +238,6 @@ const ContactSection = () => (
           <ContactFormFields formId="contact-inline-form" />
         </div>
       </div>
-      <div className="demo-cta">
-        <Link to="/blackjack" className="demo-cta__card">
-          <span className="demo-cta__eyebrow">Custom Demo</span>
-          <span className="demo-cta__title">Interactive Blackjack</span>
-          <span className="demo-cta__text">
-            Explore a custom game we built — betting, split, insurance, and
-            sound effects.
-          </span>
-          <span className="demo-cta__action">
-            Try the demo
-            <span className="demo-cta__arrow" aria-hidden="true">
-              →
-            </span>
-          </span>
-        </Link>
-      </div>
     </div>
   </section>
 );
@@ -264,6 +276,7 @@ const LandingPage = () => {
       <ServicesSection />
       <PackagesSection />
       <ProcessSection />
+      <DemoSection />
       <AboutUsSection {...about} />
       <TestimonialsSection />
       <FaqSection />

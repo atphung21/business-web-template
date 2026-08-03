@@ -680,16 +680,17 @@ header.site-header {
   text-align: center;
 }
 
-/* Portfolio demo CTA — matches site Inter + primary blue theme */
-.demo-cta {
-  margin-top: 2rem;
-  max-width: 520px;
-  margin-left: auto;
-  margin-right: auto;
+/* Portfolio demo section */
+.demo-section {
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
 }
 
 .demo-cta__card {
   display: block;
+  max-width: 560px;
+  margin: 0 auto;
   text-align: left;
   text-decoration: none;
   color: inherit;
