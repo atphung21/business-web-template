@@ -7,7 +7,7 @@ export const business = {
   name: "ATP Consulting Services",
   shortName: "ATP Consulting",
   tagline: "Local technology partner for small businesses",
-  phone: "(657) 841-0997",
+  phone: "(657) 330-1466",
   email: "info@atpconsultingservices.com",
   serviceArea: "Orange County & remotely for areas outside of Orange County.",
   consultationNote: "Free initial consultation — no obligation",
