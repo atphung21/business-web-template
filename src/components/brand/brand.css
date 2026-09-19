@@ -109,7 +109,9 @@
   color: #fff;
   text-decoration: none;
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   border: none;
   background: none;
   padding: 0;
