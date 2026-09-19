@@ -24,22 +24,22 @@ export const hero = {
 
 export const trustPoints = [
   {
-    title: "Built for small business",
+    title: "Built for Small Business",
     description:
       "Practical solutions sized to your budget and goals — not one-size-fits-all agency packages.",
   },
   {
-    title: "Full-service digital partner",
+    title: "Full-Service Digital Partner",
     description:
       "Websites, SEO, marketing, analytics, and automation under one roof — one team, one plan.",
   },
   {
-    title: "Nationwide, with a personal team",
+    title: "Nationwide, with a Personal Team",
     description:
       "Based in Orange County, we work in person locally and remotely with shops, service providers, and entrepreneurs anywhere in the U.S.",
   },
   {
-    title: "Clear communication",
+    title: "Clear Communication",
     description:
       "Plain-language updates, realistic timelines, and support after launch.",
   },

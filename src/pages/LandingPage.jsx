@@ -60,8 +60,12 @@ const HeroSection = ({ onConsultClick }) => (
 );
 
 const TrustSection = () => (
-  <section className="trust-section" aria-label="Why choose us">
+  <section className="trust-section" aria-labelledby="trust-heading">
     <div className="section__inner">
+      <p className="trust-section__eyebrow">Why work with us</p>
+      <h2 id="trust-heading" className="trust-section__title">
+        A practical partner for growing businesses
+      </h2>
       <div className="trust-grid">
         {trustPoints.map((point) => (
           <article key={point.title} className="trust-card">
