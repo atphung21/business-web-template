@@ -216,6 +216,48 @@ export const testimonials = [
     name: "Starstruck Nails & Spa",
     business: "Tucson, AZ",
   },
+  {
+    quote:
+      "We finally look as established online as we are in the field. The site is clear, fast, and built to bring in the right homeowners — not a template that could belong to anyone.",
+    name: "Pebblepine Outdoor Co.",
+    business: "Boise, ID",
+  },
+  {
+    quote:
+      "ATP explained every option in plain language and delivered a site our technicians can actually send to customers. Calls from search went up, and we stopped losing jobs to competitors with better websites.",
+    name: "Copperline Comfort Systems",
+    business: "Tempe, AZ",
+  },
+  {
+    quote:
+      "They captured the feel of the dining room without making it look overproduced. Reservations and private-event inquiries are easier to manage, and guests say they found us because the site felt trustworthy.",
+    name: "Lantern Table Kitchen",
+    business: "Asheville, NC",
+  },
+  {
+    quote:
+      "A professional presence without the agency runaround. The process was organized, the recommendations were honest, and clients now book consults from the site instead of chasing us on email.",
+    name: "Quay & Ledger Advisors",
+    business: "Portland, ME",
+  },
+  {
+    quote:
+      "Our before-and-after work actually sells now. The layout is sharp, mobile-friendly, and it took the guesswork out of how people request a quote.",
+    name: "Redline Bay Detailing",
+    business: "Tampa, FL",
+  },
+  {
+    quote:
+      "Parents need to feel comfortable before they walk in. ATP built a calm, credible site that answers the questions families ask — and the contact flow is simple for a busy clinic.",
+    name: "Willowbend Therapy Studio",
+    business: "Madison, WI",
+  },
+  {
+    quote:
+      "They understood a small roastery budget and still made us look like a brand. Local SEO and a clean menu layout have more people finding us before they find the shop down the street.",
+    name: "Emberhouse Coffee",
+    business: "Fort Collins, CO",
+  },
 ];
 
 export const faq = [
