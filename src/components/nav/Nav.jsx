@@ -9,8 +9,8 @@ const navLinks = [
   { sectionId: "packages", label: "Website Packages" },
   { sectionId: "process", label: "How It Works" },
   { sectionId: "about", label: "About" },
-  { sectionId: "faq", label: "FAQ" },
   { sectionId: "contact", label: "Contact" },
+  { sectionId: "faq", label: "FAQ" },
 ];
 
 export const Nav = ({ businessName, onConsultClick }) => {

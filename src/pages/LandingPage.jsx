@@ -191,14 +191,14 @@ const FaqSection = () => (
   <section id="faq" className="section faq-section">
     <div className="section__inner section__inner--narrow">
       <h2 className="section__title">Frequently Asked Questions</h2>
-      <dl className="faq-list">
+      <div className="faq-list">
         {faq.map((item) => (
-          <div key={item.question} className="faq-item">
-            <dt>{item.question}</dt>
-            <dd>{item.answer}</dd>
-          </div>
+          <details key={item.question} className="faq-item">
+            <summary>{item.question}</summary>
+            <p>{item.answer}</p>
+          </details>
         ))}
-      </dl>
+      </div>
     </div>
   </section>
 );
@@ -289,8 +289,8 @@ const LandingPage = () => {
       <DemoSection />
       <AboutUsSection {...about} />
       <TestimonialsSection />
-      <FaqSection />
       <ContactSection />
+      <FaqSection />
       <Footer />
       <ContactModal ref={contactFormRef} />
       <script
