@@ -130,7 +130,7 @@ export function businessJsonLd({
       "marketing automation",
       "domain and hosting setup",
     ],
-    slogan: "Grow your small business with a stronger online presence",
+    slogan: "Grow your business with a stronger online presence",
     makesOffer: (services || []).map((service) => ({
       "@type": "Offer",
       itemOffered: {

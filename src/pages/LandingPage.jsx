@@ -6,7 +6,6 @@ import { LogoHero } from "../components/brand/LogoHero";
 import { ContactFormFields } from "../components/contact/ContactFormFields";
 import ContactModal from "../components/contact/ContactModal";
 import "../components/contact/contact.css";
-import { Header } from "../components/header/Header";
 import { Nav } from "../components/nav/Nav";
 import { PackageCard } from "../components/packageCard/PackageCard";
 import { ServicesCarousel } from "../components/servicesCarousel/ServicesCarousel";
@@ -82,7 +81,8 @@ const TrustSection = () => (
 const ServicesSection = () => (
   <section id="services" className="section services-section">
     <div className="section__inner">
-      <h2 className="section__title">Our Services</h2>
+      <p className="section__eyebrow">Capabilities</p>
+      <h2 className="section__title">Website, SEO &amp; digital marketing services</h2>
       <p className="section__lead">{servicesLead}</p>
       <ServicesCarousel services={services} />
       <p className="services-included-note">{servicesIncludedNote}</p>
@@ -93,7 +93,8 @@ const ServicesSection = () => (
 const PackagesSection = () => (
   <section id="packages" className="section packages-section">
     <div className="section__inner">
-      <h2 className="section__title">Website Packages</h2>
+      <p className="section__eyebrow">Engagement options</p>
+      <h2 className="section__title">Website packages</h2>
       <p className="section__lead">
         Every business is different. These tiers help you understand what type
         of site fits your goals — final pricing is customized after a free
@@ -115,9 +116,11 @@ const PackagesSection = () => (
 const ProcessSection = () => (
   <section id="process" className="section process-section">
     <div className="section__inner">
-      <h2 className="section__title">How We Work</h2>
+      <p className="section__eyebrow">How we work</p>
+      <h2 className="section__title">A clear four-step engagement</h2>
       <p className="section__lead">
-        A straightforward process so you always know what happens next.
+        You always know what happens next — from the first conversation through
+        launch and support.
       </p>
       <ol className="process-track">
         {processSteps.map((item) => (
@@ -132,25 +135,43 @@ const ProcessSection = () => (
   </section>
 );
 
+const ConsultBand = ({ onConsultClick }) => (
+  <section className="consult-band" aria-label="Request a consultation">
+    <div className="section__inner consult-band__inner">
+      <div>
+        <h2>Ready for a clear recommendation?</h2>
+        <p>
+          Free initial consultation. No obligation. We reply within 1–2 business
+          days.
+        </p>
+      </div>
+      <button type="button" className="btn btn--primary" onClick={onConsultClick}>
+        Request a Free Consultation
+      </button>
+    </div>
+  </section>
+);
+
 const DemoSection = () => (
   <section id="demo" className="section demo-section" aria-labelledby="demo-heading">
     <div className="section__inner section__inner--narrow">
+      <p className="section__eyebrow">Custom development</p>
       <h2 id="demo-heading" className="section__title">
-        See Our Work
+        Built to a higher standard
       </h2>
       <p className="section__lead">
-        We build more than business sites — explore this interactive Blackjack demo
-        with betting, split, insurance, and sound effects.
+        Client websites get the same engineering discipline we use on custom
+        software — this interactive demo is one example of that craft.
       </p>
       <Link to="/blackjack" className="demo-cta__card">
-        <span className="demo-cta__eyebrow">Custom demo</span>
+        <span className="demo-cta__eyebrow">Portfolio</span>
         <span className="demo-cta__title">Interactive Blackjack</span>
         <span className="demo-cta__text">
-          A portfolio project showcasing custom development, polished UI, and
-          game logic — the same quality we bring to client websites.
+          Custom UI, game logic, and polish — the quality we bring to business
+          sites, booking flows, and integrations.
         </span>
         <span className="demo-cta__action">
-          Try the demo
+          View the demo
           <span className="demo-cta__arrow" aria-hidden="true">
             →
           </span>
@@ -162,13 +183,18 @@ const DemoSection = () => (
 
 const TestimonialsSection = () => (
   <section
+    id="clients"
     className="section testimonials-section"
-    aria-label="Client testimonials"
+    aria-labelledby="clients-heading"
   >
     <div className="section__inner">
-      <h2 className="section__title">What Clients Say</h2>
+      <p className="section__eyebrow section__eyebrow--on-dark">Client results</p>
+      <h2 id="clients-heading" className="section__title">
+        What clients say
+      </h2>
       <p className="section__lead">
-        Real results from small businesses we have helped grow online.
+        Small businesses nationwide that needed a stronger, more professional
+        online presence.
       </p>
       <TestimonialsCarousel items={testimonials} />
     </div>
@@ -178,6 +204,7 @@ const TestimonialsSection = () => (
 const FaqSection = () => (
   <section id="faq" className="section faq-section">
     <div className="section__inner section__inner--narrow">
+      <p className="section__eyebrow">Questions</p>
       <h2 className="section__title">Frequently Asked Questions</h2>
       <div className="faq-list">
         {faq.map((item) => (
@@ -194,10 +221,12 @@ const FaqSection = () => (
 const ContactSection = () => (
   <section id="contact" className="section contact-section">
     <div className="section__inner">
-      <h2 className="section__title">Contact Us</h2>
+      <p className="section__eyebrow">Next step</p>
+      <h2 className="section__title">Start a conversation</h2>
       <p className="section__lead">
-        Ready to discuss a website, SEO, or marketing project? Send a message or
-        reach us directly.
+        Tell us about your website, SEO, or marketing goals. We&apos;ll recommend
+        a practical next step — or call{" "}
+        <a href={`tel:${business.phone.replace(/\D/g, "")}`}>{business.phone}</a>.
       </p>
       <div className="contact-layout">
         <div className="contact-layout__info">
@@ -263,7 +292,6 @@ const LandingPage = () => {
 
   return (
     <div className="landing-page">
-      <Header />
       <Nav
         businessName={business.shortName}
         onConsultClick={openConsultation}
@@ -271,11 +299,12 @@ const LandingPage = () => {
       <HeroSection onConsultClick={openConsultation} />
       <TrustSection />
       <ServicesSection />
-      <PackagesSection />
       <ProcessSection />
-      <DemoSection />
-      <AboutUsSection {...about} />
+      <PackagesSection />
+      <ConsultBand onConsultClick={openConsultation} />
       <TestimonialsSection />
+      <AboutUsSection {...about} />
+      <DemoSection />
       <ContactSection />
       <FaqSection />
       <Footer />

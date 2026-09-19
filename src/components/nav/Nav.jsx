@@ -1,16 +1,15 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import { LogoMark } from "../brand/LogoMark";
 import { scrollToTop, scrollToSection } from "../../utils/scroll";
 import "../brand/brand.css";
 
 const navLinks = [
   { sectionId: "services", label: "Services" },
-  { sectionId: "packages", label: "Website Packages" },
-  { sectionId: "process", label: "How It Works" },
+  { sectionId: "process", label: "Approach" },
+  { sectionId: "packages", label: "Packages" },
+  { sectionId: "clients", label: "Clients" },
   { sectionId: "about", label: "About" },
   { sectionId: "contact", label: "Contact" },
-  { sectionId: "faq", label: "FAQ" },
 ];
 
 export const Nav = ({ businessName, onConsultClick }) => {
@@ -61,15 +60,6 @@ export const Nav = ({ businessName, onConsultClick }) => {
               </button>
             </li>
           ))}
-          <li>
-            <Link
-              to="/blackjack"
-              className="site-nav__link site-nav__link--demo"
-              onClick={handleNavClick}
-            >
-              Blackjack Demo
-            </Link>
-          </li>
           <li>
             <button
               type="button"

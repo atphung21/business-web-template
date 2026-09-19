@@ -16,7 +16,7 @@ export const business = {
 };
 
 export const hero = {
-  headline: "Grow Your Small Business with a Stronger Online Presence",
+  headline: "Grow Your Business with a Stronger Online Presence",
   subheadline:
     "We help small businesses across the United States build professional websites, rank on Google, and reach more customers through SEO and digital marketing — from Orange County, CA, without the enterprise price tag.",
   primaryCta: "Request a Free Consultation",
@@ -47,7 +47,7 @@ export const trustPoints = [
 ];
 
 export const servicesLead =
-  "Five core ways we help — from your first conversation through launch and beyond. Website package tiers are listed in the next section.";
+  "Websites, SEO, digital marketing, analytics, and automation — from the first conversation through launch, sized to small-business budgets nationwide.";
 
 export const servicesIncludedNote =
   "Included with website projects: domain & hosting guidance, SSL, basic analytics setup, and linking your social profiles — no need to chase separate vendors for the essentials.";
