@@ -850,7 +850,7 @@ header.site-header {
 
 /* About */
 .about-section {
-  background: var(--color-band-alt);
+  background: var(--color-band);
 }
 
 .about-section__text {
@@ -861,7 +861,7 @@ header.site-header {
 .about-section__founder {
   margin-top: 1.5rem;
   padding: 1rem 1.25rem;
-  background: #edf1f5;
+  background: var(--color-surface);
   border-left: 4px solid var(--color-accent);
   border-radius: 0 var(--radius) var(--radius) 0;
   color: var(--color-ink);
@@ -1081,7 +1081,7 @@ header.site-header {
 
 /* Portfolio demo section */
 .demo-section {
-  background: var(--color-band);
+  background: var(--color-band-alt);
 }
 
 .demo-cta__card {
