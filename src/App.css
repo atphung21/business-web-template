@@ -2,6 +2,8 @@
 :root {
   --color-bg: #f8fafc;
   --color-surface: #ffffff;
+  --color-band: #f1f5f9;
+  --color-band-alt: #ffffff;
   --color-primary: #2563eb;
   --color-primary-hover: #1d4ed8;
   --color-ink: #0f172a;
@@ -295,7 +297,7 @@ header.site-header {
 
 /* Services */
 .services-section {
-  background: linear-gradient(180deg, #f1f5f9 0%, #eef2ff 100%);
+  background: #e0e7ff;
 }
 
 .services-included-note {
@@ -440,7 +442,7 @@ header.site-header {
 
 /* Packages */
 .packages-section {
-  background: var(--color-surface);
+  background: var(--color-band);
 }
 
 .packages-grid {
@@ -453,7 +455,7 @@ header.site-header {
   border: 2px solid var(--color-border);
   border-radius: var(--radius);
   padding: 1.5rem;
-  background: var(--color-bg);
+  background: var(--color-surface);
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -496,7 +498,7 @@ header.site-header {
 
 /* Process */
 .process-section {
-  background: var(--color-surface);
+  background: var(--color-band-alt);
 }
 
 .process-track {
@@ -530,7 +532,7 @@ header.site-header {
   margin: 0.1rem auto 1.2rem;
   border-radius: 50%;
   background: var(--color-primary);
-  box-shadow: 0 0 0 6px var(--color-surface), 0 0 0 7px var(--color-border);
+  box-shadow: 0 0 0 6px var(--color-band-alt), 0 0 0 7px var(--color-border);
   position: relative;
   z-index: 1;
 }
@@ -591,6 +593,10 @@ header.site-header {
 }
 
 /* About */
+.about-section {
+  background: var(--color-band-alt);
+}
+
 .about-section__text {
   color: var(--color-ink-muted);
   margin: 0 0 1rem;
@@ -722,9 +728,7 @@ header.site-header {
 
 /* Portfolio demo section */
 .demo-section {
-  background: var(--color-surface);
-  border-top: 1px solid var(--color-border);
-  border-bottom: 1px solid var(--color-border);
+  background: var(--color-band);
 }
 
 .demo-cta__card {
