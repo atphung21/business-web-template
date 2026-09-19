@@ -1,11 +1,8 @@
 import React from "react";
 
 /**
- * Compact brand mark — psychology-driven design:
- * - Blue gradient: trust, stability, competence (B2B color priming)
- * - Ascending bars: growth/progress (goal-gradient effect)
- * - Connecting arc: partnership between consultant & client
- * - Rounded container: approachability without losing professionalism
+ * Compact brand mark:
+ * Navy field (authority, B2B trust) with gold growth bars and partnership arc.
  */
 export const LogoMark = ({
   size = 48,
@@ -18,25 +15,25 @@ export const LogoMark = ({
 
   const palettes = {
     color: {
-      gradStart: "#1d4ed8",
-      gradEnd: "#0ea5e9",
+      gradStart: "#0b1624",
+      gradEnd: "#163a5f",
       bars: "#ffffff",
-      arc: "rgba(255,255,255,0.85)",
-      node: "#ffffff",
+      arc: "rgba(196,163,90,0.95)",
+      node: "#c4a35a",
     },
     light: {
-      gradStart: "#3b82f6",
-      gradEnd: "#38bdf8",
+      gradStart: "#163a5f",
+      gradEnd: "#2a5578",
       bars: "#ffffff",
-      arc: "rgba(255,255,255,0.9)",
-      node: "#ffffff",
+      arc: "rgba(196,163,90,0.95)",
+      node: "#c4a35a",
     },
     dark: {
-      gradStart: "#1e3a8a",
-      gradEnd: "#2563eb",
+      gradStart: "#0b1624",
+      gradEnd: "#163a5f",
       bars: "#ffffff",
-      arc: "rgba(255,255,255,0.75)",
-      node: "#ffffff",
+      arc: "rgba(196,163,90,0.9)",
+      node: "#c4a35a",
     },
   };
 
