@@ -493,26 +493,31 @@ header.site-header {
   }
 
   .services-showcase__nav {
-    flex-direction: row;
-    overflow-x: auto;
-    padding: 0.5rem;
-    gap: 0.25rem;
-    -webkit-overflow-scrolling: touch;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+    overflow: visible;
+    padding: 0.55rem;
   }
 
   .services-showcase__tab {
-    flex: 0 0 auto;
-    white-space: nowrap;
-    padding: 0.7rem 0.9rem;
-    font-size: 0.88rem;
+    flex: none;
+    width: 100%;
+    white-space: normal;
+    padding: 0.72rem 0.9rem;
+    font-size: 0.9rem;
   }
 
   .services-showcase__tab.is-active {
-    box-shadow: inset 0 -3px 0 var(--color-accent);
+    box-shadow: inset 3px 0 0 var(--color-accent);
   }
 
   .services-showcase__panel {
-    padding: 1.5rem 1.25rem 1.65rem;
+    padding: 1.35rem 1.15rem 1.45rem;
+  }
+
+  .services-showcase__heading {
+    font-size: 1.2rem;
   }
 }
 
