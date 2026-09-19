@@ -23,6 +23,7 @@ import {
   trustPoints,
   websitePackages,
 } from "../content/siteContent";
+import { businessJsonLd, SEO_TITLE } from "../content/seo";
 import { handleInitialHash, scrollToSection } from "../utils/scroll";
 
 const HeroSection = ({ onConsultClick }) => (
@@ -165,9 +166,8 @@ const TestimonialsSection = () => (
   >
     <div className="section__inner">
       <h2 className="section__title">What Clients Say</h2>
-      <p className="section__lead section__lead--muted">
-        Replace these placeholders with real reviews when you have permission to
-        share them.
+      <p className="section__lead">
+        Real results from small businesses we have helped grow online.
       </p>
       <div className="testimonials-grid">
         {testimonials.map((item) => (
@@ -264,6 +264,16 @@ const LandingPage = () => {
     handleInitialHash();
   }, []);
 
+  useEffect(() => {
+    document.title = SEO_TITLE;
+  }, []);
+
+  const jsonLd = businessJsonLd({
+    services,
+    packages: websitePackages,
+    faqs: faq,
+  });
+
   return (
     <div className="landing-page">
       <Header />
@@ -283,6 +293,10 @@ const LandingPage = () => {
       <ContactSection />
       <Footer />
       <ContactModal ref={contactFormRef} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
     </div>
   );
 };

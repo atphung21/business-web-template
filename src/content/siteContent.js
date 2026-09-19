@@ -6,17 +6,18 @@
 export const business = {
   name: "ATP Consulting Services",
   shortName: "ATP Consulting",
-  tagline: "Local technology partner for small businesses",
+  tagline: "Websites, SEO, and digital marketing for small businesses nationwide",
   phone: "(657) 330-1466",
   email: "info@atpconsultingservices.com",
-  serviceArea: "Orange County & remotely for areas outside of Orange County.",
+  serviceArea:
+    "Orange County, California — and remotely for small businesses across the United States.",
   consultationNote: "Free initial consultation — no obligation",
 };
 
 export const hero = {
-  headline: "Grow Your Local Business with a Stronger Online Presence",
+  headline: "Grow Your Small Business with a Stronger Online Presence",
   subheadline:
-    "We help small businesses in your community build professional websites, rank on Google, and reach more customers through SEO and digital marketing — without the enterprise price tag.",
+    "We help small businesses across the United States build professional websites, rank on Google, and reach more customers through SEO and digital marketing — from Orange County, CA, without the enterprise price tag.",
   primaryCta: "Request a Free Consultation",
   secondaryCta: "View Our Services",
 };
@@ -33,9 +34,9 @@ export const trustPoints = [
       "Websites, SEO, marketing, analytics, and automation under one roof — one team, one plan.",
   },
   {
-    title: "Community-focused",
+    title: "Nationwide, with a personal team",
     description:
-      "We work with local shops, service providers, and entrepreneurs who want to compete online.",
+      "Based in Orange County, we work in person locally and remotely with shops, service providers, and entrepreneurs anywhere in the U.S.",
   },
   {
     title: "Clear communication",
@@ -180,7 +181,7 @@ export const processSteps = [
 export const about = {
   headline: "About ATP Consulting Services",
   paragraphs: [
-    "ATP Software Consulting Services partners with small businesses in the community to make technology approachable and profitable. Whether you need your first website, better visibility on Google, or help connecting your tools, we focus on solutions that fit real-world small business budgets.",
+    "ATP Software Consulting Services partners with small businesses nationwide to make technology approachable and profitable. Whether you need your first website, better visibility on Google, or help connecting your tools, we focus on solutions that fit real-world small business budgets — in Orange County and remotely across the United States.",
     "As a software engineer-led consultancy, we bring technical depth with a personal touch — explaining options clearly and delivering work you can trust long after launch.",
   ],
   // Replace with your real background when ready
@@ -218,11 +219,21 @@ export const faq = [
   {
     question: "Do you only work with businesses in my area?",
     answer:
-      "We specialize in serving local small businesses in Orange County and nearby communities, but we can support remote clients when the fit is right.",
+      "We are based in Orange County, California, and we work with small businesses nationwide. Local clients can meet in person; everyone else works with us remotely by video, email, and shared project tools.",
   },
   {
-    question: "Can you help if I already have a website?",
+    question: "Can you help a small business anywhere in the United States?",
     answer:
-      "Yes. We redesign outdated sites, improve SEO, add new features, and integrate marketing tools without starting from scratch when it makes sense.",
+      "Yes. Website design, SEO, Google Business Profile, digital marketing, analytics, and automation are delivered remotely to contractors, salons, clinics, restaurants, retailers, and professional services across the U.S.",
+  },
+  {
+    question: "What kinds of small businesses do you build websites for?",
+    answer:
+      "Service businesses, salons, clinics, restaurants, insurance agencies, retailers, and professional practices. Packages cover informational sites, local-service sites, product catalogs, and custom builds with booking or integrations.",
+  },
+  {
+    question: "Can you help if we already have a website?",
+    answer:
+      "Yes. We redesign outdated sites, improve SEO and Google visibility, add new features, and connect marketing tools without starting from scratch when it makes sense.",
   },
 ];
