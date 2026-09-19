@@ -1,6 +1,6 @@
 # ATP Blackjack Demo
 
-Professional Blackjack demo for ATP Software Consulting Services.
+Professional Blackjack demo for ATP Consulting Services.
 
 ## Run standalone
 
@@ -13,7 +13,7 @@ npx serve .
 
 The game is copied to `business-web-template/public/blackjack/` and served at:
 
-**http://localhost:3000/blackjack** (React shell + iframe)  
+**http://localhost:3000/blackjack** (React shell + iframe)
 **http://localhost:3000/blackjack/index.html** (game only)
 
 From the React app root:

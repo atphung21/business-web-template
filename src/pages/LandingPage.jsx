@@ -10,6 +10,7 @@ import { Header } from "../components/header/Header";
 import { Nav } from "../components/nav/Nav";
 import { PackageCard } from "../components/packageCard/PackageCard";
 import { ServicesCarousel } from "../components/servicesCarousel/ServicesCarousel";
+import { TestimonialsCarousel } from "../components/testimonials/TestimonialsCarousel";
 import {
   about,
   business,
@@ -169,20 +170,7 @@ const TestimonialsSection = () => (
       <p className="section__lead">
         Real results from small businesses we have helped grow online.
       </p>
-      <div className="testimonials-grid">
-        {testimonials.map((item) => (
-          <blockquote
-            key={item.name + item.business}
-            className="testimonial-card"
-          >
-            <p>&ldquo;{item.quote}&rdquo;</p>
-            <footer>
-              <cite>{item.name}</cite>
-              <span>{item.business}</span>
-            </footer>
-          </blockquote>
-        ))}
-      </div>
+      <TestimonialsCarousel items={testimonials} />
     </div>
   </section>
 );

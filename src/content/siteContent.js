@@ -6,7 +6,8 @@
 export const business = {
   name: "ATP Consulting Services",
   shortName: "ATP Consulting",
-  tagline: "Websites, SEO, and digital marketing for small businesses nationwide",
+  tagline:
+    "Websites, SEO, and digital marketing for small businesses nationwide",
   phone: "(657) 330-1466",
   email: "info@atpconsultingservices.com",
   serviceArea:
@@ -148,6 +149,7 @@ export const websitePackages = [
       "Ongoing partnership & support",
     ],
     note: "Pricing scoped after a consultation based on your requirements.",
+    featured: true,
   },
 ];
 
@@ -181,7 +183,7 @@ export const processSteps = [
 export const about = {
   headline: "About ATP Consulting Services",
   paragraphs: [
-    "ATP Software Consulting Services partners with small businesses nationwide to make technology approachable and profitable. Whether you need your first website, better visibility on Google, or help connecting your tools, we focus on solutions that fit real-world small business budgets — in Orange County and remotely across the United States.",
+    "ATP Consulting Services partners with small businesses nationwide to make technology approachable and profitable. Whether you need your first website, better visibility on Google, or help connecting your tools, we focus on solutions that fit real-world small business budgets — in Orange County and remotely across the United States.",
     "As a software engineer-led consultancy, we bring technical depth with a personal touch — explaining options clearly and delivering work you can trust long after launch.",
   ],
   // Replace with your real background when ready
@@ -189,19 +191,30 @@ export const about = {
     "Led by a software engineer with hands-on experience building web applications, SEO-friendly sites, and automation for growing businesses.",
 };
 
-/** Replace with real testimonials when available */
 export const testimonials = [
   {
     quote:
       "Our new website makes complex insurance look simple. Our clients love how informative it is, and we’ve seen a massive boost in inquiries since launching!",
-    name: "Jessica",
-    business: "I.T.O. Insurance Agency - Garden Grove, CA",
+    name: "I.T.O. Insurance Agency",
+    business: "Garden Grove, CA",
   },
   {
     quote:
       "The live availability feature completely automated our scheduling—our calendar has never been fuller!",
-    name: "Christy",
-    business: "Elite Nail Salon & Lounge - Mission Viejo, CA",
+    name: "Elite Nail Salon & Lounge",
+    business: "Mission Viejo, CA",
+  },
+  {
+    quote:
+      "Service and expertise were outstanding from the first call. ATP built us a site that looks as solid as the work we do — homeowners in Houston can find us, understand our services, and reach us without extra friction.",
+    name: "Total Garage HTX",
+    business: "Houston, TX",
+  },
+  {
+    quote:
+      "They treated our salon like it mattered. The expertise showed in the details — branding, layout, and how we show up online — and the service stayed personal the whole way through. Tucson clients now see Starstruck the way we intended.",
+    name: "Starstruck Nails & Spa",
+    business: "Tucson, AZ",
   },
 ];
 
