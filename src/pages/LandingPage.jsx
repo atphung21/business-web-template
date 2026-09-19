@@ -236,7 +236,6 @@ const Footer = () => (
       <p>
         &copy; {new Date().getFullYear()} {business.name}. All rights reserved.
       </p>
-      <p className="site-footer__tagline">{business.tagline}</p>
     </div>
   </footer>
 );

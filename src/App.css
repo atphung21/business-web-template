@@ -1016,16 +1016,13 @@ header.site-header {
   background: var(--color-dark);
   color: rgba(255, 255, 255, 0.85);
   text-align: center;
-  padding: 1.5rem 1rem;
+  padding: 0.55rem 1rem;
 }
 
 .site-footer__inner p {
-  margin: 0.25rem 0;
-}
-
-.site-footer__tagline {
-  font-size: 0.85rem;
-  color: rgba(255, 255, 255, 0.55);
+  margin: 0;
+  font-size: 0.8rem;
+  line-height: 1.3;
 }
 
 /* Mobile nav */
