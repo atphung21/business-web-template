@@ -114,16 +114,12 @@ const ProcessSection = () => (
       <p className="section__lead">
         A straightforward process so you always know what happens next.
       </p>
-      <ol className="process-steps">
+      <ol className="process-track">
         {processSteps.map((item) => (
-          <li key={item.step} className="process-step">
-            <span className="process-step__number" aria-hidden="true">
-              {item.step}
-            </span>
-            <div>
-              <h3>{item.title}</h3>
-              <p>{item.description}</p>
-            </div>
+          <li key={item.step} className="process-phase">
+            <span className="process-phase__marker" aria-hidden="true" />
+            <h3>{item.title}</h3>
+            <p>{item.description}</p>
           </li>
         ))}
       </ol>

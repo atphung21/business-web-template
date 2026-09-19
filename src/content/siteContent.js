@@ -154,25 +154,25 @@ export const websitePackages = [
 export const processSteps = [
   {
     step: "1",
-    title: "Free consultation",
+    title: "Free Consultation",
     description:
       "We learn about your business, goals, and budget. You get honest recommendations — not a hard sell.",
   },
   {
     step: "2",
-    title: "Proposal & plan",
+    title: "Proposal & Plan",
     description:
       "You receive a clear scope, timeline, and investment range for the services or website package that fits.",
   },
   {
     step: "3",
-    title: "Build & review",
+    title: "Build & Review",
     description:
       "We design and develop with your feedback at key milestones so the result matches your brand.",
   },
   {
     step: "4",
-    title: "Launch & support",
+    title: "Launch & Support",
     description:
       "Go live with training on updates, plus optional ongoing SEO, marketing, and maintenance support.",
   },
