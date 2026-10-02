@@ -16,9 +16,9 @@ export const business = {
 };
 
 export const hero = {
-  headline: "Grow Your Business with a Stronger Online Presence",
+  headline: "Get found on Google with a site built for small business",
   subheadline:
-    "We help small businesses across the United States build professional websites, rank on Google, and reach more customers through SEO and digital marketing — from Orange County, CA, without the enterprise price tag.",
+    "ATP Consulting Services builds websites, SEO, and digital marketing for shops, contractors, salons, clinics, and professional practices across the United States — from Orange County, CA, without the enterprise price tag.",
   primaryCta: "Request a Free Consultation",
   secondaryCta: "View Our Services",
 };
@@ -47,7 +47,7 @@ export const trustPoints = [
 ];
 
 export const servicesLead =
-  "Websites, SEO, digital marketing, analytics, and automation — from the first conversation through launch, sized to small-business budgets nationwide.";
+  "From a first website to Google visibility and follow-up after launch: websites, SEO, digital marketing, analytics, and automation sized to small-business budgets in Orange County and nationwide.";
 
 export const servicesIncludedNote =
   "Included with website projects: domain & hosting guidance, SSL, basic analytics setup, and linking your social profiles — no need to chase separate vendors for the essentials.";
@@ -183,10 +183,10 @@ export const processSteps = [
 export const about = {
   headline: "About ATP Consulting Services",
   paragraphs: [
-    "ATP Consulting Services partners with small businesses nationwide to make technology approachable and profitable. Whether you need your first website, better visibility on Google, or help connecting your tools, we focus on solutions that fit real-world small business budgets — in Orange County and remotely across the United States.",
-    "As a software engineer-led consultancy, we bring technical depth with a personal touch — explaining options clearly and delivering work you can trust long after launch.",
+    "ATP Consulting Services partners with small businesses nationwide to make technology approachable and profitable. Whether you need your first website, better visibility on Google, or help connecting your tools, we focus on solutions that fit real-world small business budgets — in Orange County, California, and remotely across the United States.",
+    "We work with contractors, salons, clinics, restaurants, insurance agencies, retailers, and professional practices that need a clear site, local search, and a team that explains options in plain language.",
+    "As a software engineer-led consultancy, we bring technical depth with a personal touch — delivering work you can trust long after launch, not a handoff you cannot maintain.",
   ],
-  // Replace with your real background when ready
   founderNote:
     "Led by a software engineer with hands-on experience building web applications, SEO-friendly sites, and automation for growing businesses.",
 };
@@ -290,5 +290,25 @@ export const faq = [
     question: "Can you help if we already have a website?",
     answer:
       "Yes. We redesign outdated sites, improve SEO and Google visibility, add new features, and connect marketing tools without starting from scratch when it makes sense.",
+  },
+  {
+    question: "Do you help with Google Business Profile and Maps?",
+    answer:
+      "Yes. Local SEO work includes Google Business Profile setup and optimization, on-page location details, and site structure that helps customers find you in Google Search and Maps.",
+  },
+  {
+    question: "What is the difference between SEO and paid ads?",
+    answer:
+      "SEO is how your site and listings earn visibility in organic Google results over time. Paid ads (such as Google Ads) buy placement. We can recommend one or both after a consultation, based on your budget and how soon you need leads.",
+  },
+  {
+    question: "Do I need to provide photos and copy?",
+    answer:
+      "We can start from what you have — existing photos, a logo, and notes about your services. During the project we help structure pages, headlines, and calls to action so the site is clear for customers and search engines.",
+  },
+  {
+    question: "What happens with hosting after the site launches?",
+    answer:
+      "Website projects include domain, hosting, and SSL guidance at launch. You keep ownership of the domain and site. Ongoing SEO, marketing, or maintenance is optional after go-live.",
   },
 ];

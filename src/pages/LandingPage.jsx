@@ -96,8 +96,9 @@ const PackagesSection = () => (
       <p className="section__eyebrow">Engagement options</p>
       <h2 className="section__title">Website packages</h2>
       <p className="section__lead">
-        Every business is different. These tiers help you understand what type
-        of site fits your goals — final pricing is customized after a free
+        Starter informational sites, local-service sites, product catalogs, and
+        custom builds — for contractors, salons, clinics, restaurants, and
+        professional practices. Final pricing is customized after a free
         consultation.
       </p>
       <div className="packages-grid">

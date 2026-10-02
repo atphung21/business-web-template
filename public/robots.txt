@@ -3,4 +3,14 @@ Allow: /
 Disallow: /blackjack
 Disallow: /blackjack/
 
+User-agent: Googlebot
+Allow: /
+Disallow: /blackjack
+Disallow: /blackjack/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /blackjack
+Disallow: /blackjack/
+
 Sitemap: https://www.atpconsultingservices.com/sitemap.xml
