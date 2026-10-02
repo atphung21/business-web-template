@@ -1,37 +1,51 @@
 import React, { useState } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { LogoMark } from "../brand/LogoMark";
 import { scrollToTop, scrollToSection } from "../../utils/scroll";
 import "../brand/brand.css";
 
-const navLinks = [
+const sectionLinks = [
   { sectionId: "services", label: "Services" },
-  { sectionId: "process", label: "Approach" },
-  { sectionId: "packages", label: "Packages" },
   { sectionId: "clients", label: "Clients" },
-  { sectionId: "about", label: "About" },
-  { sectionId: "contact", label: "Contact" },
 ];
 
 export const Nav = ({ businessName, onConsultClick }) => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
+  const onHome = location.pathname === "/";
 
-  const handleNavClick = () => setMenuOpen(false);
+  const closeMenu = () => setMenuOpen(false);
+
+  const goHome = (event) => {
+    if (onHome) {
+      scrollToTop(event);
+    }
+    closeMenu();
+  };
+
+  const goSection = (sectionId, event) => {
+    closeMenu();
+    if (onHome) {
+      scrollToSection(sectionId, event);
+      return;
+    }
+    event.preventDefault();
+    navigate(`/#${sectionId}`);
+  };
 
   return (
     <nav className="site-nav" aria-label="Main navigation">
       <div className="site-nav__inner">
-        <button
-          type="button"
+        <Link
+          to="/"
           className="logo-nav"
-          onClick={(event) => {
-            scrollToTop(event);
-            handleNavClick();
-          }}
-          aria-label={`${businessName} — scroll to top`}
+          onClick={goHome}
+          aria-label={`${businessName} — home`}
         >
           <LogoMark size={36} variant="light" className="logo-nav__mark" />
           <span>{businessName}</span>
-        </button>
+        </Link>
         <button
           type="button"
           className="site-nav__toggle"
@@ -46,27 +60,60 @@ export const Nav = ({ businessName, onConsultClick }) => {
           id="main-nav-links"
           className={`site-nav__links ${menuOpen ? "site-nav__links--open" : ""}`}
         >
-          {navLinks.map((link) => (
+          {sectionLinks.map((link) => (
             <li key={link.sectionId}>
-              <button
-                type="button"
+              <Link
+                to={`/#${link.sectionId}`}
                 className="site-nav__link"
-                onClick={(event) => {
-                  scrollToSection(link.sectionId, event);
-                  handleNavClick();
-                }}
+                onClick={(event) => goSection(link.sectionId, event)}
               >
                 {link.label}
-              </button>
+              </Link>
             </li>
           ))}
+          <li>
+            <Link
+              to="/packages"
+              className={`site-nav__link${location.pathname === "/packages" ? " is-active" : ""}`}
+              onClick={closeMenu}
+            >
+              Packages
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/about"
+              className={`site-nav__link${location.pathname === "/about" ? " is-active" : ""}`}
+              onClick={closeMenu}
+            >
+              About
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/faq"
+              className={`site-nav__link${location.pathname === "/faq" ? " is-active" : ""}`}
+              onClick={closeMenu}
+            >
+              FAQ
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/contact"
+              className={`site-nav__link${location.pathname === "/contact" ? " is-active" : ""}`}
+              onClick={closeMenu}
+            >
+              Contact
+            </Link>
+          </li>
           <li>
             <button
               type="button"
               className="site-nav__cta"
               onClick={() => {
-                handleNavClick();
-                onConsultClick();
+                closeMenu();
+                onConsultClick?.();
               }}
             >
               Free Consultation

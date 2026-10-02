@@ -12,6 +12,33 @@ export const SEO_TITLE =
 export const SEO_DESCRIPTION =
   "ATP Consulting Services builds websites, SEO, and digital marketing for small businesses across the United States. Based in Orange County, CA — remote projects nationwide. Free consultation. Call (657) 330-1466.";
 
+export const PAGE_SEO = {
+  home: {
+    title: SEO_TITLE,
+    description: SEO_DESCRIPTION,
+  },
+  contact: {
+    title: `Contact ATP Consulting Services | Request a Conversation`,
+    description:
+      "Start a conversation with ATP Consulting Services. Tell us about your website, SEO, or marketing goals. Orange County, CA and nationwide. Call (657) 330-1466 or email info@atpconsultingservices.com.",
+  },
+  packages: {
+    title: `Website Packages for Small Business | ATP Consulting Services`,
+    description:
+      "Starter, Growth, Catalog, and Custom website packages for small businesses. Informational sites, local-service sites, product catalogs, and custom builds. Orange County, CA and nationwide. Free consultation.",
+  },
+  about: {
+    title: `About ATP Consulting Services | Orange County & Nationwide`,
+    description:
+      "ATP Consulting Services is a software engineer-led consultancy in Orange County, CA. We build websites, SEO, and digital marketing for small businesses nationwide. Call (657) 330-1466.",
+  },
+  faq: {
+    title: `Frequently Asked Questions | ATP Consulting Services`,
+    description:
+      "Answers about small business website cost, project timelines, Orange County and nationwide service, SEO, Google Business Profile, and how to contact ATP Consulting Services. Call (657) 330-1466.",
+  },
+};
+
 export const SEO_KEYWORDS = [
   "small business website design",
   "small business website designer",
@@ -76,9 +103,15 @@ export function businessJsonLd({
   services = [],
   packages = [],
   faqs = [],
+  title,
+  description,
 } = {}) {
   const home = origin || SITE_ORIGIN;
   const pageUrl = `${home}${path === "/" ? "/" : path}`;
+  const pageKey = path === "/" ? "home" : path.replace(/^\//, "");
+  const pageTitle = title || PAGE_SEO[pageKey]?.title || SEO_TITLE;
+  const pageDescription =
+    description || PAGE_SEO[pageKey]?.description || SEO_DESCRIPTION;
   const businessId = `${home}/#business`;
   const websiteId = `${home}/#website`;
 
@@ -143,7 +176,7 @@ export function businessJsonLd({
     })),
     hasOfferCatalog: {
       "@type": "OfferCatalog",
-      name: "Website packages",
+      name: "Website Packages",
       itemListElement: (packages || []).map((pkg, index) => ({
         "@type": "Offer",
         position: index + 1,
@@ -171,8 +204,8 @@ export function businessJsonLd({
       "@type": "WebPage",
       "@id": `${pageUrl}#webpage`,
       url: pageUrl,
-      name: SEO_TITLE,
-      description: SEO_DESCRIPTION,
+      name: pageTitle,
+      description: pageDescription,
       isPartOf: { "@id": websiteId },
       about: { "@id": businessId },
       inLanguage: "en-US",
@@ -198,4 +231,30 @@ export function businessJsonLd({
     "@context": "https://schema.org",
     "@graph": graph,
   };
+}
+
+export function applyPageSeo({
+  title,
+  description,
+  path = "/",
+  robots = "index, follow, max-image-preview:large",
+}) {
+  const url = `${SITE_ORIGIN}${path === "/" ? "/" : path}`;
+  document.title = title;
+  const meta = document.querySelector('meta[name="description"]');
+  if (meta && description) meta.setAttribute("content", description);
+  const robotsMeta = document.querySelector('meta[name="robots"]');
+  if (robotsMeta) robotsMeta.setAttribute("content", robots);
+  const canonical = document.querySelector('link[rel="canonical"]');
+  if (canonical) canonical.setAttribute("href", url);
+  const ogUrl = document.querySelector('meta[property="og:url"]');
+  if (ogUrl) ogUrl.setAttribute("content", url);
+  const ogTitle = document.querySelector('meta[property="og:title"]');
+  if (ogTitle) ogTitle.setAttribute("content", title);
+  const ogDesc = document.querySelector('meta[property="og:description"]');
+  if (ogDesc && description) ogDesc.setAttribute("content", description);
+  const twTitle = document.querySelector('meta[name="twitter:title"]');
+  if (twTitle) twTitle.setAttribute("content", title);
+  const twDesc = document.querySelector('meta[name="twitter:description"]');
+  if (twDesc && description) twDesc.setAttribute("content", description);
 }

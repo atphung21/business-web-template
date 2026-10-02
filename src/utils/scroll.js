@@ -26,13 +26,19 @@ export const scrollToSection = (sectionId, event) => {
 };
 
 /**
- * If someone opens an old link like /#contact, scroll there once then clean the URL.
+ * Hash shortcuts: /#contact, /#packages, /#about, and /#faq go to those pages.
+ * Other hashes scroll to the matching home section, then the hash is removed.
  */
-export const handleInitialHash = () => {
+export const handleInitialHash = (hashRoutes = {}) => {
   const { hash } = window.location;
   if (!hash || hash.length < 2) return;
 
   const sectionId = hash.slice(1);
+  if (typeof hashRoutes[sectionId] === "function") {
+    hashRoutes[sectionId]();
+    return;
+  }
+
   requestAnimationFrame(() => {
     const el = document.getElementById(sectionId);
     if (el) {

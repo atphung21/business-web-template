@@ -1,6 +1,6 @@
 import React from "react";
 
-export const PackageCard = ({ name, bestFor, features, note, featured }) => {
+export const PackageCard = ({ name, bestFor, note, featured }) => {
   const [tier, focus] = name.split(" — ");
 
   return (
@@ -16,11 +16,6 @@ export const PackageCard = ({ name, bestFor, features, note, featured }) => {
           {bestFor}
         </p>
       </header>
-      <ul className="package-card__features">
-        {features.map((feature) => (
-          <li key={feature}>{feature}</li>
-        ))}
-      </ul>
       <p className="package-card__note">{note}</p>
     </article>
   );

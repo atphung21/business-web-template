@@ -1,6 +1,7 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
+import { PackageCard } from "./PackageCard";
 
-export const TestimonialsCarousel = ({ items }) => {
+export const PackagesTeaserRail = ({ packages }) => {
   const trackRef = useRef(null);
   const [canPrev, setCanPrev] = useState(false);
   const [canNext, setCanNext] = useState(false);
@@ -9,8 +10,9 @@ export const TestimonialsCarousel = ({ items }) => {
     const track = trackRef.current;
     if (!track) return;
     const max = track.scrollWidth - track.clientWidth;
-    setCanPrev(track.scrollLeft > 8);
-    setCanNext(track.scrollLeft < max - 8);
+    const overflowing = max > 8;
+    setCanPrev(overflowing && track.scrollLeft > 8);
+    setCanNext(overflowing && track.scrollLeft < max - 8);
   }, []);
 
   useEffect(() => {
@@ -24,23 +26,23 @@ export const TestimonialsCarousel = ({ items }) => {
       observer.disconnect();
       window.removeEventListener("resize", updateArrows);
     };
-  }, [items, updateArrows]);
+  }, [packages, updateArrows]);
 
   const scrollByCard = (direction) => {
     const track = trackRef.current;
     if (!track) return;
-    const card = track.querySelector(".testimonial-card");
-    const gap = 20;
-    const amount = (card?.getBoundingClientRect().width || 320) + gap;
+    const card = track.querySelector(".package-card");
+    const gap = 16;
+    const amount = (card?.getBoundingClientRect().width || 280) + gap;
     track.scrollBy({ left: direction * amount, behavior: "smooth" });
   };
 
   return (
-    <div className="testimonials-rail">
+    <div className="packages-rail">
       <button
         type="button"
-        className="testimonials-rail__nav testimonials-rail__nav--prev"
-        aria-label="Previous testimonials"
+        className="packages-rail__nav packages-rail__nav--prev"
+        aria-label="Previous package"
         disabled={!canPrev}
         onClick={() => scrollByCard(-1)}
       >
@@ -48,9 +50,9 @@ export const TestimonialsCarousel = ({ items }) => {
       </button>
       <div
         ref={trackRef}
-        className="testimonials-rail__track"
+        className="packages-rail__track"
         role="region"
-        aria-label="Client testimonials carousel"
+        aria-label="Website package options"
         tabIndex={0}
         onScroll={updateArrows}
         onKeyDown={(event) => {
@@ -64,24 +66,20 @@ export const TestimonialsCarousel = ({ items }) => {
           }
         }}
       >
-        {items.map((item) => (
-          <blockquote key={item.name} className="testimonial-card">
-            <p>&ldquo;{item.quote}&rdquo;</p>
-            <footer>
-              <cite>{item.name}</cite>
-            </footer>
-          </blockquote>
+        {packages.map((pkg) => (
+          <PackageCard key={pkg.name} {...pkg} />
         ))}
       </div>
       <button
         type="button"
-        className="testimonials-rail__nav testimonials-rail__nav--next"
-        aria-label="Next testimonials"
+        className="packages-rail__nav packages-rail__nav--next"
+        aria-label="Next package"
         disabled={!canNext}
         onClick={() => scrollByCard(1)}
       >
         ›
       </button>
+      <p className="packages-rail__hint">Swipe to compare packages</p>
     </div>
   );
 };

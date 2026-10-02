@@ -1,19 +1,15 @@
 import React, { useEffect, useRef } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "../App.css";
-import { AboutUsSection } from "../components/aboutUsSection/AboutUsSection";
 import { LogoHero } from "../components/brand/LogoHero";
-import { ContactFormFields } from "../components/contact/ContactFormFields";
 import ContactModal from "../components/contact/ContactModal";
 import "../components/contact/contact.css";
 import { Nav } from "../components/nav/Nav";
-import { PackageCard } from "../components/packageCard/PackageCard";
+import { PackagesTeaserRail } from "../components/packageCard/PackagesTeaserRail";
 import { ServicesCarousel } from "../components/servicesCarousel/ServicesCarousel";
 import { TestimonialsCarousel } from "../components/testimonials/TestimonialsCarousel";
 import {
-  about,
   business,
-  faq,
   hero,
   processSteps,
   services,
@@ -23,8 +19,9 @@ import {
   trustPoints,
   websitePackages,
 } from "../content/siteContent";
-import { businessJsonLd, SEO_TITLE } from "../content/seo";
+import { applyPageSeo, businessJsonLd, PAGE_SEO } from "../content/seo";
 import { handleInitialHash, scrollToSection } from "../utils/scroll";
+import { useRevealOnScroll } from "../hooks/useRevealOnScroll";
 
 const HeroSection = ({ onConsultClick }) => (
   <section className="hero-section" aria-labelledby="hero-heading">
@@ -32,12 +29,10 @@ const HeroSection = ({ onConsultClick }) => (
       <div className="hero-section__brand">
         <LogoHero name="ATP" descriptor="Consulting Services" />
       </div>
-      <p className="hero-section__eyebrow">{business.tagline}</p>
       <h1 id="hero-heading" className="hero-section__headline">
         {hero.headline}
       </h1>
       <p className="hero-section__subheadline">{hero.subheadline}</p>
-      <p className="hero-section__area">{business.serviceArea}</p>
       <div className="hero-section__actions">
         <button
           type="button"
@@ -54,7 +49,6 @@ const HeroSection = ({ onConsultClick }) => (
           {hero.secondaryCta}
         </button>
       </div>
-      <p className="hero-section__note">{business.consultationNote}</p>
     </div>
   </section>
 );
@@ -64,7 +58,7 @@ const TrustSection = () => (
     <div className="section__inner">
       <p className="trust-section__eyebrow">Why work with us</p>
       <h2 id="trust-heading" className="trust-section__title">
-        A practical partner for growing businesses
+        A Practical Partner for Growing Businesses.
       </h2>
       <div className="trust-grid">
         {trustPoints.map((point) => (
@@ -82,7 +76,9 @@ const ServicesSection = () => (
   <section id="services" className="section services-section">
     <div className="section__inner">
       <p className="section__eyebrow">Capabilities</p>
-      <h2 className="section__title">Website, SEO &amp; digital marketing services</h2>
+      <h2 className="section__title">
+        Website, SEO, and Digital Marketing Services.
+      </h2>
       <p className="section__lead">{servicesLead}</p>
       <ServicesCarousel services={services} />
       <p className="services-included-note">{servicesIncludedNote}</p>
@@ -90,38 +86,43 @@ const ServicesSection = () => (
   </section>
 );
 
-const PackagesSection = () => (
-  <section id="packages" className="section packages-section">
-    <div className="section__inner">
-      <p className="section__eyebrow">Engagement options</p>
-      <h2 className="section__title">Website packages</h2>
-      <p className="section__lead">
-        Starter informational sites, local-service sites, product catalogs, and
-        custom builds — for contractors, salons, clinics, restaurants, and
-        professional practices. Final pricing is customized after a free
-        consultation.
-      </p>
-      <div className="packages-grid">
-        {websitePackages.map((pkg) => (
-          <PackageCard key={pkg.name} {...pkg} />
-        ))}
+const PackagesSection = () => {
+  const sectionRef = useRef(null);
+  useRevealOnScroll(sectionRef);
+
+  return (
+    <section id="packages" className="section packages-section" ref={sectionRef}>
+      <div className="section__inner">
+        <p className="section__eyebrow">Engagement options</p>
+        <h2 className="section__title">Website Packages for Small Business.</h2>
+        <p className="section__lead">
+          Starter informational sites, local-service sites, product catalogs, and
+          custom builds — for contractors, salons, clinics, restaurants, and
+          professional practices. Final pricing is customized after a free
+          consultation.
+        </p>
+        <PackagesTeaserRail packages={websitePackages} />
+        <p className="packages-disclaimer">
+          All packages include mobile-responsive design, secure hosting guidance,
+          and launch support. Add SEO, marketing, or automation anytime.
+        </p>
+        <p className="packages-page-jump">
+          <Link to="/packages" className="btn btn--navy">
+            See Package Details
+          </Link>
+        </p>
       </div>
-      <p className="packages-disclaimer">
-        All packages include mobile-responsive design, secure hosting guidance,
-        and launch support. Add SEO, marketing, or automation anytime.
-      </p>
-    </div>
-  </section>
-);
+    </section>
+  );
+};
 
 const ProcessSection = () => (
   <section id="process" className="section process-section">
     <div className="section__inner">
       <p className="section__eyebrow">How we work</p>
-      <h2 className="section__title">A clear four-step engagement</h2>
+      <h2 className="section__title">A Clear Four-Step Engagement.</h2>
       <p className="section__lead">
-        You always know what happens next — from the first conversation through
-        launch and support.
+        From the first conversation through launch and optional support.
       </p>
       <ol className="process-track">
         {processSteps.map((item) => (
@@ -136,48 +137,31 @@ const ProcessSection = () => (
   </section>
 );
 
-const ConsultBand = ({ onConsultClick }) => (
-  <section className="consult-band" aria-label="Request a consultation">
+const CloseBand = ({ onConsultClick }) => (
+  <section className="consult-band" aria-labelledby="consult-heading">
     <div className="section__inner consult-band__inner">
-      <div>
-        <h2>Ready for a clear recommendation?</h2>
-        <p>
-          Free initial consultation. No obligation. We reply within 1–2 business
-          days.
-        </p>
-      </div>
-      <button type="button" className="btn btn--primary" onClick={onConsultClick}>
-        Request a Free Consultation
-      </button>
-    </div>
-  </section>
-);
-
-const DemoSection = () => (
-  <section id="demo" className="section demo-section" aria-labelledby="demo-heading">
-    <div className="section__inner section__inner--narrow">
-      <p className="section__eyebrow">Custom development</p>
-      <h2 id="demo-heading" className="section__title">
-        Built to a higher standard
-      </h2>
-      <p className="section__lead">
-        Client websites get the same engineering discipline we use on custom
-        software — this interactive demo is one example of that craft.
+      <p className="consult-band__eyebrow">Next step</p>
+      <h2 id="consult-heading">Ready for a Clear Recommendation?</h2>
+      <p className="consult-band__lead">
+        Free initial consultation. No obligation. We reply within 1–2 business
+        days.
       </p>
-      <Link to="/blackjack" className="demo-cta__card">
-        <span className="demo-cta__eyebrow">Portfolio</span>
-        <span className="demo-cta__title">Interactive Blackjack</span>
-        <span className="demo-cta__text">
-          Custom UI, game logic, and polish — the quality we bring to business
-          sites, booking flows, and integrations.
-        </span>
-        <span className="demo-cta__action">
-          View the demo
-          <span className="demo-cta__arrow" aria-hidden="true">
-            →
-          </span>
-        </span>
-      </Link>
+      <p className="consult-band__phone">
+        Or call{" "}
+        <a href={`tel:${business.phone.replace(/\D/g, "")}`}>{business.phone}</a>
+      </p>
+      <div className="consult-band__actions">
+        <button
+          type="button"
+          className="btn btn--primary"
+          onClick={onConsultClick}
+        >
+          Request a Free Consultation
+        </button>
+        <Link to="/contact" className="btn btn--navy">
+          Contact Us
+        </Link>
+      </div>
     </div>
   </section>
 );
@@ -191,71 +175,9 @@ const TestimonialsSection = () => (
     <div className="section__inner">
       <p className="section__eyebrow section__eyebrow--on-dark">Client results</p>
       <h2 id="clients-heading" className="section__title">
-        What clients say
+        What Clients Say.
       </h2>
-      <p className="section__lead">
-        Small businesses nationwide that needed a stronger, more professional
-        online presence.
-      </p>
       <TestimonialsCarousel items={testimonials} />
-    </div>
-  </section>
-);
-
-const FaqSection = () => (
-  <section id="faq" className="section faq-section">
-    <div className="section__inner section__inner--narrow">
-      <p className="section__eyebrow">Questions</p>
-      <h2 className="section__title">Frequently Asked Questions</h2>
-      <div className="faq-list">
-        {faq.map((item) => (
-          <details key={item.question} className="faq-item">
-            <summary>{item.question}</summary>
-            <p>{item.answer}</p>
-          </details>
-        ))}
-      </div>
-    </div>
-  </section>
-);
-
-const ContactSection = () => (
-  <section id="contact" className="section contact-section">
-    <div className="section__inner">
-      <p className="section__eyebrow">Next step</p>
-      <h2 className="section__title">Start a conversation</h2>
-      <p className="section__lead">
-        Tell us about your website, SEO, or marketing goals. We&apos;ll recommend
-        a practical next step — or call{" "}
-        <a href={`tel:${business.phone.replace(/\D/g, "")}`}>{business.phone}</a>.
-      </p>
-      <div className="contact-layout">
-        <div className="contact-layout__info">
-          <h3>Get in touch</h3>
-          <ul className="contact-layout__list">
-            <li>Free initial consultation</li>
-            <li>Reply within 1–2 business days</li>
-            <li>Serving {business.serviceArea}</li>
-          </ul>
-          <p className="contact-layout__detail">
-            <strong>Phone</strong>
-            <a href={`tel:${business.phone.replace(/\D/g, "")}`}>
-              {business.phone}
-            </a>
-          </p>
-          <p className="contact-layout__detail">
-            <strong>Email</strong>
-            <a href={`mailto:${business.email}`}>{business.email}</a>
-          </p>
-        </div>
-        <div className="contact-layout__form-card">
-          <h3 className="contact-layout__form-title">Send a message</h3>
-          <p className="contact-layout__form-lead">
-            Fill out the form and we&apos;ll get back to you shortly.
-          </p>
-          <ContactFormFields formId="contact-inline-form" />
-        </div>
-      </div>
     </div>
   </section>
 );
@@ -265,6 +187,16 @@ const Footer = () => (
     <div className="site-footer__inner">
       <p>
         &copy; {new Date().getFullYear()} {business.name}. All rights reserved.
+        {" · "}
+        <Link to="/about">About</Link>
+        {" · "}
+        <Link to="/packages">Packages</Link>
+        {" · "}
+        <Link to="/faq">FAQ</Link>
+        {" · "}
+        <Link to="/contact">Contact</Link>
+        {" · "}
+        <Link to="/blackjack">View a Custom Demo</Link>
       </p>
     </div>
   </footer>
@@ -272,23 +204,28 @@ const Footer = () => (
 
 const LandingPage = () => {
   const contactFormRef = useRef(null);
+  const navigate = useNavigate();
 
   const openConsultation = () => {
     contactFormRef.current?.open();
   };
 
   useEffect(() => {
-    handleInitialHash();
-  }, []);
+    handleInitialHash({
+      contact: () => navigate("/contact", { replace: true }),
+      packages: () => navigate("/packages", { replace: true }),
+      about: () => navigate("/about", { replace: true }),
+      faq: () => navigate("/faq", { replace: true }),
+    });
+  }, [navigate]);
 
   useEffect(() => {
-    document.title = SEO_TITLE;
+    applyPageSeo({ ...PAGE_SEO.home, path: "/" });
   }, []);
 
   const jsonLd = businessJsonLd({
     services,
     packages: websitePackages,
-    faqs: faq,
   });
 
   return (
@@ -302,12 +239,8 @@ const LandingPage = () => {
       <ServicesSection />
       <ProcessSection />
       <PackagesSection />
-      <ConsultBand onConsultClick={openConsultation} />
       <TestimonialsSection />
-      <AboutUsSection {...about} />
-      <DemoSection />
-      <ContactSection />
-      <FaqSection />
+      <CloseBand onConsultClick={openConsultation} />
       <Footer />
       <ContactModal ref={contactFormRef} />
       <script
