@@ -215,17 +215,14 @@ header.site-header {
   outline: none;
 }
 
-.services-offer__hero .page-back-bar__inner {
-  margin-left: min(0px, calc(2rem - 1.15rem - max(0px, (100vw - 2.3rem - var(--max-width)) / 2)));
-}
-
+.services-offer__hero .page-back-bar__inner,
 .packages-offer__hero .page-back-bar__inner,
 .about-offer__hero .page-back-bar__inner,
 .clients-offer__hero .page-back-bar__inner,
 .faq-offer__hero .page-back-bar__inner,
 .contact-offer__hero .page-back-bar__inner,
 .blog-offer__hero .page-back-bar__inner {
-  margin-left: min(0px, calc(2rem - 1.15rem - max(0px, (100vw - 2.3rem - min(1440px, 100vw - 4.6rem)) / 2)));
+  margin-left: calc(2rem - 50vw + 50%);
 }
 
 /* Buttons */
