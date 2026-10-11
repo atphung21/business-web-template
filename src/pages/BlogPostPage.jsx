@@ -73,9 +73,11 @@ const BlogPostPage = () => {
       });
     } else {
       applyPageSeo({
-        title: `${post.title} | ${SITE_NAME}`,
+        title: `${post.seoTitle || post.title} | ${SITE_NAME}`,
         description: post.description,
         path: `/blog/${post.slug}`,
+        ogType: "article",
+        published: post.date,
       });
     }
     window.scrollTo(0, 0);
@@ -130,6 +132,7 @@ const BlogPostPage = () => {
     path: `/blog/${post.slug}`,
     title: post.title,
     description: post.description,
+    published: post.date,
   });
 
   return (
@@ -142,7 +145,7 @@ const BlogPostPage = () => {
         <div className="blog-offer__hero-inner">
           <PageBackLink />
           <p className="blog-offer__kicker">
-            <time dateTime={post.date}>{formatBlogDate(post.date)}</time>
+            <time dateTime={`${post.date}T08:00:00-07:00`}>{formatBlogDate(post.date)}</time>
           </p>
           <h1>{post.title}</h1>
           <p className="blog-offer__lead">{post.description}</p>
@@ -189,10 +192,10 @@ const BlogPostPage = () => {
           {post.author?.bio ? <p className="blog-post__byline">{post.author.bio}</p> : null}
           {post.upcoming?.length ? (
             <section className="blog-post__next">
-              <h2>Next on the blog</h2>
+              <h2>{post.relatedHeading || "Next on the blog"}</h2>
               <p>
-                This article is the base. The notes below go deeper on the same
-                ideas.
+                {post.relatedIntro ||
+                  "This article is the base. The notes below go deeper on the same ideas."}
               </p>
               <ul>
                 {post.upcoming.map((item) => {

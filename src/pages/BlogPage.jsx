@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import "../App.css";
 import "../components/contact/contact.css";
 import ContactModal from "../components/contact/ContactModal";
@@ -7,7 +7,7 @@ import { Nav } from "../components/nav/Nav";
 import { PageBackLink } from "../components/nav/PageBackLink";
 import { blogPosts, blogTopics, formatBlogDate } from "../content/blogPosts";
 import { business } from "../content/siteContent";
-import { applyPageSeo, blogIndexJsonLd, businessJsonLd, PAGE_SEO } from "../content/seo";
+import { applyPageSeo, blogIndexJsonLd, businessJsonLd, PAGE_SEO, SITE_NAME } from "../content/seo";
 import { useRevealOnScroll } from "../hooks/useRevealOnScroll";
 
 const Footer = () => (
@@ -42,17 +42,57 @@ const Footer = () => (
   </footer>
 );
 
+const PAGE_SIZE = 10;
+
 const BlogPage = () => {
   const consultRef = useRef(null);
   const sectionRef = useRef(null);
+  const [searchParams, setSearchParams] = useSearchParams();
   const seo = PAGE_SEO.blog;
   const posts = [...blogPosts].sort((a, b) => b.date.localeCompare(a.date));
+  const pageCount = Math.max(1, Math.ceil(posts.length / PAGE_SIZE));
+  const requested = Number.parseInt(searchParams.get("page") || "1", 10);
+  const page = Number.isFinite(requested) && requested > 0 ? Math.min(requested, pageCount) : 1;
+  const visiblePosts = posts.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
   useRevealOnScroll(sectionRef);
 
+  const openedAt = useRef(page);
+
   useEffect(() => {
-    applyPageSeo({ ...seo, path: "/blog" });
-    window.scrollTo(0, 0);
-  }, [seo]);
+    const path = page > 1 ? `/blog?page=${page}` : "/blog";
+    applyPageSeo({
+      title:
+        page > 1
+          ? `Small Business Website & SEO Blog, page ${page} | ${SITE_NAME}`
+          : seo.title,
+      description:
+        page > 1
+          ? `Page ${page} of practical notes on small-business websites, local SEO, and Google listings. From ATP Consulting Services in Irvine, CA.`
+          : seo.description,
+      path,
+    });
+  }, [seo, page]);
+
+  useEffect(() => {
+    if (requested === page) return undefined;
+    const next = new URLSearchParams(searchParams);
+    if (page <= 1) next.delete("page");
+    else next.set("page", String(page));
+    setSearchParams(next, { replace: true });
+    return undefined;
+  }, [page, requested, searchParams, setSearchParams]);
+
+  useEffect(() => {
+    if (openedAt.current > 1) {
+      document.getElementById("articles")?.scrollIntoView({ block: "start" });
+    }
+  }, []);
+
+  useEffect(() => {
+    if (page === openedAt.current) return undefined;
+    document.getElementById("articles")?.scrollIntoView({ block: "start" });
+    return undefined;
+  }, [page]);
 
   useEffect(() => {
     const chapters = [...document.querySelectorAll(".blog-chapter")];
@@ -144,16 +184,33 @@ const BlogPage = () => {
                 Articles
                 <span className="blog-chapter__rule" />
               </h2>
-              {posts.length ? (
-                <ul className="blog-offer__posts">
-                  {posts.map((post) => (
-                    <li key={post.slug}>
-                      <time dateTime={post.date}>{formatBlogDate(post.date)}</time>
-                      <Link to={`/blog/${post.slug}`}>{post.title}</Link>
-                      <p>{post.description}</p>
-                    </li>
-                  ))}
-                </ul>
+              {visiblePosts.length ? (
+                <>
+                  <ul className="blog-offer__posts">
+                    {visiblePosts.map((post) => (
+                      <li key={post.slug}>
+                        <time dateTime={`${post.date}T08:00:00-07:00`}>{formatBlogDate(post.date)}</time>
+                        <Link to={`/blog/${post.slug}`}>{post.title}</Link>
+                        <p>{post.description}</p>
+                      </li>
+                    ))}
+                  </ul>
+                  <nav className="blog-offer__pager" aria-label="More articles">
+                    {page > 1 ? (
+                      <Link to={page === 2 ? "/blog" : `/blog?page=${page - 1}`}>Previous</Link>
+                    ) : (
+                      <span />
+                    )}
+                    <p>
+                      Page {page} of {pageCount}
+                    </p>
+                    {page < pageCount ? (
+                      <Link to={`/blog?page=${page + 1}`}>Next</Link>
+                    ) : (
+                      <span />
+                    )}
+                  </nav>
+                </>
               ) : (
                 <p>
                   The first article is on the way. It will be a practical guide

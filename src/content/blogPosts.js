@@ -1,3 +1,5 @@
+import { archivePosts } from "./blogArchive";
+
 /**
  * Add a post to publish it on /blog and /blog/:slug.
  * Each post needs a unique slug, a title, a short description, an ISO date,
@@ -9,6 +11,8 @@ export const blogPosts = [
   {
     slug: "how-modern-web-infrastructure-drives-local-growth",
     title: "Beyond the Digital Business Card: How Modern Web Infrastructure Drives Real Local Growth",
+    seoTitle: "How a small business website drives local growth",
+    section: "Websites",
     description:
       "Discover why a basic template website isn't enough for local businesses anymore. Learn how technical SEO, site speed, and smart integrations actually drive foot traffic and revenue.",
     date: "2026-09-01",
@@ -91,6 +95,7 @@ export const blogPosts = [
   },
   {
     slug: "core-web-vitals-for-a-local-service-business",
+    section: "Site speed",
     title: "Core Web Vitals for a Local Service Business",
     description:
       "A plain-language guide to Core Web Vitals for contractors, salons, and clinics. Learn what loading, interaction, and visual stability mean on a phone, and how to check them.",
@@ -149,6 +154,7 @@ export const blogPosts = [
   },
   {
     slug: "waitlists-delivery-and-reservations",
+    section: "Websites",
     title: "Waitlists, Delivery, and Reservations for a Local Restaurant",
     description:
       "How an Orange County restaurant can choose a Yelp waitlist, a DoorDash link, or a reservation path, and when a PDF menu gets in the way.",
@@ -206,6 +212,7 @@ export const blogPosts = [
   },
   {
     slug: "what-to-connect-on-a-professional-firm-website",
+    section: "Websites",
     title: "What to Connect on a Professional Firm's Website",
     description:
       "What a law office or similar practice should connect to its website: a map, a real contact path, and an intake form the staff will actually read.",
@@ -264,6 +271,7 @@ export const blogPosts = [
   {
     slug: "google-business-profile-for-a-service-area-business",
     title: "Google Business Profile for a Service-Area Business",
+    section: "Local SEO",
     description:
       "How a contractor, plumber, or landscaper sets up Google Business Profile and Maps without publishing a home address, and what has to match the website.",
     date: "2026-09-29",
@@ -325,6 +333,7 @@ export const blogPosts = [
   {
     slug: "what-to-put-on-a-local-service-page",
     title: "What to Put on a Local Service Page",
+    section: "Local SEO",
     description:
       "What a contractor, salon, or clinic should put on each service page so a nearby Google search explains the work and gives a way to call.",
     date: "2026-10-06",
@@ -387,6 +396,7 @@ export const blogPosts = [
       },
     ],
   },
+  ...archivePosts,
 ];
 
 export const formatBlogDate = (isoDate) => {

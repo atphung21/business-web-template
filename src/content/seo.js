@@ -114,6 +114,12 @@ export const SEO_KEYWORDS = [
   "website and SEO package",
 ].join(", ");
 
+export function articleTimestamp(isoDate) {
+  if (!isoDate) return "";
+  if (isoDate.includes("T")) return isoDate;
+  return `${isoDate}T08:00:00-07:00`;
+}
+
 export function businessJsonLd({
   origin = SITE_ORIGIN,
   path = "/",
@@ -122,6 +128,7 @@ export function businessJsonLd({
   faqs = [],
   title,
   description,
+  published,
 } = {}) {
   const home = origin || SITE_ORIGIN;
   const pageUrl = `${home}${path === "/" ? "/" : path}`;
@@ -229,6 +236,12 @@ export function businessJsonLd({
       isPartOf: { "@id": websiteId },
       about: { "@id": businessId },
       inLanguage: "en-US",
+      ...(published
+        ? {
+            datePublished: articleTimestamp(published),
+            dateModified: articleTimestamp(published),
+          }
+        : {}),
     },
   ];
 
@@ -271,7 +284,7 @@ export function blogIndexJsonLd({ title, description, posts = [] }) {
       "@type": "BlogPosting",
       headline: post.title,
       description: post.description,
-      datePublished: post.date,
+      datePublished: articleTimestamp(post.date),
       url: `${SITE_ORIGIN}/blog/${post.slug}`,
     })),
   };
@@ -282,34 +295,63 @@ export function blogPostJsonLd(post) {
   const businessId = `${SITE_ORIGIN}/#business`;
   return {
     "@context": "https://schema.org",
-    "@type": ["BlogPosting", "Article"],
-    "@id": `${url}#article`,
-    headline: post.title,
-    description: post.description,
-    datePublished: post.date,
-    dateModified: post.updated || post.date,
-    inLanguage: "en-US",
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": url,
-    },
-    url,
-    image: SITE_IMAGE,
-    author: {
-      "@type": "Person",
-      name: post.author?.name || "Andy Trinh Phung",
-      jobTitle: post.author?.jobTitle || "Lead Full-Stack Software Engineer",
-      worksFor: { "@id": businessId },
-      address: {
-        "@type": "PostalAddress",
-        addressLocality: post.author?.locality || "Santa Ana",
-        addressRegion: "CA",
-        addressCountry: "US",
+    "@graph": [
+      {
+        "@type": ["BlogPosting", "Article"],
+        "@id": `${url}#article`,
+        headline: post.title,
+        description: post.description,
+        articleSection: post.section || "Small business websites",
+        datePublished: articleTimestamp(post.date),
+        dateModified: articleTimestamp(post.updated || post.date),
+        inLanguage: "en-US",
+        mainEntityOfPage: {
+          "@type": "WebPage",
+          "@id": url,
+        },
+        url,
+        image: SITE_IMAGE,
+        author: {
+          "@type": "Person",
+          name: post.author?.name || "Andy Trinh Phung",
+          jobTitle: post.author?.jobTitle || "Lead Full-Stack Software Engineer",
+          worksFor: { "@id": businessId },
+          address: {
+            "@type": "PostalAddress",
+            addressLocality: post.author?.locality || "Santa Ana",
+            addressRegion: "CA",
+            addressCountry: "US",
+          },
+        },
+        publisher: { "@id": businessId },
+        about: { "@id": businessId },
+        isPartOf: { "@id": `${SITE_ORIGIN}/blog#blog` },
       },
-    },
-    publisher: { "@id": businessId },
-    about: { "@id": businessId },
-    isPartOf: { "@id": `${SITE_ORIGIN}/blog#blog` },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${url}#breadcrumb`,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Home",
+            item: `${SITE_ORIGIN}/`,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Blog",
+            item: `${SITE_ORIGIN}/blog`,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: post.title,
+            item: url,
+          },
+        ],
+      },
+    ],
   };
 }
 
@@ -318,6 +360,8 @@ export function applyPageSeo({
   description,
   path = "/",
   robots = "index, follow, max-image-preview:large",
+  ogType,
+  published,
 }) {
   const url = `${SITE_ORIGIN}${path === "/" ? "/" : path}`;
   document.title = title;
@@ -327,6 +371,8 @@ export function applyPageSeo({
   if (robotsMeta) robotsMeta.setAttribute("content", robots);
   const canonical = document.querySelector('link[rel="canonical"]');
   if (canonical) canonical.setAttribute("href", url);
+  const ogTypeMeta = document.querySelector('meta[property="og:type"]');
+  if (ogTypeMeta) ogTypeMeta.setAttribute("content", ogType || "business.business");
   const ogUrl = document.querySelector('meta[property="og:url"]');
   if (ogUrl) ogUrl.setAttribute("content", url);
   const ogTitle = document.querySelector('meta[property="og:title"]');
@@ -337,4 +383,21 @@ export function applyPageSeo({
   if (twTitle) twTitle.setAttribute("content", title);
   const twDesc = document.querySelector('meta[name="twitter:description"]');
   if (twDesc && description) twDesc.setAttribute("content", description);
+  const publishedAt = articleTimestamp(published);
+  setArticleDateMeta("article:published_time", publishedAt);
+  setArticleDateMeta("article:modified_time", publishedAt);
+}
+
+function setArticleDateMeta(property, content) {
+  let meta = document.head.querySelector(`meta[property="${property}"]`);
+  if (!content) {
+    if (meta) meta.remove();
+    return;
+  }
+  if (!meta) {
+    meta = document.createElement("meta");
+    meta.setAttribute("property", property);
+    document.head.appendChild(meta);
+  }
+  meta.setAttribute("content", content);
 }
