@@ -224,56 +224,19 @@ export const testimonials = [
     quote:
       "Our new website makes complex insurance look simple. Our clients love how informative it is, and we’ve seen a massive boost in inquiries since launching!",
     name: "I.T.O. Insurance Agency",
-  },
-  {
-    quote:
-      "The live availability feature completely automated our scheduling—our calendar has never been fuller!",
-    name: "Elite Nail Salon & Lounge",
+    url: "https://itoinsuranceagency.com/",
   },
   {
     quote:
       "Service and expertise were outstanding from the first call. ATP built us a site that looks as solid as the work we do — homeowners in Houston can find us, understand our services, and reach us without extra friction.",
     name: "Total Garage HTX",
+    url: "https://totalgaragehtx.com/",
   },
   {
     quote:
       "They treated our salon like it mattered. The expertise showed in the details — branding, layout, and how we show up online — and the service stayed personal the whole way through. Tucson clients now see Starstruck the way we intended.",
     name: "Starstruck Nails & Spa",
-  },
-  {
-    quote:
-      "We finally look as established online as we are in the field. The site is clear, fast, and built to bring in the right homeowners — not a template that could belong to anyone.",
-    name: "Pebblepine Outdoor Co.",
-  },
-  {
-    quote:
-      "ATP explained every option in plain language and delivered a site our technicians can actually send to customers. Calls from search went up, and we stopped losing jobs to competitors with better websites.",
-    name: "Copperline Comfort Systems",
-  },
-  {
-    quote:
-      "They captured the feel of the dining room without making it look overproduced. Reservations and private-event inquiries are easier to manage, and guests say they found us because the site felt trustworthy.",
-    name: "Lantern Table Kitchen",
-  },
-  {
-    quote:
-      "A professional presence without the agency runaround. The process was organized, the recommendations were honest, and clients now book consults from the site instead of chasing us on email.",
-    name: "Quay & Ledger Advisors",
-  },
-  {
-    quote:
-      "Our before-and-after work actually sells now. The layout is sharp, mobile-friendly, and it took the guesswork out of how people request a quote.",
-    name: "Redline Bay Detailing",
-  },
-  {
-    quote:
-      "Parents need to feel comfortable before they walk in. ATP built a calm, credible site that answers the questions families ask — and the contact flow is simple for a busy clinic.",
-    name: "Willowbend Therapy Studio",
-  },
-  {
-    quote:
-      "They understood a small roastery budget and still made us look like a brand. Local SEO and a clean menu layout have more people finding us before they find the shop down the street.",
-    name: "Emberhouse Coffee",
+    url: "https://starstrucknailsandspa.com/",
   },
 ];
 

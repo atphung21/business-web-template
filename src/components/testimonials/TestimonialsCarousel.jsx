@@ -68,7 +68,15 @@ export const TestimonialsCarousel = ({ items }) => {
           <blockquote key={item.name} className="testimonial-card">
             <p>&ldquo;{item.quote}&rdquo;</p>
             <footer>
-              <cite>{item.name}</cite>
+              <cite>
+                {item.url ? (
+                  <a href={item.url} target="_blank" rel="noopener noreferrer">
+                    {item.name}
+                  </a>
+                ) : (
+                  item.name
+                )}
+              </cite>
             </footer>
           </blockquote>
         ))}

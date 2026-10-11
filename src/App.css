@@ -1372,6 +1372,16 @@ header.site-header {
   font-weight: 600;
 }
 
+.testimonial-card cite a {
+  color: var(--color-accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+.testimonial-card cite a:hover {
+  color: var(--color-accent-hover);
+}
+
 .testimonial-card span {
   color: rgba(255, 255, 255, 0.6);
 }
