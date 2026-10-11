@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import { services, websitePackages, business } from "../../content/siteContent";
 
 const serviceOptions = [
+  "Free consultation",
   "General inquiry",
   ...services.map((s) => s.title),
   ...websitePackages.map((p) => `Website: ${p.name}`),
