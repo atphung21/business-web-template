@@ -39,6 +39,11 @@ export const PAGE_SEO = {
     description:
       "ATP Consulting Services is a software engineer-led consultancy in Orange County, CA. We build websites, SEO, and digital marketing for small businesses nationwide. Call (657) 330-1466.",
   },
+  clients: {
+    title: `Clients & Industries We Work With | ATP Consulting Services`,
+    description:
+      "Small businesses ATP Consulting Services has worked with, and the industries we build websites for: dental, trades, salons, restaurants, lawyers, and more. Based in Irvine, CA.",
+  },
   faq: {
     title: `Frequently Asked Questions | ATP Consulting Services`,
     description:

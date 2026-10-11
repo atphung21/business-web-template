@@ -20,6 +20,8 @@ const Footer = () => (
         {" · "}
         <Link to="/services">Services</Link>
         {" · "}
+        <Link to="/clients">Clients</Link>
+        {" · "}
         <Link to="/about">About</Link>
         {" · "}
         <Link to="/packages">Packages</Link>

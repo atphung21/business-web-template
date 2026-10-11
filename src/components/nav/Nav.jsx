@@ -1,15 +1,12 @@
 import React, { useState } from "react";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { LogoMark } from "../brand/LogoMark";
-import { scrollToTop, scrollToSection } from "../../utils/scroll";
+import { scrollToTop } from "../../utils/scroll";
 import "../brand/brand.css";
-
-const sectionLinks = [{ sectionId: "clients", label: "Clients" }];
 
 export const Nav = ({ businessName, onConsultClick }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const location = useLocation();
-  const navigate = useNavigate();
   const onHome = location.pathname === "/";
 
   const closeMenu = () => setMenuOpen(false);
@@ -19,16 +16,6 @@ export const Nav = ({ businessName, onConsultClick }) => {
       scrollToTop(event);
     }
     closeMenu();
-  };
-
-  const goSection = (sectionId, event) => {
-    closeMenu();
-    if (onHome) {
-      scrollToSection(sectionId, event);
-      return;
-    }
-    event.preventDefault();
-    navigate(`/#${sectionId}`);
   };
 
   return (
@@ -66,17 +53,15 @@ export const Nav = ({ businessName, onConsultClick }) => {
               Services
             </Link>
           </li>
-          {sectionLinks.map((link) => (
-            <li key={link.sectionId}>
-              <Link
-                to={`/#${link.sectionId}`}
-                className="site-nav__link"
-                onClick={(event) => goSection(link.sectionId, event)}
-              >
-                {link.label}
-              </Link>
-            </li>
-          ))}
+          <li>
+            <Link
+              to="/clients"
+              className={`site-nav__link${location.pathname === "/clients" ? " is-active" : ""}`}
+              onClick={closeMenu}
+            >
+              Clients
+            </Link>
+          </li>
           <li>
             <Link
               to="/packages"

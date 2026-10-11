@@ -19,6 +19,8 @@ const Footer = () => (
         {" · "}
         <Link to="/services">Services</Link>
         {" · "}
+        <Link to="/clients">Clients</Link>
+        {" · "}
         <Link to="/work">Work</Link>
         {" · "}
         <Link to="/blog">Blog</Link>
@@ -136,11 +138,6 @@ const WorkPage = () => {
             <blockquote className="work-quote">
               <p>{project.quote}</p>
             </blockquote>
-            <p className="blog-chapter__more">
-              <a href={project.url} target="_blank" rel="noopener noreferrer">
-                Visit {project.name}
-              </a>
-            </p>
             {related ? (
               <p className="blog-chapter__more">
                 <Link to={`/work/${related.slug}`}>See {related.name}</Link>

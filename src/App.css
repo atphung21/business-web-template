@@ -221,6 +221,7 @@ header.site-header {
 
 .packages-offer__hero .page-back-bar__inner,
 .about-offer__hero .page-back-bar__inner,
+.clients-offer__hero .page-back-bar__inner,
 .faq-offer__hero .page-back-bar__inner,
 .contact-offer__hero .page-back-bar__inner,
 .blog-offer__hero .page-back-bar__inner {
@@ -2930,8 +2931,19 @@ header.site-header {
   color: var(--color-accent);
 }
 
-.about-offer .is-revealed .about-chapter__inner {
+.about-offer .is-revealed .about-chapter__inner,
+.clients-offer .is-revealed .about-chapter__inner {
   animation: package-enter 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.clients-offer .about-offer__index ol {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media (max-width: 640px) {
+  .clients-offer .about-offer__index ol {
+    grid-template-columns: 1fr;
+  }
 }
 
 .about-offer__close {
@@ -3008,7 +3020,8 @@ header.site-header {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .about-offer .is-revealed .about-chapter__inner {
+  .about-offer .is-revealed .about-chapter__inner,
+  .clients-offer .is-revealed .about-chapter__inner {
     animation: none;
   }
 

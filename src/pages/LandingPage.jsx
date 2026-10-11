@@ -183,6 +183,11 @@ const TestimonialsSection = () => (
         What Clients Say.
       </h2>
       <TestimonialsCarousel items={testimonials} />
+      <p className="packages-page-jump">
+        <Link to="/clients" className="btn btn--primary">
+          See Our Clients
+        </Link>
+      </p>
     </div>
   </section>
 );
@@ -194,6 +199,8 @@ const Footer = () => (
         &copy; {new Date().getFullYear()} {business.name}. All rights reserved.
         {" · "}
         <Link to="/services">Services</Link>
+        {" · "}
+        <Link to="/clients">Clients</Link>
         {" · "}
         <Link to="/about">About</Link>
         {" · "}

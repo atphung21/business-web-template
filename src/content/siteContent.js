@@ -235,20 +235,51 @@ export const testimonials = [
     quote:
       "Our new website makes complex insurance look simple. Our clients love how informative it is, and we’ve seen a massive boost in inquiries since launching!",
     name: "I.T.O. Insurance Agency",
-    url: "https://itoinsuranceagency.com/",
   },
   {
     quote:
       "Service and expertise were outstanding from the first call. ATP built us a site that looks as solid as the work we do — homeowners in Houston can find us, understand our services, and reach us without extra friction.",
     name: "Total Garage HTX",
-    url: "https://totalgaragehtx.com/",
   },
   {
     quote:
       "They treated our salon like it mattered. The expertise showed in the details — branding, layout, and how we show up online — and the service stayed personal the whole way through. Tucson clients now see Starstruck the way we intended.",
     name: "Starstruck Nails & Spa",
-    url: "https://starstrucknailsandspa.com/",
   },
+];
+
+export const clientWork = [
+  {
+    name: "I.T.O. Insurance Agency",
+    trade: "Insurance",
+    line: "Our new website makes complex insurance look simple, and inquiries jumped after launch.",
+  },
+  {
+    name: "Total Garage HTX",
+    trade: "Garage organization",
+    line: "Homeowners in Houston can find the services and reach the crew without extra friction.",
+  },
+  {
+    name: "Starstruck Nails & Spa",
+    trade: "Nail salon",
+    line: "Branding, layout, and the way the salon shows up online now match how the business feels.",
+  },
+];
+
+export const clientIndustries = [
+  "Dental",
+  "Plumbers",
+  "Accountants",
+  "Landscapers",
+  "Contractors",
+  "Hair Salons & Spas",
+  "Restaurants",
+  "Appliance Warehouses",
+  "Garage Cleaning & Organization",
+  "Nail Salons",
+  "Food Trucks & Catering",
+  "Lawyers",
+  "Many More",
 ];
 
 export const faq = [
