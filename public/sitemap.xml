@@ -44,13 +44,31 @@
   </url>
   <url>
     <loc>https://www.atpconsultingservices.com/blog</loc>
-    <lastmod>2026-10-10</lastmod>
+    <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.atpconsultingservices.com/blog/how-modern-web-infrastructure-drives-local-growth</loc>
-    <lastmod>2026-10-10</lastmod>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.atpconsultingservices.com/blog/core-web-vitals-for-a-local-service-business</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.atpconsultingservices.com/blog/waitlists-delivery-and-reservations</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.atpconsultingservices.com/blog/what-to-connect-on-a-professional-firm-website</loc>
+    <lastmod>2026-09-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

@@ -11,7 +11,7 @@ export const blogPosts = [
     title: "Beyond the Digital Business Card: How Modern Web Infrastructure Drives Real Local Growth",
     description:
       "Discover why a basic template website isn't enough for local businesses anymore. Learn how technical SEO, site speed, and smart integrations actually drive foot traffic and revenue.",
-    date: "2026-10-10",
+    date: "2026-09-01",
     author: {
       name: "Andy Trinh Phung",
       jobTitle: "Lead Full-Stack Software Engineer",
@@ -20,9 +20,18 @@ export const blogPosts = [
     },
     cta: "Curious how your current website is performing? Request a free technical SEO and speed audit today.",
     upcoming: [
-      "How We Integrated DoorDash and Yelp Waitlists for an OC Restaurant",
-      "Core Web Vitals for a Local Service Business",
-      "What Website Integrations Look Like for an Orange County Firm",
+      {
+        title: "Core Web Vitals for a Local Service Business",
+        href: "/blog/core-web-vitals-for-a-local-service-business",
+      },
+      {
+        title: "Waitlists, Delivery, and Reservations for a Local Restaurant",
+        href: "/blog/waitlists-delivery-and-reservations",
+      },
+      {
+        title: "What to Connect on a Professional Firm's Website",
+        href: "/blog/what-to-connect-on-a-professional-firm-website",
+      },
     ],
     sections: [
       {
@@ -76,6 +85,178 @@ export const blogPosts = [
         paragraphs: [
           "Your website is the digital front door to your business. Upgrading from a basic template to a modern, integrated web platform isn’t just an IT expense; it is a direct investment in customer acquisition and operational efficiency.",
           "When your infrastructure is fast, intuitive, and properly optimized for local search, it stops being a static brochure and starts becoming an engine for growth.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "core-web-vitals-for-a-local-service-business",
+    title: "Core Web Vitals for a Local Service Business",
+    description:
+      "A plain-language guide to Core Web Vitals for contractors, salons, and clinics. Learn what loading, interaction, and visual stability mean on a phone, and how to check them.",
+    date: "2026-09-08",
+    author: {
+      name: "Andy Trinh Phung",
+      jobTitle: "Lead Full-Stack Software Engineer",
+      locality: "Santa Ana",
+      bio: "Andy Trinh Phung is a Lead Full-Stack Software Engineer and technology consultant based in Santa Ana, CA. Through ATP Consulting Services, he helps local businesses bridge the gap between their operations and modern web technologies to drive measurable growth.",
+    },
+    cta: "If a number looks off, start with the page people open from Google. That is usually the one worth fixing first.",
+    sections: [
+      {
+        paragraphs: [
+          "Most people looking for a plumber, a salon, or a clinic do it on a phone, often while they are already in the car or standing in a parking lot. They tap a result, and they decide in a few seconds whether the page is worth staying on.",
+          "Google describes that experience with three measurements called Core Web Vitals. They are not a score you have to memorize. They are a way to notice whether the page shows up, responds, and stays still while someone tries to call you.",
+          "This note is for owners of local service businesses in Orange County and anywhere else a customer searches \"near me.\" You can check the numbers yourself. You do not need to become a developer to know what they are asking.",
+        ],
+      },
+      {
+        heading: "1. Loading: did the page show up before they gave up?",
+        paragraphs: [
+          "The loading measure asks how long it takes for the main thing on the page to appear. On a service site, that is usually the business name, what you do, and a way to call. If a huge photo or a slideshow loads first, the phone is busy with that instead of the phone number.",
+          "A useful rule of thumb is the one people already feel: if you would not wait for it on your own phone, a new customer will not either. Google's published \"good\" range for the largest piece of the page is about two and a half seconds or less on a typical mobile connection. Slower than four seconds is the range where people leave.",
+          "You can look this up without installing anything. In Google Search Console, open Core Web Vitals and choose the mobile report. PageSpeed Insights will also test a single address and tell you which image or script is the heavy one. Start with the page that ranks, not the page you like best.",
+        ],
+      },
+      {
+        heading: "2. Interaction: did the tap do anything?",
+        paragraphs: [
+          "The interaction measure watches the delay between a tap and the page reacting. A \"Call now\" button that sits there for a second feels broken, even when it eventually works. The same thing happens with a menu that opens late, or a form that ignores the first tap.",
+          "Google treats a delay under about 200 milliseconds as good, and anything over half a second as poor. You will feel a poor score before you read it. Open the site on a phone that is not connected to the shop's fast Wi-Fi. Tap the phone number, the directions link, and the first button. If any of them hesitate, that is the problem this metric is describing.",
+        ],
+        list: [
+          "Test on a cellular connection, not only the office network.",
+          "Tap the call link, the map link, and the main button.",
+          "Notice pop-ups that cover the button on the first screen.",
+        ],
+      },
+      {
+        heading: "3. Visual stability: did the page jump while they were reading?",
+        paragraphs: [
+          "Visual stability is about the page moving after it looks ready. A banner drops in, the phone number shifts down, and the person taps the wrong thing. Google scores that movement. A good score stays near zero. A poor one is the jump you have already cursed on other sites.",
+          "Common causes on a small-business site are ads, chat bubbles, and images with no set height. Reserving space for the photo, and keeping pop-ups off the first screen, fixes more of this than a redesign does.",
+          "For a contractor, a salon, or a clinic, \"good enough\" is simple. The first screen names the business and the service area, the phone number does not move, and a tap on that number starts a call. If those three things are true on a phone, the vitals are serving the customer even if a lab report still has a yellow mark.",
+        ],
+      },
+      {
+        heading: "A check you can do this week",
+        paragraphs: [
+          "Pick the one page Google already sends people to. Run it through PageSpeed Insights on mobile, then open that same page on your phone. Compare the report with what you felt. Fix the largest image or the button that hesitates before you worry about a perfect score.",
+          "Core Web Vitals are a shared language between your site and the person searching. They are worth understanding because they describe a real visit, not because a dashboard asked for a number.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "waitlists-delivery-and-reservations",
+    title: "Waitlists, Delivery, and Reservations for a Local Restaurant",
+    description:
+      "How an Orange County restaurant can choose a Yelp waitlist, a DoorDash link, or a reservation path, and when a PDF menu gets in the way.",
+    date: "2026-09-15",
+    author: {
+      name: "Andy Trinh Phung",
+      jobTitle: "Lead Full-Stack Software Engineer",
+      locality: "Santa Ana",
+      bio: "Andy Trinh Phung is a Lead Full-Stack Software Engineer and technology consultant based in Santa Ana, CA. Through ATP Consulting Services, he helps local businesses bridge the gap between their operations and modern web technologies to drive measurable growth.",
+    },
+    cta: "Put the path you want guests to use on the first screen, and name it the way the host stand already says it.",
+    sections: [
+      {
+        paragraphs: [
+          "A guest who finds a restaurant on their phone is usually trying to answer one question: can I eat here, and how? They are not browsing. They want a menu they can read, a wait they can join, or a way to order from the couch.",
+          "Yelp, DoorDash, and a reservation book are all reasonable tools. The trouble starts when the website hides them, or when every option is offered at once and none of them is the one the staff actually wants. This is a planning note for owners and hosts, not a build manual.",
+        ],
+      },
+      {
+        heading: "1. Decide the job of the page before you add a button",
+        paragraphs: [
+          "Walk through a Friday night the way a guest does. If the dining room fills up and the host stand lives on a waitlist, the site should offer that waitlist. If most of the business is takeout, the site should make ordering obvious. If you take reservations for parties and walk-ins for everyone else, say that in a sentence.",
+          "A page that shows \"Order,\" \"Reserve,\" \"Waitlist,\" \"Catering,\" and \"Gift cards\" in one row is asking the guest to do the sorting. Pick the one action that matches tonight's service, and let the others live one tap further down.",
+        ],
+        list: [
+          "Full dining room: a waitlist or a reservation link belongs on the first screen.",
+          "Mostly takeout: the menu and the order link belong on the first screen.",
+          "Both, depending on the night: say which one is which, in the same words the host uses.",
+        ],
+      },
+      {
+        heading: "2. A PDF menu is fine until the phone has to pinch it",
+        paragraphs: [
+          "A PDF is a normal way to publish a menu that changes. It fails when the file is a photo of a printed menu, sideways, and the guest has to zoom to find the price. On a phone, that is the moment they leave for a place with a menu they can scroll.",
+          "If the PDF is a real document with text, a clear link that says \"Menu\" is enough. Put it where the thumb lands, not under a paragraph about the restaurant's story. If the file is a scan, retype the current menu or export it as text. Guests are not grading the design. They are looking for a dish.",
+          "The same test applies to a DoorDash or similar handoff. A link that opens the store they already use is a kindness. A link that opens a general homepage, or a store that is closed, is a dead end. Check the link on a phone the way a guest will, including the hours.",
+        ],
+      },
+      {
+        heading: "3. Match the button to the tool the staff already trusts",
+        paragraphs: [
+          "A Yelp waitlist only helps if the host stand is actually seating from it. A reservation widget only helps if someone is confirming those reservations. Guests forgive a simple page. They do not forgive a button that promises a table the restaurant is not holding.",
+          "Before you add the button, ask the people on the floor what they will do with it on a busy night. If the answer is \"we will ignore it,\" leave it off the site. An honest \"call the host stand after 5\" is better than a form nobody opens.",
+          "Name the button the way a person would say it: \"Join the waitlist,\" \"See the menu,\" \"Order for pickup.\" Avoid a label that could mean two things. A guest in a parking lot in Orange County should not have to guess whether \"Book\" means a table, a party, or a catering tray.",
+        ],
+      },
+      {
+        heading: "A check you can do before Friday",
+        paragraphs: [
+          "Open the site on a phone. Count the taps from the first screen to the menu, and from the first screen to the action you want tonight. If either path takes more than two taps, or the words do not match what the host stand says, fix the words before you add another tool.",
+          "The tools are optional. The clear path is not. Guests already know how to wait, order, and reserve. The site's job is to point at the one your restaurant is ready to honor.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "what-to-connect-on-a-professional-firm-website",
+    title: "What to Connect on a Professional Firm's Website",
+    description:
+      "What a law office or similar practice should connect to its website: a map, a real contact path, and an intake form the staff will actually read.",
+    date: "2026-09-22",
+    author: {
+      name: "Andy Trinh Phung",
+      jobTitle: "Lead Full-Stack Software Engineer",
+      locality: "Santa Ana",
+      bio: "Andy Trinh Phung is a Lead Full-Stack Software Engineer and technology consultant based in Santa Ana, CA. Through ATP Consulting Services, he helps local businesses bridge the gap between their operations and modern web technologies to drive measurable growth.",
+    },
+    cta: "If the map, the phone number, and the form all agree with the front desk, the site is already doing its job.",
+    sections: [
+      {
+        paragraphs: [
+          "People do not visit a law office website to admire it. They are trying to decide whether this is the right practice, whether the office is near them, and how to start a conversation without getting lost.",
+          "Three connections cover that visit for most professional firms: a map, a contact path a person answers, and a short intake form. Everything else can wait. This note is for the attorney, the office manager, or anyone else who has been handed a website and asked to \"add the integrations.\"",
+        ],
+      },
+      {
+        heading: "1. A map that matches the door people use",
+        paragraphs: [
+          "The map on the site and the pin on Google should describe the same entrance. If clients are told to park behind the building, the listing and the page should say that. A pin on the street, with a suite number only in the footer, is how people call from the wrong lobby.",
+          "Use the same name, address, and phone number on the website, the Google Business Profile, and the email signature. Search engines and clients both treat small differences as a reason to doubt the listing. Write the address the way it appears on the door, including the suite.",
+          "A link that opens directions in Google Maps is enough. You do not need a custom map. You do need the hours next to it, including a note when the phone is answered but the office is closed.",
+        ],
+      },
+      {
+        heading: "2. A contact path someone is responsible for",
+        paragraphs: [
+          "A phone number only works if a person or a service answers it during the hours you publish. An email address only works if someone reads it the same day. Put one primary path on the first screen, and make sure the staff knows it is theirs.",
+          "If the firm uses a shared inbox, say so in the office, not necessarily on the site. What the visitor needs is a response. A form that lands in a mailbox nobody checks is worse than a phone number, because the visitor thinks they have started something.",
+        ],
+        list: [
+          "One phone number on the first screen, the same one as the Google listing.",
+          "Hours that match the listing, including lunch or court days if the phone is dark.",
+          "A named person, or a shared desk, who owns replies before the end of the day.",
+        ],
+      },
+      {
+        heading: "3. An intake form that asks only what the first call needs",
+        paragraphs: [
+          "An intake form is not the whole client interview. It is the note the staff needs before they call back: who is writing, how to reach them, and what kind of matter it is. Five or six fields are plenty. A form that asks for documents, a timeline, and a novel will be abandoned on a phone.",
+          "Tell the visitor what happens next, in one sentence under the button. \"We read these on business days and call you back\" is more useful than a thank-you page that says the message was sent. If the matter is urgent, say to call, and do not make the form the only door.",
+          "Sensitive details do not belong in a general website form. If the practice handles matters people would not want in a normal inbox, the form should collect contact information and the type of matter, then move the rest of the conversation to a channel the firm already trusts. The staff should be able to explain that in their own words.",
+        ],
+      },
+      {
+        heading: "What can wait",
+        paragraphs: [
+          "Chat widgets, client portals, and appointment calendars are useful later, when the office has agreed who watches them. Adding them on day one, before the map and the phone number agree, gives visitors more places to get stuck.",
+          "Connect the map, the phone number, and a short form. Read one real submission with the person who will answer it. If those three pieces match the front desk, the site is already helping the community find the right office.",
         ],
       },
     ],

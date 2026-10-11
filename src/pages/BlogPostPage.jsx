@@ -191,13 +191,19 @@ const BlogPostPage = () => {
             <section className="blog-post__next">
               <h2>Next on the blog</h2>
               <p>
-                This article is the base. The next notes go deeper on the points
-                above. They are not published yet.
+                This article is the base. The notes below go deeper on the same
+                ideas.
               </p>
               <ul>
-                {post.upcoming.map((title) => (
-                  <li key={title}>{title}</li>
-                ))}
+                {post.upcoming.map((item) => {
+                  const title = typeof item === "string" ? item : item.title;
+                  const href = typeof item === "string" ? null : item.href;
+                  return (
+                    <li key={title}>
+                      {href ? <Link to={href}>{title}</Link> : title}
+                    </li>
+                  );
+                })}
               </ul>
             </section>
           ) : null}
