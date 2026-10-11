@@ -240,7 +240,7 @@ const LandingPage = () => {
   });
 
   return (
-    <div className="landing-page">
+    <div className="landing-page home-page">
       <Nav
         businessName={business.shortName}
         onConsultClick={openConsultation}

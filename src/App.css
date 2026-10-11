@@ -263,7 +263,7 @@ header.site-header {
 }
 
 .hero-section__inner {
-  max-width: 780px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
@@ -274,27 +274,42 @@ header.site-header {
 }
 
 .hero-section__eyebrow {
+  margin: 0 0 0.7rem;
+  font-size: 0.72rem;
+  font-weight: 650;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-size: 0.8rem;
-  font-weight: 600;
   color: var(--color-accent);
-  margin: 0 0 0.75rem;
 }
 
 .hero-section__headline {
-  font-family: var(--font-sans);
-  font-size: clamp(1.75rem, 4vw, 2.65rem);
-  font-weight: 800;
-  line-height: 1.2;
-  margin: 0 0 1.1rem;
+  max-width: 22em;
+  margin: 0 auto 1rem;
+  font-family: var(--font-display);
+  font-size: clamp(2.15rem, 4.2vw, 3.35rem);
+  font-weight: 600;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+}
+
+.home-page .hero-section__headline::after,
+.home-page .trust-section__title::after,
+.home-page .section__title::after,
+.home-page .consult-band h2::after {
+  content: "";
+  display: block;
+  width: 2.25rem;
+  height: 2px;
+  margin: 0.75rem auto 0;
+  background: var(--color-accent);
 }
 
 .hero-section__subheadline {
-  font-size: clamp(1rem, 2vw, 1.15rem);
-  color: rgba(255, 255, 255, 0.88);
-  margin: 0 auto 1.5rem;
-  max-width: 640px;
+  max-width: 38rem;
+  margin: 0 auto 1.6rem;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 1.05rem;
+  line-height: 1.7;
 }
 
 .hero-section__actions {
@@ -468,12 +483,15 @@ header.site-header {
 .services-showcase__nav {
   display: flex;
   flex-direction: column;
+  height: 100%;
   background: var(--color-dark);
   padding: 0.65rem;
 }
 
 .services-showcase__tab {
-  display: block;
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
   width: 100%;
   text-align: left;
   margin: 0;
@@ -482,6 +500,7 @@ header.site-header {
   border-radius: 8px;
   background: transparent;
   color: rgba(255, 255, 255, 0.72);
+  box-shadow: inset 0 -2px 0 rgba(255, 255, 255, 0.22);
   font-family: inherit;
   font-size: 0.98rem;
   font-weight: 600;
@@ -493,12 +512,13 @@ header.site-header {
 .services-showcase__tab:hover {
   background: rgba(255, 255, 255, 0.06);
   color: #fff;
+  box-shadow: inset 0 -2px 0 rgba(196, 163, 90, 0.7);
 }
 
 .services-showcase__tab.is-active {
   background: rgba(196, 163, 90, 0.22);
   color: #fff;
-  box-shadow: inset 3px 0 0 var(--color-accent);
+  box-shadow: inset 0 -3px 0 var(--color-accent);
 }
 
 .services-showcase__panel {
@@ -526,32 +546,53 @@ header.site-header {
 
 .services-showcase__points {
   display: grid;
-  gap: 0.65rem;
+  grid-template-columns: 1fr;
+  width: min(100%, 36rem);
   margin: 0;
-  padding: 0;
+  padding: 0.15rem 0 0;
+  border-top: 1px solid rgba(22, 58, 95, 0.12);
   list-style: none;
 }
 
 .services-showcase__points li {
   position: relative;
-  padding: 0.7rem 0.9rem 0.7rem 2.15rem;
-  border: 1px solid var(--color-border);
-  border-radius: 8px;
-  background: var(--color-bg);
-  color: var(--color-ink);
-  font-size: 0.92rem;
-  line-height: 1.4;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.8rem;
+  min-height: 3.15rem;
+  margin: 0;
+  padding: 0.75rem 0.15rem;
+  border: 0;
+  border-bottom: 1px solid rgba(22, 58, 95, 0.1);
+  border-radius: 0;
+  background: transparent;
+  color: var(--color-primary);
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.35;
+  text-align: left;
+  transition: color 0.28s ease;
 }
 
 .services-showcase__points li::before {
   content: "";
-  position: absolute;
-  left: 0.9rem;
-  top: 1.05rem;
-  width: 0.45rem;
-  height: 0.45rem;
-  border-radius: 50%;
-  background: var(--color-primary);
+  position: static;
+  flex: 0 0 auto;
+  width: 0.85rem;
+  height: 1px;
+  border-radius: 0;
+  background: var(--color-accent);
+  transform-origin: left center;
+  transition: width 0.28s ease;
+}
+
+.services-showcase__points li:hover {
+  color: var(--color-dark);
+}
+
+.services-showcase__points li:hover::before {
+  width: 1.6rem;
 }
 
 @media (max-width: 800px) {
@@ -577,7 +618,7 @@ header.site-header {
   }
 
   .services-showcase__tab.is-active {
-    box-shadow: inset 3px 0 0 var(--color-accent);
+    box-shadow: inset 0 -3px 0 var(--color-accent);
   }
 
   .services-showcase__panel {
@@ -2091,7 +2132,11 @@ header.site-header {
   .service-chapter__body li,
   .service-chapter__body li::before,
   .service-chapter__body li:hover,
-  .service-chapter__body li:hover::before {
+  .service-chapter__body li:hover::before,
+  .services-showcase__points li,
+  .services-showcase__points li::before,
+  .services-showcase__points li:hover,
+  .services-showcase__points li:hover::before {
     transition: none;
   }
 }
