@@ -1,42 +1,42 @@
 export const posts = [
   {
-    "slug": "google-hours-match-the-door-2023-01-02",
-    "title": "Make Google hours match the door, January 2, 2023",
-    "seoTitle": "Google Business Profile hours (contractor, January 2, 2023)",
-    "description": "Google Business Profile hours for a contractor on January 2, 2023. What to check so the website and Google listing agree.",
-    "section": "Local SEO",
+    "slug": "draft-wrong-city-2023-01-02",
+    "title": "Do not publish a draft that names the wrong city, January 2, 2023",
+    "seoTitle": "Wrong city in drafted copy (contractor, January 2, 2023)",
+    "description": "Wrong city in drafted copy for a contractor on January 2, 2023. What to check so the website and Google listing agree.",
+    "section": "Search",
     "date": "2023-01-02",
-    "cta": "This week, look at the hours on your Google listing. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
+    "cta": "This week, look at the cities in a draft. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
     "sections": [
       {
         "paragraphs": [
-          "In January 2023, people still decide whether to come by the hours they see on a phone. If the listing says you are open and the door says you are not, they remember the wrong one. A contractor can fix this without a new site: open the listing, open the contact page, and read both out loud.",
-          "This January 2, 2023 note is for a contractor. The check is Google Business Profile hours: the hours on your Google listing, read the way a new customer would on a phone."
+          "A draft will invent a service area. Delete any city you do not drive to before the page goes up.",
+          "This January 2, 2023 note is for a contractor. The check is wrong city in drafted copy: the cities in a draft, read the way a new customer would on a phone."
         ]
       },
       {
-        "heading": "1. Read the hours the way a customer will",
+        "heading": "1. Look at the cities in a draft",
         "paragraphs": [
-          "Open the listing and the website on a phone. Look only at the hours on your Google listing. In January 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Open the listing and the website on a phone. Look only at the cities in a draft. In January 2023 that is the piece a new customer is most likely to trust or doubt.",
           "Say the sentence out loud the way the person who answers the phone would say it. If the page uses a different name for the job, change the page, not the staff."
         ],
         "list": [
-          "The hours on the listing, the website, and the door.",
-          "A note for lunch, court, or a day the phone is off.",
-          "A holiday week written out, not left as a regular week."
+          "The cities in a draft on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
         ]
       },
       {
-        "heading": "2. Fix the mismatch the same day",
+        "heading": "2. Fix the cities in a draft before you add anything",
         "paragraphs": [
-          "A mismatch on Google Business Profile hours is worth more than a redesign. Fix that one line for this contractor and leave the rest of the site alone until the listing and the page agree.",
+          "A mismatch on wrong city in drafted copy is worth more than a redesign. Fix that one line for this contractor and leave the rest of the site alone until the listing and the page agree.",
           "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
         ]
       },
       {
         "heading": "A check you can finish this week",
         "paragraphs": [
-          "Pick one contractor page and the Google listing. Compare the hours on your Google listing. Write down the one line that disagrees, and change it before you add anything new.",
+          "Pick one contractor page and the Google listing. Compare the cities in a draft. Write down the one line that disagrees, and change it before you add anything new.",
           "The tools of January 2023 only help if they describe the business you are actually running."
         ]
       }
@@ -45,53 +45,53 @@ export const posts = [
     "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
     "upcoming": [
       {
-        "title": "Make Google hours match the door, August 29, 2022",
-        "href": "/blog/google-hours-match-the-door-2022-08-29"
+        "title": "A writing tool still needs your facts, November 28, 2022",
+        "href": "/blog/drafts-need-your-facts-2022-2022-11-28"
       },
       {
-        "title": "Google Business Profile for a Service-Area Business",
-        "href": "/blog/google-business-profile-for-a-service-area-business"
+        "title": "What to Put on a Local Service Page",
+        "href": "/blog/what-to-put-on-a-local-service-page"
       }
     ]
   },
   {
-    "slug": "click-to-call-on-a-phone-2023-01-09",
-    "title": "Put a real click-to-call number on the first screen, January 9, 2023",
-    "seoTitle": "Click-to-call phone number (salon, January 9, 2023)",
-    "description": "Click-to-call phone number for a salon on January 9, 2023. What to check so the website and Google listing agree.",
+    "slug": "one-january-offer-2023-01-09",
+    "title": "Keep the January offer to a single line, January 9, 2023",
+    "seoTitle": "January promotion (salon, January 9, 2023)",
+    "description": "January promotion for a salon on January 9, 2023. What to check so the website and Google listing agree.",
     "section": "Websites",
     "date": "2023-01-09",
-    "cta": "This week, look at the phone number on a phone-sized screen. If it matches what the front desk would say, you are already ahead of a stale page.",
+    "cta": "This week, look at one current offer. If it matches what the front desk would say, you are already ahead of a stale page.",
     "sections": [
       {
         "paragraphs": [
-          "A salon found in January 2023 is usually found on a phone. The first screen should show a number that starts a call when tapped. A picture of a number, or a number buried under a paragraph, is a number people will not use.",
-          "This January 9, 2023 note is for a salon. The check is click-to-call phone number: the phone number on a phone-sized screen, read the way a new customer would on a phone."
+          "One sentence about a slow-month opening is useful. A stack of banners is how the phone number gets pushed below the fold.",
+          "This January 9, 2023 note is for a salon. The check is January promotion: one current offer, read the way a new customer would on a phone."
         ]
       },
       {
-        "heading": "1. The number has to start a call",
+        "heading": "1. Look at one current offer",
         "paragraphs": [
-          "Open the listing and the website on a phone. Look only at the phone number on a phone-sized screen. In January 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Open the listing and the website on a phone. Look only at one current offer. In January 2023 that is the piece a new customer is most likely to trust or doubt.",
           "Say the sentence out loud the way the front desk would say it. If the page uses a different name for the job, change the page, not the staff."
         ],
         "list": [
-          "Tap the number on a phone that is not on the shop Wi-Fi.",
-          "The same number on the listing, the site, and the truck or card.",
-          "No second number that nobody watches."
+          "One current offer on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
         ]
       },
       {
-        "heading": "2. One number, the one a person answers",
+        "heading": "2. Fix one current offer before you add anything",
         "paragraphs": [
-          "A mismatch on click-to-call phone number is worth more than a redesign. Fix that one line for this salon and leave the rest of the site alone until the listing and the page agree.",
+          "A mismatch on January promotion is worth more than a redesign. Fix that one line for this salon and leave the rest of the site alone until the listing and the page agree.",
           "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
         ]
       },
       {
         "heading": "A check you can finish this week",
         "paragraphs": [
-          "Pick one salon page and the Google listing. Compare the phone number on a phone-sized screen. Write down the one line that disagrees, and change it before you add anything new.",
+          "Pick one salon page and the Google listing. Compare one current offer. Write down the one line that disagrees, and change it before you add anything new.",
           "The tools of January 2023 only help if they describe the business you are actually running."
         ]
       }
@@ -100,8 +100,8 @@ export const posts = [
     "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
     "upcoming": [
       {
-        "title": "Put a real click-to-call number on the first screen, September 5, 2022",
-        "href": "/blog/click-to-call-on-a-phone-2022-09-05"
+        "title": "Describe the fall maintenance visit in a few lines, October 17, 2022",
+        "href": "/blog/fall-maintenance-2022-10-17"
       },
       {
         "title": "What to Put on a Local Service Page",
@@ -110,43 +110,43 @@ export const posts = [
     ]
   },
   {
-    "slug": "drafting-help-still-needs-your-facts-2023-01-16",
-    "title": "If you try a writing tool, start from your own facts, January 16, 2023",
-    "seoTitle": "Editing AI website copy (clinic, January 16, 2023)",
-    "description": "Editing AI website copy for a clinic on January 16, 2023. What to check so the website and Google listing agree.",
-    "section": "Search",
+    "slug": "form-after-the-break-2023-01-16",
+    "title": "Send a test message after the break, January 16, 2023",
+    "seoTitle": "Contact form test (clinic, January 16, 2023)",
+    "description": "Contact form test for a clinic on January 16, 2023. What to check so the website and Google listing agree.",
+    "section": "Websites",
     "date": "2023-01-16",
-    "cta": "This week, look at any new writing help you have heard about. If it matches what the front desk would say, you are already ahead of a stale page.",
+    "cta": "This week, look at a test message from the form. If it matches what the front desk would say, you are already ahead of a stale page.",
     "sections": [
       {
         "paragraphs": [
-          "In January 2023 some owners are trying software that drafts sentences. It can speed a first pass. It does not know what a clinic actually does this week. If you use it, give it your facts and then read the result as the front desk would.",
-          "This January 16, 2023 note is for a clinic. The check is editing AI website copy: any new writing help you have heard about, read the way a new customer would on a phone."
+          "Send one message to yourself. If it lands in spam, or nowhere, the form is not a way to reach you.",
+          "This January 16, 2023 note is for a clinic. The check is contact form test: a test message from the form, read the way a new customer would on a phone."
         ]
       },
       {
-        "heading": "1. The tool does not know your hours",
+        "heading": "1. Look at a test message from the form",
         "paragraphs": [
-          "Open the listing and the website on a phone. Look only at any new writing help you have heard about. In January 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Open the listing and the website on a phone. Look only at a test message from the form. In January 2023 that is the piece a new customer is most likely to trust or doubt.",
           "Say the sentence out loud the way the front desk would say it. If the page uses a different name for the job, change the page, not the staff."
         ],
         "list": [
-          "You supply the services, cities, and prices.",
-          "You delete anything you would not say at the counter.",
-          "The page still has your phone number and your name."
+          "A test message from the form on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
         ]
       },
       {
-        "heading": "2. Read it out loud before you publish",
+        "heading": "2. Fix a test message from the form before you add anything",
         "paragraphs": [
-          "A mismatch on editing AI website copy is worth more than a redesign. Fix that one line for this clinic and leave the rest of the site alone until the listing and the page agree.",
+          "A mismatch on contact form test is worth more than a redesign. Fix that one line for this clinic and leave the rest of the site alone until the listing and the page agree.",
           "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
         ]
       },
       {
         "heading": "A check you can finish this week",
         "paragraphs": [
-          "Pick one clinic page and the Google listing. Compare any new writing help you have heard about. Write down the one line that disagrees, and change it before you add anything new.",
+          "Pick one clinic page and the Google listing. Compare a test message from the form. Write down the one line that disagrees, and change it before you add anything new.",
           "The tools of January 2023 only help if they describe the business you are actually running."
         ]
       }
@@ -155,53 +155,49 @@ export const posts = [
     "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
     "upcoming": [
       {
-        "title": "If you try a writing tool, start from your own facts, December 19, 2022",
-        "href": "/blog/drafting-help-still-needs-your-facts-2022-12-19"
-      },
-      {
         "title": "What to Put on a Local Service Page",
         "href": "/blog/what-to-put-on-a-local-service-page"
       }
     ]
   },
   {
-    "slug": "reviews-you-can-answer-2023-01-23",
-    "title": "Answer the reviews customers already left, January 23, 2023",
-    "seoTitle": "Google review replies (restaurant, January 23, 2023)",
-    "description": "Google review replies for a restaurant on January 23, 2023. What to check so the website and Google listing agree.",
+    "slug": "first-week-phone-test-2023-01-23",
+    "title": "Call the listing number in the first week back, January 23, 2023",
+    "seoTitle": "Listing phone number (restaurant, January 23, 2023)",
+    "description": "Listing phone number for a restaurant on January 23, 2023. What to check so the website and Google listing agree.",
     "section": "Local SEO",
     "date": "2023-01-23",
-    "cta": "This week, look at recent reviews on your listing. If it matches what the host stand would say, you are already ahead of a stale page.",
+    "cta": "This week, look at the number on the listing. If it matches what the host stand would say, you are already ahead of a stale page.",
     "sections": [
       {
         "paragraphs": [
-          "In January 2023 a review is often read before the website. A restaurant with no replies looks unattended. A short, specific reply is enough. Thank them for the job they named, and if something went wrong, say how to reach the host stand.",
-          "This January 23, 2023 note is for a restaurant. The check is Google review replies: recent reviews on your listing, read the way a new customer would on a phone."
+          "Tap the number on the listing from a phone that is not on shop Wi-Fi. It has to ring the person who is actually there.",
+          "This January 23, 2023 note is for a restaurant. The check is listing phone number: the number on the listing, read the way a new customer would on a phone."
         ]
       },
       {
-        "heading": "1. A reply is part of the listing",
+        "heading": "1. Look at the number on the listing",
         "paragraphs": [
-          "Open the listing and the website on a phone. Look only at recent reviews on your listing. In January 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Open the listing and the website on a phone. Look only at the number on the listing. In January 2023 that is the piece a new customer is most likely to trust or doubt.",
           "Say the sentence out loud the way the host stand would say it. If the page uses a different name for the job, change the page, not the staff."
         ],
         "list": [
-          "Reply to the newest review in a full sentence.",
-          "If three reviews mention the same wait, the wait is the work.",
-          "Ask a happy customer this week, without a script full of keywords."
+          "The number on the listing on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
         ]
       },
       {
-        "heading": "2. Do not argue, and do not ignore a pattern",
+        "heading": "2. Fix the number on the listing before you add anything",
         "paragraphs": [
-          "A mismatch on Google review replies is worth more than a redesign. Fix that one line for this restaurant and leave the rest of the site alone until the listing and the page agree.",
+          "A mismatch on listing phone number is worth more than a redesign. Fix that one line for this restaurant and leave the rest of the site alone until the listing and the page agree.",
           "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
         ]
       },
       {
         "heading": "A check you can finish this week",
         "paragraphs": [
-          "Pick one restaurant page and the Google listing. Compare recent reviews on your listing. Write down the one line that disagrees, and change it before you add anything new.",
+          "Pick one restaurant page and the Google listing. Compare the number on the listing. Write down the one line that disagrees, and change it before you add anything new.",
           "The tools of January 2023 only help if they describe the business you are actually running."
         ]
       }
@@ -210,8 +206,8 @@ export const posts = [
     "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
     "upcoming": [
       {
-        "title": "Answer the reviews customers already left, September 19, 2022",
-        "href": "/blog/reviews-you-can-answer-2022-09-19"
+        "title": "Set New Year hours before the week starts, December 26, 2022",
+        "href": "/blog/new-year-hours-2023-2022-12-26"
       },
       {
         "title": "Google Business Profile for a Service-Area Business",
@@ -220,43 +216,43 @@ export const posts = [
     ]
   },
   {
-    "slug": "photos-of-finished-work-2023-01-30",
-    "title": "Show photos of finished work, not a stock room, January 30, 2023",
-    "seoTitle": "Google Business Profile photos (law office, January 30, 2023)",
-    "description": "Google Business Profile photos for a law office on January 30, 2023. What to check so the website and Google listing agree.",
-    "section": "Local SEO",
+    "slug": "read-the-draft-aloud-2023-01-30",
+    "title": "Read a drafted page out loud at the desk, January 30, 2023",
+    "seoTitle": "Reading drafted website copy (law office, January 30, 2023)",
+    "description": "Reading drafted website copy for a law office on January 30, 2023. What to check so the website and Google listing agree.",
+    "section": "Search",
     "date": "2023-01-30",
-    "cta": "This week, look at the photos on your listing and site. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
+    "cta": "This week, look at a draft read out loud. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
     "sections": [
       {
         "paragraphs": [
-          "A listing in January 2023 with no photos looks closed. A law office can use a phone picture of finished work, the truck, or the room customers walk into. Label it in ordinary words. Old holiday decor left up in the photos makes the business look paused.",
-          "This January 30, 2023 note is for a law office. The check is Google Business Profile photos: the photos on your listing and site, read the way a new customer would on a phone."
+          "If the person at the desk would not say the sentence, it does not belong on the site.",
+          "This January 30, 2023 note is for a law office. The check is reading drafted website copy: a draft read out loud, read the way a new customer would on a phone."
         ]
       },
       {
-        "heading": "1. People trust what they can see",
+        "heading": "1. Look at a draft read out loud",
         "paragraphs": [
-          "Open the listing and the website on a phone. Look only at the photos on your listing and site. In January 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Open the listing and the website on a phone. Look only at a draft read out loud. In January 2023 that is the piece a new customer is most likely to trust or doubt.",
           "Say the sentence out loud the way the person who answers the phone would say it. If the page uses a different name for the job, change the page, not the staff."
         ],
         "list": [
-          "At least a few photos of real work from this year.",
-          "The outside of the shop, if customers visit.",
-          "No stock photo that could belong to any business."
+          "A draft read out loud on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
         ]
       },
       {
-        "heading": "2. Replace the photo that no longer matches",
+        "heading": "2. Fix a draft read out loud before you add anything",
         "paragraphs": [
-          "A mismatch on Google Business Profile photos is worth more than a redesign. Fix that one line for this law office and leave the rest of the site alone until the listing and the page agree.",
+          "A mismatch on reading drafted website copy is worth more than a redesign. Fix that one line for this law office and leave the rest of the site alone until the listing and the page agree.",
           "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
         ]
       },
       {
         "heading": "A check you can finish this week",
         "paragraphs": [
-          "Pick one law office page and the Google listing. Compare the photos on your listing and site. Write down the one line that disagrees, and change it before you add anything new.",
+          "Pick one law office page and the Google listing. Compare a draft read out loud. Write down the one line that disagrees, and change it before you add anything new.",
           "The tools of January 2023 only help if they describe the business you are actually running."
         ]
       }
@@ -265,53 +261,53 @@ export const posts = [
     "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
     "upcoming": [
       {
-        "title": "Show photos of finished work, not a stock room, September 26, 2022",
-        "href": "/blog/photos-of-finished-work-2022-09-26"
+        "title": "Do not publish a draft that names the wrong city, January 2, 2023",
+        "href": "/blog/draft-wrong-city-2023-01-02"
       },
       {
-        "title": "Google Business Profile for a Service-Area Business",
-        "href": "/blog/google-business-profile-for-a-service-area-business"
+        "title": "What to Put on a Local Service Page",
+        "href": "/blog/what-to-put-on-a-local-service-page"
       }
     ]
   },
   {
-    "slug": "name-address-phone-agree-2023-02-06",
-    "title": "Use one business name, address, and phone number, February 6, 2023",
-    "seoTitle": "Name, address, and phone consistency (retail shop, February 6, 2023)",
-    "description": "Name, address, and phone consistency for a retail shop on February 6, 2023. What to check so the website and Google listing agree.",
+    "slug": "rain-delay-note-2023-02-06",
+    "title": "Explain a rain delay before people drive over, February 6, 2023",
+    "seoTitle": "Rain delay notice (retail shop, February 6, 2023)",
+    "description": "Rain delay notice for a retail shop on February 6, 2023. What to check so the website and Google listing agree.",
     "section": "Local SEO",
     "date": "2023-02-06",
-    "cta": "This week, look at the name, address, and phone number. If it matches what the counter would say, you are already ahead of a stale page.",
+    "cta": "This week, look at how you handle a rain day. If it matches what the counter would say, you are already ahead of a stale page.",
     "sections": [
       {
         "paragraphs": [
-          "Searchers in February 2023 compare the listing with the website. If one says \"Inc\" and the other does not, or the suite is missing, they hesitate. Pick the name on the invoice and use it everywhere a customer looks.",
-          "This February 6, 2023 note is for a retail shop. The check is name, address, and phone consistency: the name, address, and phone number, read the way a new customer would on a phone."
+          "Outdoor work slips in a wet week. A listing post that says you will call to reschedule beats a locked door.",
+          "This February 6, 2023 note is for a retail shop. The check is rain delay notice: how you handle a rain day, read the way a new customer would on a phone."
         ]
       },
       {
-        "heading": "1. Small differences look like two businesses",
+        "heading": "1. Look at how you handle a rain day",
         "paragraphs": [
-          "Open the listing and the website on a phone. Look only at the name, address, and phone number. In February 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Open the listing and the website on a phone. Look only at how you handle a rain day. In February 2023 that is the piece a new customer is most likely to trust or doubt.",
           "Say the sentence out loud the way the counter would say it. If the page uses a different name for the job, change the page, not the staff."
         ],
         "list": [
-          "The name on the listing matches the invoice.",
-          "The suite number is on the site, not only on the door.",
-          "The phone number is the same in the footer and on the listing."
+          "How you handle a rain day on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
         ]
       },
       {
-        "heading": "2. Write the address the way it is on the door",
+        "heading": "2. Fix how you handle a rain day before you add anything",
         "paragraphs": [
-          "A mismatch on name, address, and phone consistency is worth more than a redesign. Fix that one line for this retail shop and leave the rest of the site alone until the listing and the page agree.",
+          "A mismatch on rain delay notice is worth more than a redesign. Fix that one line for this retail shop and leave the rest of the site alone until the listing and the page agree.",
           "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
         ]
       },
       {
         "heading": "A check you can finish this week",
         "paragraphs": [
-          "Pick one retail shop page and the Google listing. Compare the name, address, and phone number. Write down the one line that disagrees, and change it before you add anything new.",
+          "Pick one retail shop page and the Google listing. Compare how you handle a rain day. Write down the one line that disagrees, and change it before you add anything new.",
           "The tools of February 2023 only help if they describe the business you are actually running."
         ]
       }
@@ -320,8 +316,8 @@ export const posts = [
     "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
     "upcoming": [
       {
-        "title": "Use one business name, address, and phone number, October 3, 2022",
-        "href": "/blog/name-address-phone-agree-2022-10-03"
+        "title": "Call the listing number in the first week back, January 23, 2023",
+        "href": "/blog/first-week-phone-test-2023-01-23"
       },
       {
         "title": "Google Business Profile for a Service-Area Business",
@@ -330,43 +326,43 @@ export const posts = [
     ]
   },
   {
-    "slug": "drafting-help-still-needs-your-facts-2023-02-13",
-    "title": "If you try a writing tool, start from your own facts, February 13, 2023",
-    "seoTitle": "Editing AI website copy (contractor, February 13, 2023)",
-    "description": "Editing AI website copy for a contractor on February 13, 2023. What to check so the website and Google listing agree.",
-    "section": "Search",
+    "slug": "valentine-hours-2023-2023-02-13",
+    "title": "Put Valentine's week hours and the offer in one place, February 13, 2023",
+    "seoTitle": "Valentine's week hours (contractor, February 13, 2023)",
+    "description": "Valentine's week hours for a contractor on February 13, 2023. What to check so the website and Google listing agree.",
+    "section": "Local SEO",
     "date": "2023-02-13",
-    "cta": "This week, look at any new writing help you have heard about. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
+    "cta": "This week, look at Valentine's week. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
     "sections": [
       {
         "paragraphs": [
-          "In February 2023 some owners are trying software that drafts sentences. It can speed a first pass. It does not know what a contractor actually does this week. If you use it, give it your facts and then read the result as the person who answers the phone would.",
-          "This February 13, 2023 note is for a contractor. The check is editing AI website copy: any new writing help you have heard about, read the way a new customer would on a phone."
+          "If 2023 includes a Valentine offer or a fuller book, say the hours and the last day of the offer. Leave the business name alone.",
+          "This February 13, 2023 note is for a contractor. The check is Valentine's week hours: Valentine's week, read the way a new customer would on a phone."
         ]
       },
       {
-        "heading": "1. The tool does not know your hours",
+        "heading": "1. Look at Valentine's week",
         "paragraphs": [
-          "Open the listing and the website on a phone. Look only at any new writing help you have heard about. In February 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Open the listing and the website on a phone. Look only at Valentine's week. In February 2023 that is the piece a new customer is most likely to trust or doubt.",
           "Say the sentence out loud the way the person who answers the phone would say it. If the page uses a different name for the job, change the page, not the staff."
         ],
         "list": [
-          "You supply the services, cities, and prices.",
-          "You delete anything you would not say at the counter.",
-          "The page still has your phone number and your name."
+          "Valentine's week on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
         ]
       },
       {
-        "heading": "2. Read it out loud before you publish",
+        "heading": "2. Fix Valentine's week before you add anything",
         "paragraphs": [
-          "A mismatch on editing AI website copy is worth more than a redesign. Fix that one line for this contractor and leave the rest of the site alone until the listing and the page agree.",
+          "A mismatch on Valentine's week hours is worth more than a redesign. Fix that one line for this contractor and leave the rest of the site alone until the listing and the page agree.",
           "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
         ]
       },
       {
         "heading": "A check you can finish this week",
         "paragraphs": [
-          "Pick one contractor page and the Google listing. Compare any new writing help you have heard about. Write down the one line that disagrees, and change it before you add anything new.",
+          "Pick one contractor page and the Google listing. Compare Valentine's week. Write down the one line that disagrees, and change it before you add anything new.",
           "The tools of February 2023 only help if they describe the business you are actually running."
         ]
       }
@@ -375,53 +371,53 @@ export const posts = [
     "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
     "upcoming": [
       {
-        "title": "If you try a writing tool, start from your own facts, January 16, 2023",
-        "href": "/blog/drafting-help-still-needs-your-facts-2023-01-16"
+        "title": "Explain a rain delay before people drive over, February 6, 2023",
+        "href": "/blog/rain-delay-note-2023-02-06"
       },
       {
-        "title": "What to Put on a Local Service Page",
-        "href": "/blog/what-to-put-on-a-local-service-page"
+        "title": "Google Business Profile for a Service-Area Business",
+        "href": "/blog/google-business-profile-for-a-service-area-business"
       }
     ]
   },
   {
-    "slug": "first-screen-on-a-phone-2023-02-20",
-    "title": "Say what you do on the first phone screen, February 20, 2023",
-    "seoTitle": "Homepage first screen (salon, February 20, 2023)",
-    "description": "Homepage first screen for a salon on February 20, 2023. What to check so the website and Google listing agree.",
+    "slug": "february-reminders-2023-02-20",
+    "title": "Check reminders for the right month, February 20, 2023",
+    "seoTitle": "Appointment reminders (salon, February 20, 2023)",
+    "description": "Appointment reminders for a salon on February 20, 2023. What to check so the website and Google listing agree.",
     "section": "Websites",
     "date": "2023-02-20",
-    "cta": "This week, look at the first screen of your website. If it matches what the front desk would say, you are already ahead of a stale page.",
+    "cta": "This week, look at the month named in reminders. If it matches what the front desk would say, you are already ahead of a stale page.",
     "sections": [
       {
         "paragraphs": [
-          "In February 2023 most first visits are on a phone. If the first screen is a slideshow or a paragraph about the founding year, the customer still does not know whether you can help today. Put the job and the phone number above the story.",
-          "This February 20, 2023 note is for a salon. The check is homepage first screen: the first screen of your website, read the way a new customer would on a phone."
+          "A reminder that still says January, or sends people to last year's address, undoes the booking.",
+          "This February 20, 2023 note is for a salon. The check is appointment reminders: the month named in reminders, read the way a new customer would on a phone."
         ]
       },
       {
-        "heading": "1. Name, service, and a way to reach you",
+        "heading": "1. Look at the month named in reminders",
         "paragraphs": [
-          "Open the listing and the website on a phone. Look only at the first screen of your website. In February 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Open the listing and the website on a phone. Look only at the month named in reminders. In February 2023 that is the piece a new customer is most likely to trust or doubt.",
           "Say the sentence out loud the way the front desk would say it. If the page uses a different name for the job, change the page, not the staff."
         ],
         "list": [
-          "The business name is visible without scrolling.",
-          "The job you want calls for is named.",
-          "A button or number is where a thumb can tap it."
+          "The month named in reminders on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
         ]
       },
       {
-        "heading": "2. Move the story below that",
+        "heading": "2. Fix the month named in reminders before you add anything",
         "paragraphs": [
-          "A mismatch on homepage first screen is worth more than a redesign. Fix that one line for this salon and leave the rest of the site alone until the listing and the page agree.",
+          "A mismatch on appointment reminders is worth more than a redesign. Fix that one line for this salon and leave the rest of the site alone until the listing and the page agree.",
           "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
         ]
       },
       {
         "heading": "A check you can finish this week",
         "paragraphs": [
-          "Pick one salon page and the Google listing. Compare the first screen of your website. Write down the one line that disagrees, and change it before you add anything new.",
+          "Pick one salon page and the Google listing. Compare the month named in reminders. Write down the one line that disagrees, and change it before you add anything new.",
           "The tools of February 2023 only help if they describe the business you are actually running."
         ]
       }
@@ -430,8 +426,8 @@ export const posts = [
     "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
     "upcoming": [
       {
-        "title": "Say what you do on the first phone screen, October 17, 2022",
-        "href": "/blog/first-screen-on-a-phone-2022-10-17"
+        "title": "Keep the January offer to a single line, January 9, 2023",
+        "href": "/blog/one-january-offer-2023-01-09"
       },
       {
         "title": "What to Put on a Local Service Page",
@@ -440,43 +436,43 @@ export const posts = [
     ]
   },
   {
-    "slug": "page-speed-on-a-cellular-connection-2023-02-27",
-    "title": "Open your site on a cellular connection, February 27, 2023",
-    "seoTitle": "Mobile page speed (clinic, February 27, 2023)",
-    "description": "Mobile page speed for a clinic on February 27, 2023. What to check so the website and Google listing agree.",
-    "section": "Site speed",
+    "slug": "tool-does-not-know-hours-2023-02-27",
+    "title": "A writing tool does not know this week's hours, February 27, 2023",
+    "seoTitle": "Hours a writing tool cannot know (clinic, February 27, 2023)",
+    "description": "Hours a writing tool cannot know for a clinic on February 27, 2023. What to check so the website and Google listing agree.",
+    "section": "Search",
     "date": "2023-02-27",
-    "cta": "This week, look at how fast the main page appears on a phone. If it matches what the front desk would say, you are already ahead of a stale page.",
+    "cta": "This week, look at hours a tool will get wrong. If it matches what the front desk would say, you are already ahead of a stale page.",
     "sections": [
       {
         "paragraphs": [
-          "Speed in February 2023 is not a lab score first. It is whether a clinic page shows the name and the number before a person goes back to the map. A huge photo at the top is the usual reason it does not.",
-          "This February 27, 2023 note is for a clinic. The check is mobile page speed: how fast the main page appears on a phone, read the way a new customer would on a phone."
+          "Type the hours from the door. Do not accept a schedule a tool guessed.",
+          "This February 27, 2023 note is for a clinic. The check is hours a writing tool cannot know: hours a tool will get wrong, read the way a new customer would on a phone."
         ]
       },
       {
-        "heading": "1. The heavy photo is usually the delay",
+        "heading": "1. Look at hours a tool will get wrong",
         "paragraphs": [
-          "Open the listing and the website on a phone. Look only at how fast the main page appears on a phone. In February 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Open the listing and the website on a phone. Look only at hours a tool will get wrong. In February 2023 that is the piece a new customer is most likely to trust or doubt.",
           "Say the sentence out loud the way the front desk would say it. If the page uses a different name for the job, change the page, not the staff."
         ],
         "list": [
-          "Load the homepage on cellular, not only office Wi-Fi.",
-          "Note which image arrives last.",
-          "The phone number should not jump down after the page looks ready."
+          "Hours a tool will get wrong on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
         ]
       },
       {
-        "heading": "2. Test the page Google already sends people to",
+        "heading": "2. Fix hours a tool will get wrong before you add anything",
         "paragraphs": [
-          "A mismatch on mobile page speed is worth more than a redesign. Fix that one line for this clinic and leave the rest of the site alone until the listing and the page agree.",
+          "A mismatch on hours a writing tool cannot know is worth more than a redesign. Fix that one line for this clinic and leave the rest of the site alone until the listing and the page agree.",
           "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
         ]
       },
       {
         "heading": "A check you can finish this week",
         "paragraphs": [
-          "Pick one clinic page and the Google listing. Compare how fast the main page appears on a phone. Write down the one line that disagrees, and change it before you add anything new.",
+          "Pick one clinic page and the Google listing. Compare hours a tool will get wrong. Write down the one line that disagrees, and change it before you add anything new.",
           "The tools of February 2023 only help if they describe the business you are actually running."
         ]
       }
@@ -485,53 +481,53 @@ export const posts = [
     "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
     "upcoming": [
       {
-        "title": "Open your site on a cellular connection, October 24, 2022",
-        "href": "/blog/page-speed-on-a-cellular-connection-2022-10-24"
+        "title": "Read a drafted page out loud at the desk, January 30, 2023",
+        "href": "/blog/read-the-draft-aloud-2023-01-30"
       },
       {
-        "title": "Core Web Vitals for a Local Service Business",
-        "href": "/blog/core-web-vitals-for-a-local-service-business"
+        "title": "What to Put on a Local Service Page",
+        "href": "/blog/what-to-put-on-a-local-service-page"
       }
     ]
   },
   {
-    "slug": "one-page-per-service-2023-03-06",
-    "title": "Give each main service its own page, March 6, 2023",
-    "seoTitle": "Service page for local SEO (restaurant, March 6, 2023)",
-    "description": "Service page for local SEO for a restaurant on March 6, 2023. What to check so the website and Google listing agree.",
-    "section": "Websites",
+    "slug": "wet-weather-jobs-2023-03-06",
+    "title": "Say how wet weather changes the schedule, March 6, 2023",
+    "seoTitle": "Wet weather schedule (restaurant, March 6, 2023)",
+    "description": "Wet weather schedule for a restaurant on March 6, 2023. What to check so the website and Google listing agree.",
+    "section": "Local SEO",
     "date": "2023-03-06",
-    "cta": "This week, look at whether each job you want has its own page. If it matches what the host stand would say, you are already ahead of a stale page.",
+    "cta": "This week, look at how rain changes the day. If it matches what the host stand would say, you are already ahead of a stale page.",
     "sections": [
       {
         "paragraphs": [
-          "A restaurant in March 2023 often offers three jobs and explains them in one paragraph. Searchers look for one job. Give that job a page with a plain title, what is included, and how to call.",
-          "This March 6, 2023 note is for a restaurant. The check is service page for local SEO: whether each job you want has its own page, read the way a new customer would on a phone."
+          "If rain moves a job, say how you tell the customer. A listing that still says you arrive at nine will be wrong by noon.",
+          "This March 6, 2023 note is for a restaurant. The check is wet weather schedule: how rain changes the day, read the way a new customer would on a phone."
         ]
       },
       {
-        "heading": "1. The homepage cannot rank for every job",
+        "heading": "1. Look at how rain changes the day",
         "paragraphs": [
-          "Open the listing and the website on a phone. Look only at whether each job you want has its own page. In March 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Open the listing and the website on a phone. Look only at how rain changes the day. In March 2023 that is the piece a new customer is most likely to trust or doubt.",
           "Say the sentence out loud the way the host stand would say it. If the page uses a different name for the job, change the page, not the staff."
         ],
         "list": [
-          "One page for the job you want more calls for.",
-          "The title names the service and the area you cover.",
-          "A related job links to its own page instead of sharing this one."
+          "How rain changes the day on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
         ]
       },
       {
-        "heading": "2. Use the words a customer would type",
+        "heading": "2. Fix how rain changes the day before you add anything",
         "paragraphs": [
-          "A mismatch on service page for local SEO is worth more than a redesign. Fix that one line for this restaurant and leave the rest of the site alone until the listing and the page agree.",
+          "A mismatch on wet weather schedule is worth more than a redesign. Fix that one line for this restaurant and leave the rest of the site alone until the listing and the page agree.",
           "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
         ]
       },
       {
         "heading": "A check you can finish this week",
         "paragraphs": [
-          "Pick one restaurant page and the Google listing. Compare whether each job you want has its own page. Write down the one line that disagrees, and change it before you add anything new.",
+          "Pick one restaurant page and the Google listing. Compare how rain changes the day. Write down the one line that disagrees, and change it before you add anything new.",
           "The tools of March 2023 only help if they describe the business you are actually running."
         ]
       }
@@ -540,53 +536,53 @@ export const posts = [
     "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
     "upcoming": [
       {
-        "title": "Give each main service its own page, October 31, 2022",
-        "href": "/blog/one-page-per-service-2022-10-31"
+        "title": "Put Valentine's week hours and the offer in one place, February 13, 2023",
+        "href": "/blog/valentine-hours-2023-2023-02-13"
       },
       {
-        "title": "What to Put on a Local Service Page",
-        "href": "/blog/what-to-put-on-a-local-service-page"
+        "title": "Google Business Profile for a Service-Area Business",
+        "href": "/blog/google-business-profile-for-a-service-area-business"
       }
     ]
   },
   {
-    "slug": "drafting-help-still-needs-your-facts-2023-03-13",
-    "title": "If you try a writing tool, start from your own facts, March 13, 2023",
-    "seoTitle": "Editing AI website copy (law office, March 13, 2023)",
-    "description": "Editing AI website copy for a law office on March 13, 2023. What to check so the website and Google listing agree.",
-    "section": "Search",
+    "slug": "march-price-list-2023-03-13",
+    "title": "Update the March price or starting rate, March 13, 2023",
+    "seoTitle": "March prices (law office, March 13, 2023)",
+    "description": "March prices for a law office on March 13, 2023. What to check so the website and Google listing agree.",
+    "section": "Websites",
     "date": "2023-03-13",
-    "cta": "This week, look at any new writing help you have heard about. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
+    "cta": "This week, look at the rate you quote now. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
     "sections": [
       {
         "paragraphs": [
-          "In March 2023 some owners are trying software that drafts sentences. It can speed a first pass. It does not know what a law office actually does this week. If you use it, give it your facts and then read the result as the person who answers the phone would.",
-          "This March 13, 2023 note is for a law office. The check is editing AI website copy: any new writing help you have heard about, read the way a new customer would on a phone."
+          "If the visit has a starting price, publish the one you say on the phone. Last spring's number is a different offer.",
+          "This March 13, 2023 note is for a law office. The check is March prices: the rate you quote now, read the way a new customer would on a phone."
         ]
       },
       {
-        "heading": "1. The tool does not know your hours",
+        "heading": "1. Look at the rate you quote now",
         "paragraphs": [
-          "Open the listing and the website on a phone. Look only at any new writing help you have heard about. In March 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Open the listing and the website on a phone. Look only at the rate you quote now. In March 2023 that is the piece a new customer is most likely to trust or doubt.",
           "Say the sentence out loud the way the person who answers the phone would say it. If the page uses a different name for the job, change the page, not the staff."
         ],
         "list": [
-          "You supply the services, cities, and prices.",
-          "You delete anything you would not say at the counter.",
-          "The page still has your phone number and your name."
+          "The rate you quote now on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
         ]
       },
       {
-        "heading": "2. Read it out loud before you publish",
+        "heading": "2. Fix the rate you quote now before you add anything",
         "paragraphs": [
-          "A mismatch on editing AI website copy is worth more than a redesign. Fix that one line for this law office and leave the rest of the site alone until the listing and the page agree.",
+          "A mismatch on March prices is worth more than a redesign. Fix that one line for this law office and leave the rest of the site alone until the listing and the page agree.",
           "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
         ]
       },
       {
         "heading": "A check you can finish this week",
         "paragraphs": [
-          "Pick one law office page and the Google listing. Compare any new writing help you have heard about. Write down the one line that disagrees, and change it before you add anything new.",
+          "Pick one law office page and the Google listing. Compare the rate you quote now. Write down the one line that disagrees, and change it before you add anything new.",
           "The tools of March 2023 only help if they describe the business you are actually running."
         ]
       }
@@ -595,8 +591,8 @@ export const posts = [
     "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
     "upcoming": [
       {
-        "title": "If you try a writing tool, start from your own facts, February 13, 2023",
-        "href": "/blog/drafting-help-still-needs-your-facts-2023-02-13"
+        "title": "Check reminders for the right month, February 20, 2023",
+        "href": "/blog/february-reminders-2023-02-20"
       },
       {
         "title": "What to Put on a Local Service Page",
@@ -605,43 +601,43 @@ export const posts = [
     ]
   },
   {
-    "slug": "google-posts-for-this-week-2023-03-20",
-    "title": "Tell Google what is true this week, March 20, 2023",
-    "seoTitle": "Google Business Profile posts (retail shop, March 20, 2023)",
-    "description": "Google Business Profile posts for a retail shop on March 20, 2023. What to check so the website and Google listing agree.",
+    "slug": "reviews-as-work-picks-up-2023-03-20",
+    "title": "Ask for a review after a finished March job, March 20, 2023",
+    "seoTitle": "Asking for a Google review (retail shop, March 20, 2023)",
+    "description": "Asking for a Google review, retail shop, March 20, 2023. What to check so the website and Google listing agree.",
     "section": "Local SEO",
     "date": "2023-03-20",
-    "cta": "This week, look at a short update on your listing. If it matches what the counter would say, you are already ahead of a stale page.",
+    "cta": "This week, look at when you ask for a review. If it matches what the counter would say, you are already ahead of a stale page.",
     "sections": [
       {
         "paragraphs": [
-          "A Google post in March 2023 is a note on the listing, not a second website. Use it when something changed: a storm week, a booked-out Friday, a seasonal service. If the post is six months old, it is telling people the wrong month.",
-          "This March 20, 2023 note is for a retail shop. The check is Google Business Profile posts: a short update on your listing, read the way a new customer would on a phone."
+          "Ask after the work is done, not before. One sentence and the review link is enough for the person at the desk.",
+          "This March 20, 2023 note is for a retail shop. The check is asking for a Google review: when you ask for a review, read the way a new customer would on a phone."
         ]
       },
       {
-        "heading": "1. An update is not an ad",
+        "heading": "1. Look at when you ask for a review",
         "paragraphs": [
-          "Open the listing and the website on a phone. Look only at a short update on your listing. In March 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Open the listing and the website on a phone. Look only at when you ask for a review. In March 2023 that is the piece a new customer is most likely to trust or doubt.",
           "Say the sentence out loud the way the counter would say it. If the page uses a different name for the job, change the page, not the staff."
         ],
         "list": [
-          "One or two sentences about hours, a seasonal service, or a full book.",
-          "The date on the update is this month.",
-          "An old holiday offer is removed."
+          "When you ask for a review on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
         ]
       },
       {
-        "heading": "2. Take down the offer that ended",
+        "heading": "2. Fix when you ask for a review before you add anything",
         "paragraphs": [
-          "A mismatch on Google Business Profile posts is worth more than a redesign. Fix that one line for this retail shop and leave the rest of the site alone until the listing and the page agree.",
+          "A mismatch on asking for a Google review is worth more than a redesign. Fix that one line for this retail shop and leave the rest of the site alone until the listing and the page agree.",
           "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
         ]
       },
       {
         "heading": "A check you can finish this week",
         "paragraphs": [
-          "Pick one retail shop page and the Google listing. Compare a short update on your listing. Write down the one line that disagrees, and change it before you add anything new.",
+          "Pick one retail shop page and the Google listing. Compare when you ask for a review. Write down the one line that disagrees, and change it before you add anything new.",
           "The tools of March 2023 only help if they describe the business you are actually running."
         ]
       }
@@ -650,8 +646,8 @@ export const posts = [
     "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
     "upcoming": [
       {
-        "title": "Tell Google what is true this week, November 14, 2022",
-        "href": "/blog/google-posts-for-this-week-2022-11-14"
+        "title": "Say how wet weather changes the schedule, March 6, 2023",
+        "href": "/blog/wet-weather-jobs-2023-03-06"
       },
       {
         "title": "Google Business Profile for a Service-Area Business",
@@ -660,43 +656,43 @@ export const posts = [
     ]
   },
   {
-    "slug": "directions-that-match-the-entrance-2023-03-27",
-    "title": "Point the map at the entrance people use, March 27, 2023",
-    "seoTitle": "Google Maps directions (contractor, March 27, 2023)",
-    "description": "Google Maps directions for a contractor on March 27, 2023. What to check so the website and Google listing agree.",
-    "section": "Local SEO",
+    "slug": "written-answers-above-links-2023-03-27",
+    "title": "Search is testing short written answers, March 27, 2023",
+    "seoTitle": "Written answers in search (contractor, March 27, 2023)",
+    "description": "Written answers in search for a contractor on March 27, 2023. What to check so the website and Google listing agree.",
+    "section": "Search",
     "date": "2023-03-27",
-    "cta": "This week, look at the pin and the directions. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
+    "cta": "This week, look at a short answer above the links. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
     "sections": [
       {
         "paragraphs": [
-          "In March 2023 a wrong pin is how people call from the wrong lobby. If customers visit a contractor, the pin should be the entrance you tell them to use. If they do not visit, do not drop a pin on a house.",
-          "This March 27, 2023 note is for a contractor. The check is Google Maps directions: the pin and the directions, read the way a new customer would on a phone."
+          "Late 2022 and 2023, search sometimes showed a written blurb above the links. Your page still needs the phone number, because the blurb will not book the job.",
+          "This March 27, 2023 note is for a contractor. The check is written answers in search: a short answer above the links, read the way a new customer would on a phone."
         ]
       },
       {
-        "heading": "1. The pin and the door should be the same place",
+        "heading": "1. Look at a short answer above the links",
         "paragraphs": [
-          "Open the listing and the website on a phone. Look only at the pin and the directions. In March 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Open the listing and the website on a phone. Look only at a short answer above the links. In March 2023 that is the piece a new customer is most likely to trust or doubt.",
           "Say the sentence out loud the way the person who answers the phone would say it. If the page uses a different name for the job, change the page, not the staff."
         ],
         "list": [
-          "Open directions on a phone and walk them once.",
-          "Suite, floor, or rear parking is written on the site.",
-          "The hours sit next to the address."
+          "A short answer above the links on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
         ]
       },
       {
-        "heading": "2. Write the parking note next to the address",
+        "heading": "2. Fix a short answer above the links before you add anything",
         "paragraphs": [
-          "A mismatch on Google Maps directions is worth more than a redesign. Fix that one line for this contractor and leave the rest of the site alone until the listing and the page agree.",
+          "A mismatch on written answers in search is worth more than a redesign. Fix that one line for this contractor and leave the rest of the site alone until the listing and the page agree.",
           "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
         ]
       },
       {
         "heading": "A check you can finish this week",
         "paragraphs": [
-          "Pick one contractor page and the Google listing. Compare the pin and the directions. Write down the one line that disagrees, and change it before you add anything new.",
+          "Pick one contractor page and the Google listing. Compare a short answer above the links. Write down the one line that disagrees, and change it before you add anything new.",
           "The tools of March 2023 only help if they describe the business you are actually running."
         ]
       }
@@ -705,53 +701,53 @@ export const posts = [
     "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
     "upcoming": [
       {
-        "title": "Point the map at the entrance people use, July 18, 2022",
-        "href": "/blog/directions-that-match-the-entrance-2022-07-18"
+        "title": "A writing tool does not know this week's hours, February 27, 2023",
+        "href": "/blog/tool-does-not-know-hours-2023-02-27"
       },
       {
-        "title": "Google Business Profile for a Service-Area Business",
-        "href": "/blog/google-business-profile-for-a-service-area-business"
+        "title": "What to Put on a Local Service Page",
+        "href": "/blog/what-to-put-on-a-local-service-page"
       }
     ]
   },
   {
-    "slug": "tracking-you-can-explain-2023-04-03",
-    "title": "Know which visits came from the listing, April 3, 2023",
-    "seoTitle": "Website call tracking (salon, April 3, 2023)",
-    "description": "Website call tracking for a salon on April 3, 2023. What to check so the website and Google listing agree.",
-    "section": "Site speed",
+    "slug": "easter-hours-2023-2023-04-03",
+    "title": "Write Easter week hours as special hours, April 3, 2023",
+    "seoTitle": "Easter week hours (salon, April 3, 2023)",
+    "description": "Easter week hours for a salon on April 3, 2023. What to check so the website and Google listing agree.",
+    "section": "Local SEO",
     "date": "2023-04-03",
-    "cta": "This week, look at a simple count of calls and form notes. If it matches what the front desk would say, you are already ahead of a stale page.",
+    "cta": "This week, look at Easter week hours. If it matches what the front desk would say, you are already ahead of a stale page.",
     "sections": [
       {
         "paragraphs": [
-          "By April 2023, privacy changes have already made some ad tracking less precise. A salon can still learn the useful fact: did the phone ring, and did the person say they found you on the map? Write that down for a week before you buy a report.",
-          "This April 3, 2023 note is for a salon. The check is website call tracking: a simple count of calls and form notes, read the way a new customer would on a phone."
+          "Easter week in 2023 is not a normal week. Mark the day you close, and leave the rest of the weekly schedule as the days you are open.",
+          "This April 3, 2023 note is for a salon. The check is Easter week hours: Easter week hours, read the way a new customer would on a phone."
         ]
       },
       {
-        "heading": "1. You do not need a dashboard to start",
+        "heading": "1. Look at Easter week hours",
         "paragraphs": [
-          "Open the listing and the website on a phone. Look only at a simple count of calls and form notes. In April 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Open the listing and the website on a phone. Look only at Easter week hours. In April 2023 that is the piece a new customer is most likely to trust or doubt.",
           "Say the sentence out loud the way the front desk would say it. If the page uses a different name for the job, change the page, not the staff."
         ],
         "list": [
-          "A tally of calls that mention Google or the website.",
-          "The form stores the date and the job.",
-          "A tool you do not open is not a measurement."
+          "Easter week hours on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
         ]
       },
       {
-        "heading": "2. Ask how they found you",
+        "heading": "2. Fix Easter week hours before you add anything",
         "paragraphs": [
-          "A mismatch on website call tracking is worth more than a redesign. Fix that one line for this salon and leave the rest of the site alone until the listing and the page agree.",
+          "A mismatch on Easter week hours is worth more than a redesign. Fix that one line for this salon and leave the rest of the site alone until the listing and the page agree.",
           "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
         ]
       },
       {
         "heading": "A check you can finish this week",
         "paragraphs": [
-          "Pick one salon page and the Google listing. Compare a simple count of calls and form notes. Write down the one line that disagrees, and change it before you add anything new.",
+          "Pick one salon page and the Google listing. Compare Easter week hours. Write down the one line that disagrees, and change it before you add anything new.",
           "The tools of April 2023 only help if they describe the business you are actually running."
         ]
       }
@@ -760,8 +756,778 @@ export const posts = [
     "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
     "upcoming": [
       {
-        "title": "Know which visits came from the listing, November 28, 2022",
-        "href": "/blog/tracking-you-can-explain-2022-11-28"
+        "title": "Ask for a review after a finished March job, March 20, 2023",
+        "href": "/blog/reviews-as-work-picks-up-2023-03-20"
+      },
+      {
+        "title": "Google Business Profile for a Service-Area Business",
+        "href": "/blog/google-business-profile-for-a-service-area-business"
+      }
+    ]
+  },
+  {
+    "slug": "seasonal-work-you-are-booking-2023-04-10",
+    "title": "Name the seasonal work you are actually booking, April 10, 2023",
+    "seoTitle": "Seasonal work (clinic, April 10, 2023)",
+    "description": "Seasonal work for a clinic on April 10, 2023. What to check so the website and Google listing agree.",
+    "section": "Websites",
+    "date": "2023-04-10",
+    "cta": "This week, look at the seasonal job you are taking. If it matches what the front desk would say, you are already ahead of a stale page.",
+    "sections": [
+      {
+        "paragraphs": [
+          "Exterior, events, and busy-season visits need their own sentence. Do not leave them inside a paragraph about something else.",
+          "This April 10, 2023 note is for a clinic. The check is seasonal work: the seasonal job you are taking, read the way a new customer would on a phone."
+        ]
+      },
+      {
+        "heading": "1. Look at the seasonal job you are taking",
+        "paragraphs": [
+          "Open the listing and the website on a phone. Look only at the seasonal job you are taking. In April 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Say the sentence out loud the way the front desk would say it. If the page uses a different name for the job, change the page, not the staff."
+        ],
+        "list": [
+          "The seasonal job you are taking on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
+        ]
+      },
+      {
+        "heading": "2. Fix the seasonal job you are taking before you add anything",
+        "paragraphs": [
+          "A mismatch on seasonal work is worth more than a redesign. Fix that one line for this clinic and leave the rest of the site alone until the listing and the page agree.",
+          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
+        ]
+      },
+      {
+        "heading": "A check you can finish this week",
+        "paragraphs": [
+          "Pick one clinic page and the Google listing. Compare the seasonal job you are taking. Write down the one line that disagrees, and change it before you add anything new.",
+          "The tools of April 2023 only help if they describe the business you are actually running."
+        ]
+      }
+    ],
+    "relatedHeading": "Related notes",
+    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
+    "upcoming": [
+      {
+        "title": "Update the March price or starting rate, March 13, 2023",
+        "href": "/blog/march-price-list-2023-03-13"
+      },
+      {
+        "title": "What to Put on a Local Service Page",
+        "href": "/blog/what-to-put-on-a-local-service-page"
+      }
+    ]
+  },
+  {
+    "slug": "longer-daylight-hours-2023-04-17",
+    "title": "Lengthen the posted hours only if you stay later, April 17, 2023",
+    "seoTitle": "Evening hours (restaurant, April 17, 2023)",
+    "description": "Evening hours for a restaurant on April 17, 2023. What to check so the website and Google listing agree.",
+    "section": "Local SEO",
+    "date": "2023-04-17",
+    "cta": "This week, look at whether you are open later. If it matches what the host stand would say, you are already ahead of a stale page.",
+    "sections": [
+      {
+        "paragraphs": [
+          "Longer days are not longer hours unless the door is actually open. Change the listing only to match the lock.",
+          "This April 17, 2023 note is for a restaurant. The check is evening hours: whether you are open later, read the way a new customer would on a phone."
+        ]
+      },
+      {
+        "heading": "1. Look at whether you are open later",
+        "paragraphs": [
+          "Open the listing and the website on a phone. Look only at whether you are open later. In April 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Say the sentence out loud the way the host stand would say it. If the page uses a different name for the job, change the page, not the staff."
+        ],
+        "list": [
+          "Whether you are open later on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
+        ]
+      },
+      {
+        "heading": "2. Fix whether you are open later before you add anything",
+        "paragraphs": [
+          "A mismatch on evening hours is worth more than a redesign. Fix that one line for this restaurant and leave the rest of the site alone until the listing and the page agree.",
+          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
+        ]
+      },
+      {
+        "heading": "A check you can finish this week",
+        "paragraphs": [
+          "Pick one restaurant page and the Google listing. Compare whether you are open later. Write down the one line that disagrees, and change it before you add anything new.",
+          "The tools of April 2023 only help if they describe the business you are actually running."
+        ]
+      }
+    ],
+    "relatedHeading": "Related notes",
+    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
+    "upcoming": [
+      {
+        "title": "Write Easter week hours as special hours, April 3, 2023",
+        "href": "/blog/easter-hours-2023-2023-04-03"
+      },
+      {
+        "title": "Google Business Profile for a Service-Area Business",
+        "href": "/blog/google-business-profile-for-a-service-area-business"
+      }
+    ]
+  },
+  {
+    "slug": "blurb-can-be-wrong-2023-04-24",
+    "title": "A written answer can have the wrong hours, April 24, 2023",
+    "seoTitle": "Incorrect hours in a search answer (law office, April 24, 2023)",
+    "description": "Incorrect hours in a search answer for a law office on April 24, 2023. What to check so the website and Google listing agree.",
+    "section": "Search",
+    "date": "2023-04-24",
+    "cta": "This week, look at hours inside a short answer. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
+    "sections": [
+      {
+        "paragraphs": [
+          "If a blurb says you are open and the door is locked, fix the profile hours. That is the source you control.",
+          "This April 24, 2023 note is for a law office. The check is incorrect hours in a search answer: hours inside a short answer, read the way a new customer would on a phone."
+        ]
+      },
+      {
+        "heading": "1. Look at hours inside a short answer",
+        "paragraphs": [
+          "Open the listing and the website on a phone. Look only at hours inside a short answer. In April 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Say the sentence out loud the way the person who answers the phone would say it. If the page uses a different name for the job, change the page, not the staff."
+        ],
+        "list": [
+          "Hours inside a short answer on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
+        ]
+      },
+      {
+        "heading": "2. Fix hours inside a short answer before you add anything",
+        "paragraphs": [
+          "A mismatch on incorrect hours in a search answer is worth more than a redesign. Fix that one line for this law office and leave the rest of the site alone until the listing and the page agree.",
+          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
+        ]
+      },
+      {
+        "heading": "A check you can finish this week",
+        "paragraphs": [
+          "Pick one law office page and the Google listing. Compare hours inside a short answer. Write down the one line that disagrees, and change it before you add anything new.",
+          "The tools of April 2023 only help if they describe the business you are actually running."
+        ]
+      }
+    ],
+    "relatedHeading": "Related notes",
+    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
+    "upcoming": [
+      {
+        "title": "Search is testing short written answers, March 27, 2023",
+        "href": "/blog/written-answers-above-links-2023-03-27"
+      },
+      {
+        "title": "What to Put on a Local Service Page",
+        "href": "/blog/what-to-put-on-a-local-service-page"
+      }
+    ]
+  },
+  {
+    "slug": "may-outdoor-photos-2023-05-01",
+    "title": "Photograph the outside in this month's light, May 1, 2023",
+    "seoTitle": "May photos of the business (retail shop, May 1, 2023)",
+    "description": "May photos of the business for a retail shop on May 1, 2023. What to check so the website and Google listing agree.",
+    "section": "Local SEO",
+    "date": "2023-05-01",
+    "cta": "This week, look at a photo taken this month. If it matches what the counter would say, you are already ahead of a stale page.",
+    "sections": [
+      {
+        "paragraphs": [
+          "Blossoms, a clear sidewalk, or the real truck in the lot. The cover should look like a visit this week.",
+          "This May 1, 2023 note is for a retail shop. The check is May photos of the business: a photo taken this month, read the way a new customer would on a phone."
+        ]
+      },
+      {
+        "heading": "1. Look at a photo taken this month",
+        "paragraphs": [
+          "Open the listing and the website on a phone. Look only at a photo taken this month. In May 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Say the sentence out loud the way the counter would say it. If the page uses a different name for the job, change the page, not the staff."
+        ],
+        "list": [
+          "A photo taken this month on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
+        ]
+      },
+      {
+        "heading": "2. Fix a photo taken this month before you add anything",
+        "paragraphs": [
+          "A mismatch on May photos of the business is worth more than a redesign. Fix that one line for this retail shop and leave the rest of the site alone until the listing and the page agree.",
+          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
+        ]
+      },
+      {
+        "heading": "A check you can finish this week",
+        "paragraphs": [
+          "Pick one retail shop page and the Google listing. Compare a photo taken this month. Write down the one line that disagrees, and change it before you add anything new.",
+          "The tools of May 2023 only help if they describe the business you are actually running."
+        ]
+      }
+    ],
+    "relatedHeading": "Related notes",
+    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
+    "upcoming": [
+      {
+        "title": "Lengthen the posted hours only if you stay later, April 17, 2023",
+        "href": "/blog/longer-daylight-hours-2023-04-17"
+      },
+      {
+        "title": "Google Business Profile for a Service-Area Business",
+        "href": "/blog/google-business-profile-for-a-service-area-business"
+      }
+    ]
+  },
+  {
+    "slug": "mother-hours-2023-2023-05-08",
+    "title": "Say how Mother's Day bookings work this year, May 8, 2023",
+    "seoTitle": "Mother's Day bookings (contractor, May 8, 2023)",
+    "description": "Mother's Day bookings for a contractor on May 8, 2023. What to check so the website and Google listing agree.",
+    "section": "Local SEO",
+    "date": "2023-05-08",
+    "cta": "This week, look at Mother's Day bookings. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
+    "sections": [
+      {
+        "paragraphs": [
+          "The week of Mother's Day in 2023 fills early for a lot of shops. Say whether you are taking reservations, walk-ins, or neither, and the hour you stop.",
+          "This May 8, 2023 note is for a contractor. The check is Mother's Day bookings: Mother's Day bookings, read the way a new customer would on a phone."
+        ]
+      },
+      {
+        "heading": "1. Look at Mother's Day bookings",
+        "paragraphs": [
+          "Open the listing and the website on a phone. Look only at Mother's Day bookings. In May 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Say the sentence out loud the way the person who answers the phone would say it. If the page uses a different name for the job, change the page, not the staff."
+        ],
+        "list": [
+          "Mother's Day bookings on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
+        ]
+      },
+      {
+        "heading": "2. Fix Mother's Day bookings before you add anything",
+        "paragraphs": [
+          "A mismatch on Mother's Day bookings is worth more than a redesign. Fix that one line for this contractor and leave the rest of the site alone until the listing and the page agree.",
+          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
+        ]
+      },
+      {
+        "heading": "A check you can finish this week",
+        "paragraphs": [
+          "Pick one contractor page and the Google listing. Compare Mother's Day bookings. Write down the one line that disagrees, and change it before you add anything new.",
+          "The tools of May 2023 only help if they describe the business you are actually running."
+        ]
+      }
+    ],
+    "relatedHeading": "Related notes",
+    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
+    "upcoming": [
+      {
+        "title": "Photograph the outside in this month's light, May 1, 2023",
+        "href": "/blog/may-outdoor-photos-2023-05-01"
+      },
+      {
+        "title": "Google Business Profile for a Service-Area Business",
+        "href": "/blog/google-business-profile-for-a-service-area-business"
+      }
+    ]
+  },
+  {
+    "slug": "school-year-ending-2023-05-15",
+    "title": "Adjust hours as school schedules change, May 15, 2023",
+    "seoTitle": "End of school year hours (salon, May 15, 2023)",
+    "description": "End of school year hours for a salon on May 15, 2023. What to check so the website and Google listing agree.",
+    "section": "Local SEO",
+    "date": "2023-05-15",
+    "cta": "This week, look at hours as school lets out. If it matches what the front desk would say, you are already ahead of a stale page.",
+    "sections": [
+      {
+        "paragraphs": [
+          "After-school rushes and earlier dinners show up now. If your busy hours moved, move them on the listing.",
+          "This May 15, 2023 note is for a salon. The check is end of school year hours: hours as school lets out, read the way a new customer would on a phone."
+        ]
+      },
+      {
+        "heading": "1. Look at hours as school lets out",
+        "paragraphs": [
+          "Open the listing and the website on a phone. Look only at hours as school lets out. In May 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Say the sentence out loud the way the front desk would say it. If the page uses a different name for the job, change the page, not the staff."
+        ],
+        "list": [
+          "Hours as school lets out on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
+        ]
+      },
+      {
+        "heading": "2. Fix hours as school lets out before you add anything",
+        "paragraphs": [
+          "A mismatch on end of school year hours is worth more than a redesign. Fix that one line for this salon and leave the rest of the site alone until the listing and the page agree.",
+          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
+        ]
+      },
+      {
+        "heading": "A check you can finish this week",
+        "paragraphs": [
+          "Pick one salon page and the Google listing. Compare hours as school lets out. Write down the one line that disagrees, and change it before you add anything new.",
+          "The tools of May 2023 only help if they describe the business you are actually running."
+        ]
+      }
+    ],
+    "relatedHeading": "Related notes",
+    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
+    "upcoming": [
+      {
+        "title": "Say how Mother's Day bookings work this year, May 8, 2023",
+        "href": "/blog/mother-hours-2023-2023-05-08"
+      },
+      {
+        "title": "Google Business Profile for a Service-Area Business",
+        "href": "/blog/google-business-profile-for-a-service-area-business"
+      }
+    ]
+  },
+  {
+    "slug": "draft-invents-reviews-2023-05-22",
+    "title": "Do not let a draft invent reviews, May 22, 2023",
+    "seoTitle": "Invented reviews (clinic, May 22, 2023)",
+    "description": "Invented reviews for a clinic on May 22, 2023. What to check so the website and Google listing agree.",
+    "section": "Search",
+    "date": "2023-05-22",
+    "cta": "This week, look at reviews a tool made up. If it matches what the front desk would say, you are already ahead of a stale page.",
+    "sections": [
+      {
+        "paragraphs": [
+          "Quotes on the page have to come from real customers. Delete anything the tool composed.",
+          "This May 22, 2023 note is for a clinic. The check is invented reviews: reviews a tool made up, read the way a new customer would on a phone."
+        ]
+      },
+      {
+        "heading": "1. Look at reviews a tool made up",
+        "paragraphs": [
+          "Open the listing and the website on a phone. Look only at reviews a tool made up. In May 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Say the sentence out loud the way the front desk would say it. If the page uses a different name for the job, change the page, not the staff."
+        ],
+        "list": [
+          "Reviews a tool made up on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
+        ]
+      },
+      {
+        "heading": "2. Fix reviews a tool made up before you add anything",
+        "paragraphs": [
+          "A mismatch on invented reviews is worth more than a redesign. Fix that one line for this clinic and leave the rest of the site alone until the listing and the page agree.",
+          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
+        ]
+      },
+      {
+        "heading": "A check you can finish this week",
+        "paragraphs": [
+          "Pick one clinic page and the Google listing. Compare reviews a tool made up. Write down the one line that disagrees, and change it before you add anything new.",
+          "The tools of May 2023 only help if they describe the business you are actually running."
+        ]
+      }
+    ],
+    "relatedHeading": "Related notes",
+    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
+    "upcoming": [
+      {
+        "title": "A written answer can have the wrong hours, April 24, 2023",
+        "href": "/blog/blurb-can-be-wrong-2023-04-24"
+      },
+      {
+        "title": "What to Put on a Local Service Page",
+        "href": "/blog/what-to-put-on-a-local-service-page"
+      }
+    ]
+  },
+  {
+    "slug": "memorial-hours-2023-2023-05-29",
+    "title": "Mark Memorial Day on the listing, May 29, 2023",
+    "seoTitle": "Memorial Day hours (restaurant, May 29, 2023)",
+    "description": "Memorial Day hours for a restaurant on May 29, 2023. What to check so the website and Google listing agree.",
+    "section": "Local SEO",
+    "date": "2023-05-29",
+    "cta": "This week, look at Memorial Day hours. If it matches what the host stand would say, you are already ahead of a stale page.",
+    "sections": [
+      {
+        "paragraphs": [
+          "Memorial Day 2023 is a Monday. If you are closed, the weekly Monday hours will still look open unless you add a special hour.",
+          "This May 29, 2023 note is for a restaurant. The check is Memorial Day hours: Memorial Day hours, read the way a new customer would on a phone."
+        ]
+      },
+      {
+        "heading": "1. Look at Memorial Day hours",
+        "paragraphs": [
+          "Open the listing and the website on a phone. Look only at Memorial Day hours. In May 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Say the sentence out loud the way the host stand would say it. If the page uses a different name for the job, change the page, not the staff."
+        ],
+        "list": [
+          "Memorial Day hours on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
+        ]
+      },
+      {
+        "heading": "2. Fix Memorial Day hours before you add anything",
+        "paragraphs": [
+          "A mismatch on Memorial Day hours is worth more than a redesign. Fix that one line for this restaurant and leave the rest of the site alone until the listing and the page agree.",
+          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
+        ]
+      },
+      {
+        "heading": "A check you can finish this week",
+        "paragraphs": [
+          "Pick one restaurant page and the Google listing. Compare Memorial Day hours. Write down the one line that disagrees, and change it before you add anything new.",
+          "The tools of May 2023 only help if they describe the business you are actually running."
+        ]
+      }
+    ],
+    "relatedHeading": "Related notes",
+    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
+    "upcoming": [
+      {
+        "title": "Adjust hours as school schedules change, May 15, 2023",
+        "href": "/blog/school-year-ending-2023-05-15"
+      },
+      {
+        "title": "Google Business Profile for a Service-Area Business",
+        "href": "/blog/google-business-profile-for-a-service-area-business"
+      }
+    ]
+  },
+  {
+    "slug": "kids-out-hours-2023-06-05",
+    "title": "Change hours if summer days run differently, June 5, 2023",
+    "seoTitle": "Summer daily hours (law office, June 5, 2023)",
+    "description": "Summer daily hours for a law office on June 5, 2023. What to check so the website and Google listing agree.",
+    "section": "Local SEO",
+    "date": "2023-06-05",
+    "cta": "This week, look at hours now that school is out. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
+    "sections": [
+      {
+        "paragraphs": [
+          "Earlier lunches, later jobs, a different rush. Put the pattern you are living on the listing.",
+          "This June 5, 2023 note is for a law office. The check is summer daily hours: hours now that school is out, read the way a new customer would on a phone."
+        ]
+      },
+      {
+        "heading": "1. Look at hours now that school is out",
+        "paragraphs": [
+          "Open the listing and the website on a phone. Look only at hours now that school is out. In June 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Say the sentence out loud the way the person who answers the phone would say it. If the page uses a different name for the job, change the page, not the staff."
+        ],
+        "list": [
+          "Hours now that school is out on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
+        ]
+      },
+      {
+        "heading": "2. Fix hours now that school is out before you add anything",
+        "paragraphs": [
+          "A mismatch on summer daily hours is worth more than a redesign. Fix that one line for this law office and leave the rest of the site alone until the listing and the page agree.",
+          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
+        ]
+      },
+      {
+        "heading": "A check you can finish this week",
+        "paragraphs": [
+          "Pick one law office page and the Google listing. Compare hours now that school is out. Write down the one line that disagrees, and change it before you add anything new.",
+          "The tools of June 2023 only help if they describe the business you are actually running."
+        ]
+      }
+    ],
+    "relatedHeading": "Related notes",
+    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
+    "upcoming": [
+      {
+        "title": "Mark Memorial Day on the listing, May 29, 2023",
+        "href": "/blog/memorial-hours-2023-2023-05-29"
+      },
+      {
+        "title": "Google Business Profile for a Service-Area Business",
+        "href": "/blog/google-business-profile-for-a-service-area-business"
+      }
+    ]
+  },
+  {
+    "slug": "father-hours-2023-2023-06-12",
+    "title": "Set Father's Day week hours and capacity, June 12, 2023",
+    "seoTitle": "Father's Day hours (retail shop, June 12, 2023)",
+    "description": "Father's Day hours for a retail shop on June 12, 2023. What to check so the website and Google listing agree.",
+    "section": "Local SEO",
+    "date": "2023-06-12",
+    "cta": "This week, look at Father's Day week. If it matches what the counter would say, you are already ahead of a stale page.",
+    "sections": [
+      {
+        "paragraphs": [
+          "If Father's Day 2023 changes the book or the menu, put the hours and the limit on the listing. Take it down the next week.",
+          "This June 12, 2023 note is for a retail shop. The check is Father's Day hours: Father's Day week, read the way a new customer would on a phone."
+        ]
+      },
+      {
+        "heading": "1. Look at Father's Day week",
+        "paragraphs": [
+          "Open the listing and the website on a phone. Look only at Father's Day week. In June 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Say the sentence out loud the way the counter would say it. If the page uses a different name for the job, change the page, not the staff."
+        ],
+        "list": [
+          "Father's Day week on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
+        ]
+      },
+      {
+        "heading": "2. Fix Father's Day week before you add anything",
+        "paragraphs": [
+          "A mismatch on Father's Day hours is worth more than a redesign. Fix that one line for this retail shop and leave the rest of the site alone until the listing and the page agree.",
+          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
+        ]
+      },
+      {
+        "heading": "A check you can finish this week",
+        "paragraphs": [
+          "Pick one retail shop page and the Google listing. Compare Father's Day week. Write down the one line that disagrees, and change it before you add anything new.",
+          "The tools of June 2023 only help if they describe the business you are actually running."
+        ]
+      }
+    ],
+    "relatedHeading": "Related notes",
+    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
+    "upcoming": [
+      {
+        "title": "Change hours if summer days run differently, June 5, 2023",
+        "href": "/blog/kids-out-hours-2023-06-05"
+      },
+      {
+        "title": "Google Business Profile for a Service-Area Business",
+        "href": "/blog/google-business-profile-for-a-service-area-business"
+      }
+    ]
+  },
+  {
+    "slug": "draft-invents-prices-2023-06-19",
+    "title": "Do not let a draft invent prices, June 19, 2023",
+    "seoTitle": "Invented prices (contractor, June 19, 2023)",
+    "description": "Invented prices for a contractor on June 19, 2023. What to check so the website and Google listing agree.",
+    "section": "Search",
+    "date": "2023-06-19",
+    "cta": "This week, look at a price a tool guessed. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
+    "sections": [
+      {
+        "paragraphs": [
+          "Put the price you actually quote, or say the price comes after a look. A made-up number will be the one people repeat.",
+          "This June 19, 2023 note is for a contractor. The check is invented prices: a price a tool guessed, read the way a new customer would on a phone."
+        ]
+      },
+      {
+        "heading": "1. Look at a price a tool guessed",
+        "paragraphs": [
+          "Open the listing and the website on a phone. Look only at a price a tool guessed. In June 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Say the sentence out loud the way the person who answers the phone would say it. If the page uses a different name for the job, change the page, not the staff."
+        ],
+        "list": [
+          "A price a tool guessed on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
+        ]
+      },
+      {
+        "heading": "2. Fix a price a tool guessed before you add anything",
+        "paragraphs": [
+          "A mismatch on invented prices is worth more than a redesign. Fix that one line for this contractor and leave the rest of the site alone until the listing and the page agree.",
+          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
+        ]
+      },
+      {
+        "heading": "A check you can finish this week",
+        "paragraphs": [
+          "Pick one contractor page and the Google listing. Compare a price a tool guessed. Write down the one line that disagrees, and change it before you add anything new.",
+          "The tools of June 2023 only help if they describe the business you are actually running."
+        ]
+      }
+    ],
+    "relatedHeading": "Related notes",
+    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
+    "upcoming": [
+      {
+        "title": "Do not let a draft invent reviews, May 22, 2023",
+        "href": "/blog/draft-invents-reviews-2023-05-22"
+      },
+      {
+        "title": "What to Put on a Local Service Page",
+        "href": "/blog/what-to-put-on-a-local-service-page"
+      }
+    ]
+  },
+  {
+    "slug": "june-menu-2023-06-26",
+    "title": "Publish the June menu or service list as text, June 26, 2023",
+    "seoTitle": "June menu (salon, June 26, 2023)",
+    "description": "June menu for a salon on June 26, 2023. What to check so the website and Google listing agree.",
+    "section": "Websites",
+    "date": "2023-06-26",
+    "cta": "This week, look at this month's list. If it matches what the front desk would say, you are already ahead of a stale page.",
+    "sections": [
+      {
+        "paragraphs": [
+          "A photo of a printed menu from May will be wrong, and a phone cannot read it. Type the current list.",
+          "This June 26, 2023 note is for a salon. The check is June menu: this month's list, read the way a new customer would on a phone."
+        ]
+      },
+      {
+        "heading": "1. Look at this month's list",
+        "paragraphs": [
+          "Open the listing and the website on a phone. Look only at this month's list. In June 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Say the sentence out loud the way the front desk would say it. If the page uses a different name for the job, change the page, not the staff."
+        ],
+        "list": [
+          "This month's list on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
+        ]
+      },
+      {
+        "heading": "2. Fix this month's list before you add anything",
+        "paragraphs": [
+          "A mismatch on June menu is worth more than a redesign. Fix that one line for this salon and leave the rest of the site alone until the listing and the page agree.",
+          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
+        ]
+      },
+      {
+        "heading": "A check you can finish this week",
+        "paragraphs": [
+          "Pick one salon page and the Google listing. Compare this month's list. Write down the one line that disagrees, and change it before you add anything new.",
+          "The tools of June 2023 only help if they describe the business you are actually running."
+        ]
+      }
+    ],
+    "relatedHeading": "Related notes",
+    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
+    "upcoming": [
+      {
+        "title": "Switch the menu or service list for the season, April 25, 2022",
+        "href": "/blog/april-menu-switch-2022-04-25"
+      },
+      {
+        "title": "What to Put on a Local Service Page",
+        "href": "/blog/what-to-put-on-a-local-service-page"
+      }
+    ]
+  },
+  {
+    "slug": "july4-hours-2023-2023-07-03",
+    "title": "Write July 4 hours before the weekend, July 3, 2023",
+    "seoTitle": "July 4 hours (clinic, July 3, 2023)",
+    "description": "July 4 hours for a clinic on July 3, 2023. What to check so the website and Google listing agree.",
+    "section": "Local SEO",
+    "date": "2023-07-03",
+    "cta": "This week, look at July 4 hours. If it matches what the front desk would say, you are already ahead of a stale page.",
+    "sections": [
+      {
+        "paragraphs": [
+          "Set July 4, 2023 as a special hour if you close or shorten the day. Do it before the weekend, not after the first wrong visit.",
+          "This July 3, 2023 note is for a clinic. The check is July 4 hours: July 4 hours, read the way a new customer would on a phone."
+        ]
+      },
+      {
+        "heading": "1. Look at July 4 hours",
+        "paragraphs": [
+          "Open the listing and the website on a phone. Look only at July 4 hours. In July 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Say the sentence out loud the way the front desk would say it. If the page uses a different name for the job, change the page, not the staff."
+        ],
+        "list": [
+          "July 4 hours on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
+        ]
+      },
+      {
+        "heading": "2. Fix July 4 hours before you add anything",
+        "paragraphs": [
+          "A mismatch on July 4 hours is worth more than a redesign. Fix that one line for this clinic and leave the rest of the site alone until the listing and the page agree.",
+          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
+        ]
+      },
+      {
+        "heading": "A check you can finish this week",
+        "paragraphs": [
+          "Pick one clinic page and the Google listing. Compare July 4 hours. Write down the one line that disagrees, and change it before you add anything new.",
+          "The tools of July 2023 only help if they describe the business you are actually running."
+        ]
+      }
+    ],
+    "relatedHeading": "Related notes",
+    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
+    "upcoming": [
+      {
+        "title": "Set Father's Day week hours and capacity, June 12, 2023",
+        "href": "/blog/father-hours-2023-2023-06-12"
+      },
+      {
+        "title": "Google Business Profile for a Service-Area Business",
+        "href": "/blog/google-business-profile-for-a-service-area-business"
+      }
+    ]
+  },
+  {
+    "slug": "universal-analytics-stopped-2023-2023-07-10",
+    "title": "The old analytics property stopped taking visits, July 10, 2023",
+    "seoTitle": "Universal Analytics shutdown (restaurant, July 10, 2023)",
+    "description": "Universal Analytics shutdown for a restaurant on July 10, 2023. What to check so the website and Google listing agree.",
+    "section": "Site speed",
+    "date": "2023-07-10",
+    "cta": "This week, look at the analytics report you still open. If it matches what the host stand would say, you are already ahead of a stale page.",
+    "sections": [
+      {
+        "paragraphs": [
+          "Universal Analytics stopped processing new visits on July 1, 2023. If a number is part of how you run the week, open the property that is still collecting. The listing and the phone number are still the things customers see.",
+          "This July 10, 2023 note is for a restaurant. The check is Universal Analytics shutdown: the analytics report you still open, read the way a new customer would on a phone."
+        ]
+      },
+      {
+        "heading": "1. Look at the analytics report you still open",
+        "paragraphs": [
+          "Open the listing and the website on a phone. Look only at the analytics report you still open. In July 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Say the sentence out loud the way the host stand would say it. If the page uses a different name for the job, change the page, not the staff."
+        ],
+        "list": [
+          "The analytics report you still open on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
+        ]
+      },
+      {
+        "heading": "2. Fix the analytics report you still open before you add anything",
+        "paragraphs": [
+          "A mismatch on Universal Analytics shutdown is worth more than a redesign. Fix that one line for this restaurant and leave the rest of the site alone until the listing and the page agree.",
+          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
+        ]
+      },
+      {
+        "heading": "A check you can finish this week",
+        "paragraphs": [
+          "Pick one restaurant page and the Google listing. Compare the analytics report you still open. Write down the one line that disagrees, and change it before you add anything new.",
+          "The tools of July 2023 only help if they describe the business you are actually running."
+        ]
+      }
+    ],
+    "relatedHeading": "Related notes",
+    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
+    "upcoming": [
+      {
+        "title": "Know which analytics number you trust, March 14, 2022",
+        "href": "/blog/know-which-analytics-2022-2022-03-14"
       },
       {
         "title": "Core Web Vitals for a Local Service Business",
@@ -770,813 +1536,43 @@ export const posts = [
     ]
   },
   {
-    "slug": "drafting-help-still-needs-your-facts-2023-04-10",
-    "title": "If you try a writing tool, start from your own facts, April 10, 2023",
-    "seoTitle": "Editing AI website copy (clinic, April 10, 2023)",
-    "description": "Editing AI website copy for a clinic on April 10, 2023. What to check so the website and Google listing agree.",
+    "slug": "staff-recognize-sentences-2023-07-17",
+    "title": "The staff should recognize the sentences on the site, July 17, 2023",
+    "seoTitle": "Staff review of website copy (law office, July 17, 2023)",
+    "description": "Staff review of website copy for a law office on July 17, 2023. What to check so the website and Google listing agree.",
     "section": "Search",
-    "date": "2023-04-10",
-    "cta": "This week, look at any new writing help you have heard about. If it matches what the front desk would say, you are already ahead of a stale page.",
-    "sections": [
-      {
-        "paragraphs": [
-          "In April 2023 some owners are trying software that drafts sentences. It can speed a first pass. It does not know what a clinic actually does this week. If you use it, give it your facts and then read the result as the front desk would.",
-          "This April 10, 2023 note is for a clinic. The check is editing AI website copy: any new writing help you have heard about, read the way a new customer would on a phone."
-        ]
-      },
-      {
-        "heading": "1. The tool does not know your hours",
-        "paragraphs": [
-          "Open the listing and the website on a phone. Look only at any new writing help you have heard about. In April 2023 that is the piece a new customer is most likely to trust or doubt.",
-          "Say the sentence out loud the way the front desk would say it. If the page uses a different name for the job, change the page, not the staff."
-        ],
-        "list": [
-          "You supply the services, cities, and prices.",
-          "You delete anything you would not say at the counter.",
-          "The page still has your phone number and your name."
-        ]
-      },
-      {
-        "heading": "2. Read it out loud before you publish",
-        "paragraphs": [
-          "A mismatch on editing AI website copy is worth more than a redesign. Fix that one line for this clinic and leave the rest of the site alone until the listing and the page agree.",
-          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
-        ]
-      },
-      {
-        "heading": "A check you can finish this week",
-        "paragraphs": [
-          "Pick one clinic page and the Google listing. Compare any new writing help you have heard about. Write down the one line that disagrees, and change it before you add anything new.",
-          "The tools of April 2023 only help if they describe the business you are actually running."
-        ]
-      }
-    ],
-    "relatedHeading": "Related notes",
-    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
-    "upcoming": [
-      {
-        "title": "If you try a writing tool, start from your own facts, March 13, 2023",
-        "href": "/blog/drafting-help-still-needs-your-facts-2023-03-13"
-      },
-      {
-        "title": "What to Put on a Local Service Page",
-        "href": "/blog/what-to-put-on-a-local-service-page"
-      }
-    ]
-  },
-  {
-    "slug": "staff-can-explain-the-site-2023-04-17",
-    "title": "Make sure the staff can explain the website, April 17, 2023",
-    "seoTitle": "Staff-friendly business website (restaurant, April 17, 2023)",
-    "description": "Staff-friendly business website for a restaurant on April 17, 2023. What to check so the website and Google listing agree.",
-    "section": "Websites",
-    "date": "2023-04-17",
-    "cta": "This week, look at whether the people on the floor know the site. If it matches what the host stand would say, you are already ahead of a stale page.",
-    "sections": [
-      {
-        "paragraphs": [
-          "A website in April 2023 fails when it promises a path the host stand will not honor. Before you add a booking link or a waitlist, ask the people who would receive it. An honest sentence is better than a button that lands in a mailbox nobody opens.",
-          "This April 17, 2023 note is for a restaurant. The check is staff-friendly business website: whether the people on the floor know the site, read the way a new customer would on a phone."
-        ]
-      },
-      {
-        "heading": "1. The button should match what they say",
-        "paragraphs": [
-          "Open the listing and the website on a phone. Look only at whether the people on the floor know the site. In April 2023 that is the piece a new customer is most likely to trust or doubt.",
-          "Say the sentence out loud the way the host stand would say it. If the page uses a different name for the job, change the page, not the staff."
-        ],
-        "list": [
-          "Ask the people on the floor what the main button does.",
-          "The words on the site match the words they use.",
-          "A tool nobody watches is removed."
-        ]
-      },
-      {
-        "heading": "2. If they will ignore a form, do not offer it",
-        "paragraphs": [
-          "A mismatch on staff-friendly business website is worth more than a redesign. Fix that one line for this restaurant and leave the rest of the site alone until the listing and the page agree.",
-          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
-        ]
-      },
-      {
-        "heading": "A check you can finish this week",
-        "paragraphs": [
-          "Pick one restaurant page and the Google listing. Compare whether the people on the floor know the site. Write down the one line that disagrees, and change it before you add anything new.",
-          "The tools of April 2023 only help if they describe the business you are actually running."
-        ]
-      }
-    ],
-    "relatedHeading": "Related notes",
-    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
-    "upcoming": [
-      {
-        "title": "Make sure the staff can explain the website, December 12, 2022",
-        "href": "/blog/staff-can-explain-the-site-2022-12-12"
-      },
-      {
-        "title": "What to Put on a Local Service Page",
-        "href": "/blog/what-to-put-on-a-local-service-page"
-      }
-    ]
-  },
-  {
-    "slug": "local-pages-without-city-lists-2023-04-24",
-    "title": "Name the cities you serve without a city dump, April 24, 2023",
-    "seoTitle": "Local service area pages (law office, April 24, 2023)",
-    "description": "Local service area pages for a law office on April 24, 2023. What to check so the website and Google listing agree.",
-    "section": "Local SEO",
-    "date": "2023-04-24",
-    "cta": "This week, look at how your pages name the area. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
-    "sections": [
-      {
-        "paragraphs": [
-          "In April 2023 stuffing a page with every city in the county does not make a law office more local. Name the area you cover the way you would say it on the phone. If you will not drive there, leave it off.",
-          "This April 24, 2023 note is for a law office. The check is local service area pages: how your pages name the area, read the way a new customer would on a phone."
-        ]
-      },
-      {
-        "heading": "1. A list of every city is not a local page",
-        "paragraphs": [
-          "Open the listing and the website on a phone. Look only at how your pages name the area. In April 2023 that is the piece a new customer is most likely to trust or doubt.",
-          "Say the sentence out loud the way the person who answers the phone would say it. If the page uses a different name for the job, change the page, not the staff."
-        ],
-        "list": [
-          "The cities you will take a job in, in a sentence.",
-          "No block of town names at the bottom.",
-          "The listing and the page use the same list."
-        ]
-      },
-      {
-        "heading": "2. Match the cities on the listing",
-        "paragraphs": [
-          "A mismatch on local service area pages is worth more than a redesign. Fix that one line for this law office and leave the rest of the site alone until the listing and the page agree.",
-          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
-        ]
-      },
-      {
-        "heading": "A check you can finish this week",
-        "paragraphs": [
-          "Pick one law office page and the Google listing. Compare how your pages name the area. Write down the one line that disagrees, and change it before you add anything new.",
-          "The tools of April 2023 only help if they describe the business you are actually running."
-        ]
-      }
-    ],
-    "relatedHeading": "Related notes",
-    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
-    "upcoming": [
-      {
-        "title": "Name the cities you serve without a city dump, August 15, 2022",
-        "href": "/blog/local-pages-without-city-lists-2022-08-15"
-      },
-      {
-        "title": "Google Business Profile for a Service-Area Business",
-        "href": "/blog/google-business-profile-for-a-service-area-business"
-      }
-    ]
-  },
-  {
-    "slug": "secure-page-and-a-clear-form-2023-05-01",
-    "title": "Check that the site is secure and the form still sends, May 1, 2023",
-    "seoTitle": "Secure contact form (retail shop, May 1, 2023)",
-    "description": "Secure contact form for a retail shop on May 1, 2023. What to check so the website and Google listing agree.",
-    "section": "Websites",
-    "date": "2023-05-01",
-    "cta": "This week, look at the lock on the address and a test message. If it matches what the counter would say, you are already ahead of a stale page.",
-    "sections": [
-      {
-        "paragraphs": [
-          "A retail shop site in May 2023 can look fine and still drop messages. Send one note from a phone. If it does not arrive where the counter looks, the form is a dead end. Fix that before you ask for more visits.",
-          "This May 1, 2023 note is for a retail shop. The check is secure contact form: the lock on the address and a test message, read the way a new customer would on a phone."
-        ]
-      },
-      {
-        "heading": "1. Send yourself one message",
-        "paragraphs": [
-          "Open the listing and the website on a phone. Look only at the lock on the address and a test message. In May 2023 that is the piece a new customer is most likely to trust or doubt.",
-          "Say the sentence out loud the way the counter would say it. If the page uses a different name for the job, change the page, not the staff."
-        ],
-        "list": [
-          "The address shows a secure connection.",
-          "A test from your phone arrives.",
-          "The reply path is a person, not only an autoresponder."
-        ]
-      },
-      {
-        "heading": "2. Read it where the staff will read it",
-        "paragraphs": [
-          "A mismatch on secure contact form is worth more than a redesign. Fix that one line for this retail shop and leave the rest of the site alone until the listing and the page agree.",
-          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
-        ]
-      },
-      {
-        "heading": "A check you can finish this week",
-        "paragraphs": [
-          "Pick one retail shop page and the Google listing. Compare the lock on the address and a test message. Write down the one line that disagrees, and change it before you add anything new.",
-          "The tools of May 2023 only help if they describe the business you are actually running."
-        ]
-      }
-    ],
-    "relatedHeading": "Related notes",
-    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
-    "upcoming": [
-      {
-        "title": "Check that the site is secure and the form still sends, December 26, 2022",
-        "href": "/blog/secure-page-and-a-clear-form-2022-12-26"
-      },
-      {
-        "title": "What to Put on a Local Service Page",
-        "href": "/blog/what-to-put-on-a-local-service-page"
-      }
-    ]
-  },
-  {
-    "slug": "drafting-help-still-needs-your-facts-2023-05-08",
-    "title": "If you try a writing tool, start from your own facts, May 8, 2023",
-    "seoTitle": "Editing AI website copy (contractor, May 8, 2023)",
-    "description": "Editing AI website copy for a contractor on May 8, 2023. What to check so the website and Google listing agree.",
-    "section": "Search",
-    "date": "2023-05-08",
-    "cta": "This week, look at any new writing help you have heard about. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
-    "sections": [
-      {
-        "paragraphs": [
-          "In May 2023 some owners are trying software that drafts sentences. It can speed a first pass. It does not know what a contractor actually does this week. If you use it, give it your facts and then read the result as the person who answers the phone would.",
-          "This May 8, 2023 note is for a contractor. The check is editing AI website copy: any new writing help you have heard about, read the way a new customer would on a phone."
-        ]
-      },
-      {
-        "heading": "1. The tool does not know your hours",
-        "paragraphs": [
-          "Open the listing and the website on a phone. Look only at any new writing help you have heard about. In May 2023 that is the piece a new customer is most likely to trust or doubt.",
-          "Say the sentence out loud the way the person who answers the phone would say it. If the page uses a different name for the job, change the page, not the staff."
-        ],
-        "list": [
-          "You supply the services, cities, and prices.",
-          "You delete anything you would not say at the counter.",
-          "The page still has your phone number and your name."
-        ]
-      },
-      {
-        "heading": "2. Read it out loud before you publish",
-        "paragraphs": [
-          "A mismatch on editing AI website copy is worth more than a redesign. Fix that one line for this contractor and leave the rest of the site alone until the listing and the page agree.",
-          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
-        ]
-      },
-      {
-        "heading": "A check you can finish this week",
-        "paragraphs": [
-          "Pick one contractor page and the Google listing. Compare any new writing help you have heard about. Write down the one line that disagrees, and change it before you add anything new.",
-          "The tools of May 2023 only help if they describe the business you are actually running."
-        ]
-      }
-    ],
-    "relatedHeading": "Related notes",
-    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
-    "upcoming": [
-      {
-        "title": "If you try a writing tool, start from your own facts, April 10, 2023",
-        "href": "/blog/drafting-help-still-needs-your-facts-2023-04-10"
-      },
-      {
-        "title": "What to Put on a Local Service Page",
-        "href": "/blog/what-to-put-on-a-local-service-page"
-      }
-    ]
-  },
-  {
-    "slug": "click-to-call-on-a-phone-2023-05-15",
-    "title": "Put a real click-to-call number on the first screen, May 15, 2023",
-    "seoTitle": "Click-to-call phone number (salon, May 15, 2023)",
-    "description": "Click-to-call phone number for a salon on May 15, 2023. What to check so the website and Google listing agree.",
-    "section": "Websites",
-    "date": "2023-05-15",
-    "cta": "This week, look at the phone number on a phone-sized screen. If it matches what the front desk would say, you are already ahead of a stale page.",
-    "sections": [
-      {
-        "paragraphs": [
-          "A salon found in May 2023 is usually found on a phone. The first screen should show a number that starts a call when tapped. A picture of a number, or a number buried under a paragraph, is a number people will not use.",
-          "This May 15, 2023 note is for a salon. The check is click-to-call phone number: the phone number on a phone-sized screen, read the way a new customer would on a phone."
-        ]
-      },
-      {
-        "heading": "1. The number has to start a call",
-        "paragraphs": [
-          "Open the listing and the website on a phone. Look only at the phone number on a phone-sized screen. In May 2023 that is the piece a new customer is most likely to trust or doubt.",
-          "Say the sentence out loud the way the front desk would say it. If the page uses a different name for the job, change the page, not the staff."
-        ],
-        "list": [
-          "Tap the number on a phone that is not on the shop Wi-Fi.",
-          "The same number on the listing, the site, and the truck or card.",
-          "No second number that nobody watches."
-        ]
-      },
-      {
-        "heading": "2. One number, the one a person answers",
-        "paragraphs": [
-          "A mismatch on click-to-call phone number is worth more than a redesign. Fix that one line for this salon and leave the rest of the site alone until the listing and the page agree.",
-          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
-        ]
-      },
-      {
-        "heading": "A check you can finish this week",
-        "paragraphs": [
-          "Pick one salon page and the Google listing. Compare the phone number on a phone-sized screen. Write down the one line that disagrees, and change it before you add anything new.",
-          "The tools of May 2023 only help if they describe the business you are actually running."
-        ]
-      }
-    ],
-    "relatedHeading": "Related notes",
-    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
-    "upcoming": [
-      {
-        "title": "Put a real click-to-call number on the first screen, January 9, 2023",
-        "href": "/blog/click-to-call-on-a-phone-2023-01-09"
-      },
-      {
-        "title": "What to Put on a Local Service Page",
-        "href": "/blog/what-to-put-on-a-local-service-page"
-      }
-    ]
-  },
-  {
-    "slug": "menu-or-services-you-can-read-2023-05-22",
-    "title": "Publish a menu or service list a phone can read, May 22, 2023",
-    "seoTitle": "Mobile-friendly service menu (clinic, May 22, 2023)",
-    "description": "Mobile-friendly service menu for a clinic on May 22, 2023. What to check so the website and Google listing agree.",
-    "section": "Websites",
-    "date": "2023-05-22",
-    "cta": "This week, look at the list of what you actually offer. If it matches what the front desk would say, you are already ahead of a stale page.",
-    "sections": [
-      {
-        "paragraphs": [
-          "By May 2023, a PDF that is a photo of a printed menu is already a problem on a phone. The same is true of a service list that says \"solutions\" and never names the job. Write the current offer in text. the front desk should recognize every line.",
-          "This May 22, 2023 note is for a clinic. The check is mobile-friendly service menu: the list of what you actually offer, read the way a new customer would on a phone."
-        ]
-      },
-      {
-        "heading": "1. Text beats a sideways photo",
-        "paragraphs": [
-          "Open the listing and the website on a phone. Look only at the list of what you actually offer. In May 2023 that is the piece a new customer is most likely to trust or doubt.",
-          "Say the sentence out loud the way the front desk would say it. If the page uses a different name for the job, change the page, not the staff."
-        ],
-        "list": [
-          "A person can find a price or a starting price without zooming.",
-          "The file or page uses the words people search.",
-          "Last season's offer is gone if you no longer do it."
-        ]
-      },
-      {
-        "heading": "2. Name the work in customer words",
-        "paragraphs": [
-          "A mismatch on mobile-friendly service menu is worth more than a redesign. Fix that one line for this clinic and leave the rest of the site alone until the listing and the page agree.",
-          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
-        ]
-      },
-      {
-        "heading": "A check you can finish this week",
-        "paragraphs": [
-          "Pick one clinic page and the Google listing. Compare the list of what you actually offer. Write down the one line that disagrees, and change it before you add anything new.",
-          "The tools of May 2023 only help if they describe the business you are actually running."
-        ]
-      }
-    ],
-    "relatedHeading": "Related notes",
-    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
-    "upcoming": [
-      {
-        "title": "Publish a menu or service list a phone can read, September 12, 2022",
-        "href": "/blog/menu-or-services-you-can-read-2022-09-12"
-      },
-      {
-        "title": "What to Put on a Local Service Page",
-        "href": "/blog/what-to-put-on-a-local-service-page"
-      }
-    ]
-  },
-  {
-    "slug": "reviews-you-can-answer-2023-05-29",
-    "title": "Answer the reviews customers already left, May 29, 2023",
-    "seoTitle": "Google review replies (restaurant, May 29, 2023)",
-    "description": "Google review replies for a restaurant on May 29, 2023. What to check so the website and Google listing agree.",
-    "section": "Local SEO",
-    "date": "2023-05-29",
-    "cta": "This week, look at recent reviews on your listing. If it matches what the host stand would say, you are already ahead of a stale page.",
-    "sections": [
-      {
-        "paragraphs": [
-          "In May 2023 a review is often read before the website. A restaurant with no replies looks unattended. A short, specific reply is enough. Thank them for the job they named, and if something went wrong, say how to reach the host stand.",
-          "This May 29, 2023 note is for a restaurant. The check is Google review replies: recent reviews on your listing, read the way a new customer would on a phone."
-        ]
-      },
-      {
-        "heading": "1. A reply is part of the listing",
-        "paragraphs": [
-          "Open the listing and the website on a phone. Look only at recent reviews on your listing. In May 2023 that is the piece a new customer is most likely to trust or doubt.",
-          "Say the sentence out loud the way the host stand would say it. If the page uses a different name for the job, change the page, not the staff."
-        ],
-        "list": [
-          "Reply to the newest review in a full sentence.",
-          "If three reviews mention the same wait, the wait is the work.",
-          "Ask a happy customer this week, without a script full of keywords."
-        ]
-      },
-      {
-        "heading": "2. Do not argue, and do not ignore a pattern",
-        "paragraphs": [
-          "A mismatch on Google review replies is worth more than a redesign. Fix that one line for this restaurant and leave the rest of the site alone until the listing and the page agree.",
-          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
-        ]
-      },
-      {
-        "heading": "A check you can finish this week",
-        "paragraphs": [
-          "Pick one restaurant page and the Google listing. Compare recent reviews on your listing. Write down the one line that disagrees, and change it before you add anything new.",
-          "The tools of May 2023 only help if they describe the business you are actually running."
-        ]
-      }
-    ],
-    "relatedHeading": "Related notes",
-    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
-    "upcoming": [
-      {
-        "title": "Answer the reviews customers already left, January 23, 2023",
-        "href": "/blog/reviews-you-can-answer-2023-01-23"
-      },
-      {
-        "title": "Google Business Profile for a Service-Area Business",
-        "href": "/blog/google-business-profile-for-a-service-area-business"
-      }
-    ]
-  },
-  {
-    "slug": "drafting-help-still-needs-your-facts-2023-06-05",
-    "title": "If you try a writing tool, start from your own facts, June 5, 2023",
-    "seoTitle": "Editing AI website copy (law office, June 5, 2023)",
-    "description": "Editing AI website copy for a law office on June 5, 2023. What to check so the website and Google listing agree.",
-    "section": "Search",
-    "date": "2023-06-05",
-    "cta": "This week, look at any new writing help you have heard about. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
-    "sections": [
-      {
-        "paragraphs": [
-          "In June 2023 some owners are trying software that drafts sentences. It can speed a first pass. It does not know what a law office actually does this week. If you use it, give it your facts and then read the result as the person who answers the phone would.",
-          "This June 5, 2023 note is for a law office. The check is editing AI website copy: any new writing help you have heard about, read the way a new customer would on a phone."
-        ]
-      },
-      {
-        "heading": "1. The tool does not know your hours",
-        "paragraphs": [
-          "Open the listing and the website on a phone. Look only at any new writing help you have heard about. In June 2023 that is the piece a new customer is most likely to trust or doubt.",
-          "Say the sentence out loud the way the person who answers the phone would say it. If the page uses a different name for the job, change the page, not the staff."
-        ],
-        "list": [
-          "You supply the services, cities, and prices.",
-          "You delete anything you would not say at the counter.",
-          "The page still has your phone number and your name."
-        ]
-      },
-      {
-        "heading": "2. Read it out loud before you publish",
-        "paragraphs": [
-          "A mismatch on editing AI website copy is worth more than a redesign. Fix that one line for this law office and leave the rest of the site alone until the listing and the page agree.",
-          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
-        ]
-      },
-      {
-        "heading": "A check you can finish this week",
-        "paragraphs": [
-          "Pick one law office page and the Google listing. Compare any new writing help you have heard about. Write down the one line that disagrees, and change it before you add anything new.",
-          "The tools of June 2023 only help if they describe the business you are actually running."
-        ]
-      }
-    ],
-    "relatedHeading": "Related notes",
-    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
-    "upcoming": [
-      {
-        "title": "If you try a writing tool, start from your own facts, May 8, 2023",
-        "href": "/blog/drafting-help-still-needs-your-facts-2023-05-08"
-      },
-      {
-        "title": "What to Put on a Local Service Page",
-        "href": "/blog/what-to-put-on-a-local-service-page"
-      }
-    ]
-  },
-  {
-    "slug": "name-address-phone-agree-2023-06-12",
-    "title": "Use one business name, address, and phone number, June 12, 2023",
-    "seoTitle": "Name, address, and phone consistency (retail shop, June 12, 2023)",
-    "description": "Name, address, and phone consistency for a retail shop on June 12, 2023. What to check so the website and Google listing agree.",
-    "section": "Local SEO",
-    "date": "2023-06-12",
-    "cta": "This week, look at the name, address, and phone number. If it matches what the counter would say, you are already ahead of a stale page.",
-    "sections": [
-      {
-        "paragraphs": [
-          "Searchers in June 2023 compare the listing with the website. If one says \"Inc\" and the other does not, or the suite is missing, they hesitate. Pick the name on the invoice and use it everywhere a customer looks.",
-          "This June 12, 2023 note is for a retail shop. The check is name, address, and phone consistency: the name, address, and phone number, read the way a new customer would on a phone."
-        ]
-      },
-      {
-        "heading": "1. Small differences look like two businesses",
-        "paragraphs": [
-          "Open the listing and the website on a phone. Look only at the name, address, and phone number. In June 2023 that is the piece a new customer is most likely to trust or doubt.",
-          "Say the sentence out loud the way the counter would say it. If the page uses a different name for the job, change the page, not the staff."
-        ],
-        "list": [
-          "The name on the listing matches the invoice.",
-          "The suite number is on the site, not only on the door.",
-          "The phone number is the same in the footer and on the listing."
-        ]
-      },
-      {
-        "heading": "2. Write the address the way it is on the door",
-        "paragraphs": [
-          "A mismatch on name, address, and phone consistency is worth more than a redesign. Fix that one line for this retail shop and leave the rest of the site alone until the listing and the page agree.",
-          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
-        ]
-      },
-      {
-        "heading": "A check you can finish this week",
-        "paragraphs": [
-          "Pick one retail shop page and the Google listing. Compare the name, address, and phone number. Write down the one line that disagrees, and change it before you add anything new.",
-          "The tools of June 2023 only help if they describe the business you are actually running."
-        ]
-      }
-    ],
-    "relatedHeading": "Related notes",
-    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
-    "upcoming": [
-      {
-        "title": "Use one business name, address, and phone number, February 6, 2023",
-        "href": "/blog/name-address-phone-agree-2023-02-06"
-      },
-      {
-        "title": "Google Business Profile for a Service-Area Business",
-        "href": "/blog/google-business-profile-for-a-service-area-business"
-      }
-    ]
-  },
-  {
-    "slug": "service-area-without-a-storefront-2023-06-19",
-    "title": "Say where you drive, and hide a home address, June 19, 2023",
-    "seoTitle": "Service-area Google listing (contractor, June 19, 2023)",
-    "description": "Service-area Google listing for a contractor on June 19, 2023. What to check so the website and Google listing agree.",
-    "section": "Local SEO",
-    "date": "2023-06-19",
-    "cta": "This week, look at the service area on your listing. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
-    "sections": [
-      {
-        "paragraphs": [
-          "If customers do not visit you, a contractor in June 2023 should not publish a home street. Google lets a service-area business hide the address and list cities instead. List the ones you will take. A longer list is not a better listing.",
-          "This June 19, 2023 note is for a contractor. The check is service-area Google listing: the service area on your listing, read the way a new customer would on a phone."
-        ]
-      },
-      {
-        "heading": "1. Publish the cities you will actually take",
-        "paragraphs": [
-          "Open the listing and the website on a phone. Look only at the service area on your listing. In June 2023 that is the piece a new customer is most likely to trust or doubt.",
-          "Say the sentence out loud the way the person who answers the phone would say it. If the page uses a different name for the job, change the page, not the staff."
-        ],
-        "list": [
-          "Cities you will drive to on a normal day.",
-          "No county you will not serve.",
-          "The same cities named on the contact page."
-        ]
-      },
-      {
-        "heading": "2. A pin on a house is not a shop",
-        "paragraphs": [
-          "A mismatch on service-area Google listing is worth more than a redesign. Fix that one line for this contractor and leave the rest of the site alone until the listing and the page agree.",
-          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
-        ]
-      },
-      {
-        "heading": "A check you can finish this week",
-        "paragraphs": [
-          "Pick one contractor page and the Google listing. Compare the service area on your listing. Write down the one line that disagrees, and change it before you add anything new.",
-          "The tools of June 2023 only help if they describe the business you are actually running."
-        ]
-      }
-    ],
-    "relatedHeading": "Related notes",
-    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
-    "upcoming": [
-      {
-        "title": "Say where you drive, and hide a home address, October 10, 2022",
-        "href": "/blog/service-area-without-a-storefront-2022-10-10"
-      },
-      {
-        "title": "Google Business Profile for a Service-Area Business",
-        "href": "/blog/google-business-profile-for-a-service-area-business"
-      }
-    ]
-  },
-  {
-    "slug": "first-screen-on-a-phone-2023-06-26",
-    "title": "Say what you do on the first phone screen, June 26, 2023",
-    "seoTitle": "Homepage first screen (salon, June 26, 2023)",
-    "description": "Homepage first screen for a salon on June 26, 2023. What to check so the website and Google listing agree.",
-    "section": "Websites",
-    "date": "2023-06-26",
-    "cta": "This week, look at the first screen of your website. If it matches what the front desk would say, you are already ahead of a stale page.",
-    "sections": [
-      {
-        "paragraphs": [
-          "In June 2023 most first visits are on a phone. If the first screen is a slideshow or a paragraph about the founding year, the customer still does not know whether you can help today. Put the job and the phone number above the story.",
-          "This June 26, 2023 note is for a salon. The check is homepage first screen: the first screen of your website, read the way a new customer would on a phone."
-        ]
-      },
-      {
-        "heading": "1. Name, service, and a way to reach you",
-        "paragraphs": [
-          "Open the listing and the website on a phone. Look only at the first screen of your website. In June 2023 that is the piece a new customer is most likely to trust or doubt.",
-          "Say the sentence out loud the way the front desk would say it. If the page uses a different name for the job, change the page, not the staff."
-        ],
-        "list": [
-          "The business name is visible without scrolling.",
-          "The job you want calls for is named.",
-          "A button or number is where a thumb can tap it."
-        ]
-      },
-      {
-        "heading": "2. Move the story below that",
-        "paragraphs": [
-          "A mismatch on homepage first screen is worth more than a redesign. Fix that one line for this salon and leave the rest of the site alone until the listing and the page agree.",
-          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
-        ]
-      },
-      {
-        "heading": "A check you can finish this week",
-        "paragraphs": [
-          "Pick one salon page and the Google listing. Compare the first screen of your website. Write down the one line that disagrees, and change it before you add anything new.",
-          "The tools of June 2023 only help if they describe the business you are actually running."
-        ]
-      }
-    ],
-    "relatedHeading": "Related notes",
-    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
-    "upcoming": [
-      {
-        "title": "Say what you do on the first phone screen, February 20, 2023",
-        "href": "/blog/first-screen-on-a-phone-2023-02-20"
-      },
-      {
-        "title": "What to Put on a Local Service Page",
-        "href": "/blog/what-to-put-on-a-local-service-page"
-      }
-    ]
-  },
-  {
-    "slug": "drafting-help-still-needs-your-facts-2023-07-03",
-    "title": "If you try a writing tool, start from your own facts, July 3, 2023",
-    "seoTitle": "Editing AI website copy (clinic, July 3, 2023)",
-    "description": "Editing AI website copy for a clinic on July 3, 2023. What to check so the website and Google listing agree.",
-    "section": "Search",
-    "date": "2023-07-03",
-    "cta": "This week, look at any new writing help you have heard about. If it matches what the front desk would say, you are already ahead of a stale page.",
-    "sections": [
-      {
-        "paragraphs": [
-          "In July 2023 some owners are trying software that drafts sentences. It can speed a first pass. It does not know what a clinic actually does this week. If you use it, give it your facts and then read the result as the front desk would.",
-          "This July 3, 2023 note is for a clinic. The check is editing AI website copy: any new writing help you have heard about, read the way a new customer would on a phone."
-        ]
-      },
-      {
-        "heading": "1. The tool does not know your hours",
-        "paragraphs": [
-          "Open the listing and the website on a phone. Look only at any new writing help you have heard about. In July 2023 that is the piece a new customer is most likely to trust or doubt.",
-          "Say the sentence out loud the way the front desk would say it. If the page uses a different name for the job, change the page, not the staff."
-        ],
-        "list": [
-          "You supply the services, cities, and prices.",
-          "You delete anything you would not say at the counter.",
-          "The page still has your phone number and your name."
-        ]
-      },
-      {
-        "heading": "2. Read it out loud before you publish",
-        "paragraphs": [
-          "A mismatch on editing AI website copy is worth more than a redesign. Fix that one line for this clinic and leave the rest of the site alone until the listing and the page agree.",
-          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
-        ]
-      },
-      {
-        "heading": "A check you can finish this week",
-        "paragraphs": [
-          "Pick one clinic page and the Google listing. Compare any new writing help you have heard about. Write down the one line that disagrees, and change it before you add anything new.",
-          "The tools of July 2023 only help if they describe the business you are actually running."
-        ]
-      }
-    ],
-    "relatedHeading": "Related notes",
-    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
-    "upcoming": [
-      {
-        "title": "If you try a writing tool, start from your own facts, June 5, 2023",
-        "href": "/blog/drafting-help-still-needs-your-facts-2023-06-05"
-      },
-      {
-        "title": "What to Put on a Local Service Page",
-        "href": "/blog/what-to-put-on-a-local-service-page"
-      }
-    ]
-  },
-  {
-    "slug": "one-page-per-service-2023-07-10",
-    "title": "Give each main service its own page, July 10, 2023",
-    "seoTitle": "Service page for local SEO (restaurant, July 10, 2023)",
-    "description": "Service page for local SEO for a restaurant on July 10, 2023. What to check so the website and Google listing agree.",
-    "section": "Websites",
-    "date": "2023-07-10",
-    "cta": "This week, look at whether each job you want has its own page. If it matches what the host stand would say, you are already ahead of a stale page.",
-    "sections": [
-      {
-        "paragraphs": [
-          "A restaurant in July 2023 often offers three jobs and explains them in one paragraph. Searchers look for one job. Give that job a page with a plain title, what is included, and how to call.",
-          "This July 10, 2023 note is for a restaurant. The check is service page for local SEO: whether each job you want has its own page, read the way a new customer would on a phone."
-        ]
-      },
-      {
-        "heading": "1. The homepage cannot rank for every job",
-        "paragraphs": [
-          "Open the listing and the website on a phone. Look only at whether each job you want has its own page. In July 2023 that is the piece a new customer is most likely to trust or doubt.",
-          "Say the sentence out loud the way the host stand would say it. If the page uses a different name for the job, change the page, not the staff."
-        ],
-        "list": [
-          "One page for the job you want more calls for.",
-          "The title names the service and the area you cover.",
-          "A related job links to its own page instead of sharing this one."
-        ]
-      },
-      {
-        "heading": "2. Use the words a customer would type",
-        "paragraphs": [
-          "A mismatch on service page for local SEO is worth more than a redesign. Fix that one line for this restaurant and leave the rest of the site alone until the listing and the page agree.",
-          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
-        ]
-      },
-      {
-        "heading": "A check you can finish this week",
-        "paragraphs": [
-          "Pick one restaurant page and the Google listing. Compare whether each job you want has its own page. Write down the one line that disagrees, and change it before you add anything new.",
-          "The tools of July 2023 only help if they describe the business you are actually running."
-        ]
-      }
-    ],
-    "relatedHeading": "Related notes",
-    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
-    "upcoming": [
-      {
-        "title": "Give each main service its own page, March 6, 2023",
-        "href": "/blog/one-page-per-service-2023-03-06"
-      },
-      {
-        "title": "What to Put on a Local Service Page",
-        "href": "/blog/what-to-put-on-a-local-service-page"
-      }
-    ]
-  },
-  {
-    "slug": "contact-form-short-enough-2023-07-17",
-    "title": "Shorten the form to what the first call needs, July 17, 2023",
-    "seoTitle": "Short contact form (law office, July 17, 2023)",
-    "description": "Short contact form for a law office on July 17, 2023. What to check so the website and Google listing agree.",
-    "section": "Websites",
     "date": "2023-07-17",
-    "cta": "This week, look at the form a new customer has to finish. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
+    "cta": "This week, look at whether staff recognize the page. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
     "sections": [
       {
         "paragraphs": [
-          "In July 2023 a long form is where a phone visit ends. Ask for a name, a callback number, the city, and the job. the person who answers the phone should know the form is theirs. If nobody reads it, take the form down and publish the phone number.",
-          "This July 17, 2023 note is for a law office. The check is short contact form: the form a new customer has to finish, read the way a new customer would on a phone."
+          "Hand them the page. If they say 'we do not say it that way,' change the page.",
+          "This July 17, 2023 note is for a law office. The check is staff review of website copy: whether staff recognize the page, read the way a new customer would on a phone."
         ]
       },
       {
-        "heading": "1. Name, number, city, and the job",
+        "heading": "1. Look at whether staff recognize the page",
         "paragraphs": [
-          "Open the listing and the website on a phone. Look only at the form a new customer has to finish. In July 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Open the listing and the website on a phone. Look only at whether staff recognize the page. In July 2023 that is the piece a new customer is most likely to trust or doubt.",
           "Say the sentence out loud the way the person who answers the phone would say it. If the page uses a different name for the job, change the page, not the staff."
         ],
         "list": [
-          "Five or six fields, not a questionnaire.",
-          "A sentence under the button about when you reply.",
-          "Someone at the desk reads the form the same day."
+          "Whether staff recognize the page on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
         ]
       },
       {
-        "heading": "2. Say what happens after they send it",
+        "heading": "2. Fix whether staff recognize the page before you add anything",
         "paragraphs": [
-          "A mismatch on short contact form is worth more than a redesign. Fix that one line for this law office and leave the rest of the site alone until the listing and the page agree.",
+          "A mismatch on staff review of website copy is worth more than a redesign. Fix that one line for this law office and leave the rest of the site alone until the listing and the page agree.",
           "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
         ]
       },
       {
         "heading": "A check you can finish this week",
         "paragraphs": [
-          "Pick one law office page and the Google listing. Compare the form a new customer has to finish. Write down the one line that disagrees, and change it before you add anything new.",
+          "Pick one law office page and the Google listing. Compare whether staff recognize the page. Write down the one line that disagrees, and change it before you add anything new.",
           "The tools of July 2023 only help if they describe the business you are actually running."
         ]
       }
@@ -1585,8 +1581,338 @@ export const posts = [
     "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
     "upcoming": [
       {
-        "title": "Shorten the form to what the first call needs, November 7, 2022",
-        "href": "/blog/contact-form-short-enough-2022-11-07"
+        "title": "Do not let a draft invent prices, June 19, 2023",
+        "href": "/blog/draft-invents-prices-2023-06-19"
+      },
+      {
+        "title": "What to Put on a Local Service Page",
+        "href": "/blog/what-to-put-on-a-local-service-page"
+      }
+    ]
+  },
+  {
+    "slug": "booking-during-vacation-2023-07-24",
+    "title": "Block vacation days on the public calendar, July 24, 2023",
+    "seoTitle": "Blocked vacation days (retail shop, July 24, 2023)",
+    "description": "Blocked vacation days for a retail shop on July 24, 2023. What to check so the website and Google listing agree.",
+    "section": "Websites",
+    "date": "2023-07-24",
+    "cta": "This week, look at days the calendar still shows as open. If it matches what the counter would say, you are already ahead of a stale page.",
+    "sections": [
+      {
+        "paragraphs": [
+          "If the book-online link still offers a day you are gone, that is the day people will pick.",
+          "This July 24, 2023 note is for a retail shop. The check is blocked vacation days: days the calendar still shows as open, read the way a new customer would on a phone."
+        ]
+      },
+      {
+        "heading": "1. Look at days the calendar still shows as open",
+        "paragraphs": [
+          "Open the listing and the website on a phone. Look only at days the calendar still shows as open. In July 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Say the sentence out loud the way the counter would say it. If the page uses a different name for the job, change the page, not the staff."
+        ],
+        "list": [
+          "Days the calendar still shows as open on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
+        ]
+      },
+      {
+        "heading": "2. Fix days the calendar still shows as open before you add anything",
+        "paragraphs": [
+          "A mismatch on blocked vacation days is worth more than a redesign. Fix that one line for this retail shop and leave the rest of the site alone until the listing and the page agree.",
+          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
+        ]
+      },
+      {
+        "heading": "A check you can finish this week",
+        "paragraphs": [
+          "Pick one retail shop page and the Google listing. Compare days the calendar still shows as open. Write down the one line that disagrees, and change it before you add anything new.",
+          "The tools of July 2023 only help if they describe the business you are actually running."
+        ]
+      }
+    ],
+    "relatedHeading": "Related notes",
+    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
+    "upcoming": [
+      {
+        "title": "Name the seasonal work you are actually booking, April 10, 2023",
+        "href": "/blog/seasonal-work-you-are-booking-2023-04-10"
+      },
+      {
+        "title": "What to Put on a Local Service Page",
+        "href": "/blog/what-to-put-on-a-local-service-page"
+      }
+    ]
+  },
+  {
+    "slug": "outdoor-delay-2023-07-31",
+    "title": "Say how you notify people when outdoor work slips, July 31, 2023",
+    "seoTitle": "Outdoor work delay (contractor, July 31, 2023)",
+    "description": "Outdoor work delay for a contractor on July 31, 2023. What to check so the website and Google listing agree.",
+    "section": "Local SEO",
+    "date": "2023-07-31",
+    "cta": "This week, look at how you send a delay. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
+    "sections": [
+      {
+        "paragraphs": [
+          "Text, call, or a listing post. Pick one and do it before they are in the driveway.",
+          "This July 31, 2023 note is for a contractor. The check is outdoor work delay: how you send a delay, read the way a new customer would on a phone."
+        ]
+      },
+      {
+        "heading": "1. Look at how you send a delay",
+        "paragraphs": [
+          "Open the listing and the website on a phone. Look only at how you send a delay. In July 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Say the sentence out loud the way the person who answers the phone would say it. If the page uses a different name for the job, change the page, not the staff."
+        ],
+        "list": [
+          "How you send a delay on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
+        ]
+      },
+      {
+        "heading": "2. Fix how you send a delay before you add anything",
+        "paragraphs": [
+          "A mismatch on outdoor work delay is worth more than a redesign. Fix that one line for this contractor and leave the rest of the site alone until the listing and the page agree.",
+          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
+        ]
+      },
+      {
+        "heading": "A check you can finish this week",
+        "paragraphs": [
+          "Pick one contractor page and the Google listing. Compare how you send a delay. Write down the one line that disagrees, and change it before you add anything new.",
+          "The tools of July 2023 only help if they describe the business you are actually running."
+        ]
+      }
+    ],
+    "relatedHeading": "Related notes",
+    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
+    "upcoming": [
+      {
+        "title": "Write July 4 hours before the weekend, July 3, 2023",
+        "href": "/blog/july4-hours-2023-2023-07-03"
+      },
+      {
+        "title": "Google Business Profile for a Service-Area Business",
+        "href": "/blog/google-business-profile-for-a-service-area-business"
+      }
+    ]
+  },
+  {
+    "slug": "prepare-fall-hours-2023-08-07",
+    "title": "Draft fall hours before the first fall week, August 7, 2023",
+    "seoTitle": "Fall hours (salon, August 7, 2023)",
+    "description": "Fall hours for a salon on August 7, 2023. What to check so the website and Google listing agree.",
+    "section": "Local SEO",
+    "date": "2023-08-07",
+    "cta": "This week, look at the hours you will keep in the fall. If it matches what the front desk would say, you are already ahead of a stale page.",
+    "sections": [
+      {
+        "paragraphs": [
+          "Write them down and put them on the listing the week they start, not after a week of wrong calls.",
+          "This August 7, 2023 note is for a salon. The check is fall hours: the hours you will keep in the fall, read the way a new customer would on a phone."
+        ]
+      },
+      {
+        "heading": "1. Look at the hours you will keep in the fall",
+        "paragraphs": [
+          "Open the listing and the website on a phone. Look only at the hours you will keep in the fall. In August 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Say the sentence out loud the way the front desk would say it. If the page uses a different name for the job, change the page, not the staff."
+        ],
+        "list": [
+          "The hours you will keep in the fall on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
+        ]
+      },
+      {
+        "heading": "2. Fix the hours you will keep in the fall before you add anything",
+        "paragraphs": [
+          "A mismatch on fall hours is worth more than a redesign. Fix that one line for this salon and leave the rest of the site alone until the listing and the page agree.",
+          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
+        ]
+      },
+      {
+        "heading": "A check you can finish this week",
+        "paragraphs": [
+          "Pick one salon page and the Google listing. Compare the hours you will keep in the fall. Write down the one line that disagrees, and change it before you add anything new.",
+          "The tools of August 2023 only help if they describe the business you are actually running."
+        ]
+      }
+    ],
+    "relatedHeading": "Related notes",
+    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
+    "upcoming": [
+      {
+        "title": "Say how you notify people when outdoor work slips, July 31, 2023",
+        "href": "/blog/outdoor-delay-2023-07-31"
+      },
+      {
+        "title": "Google Business Profile for a Service-Area Business",
+        "href": "/blog/google-business-profile-for-a-service-area-business"
+      }
+    ]
+  },
+  {
+    "slug": "school-hours-2023-2023-08-14",
+    "title": "Publish back-to-school hours the week they start, August 14, 2023",
+    "seoTitle": "Back-to-school hours (clinic, August 14, 2023)",
+    "description": "Back-to-school hours for a clinic on August 14, 2023. What to check so the website and Google listing agree.",
+    "section": "Local SEO",
+    "date": "2023-08-14",
+    "cta": "This week, look at back-to-school hours. If it matches what the front desk would say, you are already ahead of a stale page.",
+    "sections": [
+      {
+        "paragraphs": [
+          "School schedules in 2023 change the rush hour. Write the hours you will keep once classes start, on the listing and the page.",
+          "This August 14, 2023 note is for a clinic. The check is back-to-school hours: back-to-school hours, read the way a new customer would on a phone."
+        ]
+      },
+      {
+        "heading": "1. Look at back-to-school hours",
+        "paragraphs": [
+          "Open the listing and the website on a phone. Look only at back-to-school hours. In August 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Say the sentence out loud the way the front desk would say it. If the page uses a different name for the job, change the page, not the staff."
+        ],
+        "list": [
+          "Back-to-school hours on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
+        ]
+      },
+      {
+        "heading": "2. Fix back-to-school hours before you add anything",
+        "paragraphs": [
+          "A mismatch on back-to-school hours is worth more than a redesign. Fix that one line for this clinic and leave the rest of the site alone until the listing and the page agree.",
+          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
+        ]
+      },
+      {
+        "heading": "A check you can finish this week",
+        "paragraphs": [
+          "Pick one clinic page and the Google listing. Compare back-to-school hours. Write down the one line that disagrees, and change it before you add anything new.",
+          "The tools of August 2023 only help if they describe the business you are actually running."
+        ]
+      }
+    ],
+    "relatedHeading": "Related notes",
+    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
+    "upcoming": [
+      {
+        "title": "Draft fall hours before the first fall week, August 7, 2023",
+        "href": "/blog/prepare-fall-hours-2023-08-07"
+      },
+      {
+        "title": "Google Business Profile for a Service-Area Business",
+        "href": "/blog/google-business-profile-for-a-service-area-business"
+      }
+    ]
+  },
+  {
+    "slug": "one-page-edited-2023-08-21",
+    "title": "Edit one page instead of generating ten, August 21, 2023",
+    "seoTitle": "Editing one service page (restaurant, August 21, 2023)",
+    "description": "Editing one service page for a restaurant on August 21, 2023. What to check so the website and Google listing agree.",
+    "section": "Search",
+    "date": "2023-08-21",
+    "cta": "This week, look at one finished page. If it matches what the host stand would say, you are already ahead of a stale page.",
+    "sections": [
+      {
+        "paragraphs": [
+          "A single accurate service page is worth more than a stack of drafts you have not read.",
+          "This August 21, 2023 note is for a restaurant. The check is editing one service page: one finished page, read the way a new customer would on a phone."
+        ]
+      },
+      {
+        "heading": "1. Look at one finished page",
+        "paragraphs": [
+          "Open the listing and the website on a phone. Look only at one finished page. In August 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Say the sentence out loud the way the host stand would say it. If the page uses a different name for the job, change the page, not the staff."
+        ],
+        "list": [
+          "One finished page on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
+        ]
+      },
+      {
+        "heading": "2. Fix one finished page before you add anything",
+        "paragraphs": [
+          "A mismatch on editing one service page is worth more than a redesign. Fix that one line for this restaurant and leave the rest of the site alone until the listing and the page agree.",
+          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
+        ]
+      },
+      {
+        "heading": "A check you can finish this week",
+        "paragraphs": [
+          "Pick one restaurant page and the Google listing. Compare one finished page. Write down the one line that disagrees, and change it before you add anything new.",
+          "The tools of August 2023 only help if they describe the business you are actually running."
+        ]
+      }
+    ],
+    "relatedHeading": "Related notes",
+    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
+    "upcoming": [
+      {
+        "title": "The staff should recognize the sentences on the site, July 17, 2023",
+        "href": "/blog/staff-recognize-sentences-2023-07-17"
+      },
+      {
+        "title": "What to Put on a Local Service Page",
+        "href": "/blog/what-to-put-on-a-local-service-page"
+      }
+    ]
+  },
+  {
+    "slug": "august-form-2023-08-28",
+    "title": "Test the form during the late-summer week, August 28, 2023",
+    "seoTitle": "August form test (law office, August 28, 2023)",
+    "description": "August form test for a law office on August 28, 2023. What to check so the website and Google listing agree.",
+    "section": "Websites",
+    "date": "2023-08-28",
+    "cta": "This week, look at a form test this week. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
+    "sections": [
+      {
+        "paragraphs": [
+          "Send one message. Late summer inboxes get ignored. Know where the mail lands.",
+          "This August 28, 2023 note is for a law office. The check is August form test: a form test this week, read the way a new customer would on a phone."
+        ]
+      },
+      {
+        "heading": "1. Look at a form test this week",
+        "paragraphs": [
+          "Open the listing and the website on a phone. Look only at a form test this week. In August 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Say the sentence out loud the way the person who answers the phone would say it. If the page uses a different name for the job, change the page, not the staff."
+        ],
+        "list": [
+          "A form test this week on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
+        ]
+      },
+      {
+        "heading": "2. Fix a form test this week before you add anything",
+        "paragraphs": [
+          "A mismatch on August form test is worth more than a redesign. Fix that one line for this law office and leave the rest of the site alone until the listing and the page agree.",
+          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
+        ]
+      },
+      {
+        "heading": "A check you can finish this week",
+        "paragraphs": [
+          "Pick one law office page and the Google listing. Compare a form test this week. Write down the one line that disagrees, and change it before you add anything new.",
+          "The tools of August 2023 only help if they describe the business you are actually running."
+        ]
+      }
+    ],
+    "relatedHeading": "Related notes",
+    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
+    "upcoming": [
+      {
+        "title": "Send a test message after the break, January 16, 2023",
+        "href": "/blog/form-after-the-break-2023-01-16"
       },
       {
         "title": "What to Connect on a Professional Firm's Website",
@@ -1595,373 +1921,43 @@ export const posts = [
     ]
   },
   {
-    "slug": "google-posts-for-this-week-2023-07-24",
-    "title": "Tell Google what is true this week, July 24, 2023",
-    "seoTitle": "Google Business Profile posts (retail shop, July 24, 2023)",
-    "description": "Google Business Profile posts for a retail shop on July 24, 2023. What to check so the website and Google listing agree.",
+    "slug": "labor-hours-2023-2023-09-04",
+    "title": "Mark Labor Day closed if the door will be locked, September 4, 2023",
+    "seoTitle": "Labor Day hours (retail shop, September 4, 2023)",
+    "description": "Labor Day hours for a retail shop on September 4, 2023. What to check so the website and Google listing agree.",
     "section": "Local SEO",
-    "date": "2023-07-24",
-    "cta": "This week, look at a short update on your listing. If it matches what the counter would say, you are already ahead of a stale page.",
-    "sections": [
-      {
-        "paragraphs": [
-          "A Google post in July 2023 is a note on the listing, not a second website. Use it when something changed: a storm week, a booked-out Friday, a seasonal service. If the post is six months old, it is telling people the wrong month.",
-          "This July 24, 2023 note is for a retail shop. The check is Google Business Profile posts: a short update on your listing, read the way a new customer would on a phone."
-        ]
-      },
-      {
-        "heading": "1. An update is not an ad",
-        "paragraphs": [
-          "Open the listing and the website on a phone. Look only at a short update on your listing. In July 2023 that is the piece a new customer is most likely to trust or doubt.",
-          "Say the sentence out loud the way the counter would say it. If the page uses a different name for the job, change the page, not the staff."
-        ],
-        "list": [
-          "One or two sentences about hours, a seasonal service, or a full book.",
-          "The date on the update is this month.",
-          "An old holiday offer is removed."
-        ]
-      },
-      {
-        "heading": "2. Take down the offer that ended",
-        "paragraphs": [
-          "A mismatch on Google Business Profile posts is worth more than a redesign. Fix that one line for this retail shop and leave the rest of the site alone until the listing and the page agree.",
-          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
-        ]
-      },
-      {
-        "heading": "A check you can finish this week",
-        "paragraphs": [
-          "Pick one retail shop page and the Google listing. Compare a short update on your listing. Write down the one line that disagrees, and change it before you add anything new.",
-          "The tools of July 2023 only help if they describe the business you are actually running."
-        ]
-      }
-    ],
-    "relatedHeading": "Related notes",
-    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
-    "upcoming": [
-      {
-        "title": "Tell Google what is true this week, March 20, 2023",
-        "href": "/blog/google-posts-for-this-week-2023-03-20"
-      },
-      {
-        "title": "Google Business Profile for a Service-Area Business",
-        "href": "/blog/google-business-profile-for-a-service-area-business"
-      }
-    ]
-  },
-  {
-    "slug": "drafting-help-still-needs-your-facts-2023-07-31",
-    "title": "If you try a writing tool, start from your own facts, July 31, 2023",
-    "seoTitle": "Editing AI website copy (contractor, July 31, 2023)",
-    "description": "Editing AI website copy for a contractor on July 31, 2023. What to check so the website and Google listing agree.",
-    "section": "Search",
-    "date": "2023-07-31",
-    "cta": "This week, look at any new writing help you have heard about. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
-    "sections": [
-      {
-        "paragraphs": [
-          "In July 2023 some owners are trying software that drafts sentences. It can speed a first pass. It does not know what a contractor actually does this week. If you use it, give it your facts and then read the result as the person who answers the phone would.",
-          "This July 31, 2023 note is for a contractor. The check is editing AI website copy: any new writing help you have heard about, read the way a new customer would on a phone."
-        ]
-      },
-      {
-        "heading": "1. The tool does not know your hours",
-        "paragraphs": [
-          "Open the listing and the website on a phone. Look only at any new writing help you have heard about. In July 2023 that is the piece a new customer is most likely to trust or doubt.",
-          "Say the sentence out loud the way the person who answers the phone would say it. If the page uses a different name for the job, change the page, not the staff."
-        ],
-        "list": [
-          "You supply the services, cities, and prices.",
-          "You delete anything you would not say at the counter.",
-          "The page still has your phone number and your name."
-        ]
-      },
-      {
-        "heading": "2. Read it out loud before you publish",
-        "paragraphs": [
-          "A mismatch on editing AI website copy is worth more than a redesign. Fix that one line for this contractor and leave the rest of the site alone until the listing and the page agree.",
-          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
-        ]
-      },
-      {
-        "heading": "A check you can finish this week",
-        "paragraphs": [
-          "Pick one contractor page and the Google listing. Compare any new writing help you have heard about. Write down the one line that disagrees, and change it before you add anything new.",
-          "The tools of July 2023 only help if they describe the business you are actually running."
-        ]
-      }
-    ],
-    "relatedHeading": "Related notes",
-    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
-    "upcoming": [
-      {
-        "title": "If you try a writing tool, start from your own facts, July 3, 2023",
-        "href": "/blog/drafting-help-still-needs-your-facts-2023-07-03"
-      },
-      {
-        "title": "What to Put on a Local Service Page",
-        "href": "/blog/what-to-put-on-a-local-service-page"
-      }
-    ]
-  },
-  {
-    "slug": "tracking-you-can-explain-2023-08-07",
-    "title": "Know which visits came from the listing, August 7, 2023",
-    "seoTitle": "Website call tracking (salon, August 7, 2023)",
-    "description": "Website call tracking for a salon on August 7, 2023. What to check so the website and Google listing agree.",
-    "section": "Site speed",
-    "date": "2023-08-07",
-    "cta": "This week, look at a simple count of calls and form notes. If it matches what the front desk would say, you are already ahead of a stale page.",
-    "sections": [
-      {
-        "paragraphs": [
-          "By August 2023, privacy changes have already made some ad tracking less precise. A salon can still learn the useful fact: did the phone ring, and did the person say they found you on the map? Write that down for a week before you buy a report.",
-          "This August 7, 2023 note is for a salon. The check is website call tracking: a simple count of calls and form notes, read the way a new customer would on a phone."
-        ]
-      },
-      {
-        "heading": "1. You do not need a dashboard to start",
-        "paragraphs": [
-          "Open the listing and the website on a phone. Look only at a simple count of calls and form notes. In August 2023 that is the piece a new customer is most likely to trust or doubt.",
-          "Say the sentence out loud the way the front desk would say it. If the page uses a different name for the job, change the page, not the staff."
-        ],
-        "list": [
-          "A tally of calls that mention Google or the website.",
-          "The form stores the date and the job.",
-          "A tool you do not open is not a measurement."
-        ]
-      },
-      {
-        "heading": "2. Ask how they found you",
-        "paragraphs": [
-          "A mismatch on website call tracking is worth more than a redesign. Fix that one line for this salon and leave the rest of the site alone until the listing and the page agree.",
-          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
-        ]
-      },
-      {
-        "heading": "A check you can finish this week",
-        "paragraphs": [
-          "Pick one salon page and the Google listing. Compare a simple count of calls and form notes. Write down the one line that disagrees, and change it before you add anything new.",
-          "The tools of August 2023 only help if they describe the business you are actually running."
-        ]
-      }
-    ],
-    "relatedHeading": "Related notes",
-    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
-    "upcoming": [
-      {
-        "title": "Know which visits came from the listing, April 3, 2023",
-        "href": "/blog/tracking-you-can-explain-2023-04-03"
-      },
-      {
-        "title": "Core Web Vitals for a Local Service Business",
-        "href": "/blog/core-web-vitals-for-a-local-service-business"
-      }
-    ]
-  },
-  {
-    "slug": "seasonal-offer-without-clutter-2023-08-14",
-    "title": "Put the seasonal offer where it can be seen, August 14, 2023",
-    "seoTitle": "Seasonal offer on a local website (clinic, August 14, 2023)",
-    "description": "Seasonal offer on a local website for a clinic on August 14, 2023. What to check so the website and Google listing agree.",
-    "section": "Websites",
-    "date": "2023-08-14",
-    "cta": "This week, look at the one offer that matters this month. If it matches what the front desk would say, you are already ahead of a stale page.",
-    "sections": [
-      {
-        "paragraphs": [
-          "August 2023 has its own reason people call a clinic. Say that reason once, near the top. A stack of old banners teaches people to ignore the page. When the week is over, take the line down.",
-          "This August 14, 2023 note is for a clinic. The check is seasonal offer on a local website: the one offer that matters this month, read the way a new customer would on a phone."
-        ]
-      },
-      {
-        "heading": "1. One seasonal line, not a stack of banners",
-        "paragraphs": [
-          "Open the listing and the website on a phone. Look only at the one offer that matters this month. In August 2023 that is the piece a new customer is most likely to trust or doubt.",
-          "Say the sentence out loud the way the front desk would say it. If the page uses a different name for the job, change the page, not the staff."
-        ],
-        "list": [
-          "The offer is named in one sentence.",
-          "It does not cover the phone number.",
-          "Last season's banner is gone."
-        ]
-      },
-      {
-        "heading": "2. Remove it when the season ends",
-        "paragraphs": [
-          "A mismatch on seasonal offer on a local website is worth more than a redesign. Fix that one line for this clinic and leave the rest of the site alone until the listing and the page agree.",
-          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
-        ]
-      },
-      {
-        "heading": "A check you can finish this week",
-        "paragraphs": [
-          "Pick one clinic page and the Google listing. Compare the one offer that matters this month. Write down the one line that disagrees, and change it before you add anything new.",
-          "The tools of August 2023 only help if they describe the business you are actually running."
-        ]
-      }
-    ],
-    "relatedHeading": "Related notes",
-    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
-    "upcoming": [
-      {
-        "title": "Put the seasonal offer where it can be seen, December 5, 2022",
-        "href": "/blog/seasonal-offer-without-clutter-2022-12-05"
-      },
-      {
-        "title": "Google Business Profile for a Service-Area Business",
-        "href": "/blog/google-business-profile-for-a-service-area-business"
-      }
-    ]
-  },
-  {
-    "slug": "staff-can-explain-the-site-2023-08-21",
-    "title": "Make sure the staff can explain the website, August 21, 2023",
-    "seoTitle": "Staff-friendly business website (restaurant, August 21, 2023)",
-    "description": "Staff-friendly business website for a restaurant on August 21, 2023. What to check so the website and Google listing agree.",
-    "section": "Websites",
-    "date": "2023-08-21",
-    "cta": "This week, look at whether the people on the floor know the site. If it matches what the host stand would say, you are already ahead of a stale page.",
-    "sections": [
-      {
-        "paragraphs": [
-          "A website in August 2023 fails when it promises a path the host stand will not honor. Before you add a booking link or a waitlist, ask the people who would receive it. An honest sentence is better than a button that lands in a mailbox nobody opens.",
-          "This August 21, 2023 note is for a restaurant. The check is staff-friendly business website: whether the people on the floor know the site, read the way a new customer would on a phone."
-        ]
-      },
-      {
-        "heading": "1. The button should match what they say",
-        "paragraphs": [
-          "Open the listing and the website on a phone. Look only at whether the people on the floor know the site. In August 2023 that is the piece a new customer is most likely to trust or doubt.",
-          "Say the sentence out loud the way the host stand would say it. If the page uses a different name for the job, change the page, not the staff."
-        ],
-        "list": [
-          "Ask the people on the floor what the main button does.",
-          "The words on the site match the words they use.",
-          "A tool nobody watches is removed."
-        ]
-      },
-      {
-        "heading": "2. If they will ignore a form, do not offer it",
-        "paragraphs": [
-          "A mismatch on staff-friendly business website is worth more than a redesign. Fix that one line for this restaurant and leave the rest of the site alone until the listing and the page agree.",
-          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
-        ]
-      },
-      {
-        "heading": "A check you can finish this week",
-        "paragraphs": [
-          "Pick one restaurant page and the Google listing. Compare whether the people on the floor know the site. Write down the one line that disagrees, and change it before you add anything new.",
-          "The tools of August 2023 only help if they describe the business you are actually running."
-        ]
-      }
-    ],
-    "relatedHeading": "Related notes",
-    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
-    "upcoming": [
-      {
-        "title": "Make sure the staff can explain the website, April 17, 2023",
-        "href": "/blog/staff-can-explain-the-site-2023-04-17"
-      },
-      {
-        "title": "What to Put on a Local Service Page",
-        "href": "/blog/what-to-put-on-a-local-service-page"
-      }
-    ]
-  },
-  {
-    "slug": "drafting-help-still-needs-your-facts-2023-08-28",
-    "title": "If you try a writing tool, start from your own facts, August 28, 2023",
-    "seoTitle": "Editing AI website copy (law office, August 28, 2023)",
-    "description": "Editing AI website copy for a law office on August 28, 2023. What to check so the website and Google listing agree.",
-    "section": "Search",
-    "date": "2023-08-28",
-    "cta": "This week, look at any new writing help you have heard about. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
-    "sections": [
-      {
-        "paragraphs": [
-          "In August 2023 some owners are trying software that drafts sentences. It can speed a first pass. It does not know what a law office actually does this week. If you use it, give it your facts and then read the result as the person who answers the phone would.",
-          "This August 28, 2023 note is for a law office. The check is editing AI website copy: any new writing help you have heard about, read the way a new customer would on a phone."
-        ]
-      },
-      {
-        "heading": "1. The tool does not know your hours",
-        "paragraphs": [
-          "Open the listing and the website on a phone. Look only at any new writing help you have heard about. In August 2023 that is the piece a new customer is most likely to trust or doubt.",
-          "Say the sentence out loud the way the person who answers the phone would say it. If the page uses a different name for the job, change the page, not the staff."
-        ],
-        "list": [
-          "You supply the services, cities, and prices.",
-          "You delete anything you would not say at the counter.",
-          "The page still has your phone number and your name."
-        ]
-      },
-      {
-        "heading": "2. Read it out loud before you publish",
-        "paragraphs": [
-          "A mismatch on editing AI website copy is worth more than a redesign. Fix that one line for this law office and leave the rest of the site alone until the listing and the page agree.",
-          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
-        ]
-      },
-      {
-        "heading": "A check you can finish this week",
-        "paragraphs": [
-          "Pick one law office page and the Google listing. Compare any new writing help you have heard about. Write down the one line that disagrees, and change it before you add anything new.",
-          "The tools of August 2023 only help if they describe the business you are actually running."
-        ]
-      }
-    ],
-    "relatedHeading": "Related notes",
-    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
-    "upcoming": [
-      {
-        "title": "If you try a writing tool, start from your own facts, July 31, 2023",
-        "href": "/blog/drafting-help-still-needs-your-facts-2023-07-31"
-      },
-      {
-        "title": "What to Put on a Local Service Page",
-        "href": "/blog/what-to-put-on-a-local-service-page"
-      }
-    ]
-  },
-  {
-    "slug": "secure-page-and-a-clear-form-2023-09-04",
-    "title": "Check that the site is secure and the form still sends, September 4, 2023",
-    "seoTitle": "Secure contact form (retail shop, September 4, 2023)",
-    "description": "Secure contact form for a retail shop on September 4, 2023. What to check so the website and Google listing agree.",
-    "section": "Websites",
     "date": "2023-09-04",
-    "cta": "This week, look at the lock on the address and a test message. If it matches what the counter would say, you are already ahead of a stale page.",
+    "cta": "This week, look at Labor Day hours. If it matches what the counter would say, you are already ahead of a stale page.",
     "sections": [
       {
         "paragraphs": [
-          "A retail shop site in September 2023 can look fine and still drop messages. Send one note from a phone. If it does not arrive where the counter looks, the form is a dead end. Fix that before you ask for more visits.",
-          "This September 4, 2023 note is for a retail shop. The check is secure contact form: the lock on the address and a test message, read the way a new customer would on a phone."
+          "Labor Day 2023 is a Monday. Add the special hour. A description that mentions the holiday is not a substitute.",
+          "This September 4, 2023 note is for a retail shop. The check is Labor Day hours: Labor Day hours, read the way a new customer would on a phone."
         ]
       },
       {
-        "heading": "1. Send yourself one message",
+        "heading": "1. Look at Labor Day hours",
         "paragraphs": [
-          "Open the listing and the website on a phone. Look only at the lock on the address and a test message. In September 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Open the listing and the website on a phone. Look only at Labor Day hours. In September 2023 that is the piece a new customer is most likely to trust or doubt.",
           "Say the sentence out loud the way the counter would say it. If the page uses a different name for the job, change the page, not the staff."
         ],
         "list": [
-          "The address shows a secure connection.",
-          "A test from your phone arrives.",
-          "The reply path is a person, not only an autoresponder."
+          "Labor Day hours on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
         ]
       },
       {
-        "heading": "2. Read it where the staff will read it",
+        "heading": "2. Fix Labor Day hours before you add anything",
         "paragraphs": [
-          "A mismatch on secure contact form is worth more than a redesign. Fix that one line for this retail shop and leave the rest of the site alone until the listing and the page agree.",
+          "A mismatch on Labor Day hours is worth more than a redesign. Fix that one line for this retail shop and leave the rest of the site alone until the listing and the page agree.",
           "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
         ]
       },
       {
         "heading": "A check you can finish this week",
         "paragraphs": [
-          "Pick one retail shop page and the Google listing. Compare the lock on the address and a test message. Write down the one line that disagrees, and change it before you add anything new.",
+          "Pick one retail shop page and the Google listing. Compare Labor Day hours. Write down the one line that disagrees, and change it before you add anything new.",
           "The tools of September 2023 only help if they describe the business you are actually running."
         ]
       }
@@ -1970,63 +1966,8 @@ export const posts = [
     "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
     "upcoming": [
       {
-        "title": "Check that the site is secure and the form still sends, May 1, 2023",
-        "href": "/blog/secure-page-and-a-clear-form-2023-05-01"
-      },
-      {
-        "title": "What to Put on a Local Service Page",
-        "href": "/blog/what-to-put-on-a-local-service-page"
-      }
-    ]
-  },
-  {
-    "slug": "google-hours-match-the-door-2023-09-11",
-    "title": "Make Google hours match the door, September 11, 2023",
-    "seoTitle": "Google Business Profile hours (contractor, September 11, 2023)",
-    "description": "Google Business Profile hours for a contractor on September 11, 2023. What to check so the website and Google listing agree.",
-    "section": "Local SEO",
-    "date": "2023-09-11",
-    "cta": "This week, look at the hours on your Google listing. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
-    "sections": [
-      {
-        "paragraphs": [
-          "In September 2023, people still decide whether to come by the hours they see on a phone. If the listing says you are open and the door says you are not, they remember the wrong one. A contractor can fix this without a new site: open the listing, open the contact page, and read both out loud.",
-          "This September 11, 2023 note is for a contractor. The check is Google Business Profile hours: the hours on your Google listing, read the way a new customer would on a phone."
-        ]
-      },
-      {
-        "heading": "1. Read the hours the way a customer will",
-        "paragraphs": [
-          "Open the listing and the website on a phone. Look only at the hours on your Google listing. In September 2023 that is the piece a new customer is most likely to trust or doubt.",
-          "Say the sentence out loud the way the person who answers the phone would say it. If the page uses a different name for the job, change the page, not the staff."
-        ],
-        "list": [
-          "The hours on the listing, the website, and the door.",
-          "A note for lunch, court, or a day the phone is off.",
-          "A holiday week written out, not left as a regular week."
-        ]
-      },
-      {
-        "heading": "2. Fix the mismatch the same day",
-        "paragraphs": [
-          "A mismatch on Google Business Profile hours is worth more than a redesign. Fix that one line for this contractor and leave the rest of the site alone until the listing and the page agree.",
-          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
-        ]
-      },
-      {
-        "heading": "A check you can finish this week",
-        "paragraphs": [
-          "Pick one contractor page and the Google listing. Compare the hours on your Google listing. Write down the one line that disagrees, and change it before you add anything new.",
-          "The tools of September 2023 only help if they describe the business you are actually running."
-        ]
-      }
-    ],
-    "relatedHeading": "Related notes",
-    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
-    "upcoming": [
-      {
-        "title": "Make Google hours match the door, January 2, 2023",
-        "href": "/blog/google-hours-match-the-door-2023-01-02"
+        "title": "Publish back-to-school hours the week they start, August 14, 2023",
+        "href": "/blog/school-hours-2023-2023-08-14"
       },
       {
         "title": "Google Business Profile for a Service-Area Business",
@@ -2035,43 +1976,43 @@ export const posts = [
     ]
   },
   {
-    "slug": "click-to-call-on-a-phone-2023-09-18",
-    "title": "Put a real click-to-call number on the first screen, September 18, 2023",
-    "seoTitle": "Click-to-call phone number (salon, September 18, 2023)",
-    "description": "Click-to-call phone number for a salon on September 18, 2023. What to check so the website and Google listing agree.",
+    "slug": "cooler-weather-work-2023-09-11",
+    "title": "Name the job that starts when the weather cools, September 11, 2023",
+    "seoTitle": "Cool-weather service (contractor, September 11, 2023)",
+    "description": "Cool-weather service for a contractor on September 11, 2023. What to check so the website and Google listing agree.",
     "section": "Websites",
-    "date": "2023-09-18",
-    "cta": "This week, look at the phone number on a phone-sized screen. If it matches what the front desk would say, you are already ahead of a stale page.",
+    "date": "2023-09-11",
+    "cta": "This week, look at the job cooler weather brings. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
     "sections": [
       {
         "paragraphs": [
-          "A salon found in September 2023 is usually found on a phone. The first screen should show a number that starts a call when tapped. A picture of a number, or a number buried under a paragraph, is a number people will not use.",
-          "This September 18, 2023 note is for a salon. The check is click-to-call phone number: the phone number on a phone-sized screen, read the way a new customer would on a phone."
+          "Put that service in the first screen if it is what you want to be called for. Leave it off if you are already booked out.",
+          "This September 11, 2023 note is for a contractor. The check is cool-weather service: the job cooler weather brings, read the way a new customer would on a phone."
         ]
       },
       {
-        "heading": "1. The number has to start a call",
+        "heading": "1. Look at the job cooler weather brings",
         "paragraphs": [
-          "Open the listing and the website on a phone. Look only at the phone number on a phone-sized screen. In September 2023 that is the piece a new customer is most likely to trust or doubt.",
-          "Say the sentence out loud the way the front desk would say it. If the page uses a different name for the job, change the page, not the staff."
+          "Open the listing and the website on a phone. Look only at the job cooler weather brings. In September 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Say the sentence out loud the way the person who answers the phone would say it. If the page uses a different name for the job, change the page, not the staff."
         ],
         "list": [
-          "Tap the number on a phone that is not on the shop Wi-Fi.",
-          "The same number on the listing, the site, and the truck or card.",
-          "No second number that nobody watches."
+          "The job cooler weather brings on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
         ]
       },
       {
-        "heading": "2. One number, the one a person answers",
+        "heading": "2. Fix the job cooler weather brings before you add anything",
         "paragraphs": [
-          "A mismatch on click-to-call phone number is worth more than a redesign. Fix that one line for this salon and leave the rest of the site alone until the listing and the page agree.",
+          "A mismatch on cool-weather service is worth more than a redesign. Fix that one line for this contractor and leave the rest of the site alone until the listing and the page agree.",
           "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
         ]
       },
       {
         "heading": "A check you can finish this week",
         "paragraphs": [
-          "Pick one salon page and the Google listing. Compare the phone number on a phone-sized screen. Write down the one line that disagrees, and change it before you add anything new.",
+          "Pick one contractor page and the Google listing. Compare the job cooler weather brings. Write down the one line that disagrees, and change it before you add anything new.",
           "The tools of September 2023 only help if they describe the business you are actually running."
         ]
       }
@@ -2080,8 +2021,8 @@ export const posts = [
     "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
     "upcoming": [
       {
-        "title": "Put a real click-to-call number on the first screen, May 15, 2023",
-        "href": "/blog/click-to-call-on-a-phone-2023-05-15"
+        "title": "Block vacation days on the public calendar, July 24, 2023",
+        "href": "/blog/booking-during-vacation-2023-07-24"
       },
       {
         "title": "What to Put on a Local Service Page",
@@ -2090,43 +2031,43 @@ export const posts = [
     ]
   },
   {
-    "slug": "drafting-help-still-needs-your-facts-2023-09-25",
-    "title": "If you try a writing tool, start from your own facts, September 25, 2023",
-    "seoTitle": "Editing AI website copy (clinic, September 25, 2023)",
-    "description": "Editing AI website copy for a clinic on September 25, 2023. What to check so the website and Google listing agree.",
+    "slug": "listing-description-is-yours-2023-09-18",
+    "title": "You still write the listing description, September 18, 2023",
+    "seoTitle": "Google Business Profile description (salon, September 18, 2023)",
+    "description": "Google Business Profile description for a salon on September 18, 2023. What to check so the website and Google listing agree.",
     "section": "Search",
-    "date": "2023-09-25",
-    "cta": "This week, look at any new writing help you have heard about. If it matches what the front desk would say, you are already ahead of a stale page.",
+    "date": "2023-09-18",
+    "cta": "This week, look at the description on the profile. If it matches what the front desk would say, you are already ahead of a stale page.",
     "sections": [
       {
         "paragraphs": [
-          "In September 2023 some owners are trying software that drafts sentences. It can speed a first pass. It does not know what a clinic actually does this week. If you use it, give it your facts and then read the result as the front desk would.",
-          "This September 25, 2023 note is for a clinic. The check is editing AI website copy: any new writing help you have heard about, read the way a new customer would on a phone."
+          "A tool can suggest a sentence. You have to check that it names the real work and no extra cities.",
+          "This September 18, 2023 note is for a salon. The check is Google Business Profile description: the description on the profile, read the way a new customer would on a phone."
         ]
       },
       {
-        "heading": "1. The tool does not know your hours",
+        "heading": "1. Look at the description on the profile",
         "paragraphs": [
-          "Open the listing and the website on a phone. Look only at any new writing help you have heard about. In September 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Open the listing and the website on a phone. Look only at the description on the profile. In September 2023 that is the piece a new customer is most likely to trust or doubt.",
           "Say the sentence out loud the way the front desk would say it. If the page uses a different name for the job, change the page, not the staff."
         ],
         "list": [
-          "You supply the services, cities, and prices.",
-          "You delete anything you would not say at the counter.",
-          "The page still has your phone number and your name."
+          "The description on the profile on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
         ]
       },
       {
-        "heading": "2. Read it out loud before you publish",
+        "heading": "2. Fix the description on the profile before you add anything",
         "paragraphs": [
-          "A mismatch on editing AI website copy is worth more than a redesign. Fix that one line for this clinic and leave the rest of the site alone until the listing and the page agree.",
+          "A mismatch on Google Business Profile description is worth more than a redesign. Fix that one line for this salon and leave the rest of the site alone until the listing and the page agree.",
           "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
         ]
       },
       {
         "heading": "A check you can finish this week",
         "paragraphs": [
-          "Pick one clinic page and the Google listing. Compare any new writing help you have heard about. Write down the one line that disagrees, and change it before you add anything new.",
+          "Pick one salon page and the Google listing. Compare the description on the profile. Write down the one line that disagrees, and change it before you add anything new.",
           "The tools of September 2023 only help if they describe the business you are actually running."
         ]
       }
@@ -2135,8 +2076,8 @@ export const posts = [
     "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
     "upcoming": [
       {
-        "title": "If you try a writing tool, start from your own facts, August 28, 2023",
-        "href": "/blog/drafting-help-still-needs-your-facts-2023-08-28"
+        "title": "Edit one page instead of generating ten, August 21, 2023",
+        "href": "/blog/one-page-edited-2023-08-21"
       },
       {
         "title": "What to Put on a Local Service Page",
@@ -2145,43 +2086,98 @@ export const posts = [
     ]
   },
   {
-    "slug": "reviews-you-can-answer-2023-10-02",
-    "title": "Answer the reviews customers already left, October 2, 2023",
-    "seoTitle": "Google review replies (restaurant, October 2, 2023)",
-    "description": "Google review replies for a restaurant on October 2, 2023. What to check so the website and Google listing agree.",
-    "section": "Local SEO",
-    "date": "2023-10-02",
-    "cta": "This week, look at recent reviews on your listing. If it matches what the host stand would say, you are already ahead of a stale page.",
+    "slug": "september-prices-2023-09-25",
+    "title": "Align September prices with the quote, September 25, 2023",
+    "seoTitle": "September prices (clinic, September 25, 2023)",
+    "description": "September prices for a clinic on September 25, 2023. What to check so the website and Google listing agree.",
+    "section": "Websites",
+    "date": "2023-09-25",
+    "cta": "This week, look at the price on the page. If it matches what the front desk would say, you are already ahead of a stale page.",
     "sections": [
       {
         "paragraphs": [
-          "In October 2023 a review is often read before the website. A restaurant with no replies looks unattended. A short, specific reply is enough. Thank them for the job they named, and if something went wrong, say how to reach the host stand.",
-          "This October 2, 2023 note is for a restaurant. The check is Google review replies: recent reviews on your listing, read the way a new customer would on a phone."
+          "If the seasonal price changed, change the page the same day. The listing description should not contradict it.",
+          "This September 25, 2023 note is for a clinic. The check is September prices: the price on the page, read the way a new customer would on a phone."
         ]
       },
       {
-        "heading": "1. A reply is part of the listing",
+        "heading": "1. Look at the price on the page",
         "paragraphs": [
-          "Open the listing and the website on a phone. Look only at recent reviews on your listing. In October 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Open the listing and the website on a phone. Look only at the price on the page. In September 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Say the sentence out loud the way the front desk would say it. If the page uses a different name for the job, change the page, not the staff."
+        ],
+        "list": [
+          "The price on the page on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
+        ]
+      },
+      {
+        "heading": "2. Fix the price on the page before you add anything",
+        "paragraphs": [
+          "A mismatch on September prices is worth more than a redesign. Fix that one line for this clinic and leave the rest of the site alone until the listing and the page agree.",
+          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
+        ]
+      },
+      {
+        "heading": "A check you can finish this week",
+        "paragraphs": [
+          "Pick one clinic page and the Google listing. Compare the price on the page. Write down the one line that disagrees, and change it before you add anything new.",
+          "The tools of September 2023 only help if they describe the business you are actually running."
+        ]
+      }
+    ],
+    "relatedHeading": "Related notes",
+    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
+    "upcoming": [
+      {
+        "title": "Name the job that starts when the weather cools, September 11, 2023",
+        "href": "/blog/cooler-weather-work-2023-09-11"
+      },
+      {
+        "title": "What to Put on a Local Service Page",
+        "href": "/blog/what-to-put-on-a-local-service-page"
+      }
+    ]
+  },
+  {
+    "slug": "october-offer-2023-10-02",
+    "title": "Date the October offer, October 2, 2023",
+    "seoTitle": "October promotion (restaurant, October 2, 2023)",
+    "description": "October promotion for a restaurant on October 2, 2023. What to check so the website and Google listing agree.",
+    "section": "Websites",
+    "date": "2023-10-02",
+    "cta": "This week, look at an offer with an end date. If it matches what the host stand would say, you are already ahead of a stale page.",
+    "sections": [
+      {
+        "paragraphs": [
+          "An offer without an end becomes litter. Name the last day in the same sentence.",
+          "This October 2, 2023 note is for a restaurant. The check is October promotion: an offer with an end date, read the way a new customer would on a phone."
+        ]
+      },
+      {
+        "heading": "1. Look at an offer with an end date",
+        "paragraphs": [
+          "Open the listing and the website on a phone. Look only at an offer with an end date. In October 2023 that is the piece a new customer is most likely to trust or doubt.",
           "Say the sentence out loud the way the host stand would say it. If the page uses a different name for the job, change the page, not the staff."
         ],
         "list": [
-          "Reply to the newest review in a full sentence.",
-          "If three reviews mention the same wait, the wait is the work.",
-          "Ask a happy customer this week, without a script full of keywords."
+          "An offer with an end date on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
         ]
       },
       {
-        "heading": "2. Do not argue, and do not ignore a pattern",
+        "heading": "2. Fix an offer with an end date before you add anything",
         "paragraphs": [
-          "A mismatch on Google review replies is worth more than a redesign. Fix that one line for this restaurant and leave the rest of the site alone until the listing and the page agree.",
+          "A mismatch on October promotion is worth more than a redesign. Fix that one line for this restaurant and leave the rest of the site alone until the listing and the page agree.",
           "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
         ]
       },
       {
         "heading": "A check you can finish this week",
         "paragraphs": [
-          "Pick one restaurant page and the Google listing. Compare recent reviews on your listing. Write down the one line that disagrees, and change it before you add anything new.",
+          "Pick one restaurant page and the Google listing. Compare an offer with an end date. Write down the one line that disagrees, and change it before you add anything new.",
           "The tools of October 2023 only help if they describe the business you are actually running."
         ]
       }
@@ -2190,53 +2186,53 @@ export const posts = [
     "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
     "upcoming": [
       {
-        "title": "Answer the reviews customers already left, May 29, 2023",
-        "href": "/blog/reviews-you-can-answer-2023-05-29"
+        "title": "Align September prices with the quote, September 25, 2023",
+        "href": "/blog/september-prices-2023-09-25"
       },
       {
-        "title": "Google Business Profile for a Service-Area Business",
-        "href": "/blog/google-business-profile-for-a-service-area-business"
+        "title": "What to Put on a Local Service Page",
+        "href": "/blog/what-to-put-on-a-local-service-page"
       }
     ]
   },
   {
-    "slug": "photos-of-finished-work-2023-10-09",
-    "title": "Show photos of finished work, not a stock room, October 9, 2023",
-    "seoTitle": "Google Business Profile photos (law office, October 9, 2023)",
-    "description": "Google Business Profile photos for a law office on October 9, 2023. What to check so the website and Google listing agree.",
+    "slug": "trick-or-treat-hours-2023-10-09",
+    "title": "Say whether the door is open for the evening crowd, October 9, 2023",
+    "seoTitle": "Evening hours on Halloween (law office, October 9, 2023)",
+    "description": "Evening hours on Halloween for a law office on October 9, 2023. What to check so the website and Google listing agree.",
     "section": "Local SEO",
     "date": "2023-10-09",
-    "cta": "This week, look at the photos on your listing and site. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
+    "cta": "This week, look at whether you are open that evening. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
     "sections": [
       {
         "paragraphs": [
-          "A listing in October 2023 with no photos looks closed. A law office can use a phone picture of finished work, the truck, or the room customers walk into. Label it in ordinary words. Old holiday decor left up in the photos makes the business look paused.",
-          "This October 9, 2023 note is for a law office. The check is Google Business Profile photos: the photos on your listing and site, read the way a new customer would on a phone."
+          "Retail and restaurants get this question. Answer it on the listing, including a close time.",
+          "This October 9, 2023 note is for a law office. The check is evening hours on Halloween: whether you are open that evening, read the way a new customer would on a phone."
         ]
       },
       {
-        "heading": "1. People trust what they can see",
+        "heading": "1. Look at whether you are open that evening",
         "paragraphs": [
-          "Open the listing and the website on a phone. Look only at the photos on your listing and site. In October 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Open the listing and the website on a phone. Look only at whether you are open that evening. In October 2023 that is the piece a new customer is most likely to trust or doubt.",
           "Say the sentence out loud the way the person who answers the phone would say it. If the page uses a different name for the job, change the page, not the staff."
         ],
         "list": [
-          "At least a few photos of real work from this year.",
-          "The outside of the shop, if customers visit.",
-          "No stock photo that could belong to any business."
+          "Whether you are open that evening on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
         ]
       },
       {
-        "heading": "2. Replace the photo that no longer matches",
+        "heading": "2. Fix whether you are open that evening before you add anything",
         "paragraphs": [
-          "A mismatch on Google Business Profile photos is worth more than a redesign. Fix that one line for this law office and leave the rest of the site alone until the listing and the page agree.",
+          "A mismatch on evening hours on Halloween is worth more than a redesign. Fix that one line for this law office and leave the rest of the site alone until the listing and the page agree.",
           "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
         ]
       },
       {
         "heading": "A check you can finish this week",
         "paragraphs": [
-          "Pick one law office page and the Google listing. Compare the photos on your listing and site. Write down the one line that disagrees, and change it before you add anything new.",
+          "Pick one law office page and the Google listing. Compare whether you are open that evening. Write down the one line that disagrees, and change it before you add anything new.",
           "The tools of October 2023 only help if they describe the business you are actually running."
         ]
       }
@@ -2245,8 +2241,8 @@ export const posts = [
     "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
     "upcoming": [
       {
-        "title": "Show photos of finished work, not a stock room, January 30, 2023",
-        "href": "/blog/photos-of-finished-work-2023-01-30"
+        "title": "Mark Labor Day closed if the door will be locked, September 4, 2023",
+        "href": "/blog/labor-hours-2023-2023-09-04"
       },
       {
         "title": "Google Business Profile for a Service-Area Business",
@@ -2255,43 +2251,43 @@ export const posts = [
     ]
   },
   {
-    "slug": "name-address-phone-agree-2023-10-16",
-    "title": "Use one business name, address, and phone number, October 16, 2023",
-    "seoTitle": "Name, address, and phone consistency (retail shop, October 16, 2023)",
-    "description": "Name, address, and phone consistency for a retail shop on October 16, 2023. What to check so the website and Google listing agree.",
-    "section": "Local SEO",
+    "slug": "draft-does-not-answer-phone-2023-10-16",
+    "title": "A draft does not answer the phone, October 16, 2023",
+    "seoTitle": "Phone coverage (retail shop, October 16, 2023)",
+    "description": "Phone coverage for a retail shop on October 16, 2023. What to check so the website and Google listing agree.",
+    "section": "Search",
     "date": "2023-10-16",
-    "cta": "This week, look at the name, address, and phone number. If it matches what the counter would say, you are already ahead of a stale page.",
+    "cta": "This week, look at who answers the phone. If it matches what the counter would say, you are already ahead of a stale page.",
     "sections": [
       {
         "paragraphs": [
-          "Searchers in October 2023 compare the listing with the website. If one says \"Inc\" and the other does not, or the suite is missing, they hesitate. Pick the name on the invoice and use it everywhere a customer looks.",
-          "This October 16, 2023 note is for a retail shop. The check is name, address, and phone consistency: the name, address, and phone number, read the way a new customer would on a phone."
+          "The page can be polished and the call can still go nowhere. The person answering is the system that matters.",
+          "This October 16, 2023 note is for a retail shop. The check is phone coverage: who answers the phone, read the way a new customer would on a phone."
         ]
       },
       {
-        "heading": "1. Small differences look like two businesses",
+        "heading": "1. Look at who answers the phone",
         "paragraphs": [
-          "Open the listing and the website on a phone. Look only at the name, address, and phone number. In October 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Open the listing and the website on a phone. Look only at who answers the phone. In October 2023 that is the piece a new customer is most likely to trust or doubt.",
           "Say the sentence out loud the way the counter would say it. If the page uses a different name for the job, change the page, not the staff."
         ],
         "list": [
-          "The name on the listing matches the invoice.",
-          "The suite number is on the site, not only on the door.",
-          "The phone number is the same in the footer and on the listing."
+          "Who answers the phone on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
         ]
       },
       {
-        "heading": "2. Write the address the way it is on the door",
+        "heading": "2. Fix who answers the phone before you add anything",
         "paragraphs": [
-          "A mismatch on name, address, and phone consistency is worth more than a redesign. Fix that one line for this retail shop and leave the rest of the site alone until the listing and the page agree.",
+          "A mismatch on phone coverage is worth more than a redesign. Fix that one line for this retail shop and leave the rest of the site alone until the listing and the page agree.",
           "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
         ]
       },
       {
         "heading": "A check you can finish this week",
         "paragraphs": [
-          "Pick one retail shop page and the Google listing. Compare the name, address, and phone number. Write down the one line that disagrees, and change it before you add anything new.",
+          "Pick one retail shop page and the Google listing. Compare who answers the phone. Write down the one line that disagrees, and change it before you add anything new.",
           "The tools of October 2023 only help if they describe the business you are actually running."
         ]
       }
@@ -2300,8 +2296,118 @@ export const posts = [
     "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
     "upcoming": [
       {
-        "title": "Use one business name, address, and phone number, June 12, 2023",
-        "href": "/blog/name-address-phone-agree-2023-06-12"
+        "title": "You still write the listing description, September 18, 2023",
+        "href": "/blog/listing-description-is-yours-2023-09-18"
+      },
+      {
+        "title": "What to Put on a Local Service Page",
+        "href": "/blog/what-to-put-on-a-local-service-page"
+      }
+    ]
+  },
+  {
+    "slug": "october-popup-2023-10-23",
+    "title": "Remove a graphic that covers the number, October 23, 2023",
+    "seoTitle": "Graphic covering the phone number (contractor, October 23, 2023)",
+    "description": "Graphic covering the phone number for a contractor on October 23, 2023. What to check so the website and Google listing agree.",
+    "section": "Websites",
+    "date": "2023-10-23",
+    "cta": "This week, look at a graphic on top of the number. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
+    "sections": [
+      {
+        "paragraphs": [
+          "A seasonal illustration is optional. The number is not. If they overlap, move the art.",
+          "This October 23, 2023 note is for a contractor. The check is graphic covering the phone number: a graphic on top of the number, read the way a new customer would on a phone."
+        ]
+      },
+      {
+        "heading": "1. Look at a graphic on top of the number",
+        "paragraphs": [
+          "Open the listing and the website on a phone. Look only at a graphic on top of the number. In October 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Say the sentence out loud the way the person who answers the phone would say it. If the page uses a different name for the job, change the page, not the staff."
+        ],
+        "list": [
+          "A graphic on top of the number on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
+        ]
+      },
+      {
+        "heading": "2. Fix a graphic on top of the number before you add anything",
+        "paragraphs": [
+          "A mismatch on graphic covering the phone number is worth more than a redesign. Fix that one line for this contractor and leave the rest of the site alone until the listing and the page agree.",
+          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
+        ]
+      },
+      {
+        "heading": "A check you can finish this week",
+        "paragraphs": [
+          "Pick one contractor page and the Google listing. Compare a graphic on top of the number. Write down the one line that disagrees, and change it before you add anything new.",
+          "The tools of October 2023 only help if they describe the business you are actually running."
+        ]
+      }
+    ],
+    "relatedHeading": "Related notes",
+    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
+    "upcoming": [
+      {
+        "title": "Date the October offer, October 2, 2023",
+        "href": "/blog/october-offer-2023-10-02"
+      },
+      {
+        "title": "What to Put on a Local Service Page",
+        "href": "/blog/what-to-put-on-a-local-service-page"
+      }
+    ]
+  },
+  {
+    "slug": "halloween-hours-2023-2023-10-30",
+    "title": "Publish Halloween day hours, October 30, 2023",
+    "seoTitle": "Halloween hours (salon, October 30, 2023)",
+    "description": "Halloween hours for a salon on October 30, 2023. What to check so the website and Google listing agree.",
+    "section": "Local SEO",
+    "date": "2023-10-30",
+    "cta": "This week, look at Halloween day hours. If it matches what the front desk would say, you are already ahead of a stale page.",
+    "sections": [
+      {
+        "paragraphs": [
+          "Halloween 2023 often means an earlier close or a later door. Write the day itself, not a vague seasonal note.",
+          "This October 30, 2023 note is for a salon. The check is Halloween hours: Halloween day hours, read the way a new customer would on a phone."
+        ]
+      },
+      {
+        "heading": "1. Look at Halloween day hours",
+        "paragraphs": [
+          "Open the listing and the website on a phone. Look only at Halloween day hours. In October 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Say the sentence out loud the way the front desk would say it. If the page uses a different name for the job, change the page, not the staff."
+        ],
+        "list": [
+          "Halloween day hours on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
+        ]
+      },
+      {
+        "heading": "2. Fix Halloween day hours before you add anything",
+        "paragraphs": [
+          "A mismatch on Halloween hours is worth more than a redesign. Fix that one line for this salon and leave the rest of the site alone until the listing and the page agree.",
+          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
+        ]
+      },
+      {
+        "heading": "A check you can finish this week",
+        "paragraphs": [
+          "Pick one salon page and the Google listing. Compare Halloween day hours. Write down the one line that disagrees, and change it before you add anything new.",
+          "The tools of October 2023 only help if they describe the business you are actually running."
+        ]
+      }
+    ],
+    "relatedHeading": "Related notes",
+    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
+    "upcoming": [
+      {
+        "title": "Say whether the door is open for the evening crowd, October 9, 2023",
+        "href": "/blog/trick-or-treat-hours-2023-10-09"
       },
       {
         "title": "Google Business Profile for a Service-Area Business",
@@ -2310,153 +2416,43 @@ export const posts = [
     ]
   },
   {
-    "slug": "drafting-help-still-needs-your-facts-2023-10-23",
-    "title": "If you try a writing tool, start from your own facts, October 23, 2023",
-    "seoTitle": "Editing AI website copy (contractor, October 23, 2023)",
-    "description": "Editing AI website copy for a contractor on October 23, 2023. What to check so the website and Google listing agree.",
-    "section": "Search",
-    "date": "2023-10-23",
-    "cta": "This week, look at any new writing help you have heard about. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
-    "sections": [
-      {
-        "paragraphs": [
-          "In October 2023 some owners are trying software that drafts sentences. It can speed a first pass. It does not know what a contractor actually does this week. If you use it, give it your facts and then read the result as the person who answers the phone would.",
-          "This October 23, 2023 note is for a contractor. The check is editing AI website copy: any new writing help you have heard about, read the way a new customer would on a phone."
-        ]
-      },
-      {
-        "heading": "1. The tool does not know your hours",
-        "paragraphs": [
-          "Open the listing and the website on a phone. Look only at any new writing help you have heard about. In October 2023 that is the piece a new customer is most likely to trust or doubt.",
-          "Say the sentence out loud the way the person who answers the phone would say it. If the page uses a different name for the job, change the page, not the staff."
-        ],
-        "list": [
-          "You supply the services, cities, and prices.",
-          "You delete anything you would not say at the counter.",
-          "The page still has your phone number and your name."
-        ]
-      },
-      {
-        "heading": "2. Read it out loud before you publish",
-        "paragraphs": [
-          "A mismatch on editing AI website copy is worth more than a redesign. Fix that one line for this contractor and leave the rest of the site alone until the listing and the page agree.",
-          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
-        ]
-      },
-      {
-        "heading": "A check you can finish this week",
-        "paragraphs": [
-          "Pick one contractor page and the Google listing. Compare any new writing help you have heard about. Write down the one line that disagrees, and change it before you add anything new.",
-          "The tools of October 2023 only help if they describe the business you are actually running."
-        ]
-      }
-    ],
-    "relatedHeading": "Related notes",
-    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
-    "upcoming": [
-      {
-        "title": "If you try a writing tool, start from your own facts, September 25, 2023",
-        "href": "/blog/drafting-help-still-needs-your-facts-2023-09-25"
-      },
-      {
-        "title": "What to Put on a Local Service Page",
-        "href": "/blog/what-to-put-on-a-local-service-page"
-      }
-    ]
-  },
-  {
-    "slug": "first-screen-on-a-phone-2023-10-30",
-    "title": "Say what you do on the first phone screen, October 30, 2023",
-    "seoTitle": "Homepage first screen (salon, October 30, 2023)",
-    "description": "Homepage first screen for a salon on October 30, 2023. What to check so the website and Google listing agree.",
-    "section": "Websites",
-    "date": "2023-10-30",
-    "cta": "This week, look at the first screen of your website. If it matches what the front desk would say, you are already ahead of a stale page.",
-    "sections": [
-      {
-        "paragraphs": [
-          "In October 2023 most first visits are on a phone. If the first screen is a slideshow or a paragraph about the founding year, the customer still does not know whether you can help today. Put the job and the phone number above the story.",
-          "This October 30, 2023 note is for a salon. The check is homepage first screen: the first screen of your website, read the way a new customer would on a phone."
-        ]
-      },
-      {
-        "heading": "1. Name, service, and a way to reach you",
-        "paragraphs": [
-          "Open the listing and the website on a phone. Look only at the first screen of your website. In October 2023 that is the piece a new customer is most likely to trust or doubt.",
-          "Say the sentence out loud the way the front desk would say it. If the page uses a different name for the job, change the page, not the staff."
-        ],
-        "list": [
-          "The business name is visible without scrolling.",
-          "The job you want calls for is named.",
-          "A button or number is where a thumb can tap it."
-        ]
-      },
-      {
-        "heading": "2. Move the story below that",
-        "paragraphs": [
-          "A mismatch on homepage first screen is worth more than a redesign. Fix that one line for this salon and leave the rest of the site alone until the listing and the page agree.",
-          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
-        ]
-      },
-      {
-        "heading": "A check you can finish this week",
-        "paragraphs": [
-          "Pick one salon page and the Google listing. Compare the first screen of your website. Write down the one line that disagrees, and change it before you add anything new.",
-          "The tools of October 2023 only help if they describe the business you are actually running."
-        ]
-      }
-    ],
-    "relatedHeading": "Related notes",
-    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
-    "upcoming": [
-      {
-        "title": "Say what you do on the first phone screen, June 26, 2023",
-        "href": "/blog/first-screen-on-a-phone-2023-06-26"
-      },
-      {
-        "title": "What to Put on a Local Service Page",
-        "href": "/blog/what-to-put-on-a-local-service-page"
-      }
-    ]
-  },
-  {
-    "slug": "page-speed-on-a-cellular-connection-2023-11-06",
-    "title": "Open your site on a cellular connection, November 6, 2023",
-    "seoTitle": "Mobile page speed (clinic, November 6, 2023)",
-    "description": "Mobile page speed for a clinic on November 6, 2023. What to check so the website and Google listing agree.",
-    "section": "Site speed",
+    "slug": "veterans-hours-2023-2023-11-06",
+    "title": "Set Veterans Day hours if you close, November 6, 2023",
+    "seoTitle": "Veterans Day hours (clinic, November 6, 2023)",
+    "description": "Veterans Day hours for a clinic on November 6, 2023. What to check so the website and Google listing agree.",
+    "section": "Local SEO",
     "date": "2023-11-06",
-    "cta": "This week, look at how fast the main page appears on a phone. If it matches what the front desk would say, you are already ahead of a stale page.",
+    "cta": "This week, look at Veterans Day hours. If it matches what the front desk would say, you are already ahead of a stale page.",
     "sections": [
       {
         "paragraphs": [
-          "Speed in November 2023 is not a lab score first. It is whether a clinic page shows the name and the number before a person goes back to the map. A huge photo at the top is the usual reason it does not.",
-          "This November 6, 2023 note is for a clinic. The check is mobile page speed: how fast the main page appears on a phone, read the way a new customer would on a phone."
+          "If you close or shorten Veterans Day 2023, write that day on the listing. The weekly schedule does not know the holiday.",
+          "This November 6, 2023 note is for a clinic. The check is Veterans Day hours: Veterans Day hours, read the way a new customer would on a phone."
         ]
       },
       {
-        "heading": "1. The heavy photo is usually the delay",
+        "heading": "1. Look at Veterans Day hours",
         "paragraphs": [
-          "Open the listing and the website on a phone. Look only at how fast the main page appears on a phone. In November 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Open the listing and the website on a phone. Look only at Veterans Day hours. In November 2023 that is the piece a new customer is most likely to trust or doubt.",
           "Say the sentence out loud the way the front desk would say it. If the page uses a different name for the job, change the page, not the staff."
         ],
         "list": [
-          "Load the homepage on cellular, not only office Wi-Fi.",
-          "Note which image arrives last.",
-          "The phone number should not jump down after the page looks ready."
+          "Veterans Day hours on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
         ]
       },
       {
-        "heading": "2. Test the page Google already sends people to",
+        "heading": "2. Fix Veterans Day hours before you add anything",
         "paragraphs": [
-          "A mismatch on mobile page speed is worth more than a redesign. Fix that one line for this clinic and leave the rest of the site alone until the listing and the page agree.",
+          "A mismatch on Veterans Day hours is worth more than a redesign. Fix that one line for this clinic and leave the rest of the site alone until the listing and the page agree.",
           "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
         ]
       },
       {
         "heading": "A check you can finish this week",
         "paragraphs": [
-          "Pick one clinic page and the Google listing. Compare how fast the main page appears on a phone. Write down the one line that disagrees, and change it before you add anything new.",
+          "Pick one clinic page and the Google listing. Compare Veterans Day hours. Write down the one line that disagrees, and change it before you add anything new.",
           "The tools of November 2023 only help if they describe the business you are actually running."
         ]
       }
@@ -2465,53 +2461,53 @@ export const posts = [
     "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
     "upcoming": [
       {
-        "title": "Open your site on a cellular connection, February 27, 2023",
-        "href": "/blog/page-speed-on-a-cellular-connection-2023-02-27"
+        "title": "Publish Halloween day hours, October 30, 2023",
+        "href": "/blog/halloween-hours-2023-2023-10-30"
       },
       {
-        "title": "Core Web Vitals for a Local Service Business",
-        "href": "/blog/core-web-vitals-for-a-local-service-business"
+        "title": "Google Business Profile for a Service-Area Business",
+        "href": "/blog/google-business-profile-for-a-service-area-business"
       }
     ]
   },
   {
-    "slug": "one-page-per-service-2023-11-13",
-    "title": "Give each main service its own page, November 13, 2023",
-    "seoTitle": "Service page for local SEO (restaurant, November 13, 2023)",
-    "description": "Service page for local SEO for a restaurant on November 13, 2023. What to check so the website and Google listing agree.",
-    "section": "Websites",
+    "slug": "do-not-publish-unread-2023-11-13",
+    "title": "Do not publish a page you have not read, November 13, 2023",
+    "seoTitle": "Unpublished draft review (restaurant, November 13, 2023)",
+    "description": "Unpublished draft review for a restaurant on November 13, 2023. What to check so the website and Google listing agree.",
+    "section": "Search",
     "date": "2023-11-13",
-    "cta": "This week, look at whether each job you want has its own page. If it matches what the host stand would say, you are already ahead of a stale page.",
+    "cta": "This week, look at a page you have not read. If it matches what the host stand would say, you are already ahead of a stale page.",
     "sections": [
       {
         "paragraphs": [
-          "A restaurant in November 2023 often offers three jobs and explains them in one paragraph. Searchers look for one job. Give that job a page with a plain title, what is included, and how to call.",
-          "This November 13, 2023 note is for a restaurant. The check is service page for local SEO: whether each job you want has its own page, read the way a new customer would on a phone."
+          "Read it on a phone first. If you would not hand it to a customer, it is not ready.",
+          "This November 13, 2023 note is for a restaurant. The check is unpublished draft review: a page you have not read, read the way a new customer would on a phone."
         ]
       },
       {
-        "heading": "1. The homepage cannot rank for every job",
+        "heading": "1. Look at a page you have not read",
         "paragraphs": [
-          "Open the listing and the website on a phone. Look only at whether each job you want has its own page. In November 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Open the listing and the website on a phone. Look only at a page you have not read. In November 2023 that is the piece a new customer is most likely to trust or doubt.",
           "Say the sentence out loud the way the host stand would say it. If the page uses a different name for the job, change the page, not the staff."
         ],
         "list": [
-          "One page for the job you want more calls for.",
-          "The title names the service and the area you cover.",
-          "A related job links to its own page instead of sharing this one."
+          "A page you have not read on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
         ]
       },
       {
-        "heading": "2. Use the words a customer would type",
+        "heading": "2. Fix a page you have not read before you add anything",
         "paragraphs": [
-          "A mismatch on service page for local SEO is worth more than a redesign. Fix that one line for this restaurant and leave the rest of the site alone until the listing and the page agree.",
+          "A mismatch on unpublished draft review is worth more than a redesign. Fix that one line for this restaurant and leave the rest of the site alone until the listing and the page agree.",
           "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
         ]
       },
       {
         "heading": "A check you can finish this week",
         "paragraphs": [
-          "Pick one restaurant page and the Google listing. Compare whether each job you want has its own page. Write down the one line that disagrees, and change it before you add anything new.",
+          "Pick one restaurant page and the Google listing. Compare a page you have not read. Write down the one line that disagrees, and change it before you add anything new.",
           "The tools of November 2023 only help if they describe the business you are actually running."
         ]
       }
@@ -2520,8 +2516,8 @@ export const posts = [
     "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
     "upcoming": [
       {
-        "title": "Give each main service its own page, July 10, 2023",
-        "href": "/blog/one-page-per-service-2023-07-10"
+        "title": "A draft does not answer the phone, October 16, 2023",
+        "href": "/blog/draft-does-not-answer-phone-2023-10-16"
       },
       {
         "title": "What to Put on a Local Service Page",
@@ -2530,43 +2526,43 @@ export const posts = [
     ]
   },
   {
-    "slug": "drafting-help-still-needs-your-facts-2023-11-20",
-    "title": "If you try a writing tool, start from your own facts, November 20, 2023",
-    "seoTitle": "Editing AI website copy (law office, November 20, 2023)",
-    "description": "Editing AI website copy for a law office on November 20, 2023. What to check so the website and Google listing agree.",
-    "section": "Search",
+    "slug": "thanksgiving-hours-2023-2023-11-20",
+    "title": "Write Thanksgiving week hours before Monday, November 20, 2023",
+    "seoTitle": "Thanksgiving hours (law office, November 20, 2023)",
+    "description": "Thanksgiving hours for a law office on November 20, 2023. What to check so the website and Google listing agree.",
+    "section": "Local SEO",
     "date": "2023-11-20",
-    "cta": "This week, look at any new writing help you have heard about. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
+    "cta": "This week, look at Thanksgiving week hours. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
     "sections": [
       {
         "paragraphs": [
-          "In November 2023 some owners are trying software that drafts sentences. It can speed a first pass. It does not know what a law office actually does this week. If you use it, give it your facts and then read the result as the person who answers the phone would.",
-          "This November 20, 2023 note is for a law office. The check is editing AI website copy: any new writing help you have heard about, read the way a new customer would on a phone."
+          "Put Thanksgiving 2023 on special hours in Google Business Profile, and mirror them on the contact page.",
+          "This November 20, 2023 note is for a law office. The check is Thanksgiving hours: Thanksgiving week hours, read the way a new customer would on a phone."
         ]
       },
       {
-        "heading": "1. The tool does not know your hours",
+        "heading": "1. Look at Thanksgiving week hours",
         "paragraphs": [
-          "Open the listing and the website on a phone. Look only at any new writing help you have heard about. In November 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Open the listing and the website on a phone. Look only at Thanksgiving week hours. In November 2023 that is the piece a new customer is most likely to trust or doubt.",
           "Say the sentence out loud the way the person who answers the phone would say it. If the page uses a different name for the job, change the page, not the staff."
         ],
         "list": [
-          "You supply the services, cities, and prices.",
-          "You delete anything you would not say at the counter.",
-          "The page still has your phone number and your name."
+          "Thanksgiving week hours on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
         ]
       },
       {
-        "heading": "2. Read it out loud before you publish",
+        "heading": "2. Fix Thanksgiving week hours before you add anything",
         "paragraphs": [
-          "A mismatch on editing AI website copy is worth more than a redesign. Fix that one line for this law office and leave the rest of the site alone until the listing and the page agree.",
+          "A mismatch on Thanksgiving hours is worth more than a redesign. Fix that one line for this law office and leave the rest of the site alone until the listing and the page agree.",
           "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
         ]
       },
       {
         "heading": "A check you can finish this week",
         "paragraphs": [
-          "Pick one law office page and the Google listing. Compare any new writing help you have heard about. Write down the one line that disagrees, and change it before you add anything new.",
+          "Pick one law office page and the Google listing. Compare Thanksgiving week hours. Write down the one line that disagrees, and change it before you add anything new.",
           "The tools of November 2023 only help if they describe the business you are actually running."
         ]
       }
@@ -2575,63 +2571,8 @@ export const posts = [
     "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
     "upcoming": [
       {
-        "title": "If you try a writing tool, start from your own facts, October 23, 2023",
-        "href": "/blog/drafting-help-still-needs-your-facts-2023-10-23"
-      },
-      {
-        "title": "What to Put on a Local Service Page",
-        "href": "/blog/what-to-put-on-a-local-service-page"
-      }
-    ]
-  },
-  {
-    "slug": "google-posts-for-this-week-2023-11-27",
-    "title": "Tell Google what is true this week, November 27, 2023",
-    "seoTitle": "Google Business Profile posts (retail shop, November 27, 2023)",
-    "description": "Google Business Profile posts for a retail shop on November 27, 2023. What to check so the website and Google listing agree.",
-    "section": "Local SEO",
-    "date": "2023-11-27",
-    "cta": "This week, look at a short update on your listing. If it matches what the counter would say, you are already ahead of a stale page.",
-    "sections": [
-      {
-        "paragraphs": [
-          "A Google post in November 2023 is a note on the listing, not a second website. Use it when something changed: a storm week, a booked-out Friday, a seasonal service. If the post is six months old, it is telling people the wrong month.",
-          "This November 27, 2023 note is for a retail shop. The check is Google Business Profile posts: a short update on your listing, read the way a new customer would on a phone."
-        ]
-      },
-      {
-        "heading": "1. An update is not an ad",
-        "paragraphs": [
-          "Open the listing and the website on a phone. Look only at a short update on your listing. In November 2023 that is the piece a new customer is most likely to trust or doubt.",
-          "Say the sentence out loud the way the counter would say it. If the page uses a different name for the job, change the page, not the staff."
-        ],
-        "list": [
-          "One or two sentences about hours, a seasonal service, or a full book.",
-          "The date on the update is this month.",
-          "An old holiday offer is removed."
-        ]
-      },
-      {
-        "heading": "2. Take down the offer that ended",
-        "paragraphs": [
-          "A mismatch on Google Business Profile posts is worth more than a redesign. Fix that one line for this retail shop and leave the rest of the site alone until the listing and the page agree.",
-          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
-        ]
-      },
-      {
-        "heading": "A check you can finish this week",
-        "paragraphs": [
-          "Pick one retail shop page and the Google listing. Compare a short update on your listing. Write down the one line that disagrees, and change it before you add anything new.",
-          "The tools of November 2023 only help if they describe the business you are actually running."
-        ]
-      }
-    ],
-    "relatedHeading": "Related notes",
-    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
-    "upcoming": [
-      {
-        "title": "Tell Google what is true this week, July 24, 2023",
-        "href": "/blog/google-posts-for-this-week-2023-07-24"
+        "title": "Set Veterans Day hours if you close, November 6, 2023",
+        "href": "/blog/veterans-hours-2023-2023-11-06"
       },
       {
         "title": "Google Business Profile for a Service-Area Business",
@@ -2640,43 +2581,98 @@ export const posts = [
     ]
   },
   {
-    "slug": "directions-that-match-the-entrance-2023-12-04",
-    "title": "Point the map at the entrance people use, December 4, 2023",
-    "seoTitle": "Google Maps directions (contractor, December 4, 2023)",
-    "description": "Google Maps directions for a contractor on December 4, 2023. What to check so the website and Google listing agree.",
+    "slug": "holiday-calendar-2023-11-27",
+    "title": "Open the holiday booking calendar, November 27, 2023",
+    "seoTitle": "Holiday booking calendar (retail shop, November 27, 2023)",
+    "description": "Holiday booking calendar for a retail shop on November 27, 2023. What to check so the website and Google listing agree.",
+    "section": "Websites",
+    "date": "2023-11-27",
+    "cta": "This week, look at dates people can still book. If it matches what the counter would say, you are already ahead of a stale page.",
+    "sections": [
+      {
+        "paragraphs": [
+          "Blocked days should look blocked. An open slot on a day you are closed will get picked.",
+          "This November 27, 2023 note is for a retail shop. The check is holiday booking calendar: dates people can still book, read the way a new customer would on a phone."
+        ]
+      },
+      {
+        "heading": "1. Look at dates people can still book",
+        "paragraphs": [
+          "Open the listing and the website on a phone. Look only at dates people can still book. In November 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Say the sentence out loud the way the counter would say it. If the page uses a different name for the job, change the page, not the staff."
+        ],
+        "list": [
+          "Dates people can still book on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
+        ]
+      },
+      {
+        "heading": "2. Fix dates people can still book before you add anything",
+        "paragraphs": [
+          "A mismatch on holiday booking calendar is worth more than a redesign. Fix that one line for this retail shop and leave the rest of the site alone until the listing and the page agree.",
+          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
+        ]
+      },
+      {
+        "heading": "A check you can finish this week",
+        "paragraphs": [
+          "Pick one retail shop page and the Google listing. Compare dates people can still book. Write down the one line that disagrees, and change it before you add anything new.",
+          "The tools of November 2023 only help if they describe the business you are actually running."
+        ]
+      }
+    ],
+    "relatedHeading": "Related notes",
+    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
+    "upcoming": [
+      {
+        "title": "Remove a graphic that covers the number, October 23, 2023",
+        "href": "/blog/october-popup-2023-10-23"
+      },
+      {
+        "title": "What to Put on a Local Service Page",
+        "href": "/blog/what-to-put-on-a-local-service-page"
+      }
+    ]
+  },
+  {
+    "slug": "christmas-eve-versus-day-2023-12-04",
+    "title": "Separate Christmas Eve from Christmas Day, December 4, 2023",
+    "seoTitle": "Christmas Eve hours (contractor, December 4, 2023)",
+    "description": "Christmas Eve hours for a contractor on December 4, 2023. What to check so the website and Google listing agree.",
     "section": "Local SEO",
     "date": "2023-12-04",
-    "cta": "This week, look at the pin and the directions. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
+    "cta": "This week, look at Christmas Eve versus Christmas Day. If it matches what the person who answers the phone would say, you are already ahead of a stale page.",
     "sections": [
       {
         "paragraphs": [
-          "In December 2023 a wrong pin is how people call from the wrong lobby. If customers visit a contractor, the pin should be the entrance you tell them to use. If they do not visit, do not drop a pin on a house.",
-          "This December 4, 2023 note is for a contractor. The check is Google Maps directions: the pin and the directions, read the way a new customer would on a phone."
+          "They are different days and often different hours. Special hours can say both. One note that says 'closed for Christmas' is too vague.",
+          "This December 4, 2023 note is for a contractor. The check is Christmas Eve hours: Christmas Eve versus Christmas Day, read the way a new customer would on a phone."
         ]
       },
       {
-        "heading": "1. The pin and the door should be the same place",
+        "heading": "1. Look at Christmas Eve versus Christmas Day",
         "paragraphs": [
-          "Open the listing and the website on a phone. Look only at the pin and the directions. In December 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Open the listing and the website on a phone. Look only at Christmas Eve versus Christmas Day. In December 2023 that is the piece a new customer is most likely to trust or doubt.",
           "Say the sentence out loud the way the person who answers the phone would say it. If the page uses a different name for the job, change the page, not the staff."
         ],
         "list": [
-          "Open directions on a phone and walk them once.",
-          "Suite, floor, or rear parking is written on the site.",
-          "The hours sit next to the address."
+          "Christmas Eve versus Christmas Day on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
         ]
       },
       {
-        "heading": "2. Write the parking note next to the address",
+        "heading": "2. Fix Christmas Eve versus Christmas Day before you add anything",
         "paragraphs": [
-          "A mismatch on Google Maps directions is worth more than a redesign. Fix that one line for this contractor and leave the rest of the site alone until the listing and the page agree.",
+          "A mismatch on Christmas Eve hours is worth more than a redesign. Fix that one line for this contractor and leave the rest of the site alone until the listing and the page agree.",
           "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
         ]
       },
       {
         "heading": "A check you can finish this week",
         "paragraphs": [
-          "Pick one contractor page and the Google listing. Compare the pin and the directions. Write down the one line that disagrees, and change it before you add anything new.",
+          "Pick one contractor page and the Google listing. Compare Christmas Eve versus Christmas Day. Write down the one line that disagrees, and change it before you add anything new.",
           "The tools of December 2023 only help if they describe the business you are actually running."
         ]
       }
@@ -2685,8 +2681,8 @@ export const posts = [
     "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
     "upcoming": [
       {
-        "title": "Point the map at the entrance people use, March 27, 2023",
-        "href": "/blog/directions-that-match-the-entrance-2023-03-27"
+        "title": "Write Thanksgiving week hours before Monday, November 20, 2023",
+        "href": "/blog/thanksgiving-hours-2023-2023-11-20"
       },
       {
         "title": "Google Business Profile for a Service-Area Business",
@@ -2695,98 +2691,43 @@ export const posts = [
     ]
   },
   {
-    "slug": "tracking-you-can-explain-2023-12-11",
-    "title": "Know which visits came from the listing, December 11, 2023",
-    "seoTitle": "Website call tracking (salon, December 11, 2023)",
-    "description": "Website call tracking for a salon on December 11, 2023. What to check so the website and Google listing agree.",
-    "section": "Site speed",
-    "date": "2023-12-11",
-    "cta": "This week, look at a simple count of calls and form notes. If it matches what the front desk would say, you are already ahead of a stale page.",
-    "sections": [
-      {
-        "paragraphs": [
-          "By December 2023, privacy changes have already made some ad tracking less precise. A salon can still learn the useful fact: did the phone ring, and did the person say they found you on the map? Write that down for a week before you buy a report.",
-          "This December 11, 2023 note is for a salon. The check is website call tracking: a simple count of calls and form notes, read the way a new customer would on a phone."
-        ]
-      },
-      {
-        "heading": "1. You do not need a dashboard to start",
-        "paragraphs": [
-          "Open the listing and the website on a phone. Look only at a simple count of calls and form notes. In December 2023 that is the piece a new customer is most likely to trust or doubt.",
-          "Say the sentence out loud the way the front desk would say it. If the page uses a different name for the job, change the page, not the staff."
-        ],
-        "list": [
-          "A tally of calls that mention Google or the website.",
-          "The form stores the date and the job.",
-          "A tool you do not open is not a measurement."
-        ]
-      },
-      {
-        "heading": "2. Ask how they found you",
-        "paragraphs": [
-          "A mismatch on website call tracking is worth more than a redesign. Fix that one line for this salon and leave the rest of the site alone until the listing and the page agree.",
-          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
-        ]
-      },
-      {
-        "heading": "A check you can finish this week",
-        "paragraphs": [
-          "Pick one salon page and the Google listing. Compare a simple count of calls and form notes. Write down the one line that disagrees, and change it before you add anything new.",
-          "The tools of December 2023 only help if they describe the business you are actually running."
-        ]
-      }
-    ],
-    "relatedHeading": "Related notes",
-    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
-    "upcoming": [
-      {
-        "title": "Know which visits came from the listing, August 7, 2023",
-        "href": "/blog/tracking-you-can-explain-2023-08-07"
-      },
-      {
-        "title": "Core Web Vitals for a Local Service Business",
-        "href": "/blog/core-web-vitals-for-a-local-service-business"
-      }
-    ]
-  },
-  {
-    "slug": "drafting-help-still-needs-your-facts-2023-12-18",
-    "title": "If you try a writing tool, start from your own facts, December 18, 2023",
-    "seoTitle": "Editing AI website copy (clinic, December 18, 2023)",
-    "description": "Editing AI website copy for a clinic on December 18, 2023. What to check so the website and Google listing agree.",
+    "slug": "keep-the-old-page-until-2023-12-11",
+    "title": "Keep the current page up while you edit, December 11, 2023",
+    "seoTitle": "Editing without taking the site down (salon, December 11, 2023)",
+    "description": "Editing without taking the site down for a salon on December 11, 2023. What to check so the website and Google listing agree.",
     "section": "Search",
-    "date": "2023-12-18",
-    "cta": "This week, look at any new writing help you have heard about. If it matches what the front desk would say, you are already ahead of a stale page.",
+    "date": "2023-12-11",
+    "cta": "This week, look at the live page while you edit. If it matches what the front desk would say, you are already ahead of a stale page.",
     "sections": [
       {
         "paragraphs": [
-          "In December 2023 some owners are trying software that drafts sentences. It can speed a first pass. It does not know what a clinic actually does this week. If you use it, give it your facts and then read the result as the front desk would.",
-          "This December 18, 2023 note is for a clinic. The check is editing AI website copy: any new writing help you have heard about, read the way a new customer would on a phone."
+          "Do not replace a clear page with a draft in one move. Fix the sentences, then publish.",
+          "This December 11, 2023 note is for a salon. The check is editing without taking the site down: the live page while you edit, read the way a new customer would on a phone."
         ]
       },
       {
-        "heading": "1. The tool does not know your hours",
+        "heading": "1. Look at the live page while you edit",
         "paragraphs": [
-          "Open the listing and the website on a phone. Look only at any new writing help you have heard about. In December 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Open the listing and the website on a phone. Look only at the live page while you edit. In December 2023 that is the piece a new customer is most likely to trust or doubt.",
           "Say the sentence out loud the way the front desk would say it. If the page uses a different name for the job, change the page, not the staff."
         ],
         "list": [
-          "You supply the services, cities, and prices.",
-          "You delete anything you would not say at the counter.",
-          "The page still has your phone number and your name."
+          "The live page while you edit on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
         ]
       },
       {
-        "heading": "2. Read it out loud before you publish",
+        "heading": "2. Fix the live page while you edit before you add anything",
         "paragraphs": [
-          "A mismatch on editing AI website copy is worth more than a redesign. Fix that one line for this clinic and leave the rest of the site alone until the listing and the page agree.",
+          "A mismatch on editing without taking the site down is worth more than a redesign. Fix that one line for this salon and leave the rest of the site alone until the listing and the page agree.",
           "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
         ]
       },
       {
         "heading": "A check you can finish this week",
         "paragraphs": [
-          "Pick one clinic page and the Google listing. Compare any new writing help you have heard about. Write down the one line that disagrees, and change it before you add anything new.",
+          "Pick one salon page and the Google listing. Compare the live page while you edit. Write down the one line that disagrees, and change it before you add anything new.",
           "The tools of December 2023 only help if they describe the business you are actually running."
         ]
       }
@@ -2795,8 +2736,8 @@ export const posts = [
     "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
     "upcoming": [
       {
-        "title": "If you try a writing tool, start from your own facts, November 20, 2023",
-        "href": "/blog/drafting-help-still-needs-your-facts-2023-11-20"
+        "title": "Do not publish a page you have not read, November 13, 2023",
+        "href": "/blog/do-not-publish-unread-2023-11-13"
       },
       {
         "title": "What to Put on a Local Service Page",
@@ -2805,43 +2746,98 @@ export const posts = [
     ]
   },
   {
-    "slug": "staff-can-explain-the-site-2023-12-25",
-    "title": "Make sure the staff can explain the website, December 25, 2023",
-    "seoTitle": "Staff-friendly business website (restaurant, December 25, 2023)",
-    "description": "Staff-friendly business website for a restaurant on December 25, 2023. What to check so the website and Google listing agree.",
-    "section": "Websites",
-    "date": "2023-12-25",
-    "cta": "This week, look at whether the people on the floor know the site. If it matches what the host stand would say, you are already ahead of a stale page.",
+    "slug": "new-years-eve-hours-2023-12-18",
+    "title": "Set New Year's Eve hours on their own, December 18, 2023",
+    "seoTitle": "New Year's Eve hours (clinic, December 18, 2023)",
+    "description": "New Year's Eve hours for a clinic on December 18, 2023. What to check so the website and Google listing agree.",
+    "section": "Local SEO",
+    "date": "2023-12-18",
+    "cta": "This week, look at New Year's Eve. If it matches what the front desk would say, you are already ahead of a stale page.",
     "sections": [
       {
         "paragraphs": [
-          "A website in December 2023 fails when it promises a path the host stand will not honor. Before you add a booking link or a waitlist, ask the people who would receive it. An honest sentence is better than a button that lands in a mailbox nobody opens.",
-          "This December 25, 2023 note is for a restaurant. The check is staff-friendly business website: whether the people on the floor know the site, read the way a new customer would on a phone."
+          "If you close early or take reservations only, write that. A normal Tuesday schedule is the wrong information.",
+          "This December 18, 2023 note is for a clinic. The check is New Year's Eve hours: New Year's Eve, read the way a new customer would on a phone."
         ]
       },
       {
-        "heading": "1. The button should match what they say",
+        "heading": "1. Look at New Year's Eve",
         "paragraphs": [
-          "Open the listing and the website on a phone. Look only at whether the people on the floor know the site. In December 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Open the listing and the website on a phone. Look only at New Year's Eve. In December 2023 that is the piece a new customer is most likely to trust or doubt.",
+          "Say the sentence out loud the way the front desk would say it. If the page uses a different name for the job, change the page, not the staff."
+        ],
+        "list": [
+          "New Year's Eve on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
+        ]
+      },
+      {
+        "heading": "2. Fix New Year's Eve before you add anything",
+        "paragraphs": [
+          "A mismatch on New Year's Eve hours is worth more than a redesign. Fix that one line for this clinic and leave the rest of the site alone until the listing and the page agree.",
+          "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
+        ]
+      },
+      {
+        "heading": "A check you can finish this week",
+        "paragraphs": [
+          "Pick one clinic page and the Google listing. Compare New Year's Eve. Write down the one line that disagrees, and change it before you add anything new.",
+          "The tools of December 2023 only help if they describe the business you are actually running."
+        ]
+      }
+    ],
+    "relatedHeading": "Related notes",
+    "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
+    "upcoming": [
+      {
+        "title": "Separate Christmas Eve from Christmas Day, December 4, 2023",
+        "href": "/blog/christmas-eve-versus-day-2023-12-04"
+      },
+      {
+        "title": "Google Business Profile for a Service-Area Business",
+        "href": "/blog/google-business-profile-for-a-service-area-business"
+      }
+    ]
+  },
+  {
+    "slug": "christmas-hours-2023-2023-12-25",
+    "title": "Separate Christmas Eve, Christmas Day, and the days after, December 25, 2023",
+    "seoTitle": "Christmas hours (restaurant, December 25, 2023)",
+    "description": "Christmas hours for a restaurant on December 25, 2023. What to check so the website and Google listing agree.",
+    "section": "Local SEO",
+    "date": "2023-12-25",
+    "cta": "This week, look at Christmas week hours. If it matches what the host stand would say, you are already ahead of a stale page.",
+    "sections": [
+      {
+        "paragraphs": [
+          "Write Christmas Eve, Christmas Day, and the day you reopen for 2023. One line that says \"closed for the holidays\" is not a schedule.",
+          "This December 25, 2023 note is for a restaurant. The check is Christmas hours: Christmas week hours, read the way a new customer would on a phone."
+        ]
+      },
+      {
+        "heading": "1. Look at Christmas week hours",
+        "paragraphs": [
+          "Open the listing and the website on a phone. Look only at Christmas week hours. In December 2023 that is the piece a new customer is most likely to trust or doubt.",
           "Say the sentence out loud the way the host stand would say it. If the page uses a different name for the job, change the page, not the staff."
         ],
         "list": [
-          "Ask the people on the floor what the main button does.",
-          "The words on the site match the words they use.",
-          "A tool nobody watches is removed."
+          "Christmas week hours on the Google listing.",
+          "The same fact on the website, in the same words.",
+          "What the person answering the phone would say this week."
         ]
       },
       {
-        "heading": "2. If they will ignore a form, do not offer it",
+        "heading": "2. Fix Christmas week hours before you add anything",
         "paragraphs": [
-          "A mismatch on staff-friendly business website is worth more than a redesign. Fix that one line for this restaurant and leave the rest of the site alone until the listing and the page agree.",
+          "A mismatch on Christmas hours is worth more than a redesign. Fix that one line for this restaurant and leave the rest of the site alone until the listing and the page agree.",
           "Then look again tomorrow. Listings and pages sometimes show the old text for a day. The version a customer sees is the one that counts."
         ]
       },
       {
         "heading": "A check you can finish this week",
         "paragraphs": [
-          "Pick one restaurant page and the Google listing. Compare whether the people on the floor know the site. Write down the one line that disagrees, and change it before you add anything new.",
+          "Pick one restaurant page and the Google listing. Compare Christmas week hours. Write down the one line that disagrees, and change it before you add anything new.",
           "The tools of December 2023 only help if they describe the business you are actually running."
         ]
       }
@@ -2850,12 +2846,12 @@ export const posts = [
     "relatedIntro": "These notes cover the same kind of check, with a longer guide when you want the full version.",
     "upcoming": [
       {
-        "title": "Make sure the staff can explain the website, August 21, 2023",
-        "href": "/blog/staff-can-explain-the-site-2023-08-21"
+        "title": "Set New Year's Eve hours on their own, December 18, 2023",
+        "href": "/blog/new-years-eve-hours-2023-12-18"
       },
       {
-        "title": "What to Put on a Local Service Page",
-        "href": "/blog/what-to-put-on-a-local-service-page"
+        "title": "Google Business Profile for a Service-Area Business",
+        "href": "/blog/google-business-profile-for-a-service-area-business"
       }
     ]
   }

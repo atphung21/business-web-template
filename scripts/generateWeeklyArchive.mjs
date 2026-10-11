@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { assignWeeklyTopics } from "./assignWeeklyTopics.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../src/content/blogArchive");
 
@@ -458,6 +459,14 @@ const restaurant = {
   href: "/blog/waitlists-delivery-and-reservations",
 };
 
+function pillarLink(pillar, tradeName) {
+  if (pillar === "vitals") return vitals;
+  if (pillar === "menu" && tradeName === "restaurant") return restaurant;
+  if (pillar === "form" && tradeName === "law office") return firm;
+  if (pillar === "gbp") return gbp;
+  return servicePage;
+}
+
 function pillarFor(topicSlug, tradeName) {
   if (
     [
@@ -487,14 +496,13 @@ function pillarFor(topicSlug, tradeName) {
   return servicePage;
 }
 
-function buildPost(date, index) {
+function buildPost(date, index, topic) {
   const monthIndex = date.getMonth();
   const year = date.getFullYear();
   const month = months[monthIndex];
   const day = date.getDate();
   const iso = `${year}-${String(monthIndex + 1).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
   const trade = trades[index % trades.length];
-  const topic = chooseTopic(date, index);
   const ctx = {
     month,
     year,
@@ -504,7 +512,7 @@ function buildPost(date, index) {
     desk: trade.desk,
   };
   const fill = (line) => line;
-  const phrase = searchPhrase[topic.slug];
+  const phrase = topic.search;
   const phraseTitle = phrase.charAt(0).toUpperCase() + phrase.slice(1);
   const title = `${topic.title}, ${month} ${day}, ${year}`;
   const seoTitle = `${phraseTitle} (${trade.name}, ${month} ${day}, ${year})`;
@@ -519,13 +527,18 @@ function buildPost(date, index) {
     title,
     seoTitle,
     description,
-    section: articleSection[topic.slug] || "Websites",
+    section: topic.section || "Websites",
+    pillar: topic.pillar,
     date: iso,
     cta,
     sections: [
       {
         paragraphs: [
-          topic.body(ctx),
+          topic.opening
+            .replaceAll("{trade}", ctx.trade)
+            .replaceAll("{desk}", ctx.desk)
+            .replaceAll("{year}", String(ctx.year))
+            .replaceAll("{month}", ctx.month),
           `This ${month} ${day}, ${year} note is for a ${trade.name}. The check is ${phrase}: ${topic.focus}, read the way a new customer would on a phone.`,
         ],
       },
@@ -555,16 +568,9 @@ function buildPost(date, index) {
   };
 }
 
-const posts = dates().map(buildPost);
-const bannedEarly = /\b(AI|ChatGPT|artificial intelligence|AI Overview)\b/;
-for (const post of posts) {
-  if (post.date < "2022-11-07") {
-    const text = JSON.stringify(post);
-    if (bannedEarly.test(text)) {
-      throw new Error(`AI mention before Nov 2022 in ${post.date} ${post.slug}`);
-    }
-  }
-}
+const weekDates = dates();
+const assignedTopics = assignWeeklyTopics(weekDates);
+const posts = weekDates.map((date, index) => buildPost(date, index, assignedTopics[index]));
 const slugs = new Set();
 const descriptions = new Set();
 for (const post of posts) {
@@ -578,15 +584,31 @@ for (const post of posts) {
 const lastByTopic = new Map();
 for (const post of posts) {
   const related = [];
-  const earlier = lastByTopic.get(post.topic);
+  const earlier = lastByTopic.get(post.pillar);
   if (earlier) related.push({ title: earlier.title, href: `/blog/${earlier.slug}` });
-  const pillar = pillarFor(post.topic, post.description.includes("law office") ? "law office" : post.description.includes("restaurant") ? "restaurant" : "");
+  const tradeName = post.description.includes("law office")
+    ? "law office"
+    : post.description.includes("restaurant")
+      ? "restaurant"
+      : "";
+  const pillar = pillarLink(post.pillar, tradeName);
   if (!related.some((item) => item.href === pillar.href)) related.push(pillar);
   post.relatedHeading = "Related notes";
   post.relatedIntro = "These notes cover the same kind of check, with a longer guide when you want the full version.";
   post.upcoming = related;
-  lastByTopic.set(post.topic, post);
+  lastByTopic.set(post.pillar, post);
   delete post.topic;
+  delete post.pillar;
+}
+
+const bannedEarly = /\b(AI|ChatGPT|artificial intelligence|AI Overview)\b/;
+const titles = new Set();
+for (const post of posts) {
+  if (titles.has(post.title)) throw new Error(`duplicate title ${post.title}`);
+  titles.add(post.title);
+  if (post.date < "2022-11-07" && bannedEarly.test(JSON.stringify(post))) {
+    throw new Error(`AI mention before Nov 2022 in ${post.date} ${post.slug}`);
+  }
 }
 
 fs.mkdirSync(root, { recursive: true });
@@ -631,7 +653,18 @@ fs.writeFileSync(path.join(root, "withAuthor.js"), author);
 
 const sitemapPath = path.resolve(root, "../../../public/sitemap.xml");
 let sitemap = fs.readFileSync(sitemapPath, "utf8");
-const alreadyListed = sitemap.includes("/blog/google-hours-match-the-door-2020-08-03");
+const keep = new Set([
+  "how-modern-web-infrastructure-drives-local-growth",
+  "core-web-vitals-for-a-local-service-business",
+  "waitlists-delivery-and-reservations",
+  "what-to-connect-on-a-professional-firm-website",
+  "google-business-profile-for-a-service-area-business",
+  "what-to-put-on-a-local-service-page",
+]);
+sitemap = sitemap.replace(
+  /\n  <url>\n    <loc>https:\/\/www\.atpconsultingservices\.com\/blog\/([^<]+)<\/loc>[\s\S]*?<\/url>/g,
+  (full, slug) => (keep.has(slug) ? full : "")
+);
 const block = posts
   .map(
     (post) => `  <url>
@@ -642,12 +675,10 @@ const block = posts
   </url>`
   )
   .join("\n");
-if (!alreadyListed) {
-  sitemap = sitemap.replace(
-    "  <url>\n    <loc>https://www.atpconsultingservices.com/work</loc>",
-    `${block}\n  <url>\n    <loc>https://www.atpconsultingservices.com/work</loc>`
-  );
-  fs.writeFileSync(sitemapPath, sitemap);
-}
+sitemap = sitemap.replace(
+  "  <url>\n    <loc>https://www.atpconsultingservices.com/work</loc>",
+  `${block}\n  <url>\n    <loc>https://www.atpconsultingservices.com/work</loc>`
+);
+fs.writeFileSync(sitemapPath, sitemap);
 
 console.log(`wrote ${posts.length} posts, ${posts[0].date} to ${posts[posts.length - 1].date}`);
