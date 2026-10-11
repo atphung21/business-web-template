@@ -2754,12 +2754,27 @@ header.site-header {
   padding: 3.25rem 0;
 }
 
+.about-offer:not(.clients-offer) .about-chapter__inner {
+  position: relative;
+  grid-template-columns: minmax(0, 48rem);
+  justify-content: center;
+  gap: 0.85rem;
+  text-align: center;
+}
+
 .about-chapter__num {
   margin: 0;
   font-family: var(--font-display);
   font-size: clamp(2.8rem, 5vw, 4rem);
   line-height: 0.9;
   color: var(--color-accent);
+}
+
+.about-offer:not(.clients-offer) .about-chapter__num {
+  position: absolute;
+  top: 3.25rem;
+  left: 0;
+  text-align: left;
 }
 
 .about-chapter__body h2 {
@@ -2774,6 +2789,10 @@ header.site-header {
   letter-spacing: -0.02em;
 }
 
+.about-offer:not(.clients-offer) .about-chapter__body h2 {
+  align-items: center;
+}
+
 .about-chapter__rule {
   display: block;
   width: 2.25rem;
@@ -2782,6 +2801,11 @@ header.site-header {
   background: var(--color-accent);
   transform-origin: left center;
   transition: width 0.45s ease;
+}
+
+.about-offer:not(.clients-offer) .about-chapter__rule {
+  margin: 0.7rem auto 0;
+  transform-origin: center;
 }
 
 .about-chapter.is-current .about-chapter__rule {
@@ -2794,6 +2818,11 @@ header.site-header {
   color: var(--color-ink-muted);
   font-size: 1.02rem;
   line-height: 1.7;
+}
+
+.about-offer:not(.clients-offer) .about-chapter__body p {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .about-chapter__note {
@@ -2810,6 +2839,14 @@ header.site-header {
   padding: 0.15rem 0 0;
   border-top: 1px solid rgba(22, 58, 95, 0.12);
   list-style: none;
+}
+
+.about-offer:not(.clients-offer) .about-chapter__clients,
+.about-offer:not(.clients-offer) .about-chapter__steps,
+.about-offer:not(.clients-offer) .about-chapter__facts {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
 }
 
 .about-chapter__clients {
@@ -3014,6 +3051,11 @@ header.site-header {
   .about-chapter__clients {
     grid-template-columns: 1fr;
   }
+
+  .about-offer:not(.clients-offer) .about-chapter__num {
+    position: static;
+    justify-self: start;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -3176,24 +3218,31 @@ header.site-header {
 }
 
 .faq-chapter__inner {
+  position: relative;
   display: grid;
-  grid-template-columns: 5.5rem minmax(0, 1fr);
-  gap: 1.25rem 2rem;
+  grid-template-columns: minmax(0, 48rem);
+  justify-content: center;
+  gap: 0.85rem;
   padding: 3.25rem 0;
+  text-align: center;
 }
 
 .faq-chapter__num {
+  position: absolute;
+  top: 3.25rem;
+  left: 0;
   margin: 0;
   font-family: var(--font-display);
   font-size: clamp(2.8rem, 5vw, 4rem);
   line-height: 0.9;
+  text-align: left;
   color: var(--color-accent);
 }
 
 .faq-chapter__body h2 {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   margin: 0 0 1rem;
   font-family: var(--font-display);
   font-size: clamp(1.7rem, 3vw, 2.35rem);
@@ -3206,9 +3255,9 @@ header.site-header {
   display: block;
   width: 2.25rem;
   height: 2px;
-  margin-top: 0.7rem;
+  margin: 0.7rem auto 0;
   background: var(--color-accent);
-  transform-origin: left center;
+  transform-origin: center;
   transition: width 0.45s ease;
 }
 
@@ -3218,7 +3267,7 @@ header.site-header {
 
 .faq-chapter__body > p {
   max-width: 48rem;
-  margin: 0;
+  margin: 0 auto;
   color: var(--color-ink-muted);
   font-size: 1.02rem;
   line-height: 1.7;
@@ -3226,8 +3275,9 @@ header.site-header {
 
 .faq-chapter__list {
   width: min(100%, 48rem);
-  margin: 1.35rem 0 0;
+  margin: 1.35rem auto 0;
   border-top: 1px solid rgba(22, 58, 95, 0.12);
+  text-align: left;
 }
 
 .faq-chapter .faq-item {
@@ -3396,6 +3446,11 @@ header.site-header {
     width: auto;
     max-width: var(--max-width);
     padding: 2.25rem 1.15rem;
+  }
+
+  .faq-chapter__num {
+    position: static;
+    justify-self: start;
   }
 }
 
@@ -3567,24 +3622,31 @@ header.site-header {
 }
 
 .contact-chapter__inner {
+  position: relative;
   display: grid;
-  grid-template-columns: 5.5rem minmax(0, 1fr);
-  gap: 1.25rem 2rem;
+  grid-template-columns: minmax(0, 48rem);
+  justify-content: center;
+  gap: 0.85rem;
   padding: 3.25rem 0;
+  text-align: center;
 }
 
 .contact-chapter__num {
+  position: absolute;
+  top: 3.25rem;
+  left: 0;
   margin: 0;
   font-family: var(--font-display);
   font-size: clamp(2.8rem, 5vw, 4rem);
   line-height: 0.9;
+  text-align: left;
   color: var(--color-accent);
 }
 
 .contact-chapter__body h2 {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   margin: 0 0 1rem;
   font-family: var(--font-display);
   font-size: clamp(1.7rem, 3vw, 2.35rem);
@@ -3597,9 +3659,9 @@ header.site-header {
   display: block;
   width: 2.25rem;
   height: 2px;
-  margin-top: 0.7rem;
+  margin: 0.7rem auto 0;
   background: var(--color-accent);
-  transform-origin: left center;
+  transform-origin: center;
   transition: width 0.45s ease;
 }
 
@@ -3609,7 +3671,7 @@ header.site-header {
 
 .contact-chapter__body > p {
   max-width: 48rem;
-  margin: 0;
+  margin: 0 auto;
   color: var(--color-ink-muted);
   font-size: 1.02rem;
   line-height: 1.7;
@@ -3617,22 +3679,28 @@ header.site-header {
 
 .contact-chapter__form {
   width: min(100%, 40rem);
-  margin-top: 1.5rem;
+  margin: 1.5rem auto 0;
+  text-align: left;
 }
 
 .contact-chapter__points,
 .contact-chapter__facts {
   width: min(100%, 48rem);
-  margin: 1.15rem 0 0;
+  margin: 1.15rem auto 0;
   padding: 0.15rem 0 0;
   border-top: 1px solid rgba(22, 58, 95, 0.12);
   list-style: none;
+}
+
+.contact-chapter__points {
+  text-align: left;
 }
 
 .contact-chapter__points li,
 .contact-chapter__facts li {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.8rem;
   min-height: 3.15rem;
   margin: 0;
@@ -3643,6 +3711,10 @@ header.site-header {
   font-weight: 600;
   line-height: 1.35;
   transition: color 0.28s ease;
+}
+
+.contact-chapter__points li {
+  justify-content: flex-start;
 }
 
 .contact-chapter__points li::before,
@@ -3675,7 +3747,7 @@ header.site-header {
   display: flex;
   justify-content: center;
   width: min(100%, 48rem);
-  margin-top: 1.5rem;
+  margin: 1.5rem auto 0;
 }
 
 .contact-chapter--featured h2,
@@ -3754,6 +3826,11 @@ header.site-header {
     width: auto;
     max-width: var(--max-width);
     padding: 2.25rem 1.15rem;
+  }
+
+  .contact-chapter__num {
+    position: static;
+    justify-self: start;
   }
 }
 

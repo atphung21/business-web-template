@@ -46,6 +46,15 @@ export const Nav = ({ businessName, onConsultClick }) => {
         >
           <li>
             <Link
+              to="/"
+              className={`site-nav__link${onHome ? " is-active" : ""}`}
+              onClick={goHome}
+            >
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link
               to="/services"
               className={`site-nav__link${location.pathname === "/services" ? " is-active" : ""}`}
               onClick={closeMenu}
