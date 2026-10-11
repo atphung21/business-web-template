@@ -181,7 +181,7 @@
   align-items: center;
   justify-content: center;
   padding: 1rem;
-  background: rgba(15, 23, 42, 0.55);
+  background: rgba(11, 22, 36, 0.72);
   -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
   animation: contact-modal-fade-in 0.2s ease;
@@ -204,8 +204,9 @@
   height: min(92vh, 760px);
   max-height: min(92vh, 760px);
   background: var(--color-surface);
-  border-radius: 16px;
-  box-shadow: 0 24px 48px rgba(15, 23, 42, 0.2);
+  border: 1px solid rgba(196, 163, 90, 0.4);
+  border-radius: 0;
+  box-shadow: 0 24px 48px rgba(11, 22, 36, 0.32);
   overflow: hidden;
   animation: contact-modal-slide-in 0.25s ease;
 }
@@ -231,68 +232,102 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: none;
-  border-radius: 50%;
-  background: rgba(11, 22, 36, 0.72);
+  border: 1px solid var(--color-accent);
+  border-radius: 0;
+  background: var(--color-dark);
   color: #fff;
   font-size: 1.5rem;
   line-height: 1;
   cursor: pointer;
-  transition: background 0.15s ease;
+  transition: color 0.15s ease, background 0.15s ease;
 }
 
-.contact-modal__close:hover {
-  background: rgba(11, 22, 36, 0.88);
+.contact-modal__close:hover,
+.contact-modal__close:focus-visible {
+  background: var(--color-dark);
+  color: var(--color-accent);
 }
 
 .contact-modal__aside {
+  display: flex;
+  flex-direction: column;
   padding: 2rem 1.75rem;
-  background: linear-gradient(165deg, #0b1624 0%, #163a5f 100%);
+  background:
+    radial-gradient(ellipse 70% 60% at 100% 0%, rgba(196, 163, 90, 0.16), transparent 52%),
+    linear-gradient(165deg, #0b1624 0%, #163a5f 100%);
   color: #fff;
   overflow-y: auto;
 }
 
 .contact-modal__eyebrow {
-  margin: 0 0 0.5rem;
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
+  margin: 0 0 0.7rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--color-accent);
 }
 
 .contact-modal__title {
-  margin: 0 0 0.75rem;
-  font-size: clamp(1.35rem, 3vw, 1.65rem);
-  font-weight: 800;
-  line-height: 1.2;
+  margin: 0 0 0.85rem;
   padding-right: 2rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.7rem, 3vw, 2.2rem);
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.contact-modal__title::after {
+  content: "";
+  display: block;
+  width: 2.25rem;
+  height: 2px;
+  margin-top: 0.7rem;
+  background: var(--color-accent);
 }
 
 .contact-modal__intro {
   margin: 0 0 1.25rem;
-  font-size: 0.95rem;
-  color: rgba(255, 255, 255, 0.82);
-  line-height: 1.55;
+  font-size: 1.02rem;
+  color: rgba(255, 255, 255, 0.76);
+  line-height: 1.7;
 }
 
 .contact-modal__benefits {
   margin: 0 0 1.5rem;
-  padding-left: 1.15rem;
-  font-size: 0.9rem;
-  color: rgba(255, 255, 255, 0.88);
-  line-height: 1.6;
+  padding: 0.15rem 0 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+  list-style: none;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.35;
 }
 
-.contact-modal__benefits li + li {
-  margin-top: 0.35rem;
+.contact-modal__benefits li {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  min-height: 3.15rem;
+  margin: 0;
+  padding: 0.75rem 0.15rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.contact-modal__benefits li::before {
+  content: "";
+  flex: 0 0 auto;
+  width: 0.85rem;
+  height: 1px;
+  background: var(--color-accent);
 }
 
 .contact-modal__direct {
   margin-top: auto;
-  padding-top: 1rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
-  font-size: 0.9rem;
+  padding-top: 0.15rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+  font-size: 0.95rem;
 }
 
 .contact-modal__direct p {
@@ -315,8 +350,10 @@
   text-decoration: none;
 }
 
-.contact-modal__direct a:hover {
-  text-decoration: underline;
+.contact-modal__direct a:hover,
+.contact-modal__direct a:focus-visible {
+  color: var(--color-accent);
+  text-decoration: none;
 }
 
 .contact-modal__form-wrap {
@@ -325,7 +362,7 @@
   min-height: 0;
   padding: 2.75rem 0.35rem 0.35rem;
   overflow: hidden;
-  background: #fff;
+  background: var(--color-band);
 }
 
 .contact-modal__calendly {
