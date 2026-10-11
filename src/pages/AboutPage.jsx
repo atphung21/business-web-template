@@ -17,6 +17,8 @@ const Footer = () => (
         {" · "}
         <Link to="/">Home</Link>
         {" · "}
+        <Link to="/services">Services</Link>
+        {" · "}
         <Link to="/about">About</Link>
         {" · "}
         <Link to="/packages">Packages</Link>
@@ -26,6 +28,10 @@ const Footer = () => (
         <Link to="/contact">Contact</Link>
         {" · "}
         <Link to="/blackjack">View a Custom Demo</Link>
+        {" · "}
+        <a href={business.linkedin} target="_blank" rel="noopener noreferrer">
+          LinkedIn
+        </a>
       </p>
     </div>
   </footer>
@@ -117,6 +123,12 @@ const AboutPage = () => {
             <li>
               <span>Email</span>
               <a href={`mailto:${business.email}`}>{business.email}</a>
+            </li>
+            <li>
+              <span>LinkedIn</span>
+              <a href={business.linkedin} target="_blank" rel="noopener noreferrer">
+                ATP Consulting Services
+              </a>
             </li>
           </ul>
           <div className="packages-page__actions">

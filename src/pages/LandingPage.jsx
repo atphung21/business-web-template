@@ -82,6 +82,11 @@ const ServicesSection = () => (
       <p className="section__lead">{servicesLead}</p>
       <ServicesCarousel services={services} />
       <p className="services-included-note">{servicesIncludedNote}</p>
+      <p className="packages-page-jump">
+        <Link to="/services" className="btn btn--navy">
+          See All Services
+        </Link>
+      </p>
     </div>
   </section>
 );
@@ -188,6 +193,8 @@ const Footer = () => (
       <p>
         &copy; {new Date().getFullYear()} {business.name}. All rights reserved.
         {" · "}
+        <Link to="/services">Services</Link>
+        {" · "}
         <Link to="/about">About</Link>
         {" · "}
         <Link to="/packages">Packages</Link>
@@ -197,6 +204,10 @@ const Footer = () => (
         <Link to="/contact">Contact</Link>
         {" · "}
         <Link to="/blackjack">View a Custom Demo</Link>
+        {" · "}
+        <a href={business.linkedin} target="_blank" rel="noopener noreferrer">
+          LinkedIn
+        </a>
       </p>
     </div>
   </footer>

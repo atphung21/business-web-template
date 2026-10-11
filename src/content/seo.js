@@ -1,3 +1,5 @@
+import { business as businessProfile } from "./siteContent";
+
 export const SITE_ORIGIN = "https://www.atpconsultingservices.com";
 export const SITE_NAME = "ATP Consulting Services";
 export const SITE_LEGAL = "ATP Consulting Services, LLC.";
@@ -21,6 +23,11 @@ export const PAGE_SEO = {
     title: `Contact ATP Consulting Services | Request a Conversation`,
     description:
       "Start a conversation with ATP Consulting Services. Tell us about your website, SEO, or marketing goals. Orange County, CA and nationwide. Call (657) 330-1466 or email info@atpconsultingservices.com.",
+  },
+  services: {
+    title: `Small Business Website, SEO & Marketing Services | ATP Consulting Services`,
+    description:
+      "Website design, SEO, local search, and digital marketing for small businesses. ATP Consulting Services is based in Irvine, CA and works nationwide. Call (657) 330-1466.",
   },
   packages: {
     title: `Website Packages for Small Business | ATP Consulting Services`,
@@ -131,11 +138,12 @@ export function businessJsonLd({
     logo: SITE_LOGO,
     telephone: SITE_PHONE,
     email: SITE_EMAIL,
+    sameAs: [businessProfile.linkedin],
     priceRange: "$$",
     currenciesAccepted: "USD",
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Orange County",
+      addressLocality: "Irvine",
       addressRegion: "CA",
       addressCountry: "US",
     },
@@ -148,6 +156,7 @@ export function businessJsonLd({
       { "@type": "Country", name: "United States" },
       { "@type": "State", name: "California" },
       { "@type": "AdministrativeArea", name: "Orange County" },
+      { "@type": "City", name: "Irvine" },
     ],
     knowsAbout: [
       "small business website design",

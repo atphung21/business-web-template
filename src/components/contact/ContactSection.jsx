@@ -35,6 +35,12 @@ export const ContactSection = ({ headingLevel = "h2", formId = "contact-page-for
               <strong>Email</strong>
               <a href={`mailto:${business.email}`}>{business.email}</a>
             </p>
+            <p className="contact-layout__detail">
+              <strong>LinkedIn</strong>
+              <a href={business.linkedin} target="_blank" rel="noopener noreferrer">
+                ATP Consulting Services
+              </a>
+            </p>
           </div>
           <div className="contact-layout__form-card">
             <h3 className="contact-layout__form-title">Send a message</h3>

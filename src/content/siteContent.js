@@ -10,6 +10,7 @@ export const business = {
     "Websites, SEO, and digital marketing for small businesses nationwide",
   phone: "(657) 330-1466",
   email: "info@atpconsultingservices.com",
+  linkedin: "https://www.linkedin.com/company/atp-consulting-services",
   serviceArea:
     "Orange County, California — and remotely for small businesses across the United States.",
   consultationNote: "Free initial consultation — no obligation",
@@ -55,54 +56,64 @@ export const servicesIncludedNote =
 
 export const services = [
   {
-    title: "Business Consultation & Strategy",
+    title: "Business Consultation and Strategy",
     description:
       "Start with clarity. We assess your goals, budget, and current tools, then recommend what to tackle first so you invest in the right priorities.",
     highlights: [
-      "Technology & process assessment",
-      "Honest recommendations — no overselling",
+      "Technology and process assessment",
+      "Honest recommendations, without overselling",
       "Roadmap for websites, SEO, and marketing",
     ],
+    details:
+      "Every engagement starts with a free consultation. We learn your goals, budget, and the tools you already use, then recommend what to tackle first so you invest in the right priorities. You get a technology and process assessment, plain-language recommendations, and a roadmap for the website, SEO, and marketing work that fits a small-business budget. Scope, timeline, and an investment range come before any build.",
   },
   {
-    title: "Websites & Online Presence",
+    title: "Websites and Online Presence",
     description:
       "Professional sites from simple informational pages to product catalogs and custom features — plus domain, hosting, and launch support handled with you.",
     highlights: [
-      "Mobile-responsive design & lead capture",
-      "Domain, hosting & SSL setup",
+      "Mobile-friendly design and lead capture",
+      "Domain, hosting, and SSL setup",
       "Redesigns and ongoing site improvements",
     ],
+    details:
+      "Professional sites run from a simple informational presence to product catalogs and custom features. Website projects include domain, hosting, and SSL guidance at launch, a mobile-friendly layout, and a way for customers to call or send a form. You keep ownership of the domain and site. Starter is a first website. Growth adds service pages, galleries, testimonials, Google Maps, and local SEO for shops that need calls and walk-ins. Catalog organizes products or a menu. Custom covers booking, portals, and integrations. We also redesign outdated sites when starting over is the wrong move.",
   },
   {
-    title: "SEO & Local Visibility",
+    title: "SEO and Local Visibility",
     description:
       "Help customers find you on Google with on-page SEO, local search, and a site structure search engines can understand and rank.",
     highlights: [
-      "Keyword & competitor research",
+      "Keyword and competitor research",
       "Local SEO for community businesses",
-      "Performance and indexing best practices",
+      "Performance and indexing practices",
     ],
+    details:
+      "Customers should be able to find you on Google. Work includes keyword and competitor research, on-page SEO, and a site structure search engines can understand and index. Local SEO covers community businesses that need to show up in Search and Maps. For a service-area business, we guide Google Business Profile setup so the listing can show the city and service area without publishing a home street address. Ongoing SEO after launch is optional.",
   },
   {
     title: "Digital Marketing",
     description:
       "Reach the right audience with social, email, content, and paid campaigns — and keep your website and social channels working together.",
     highlights: [
-      "Social media strategy & profile integration",
-      "Content & email campaigns",
+      "Social strategy and profile links",
+      "Content and email campaigns",
       "Paid ads setup and guidance",
     ],
+    details:
+      "Reach the right audience with social, email, content, and paid campaigns, and keep the website and social channels working together. That includes social strategy, profile links, content and email campaigns, and paid ads setup and guidance. Organic search earns visibility over time. Paid ads, such as Google Ads, buy placement. After a consultation we recommend one or both based on your budget and how soon you need leads.",
   },
   {
-    title: "Analytics, Automation & Support",
+    title: "Analytics, Automation, and Support",
     description:
       "Measure results, reduce manual work, and get help after launch — from tracking conversions to automating follow-ups and routine tasks.",
     highlights: [
-      "Google Analytics & conversion tracking",
-      "Workflow automation & tool integration",
-      "Actionable insights and post-launch support",
+      "Google Analytics and conversion tracking",
+      "Workflow automation and tool integration",
+      "Insights and support after launch",
     ],
+    details:
+      "Measure results, reduce manual work, and get help after launch. We set up Google Analytics and conversion tracking, connect the tools you already use, and automate follow-ups and routine tasks. Launch includes training on updates. Optional SEO, marketing, and maintenance stay available so the site remains something you can run.",
   },
 ];
 

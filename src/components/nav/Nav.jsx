@@ -4,10 +4,7 @@ import { LogoMark } from "../brand/LogoMark";
 import { scrollToTop, scrollToSection } from "../../utils/scroll";
 import "../brand/brand.css";
 
-const sectionLinks = [
-  { sectionId: "services", label: "Services" },
-  { sectionId: "clients", label: "Clients" },
-];
+const sectionLinks = [{ sectionId: "clients", label: "Clients" }];
 
 export const Nav = ({ businessName, onConsultClick }) => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -60,6 +57,15 @@ export const Nav = ({ businessName, onConsultClick }) => {
           id="main-nav-links"
           className={`site-nav__links ${menuOpen ? "site-nav__links--open" : ""}`}
         >
+          <li>
+            <Link
+              to="/services"
+              className={`site-nav__link${location.pathname === "/services" ? " is-active" : ""}`}
+              onClick={closeMenu}
+            >
+              Services
+            </Link>
+          </li>
           {sectionLinks.map((link) => (
             <li key={link.sectionId}>
               <Link
