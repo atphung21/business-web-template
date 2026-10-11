@@ -261,6 +261,132 @@ export const blogPosts = [
       },
     ],
   },
+  {
+    slug: "google-business-profile-for-a-service-area-business",
+    title: "Google Business Profile for a Service-Area Business",
+    description:
+      "How a contractor, plumber, or landscaper sets up Google Business Profile and Maps without publishing a home address, and what has to match the website.",
+    date: "2026-09-29",
+    author: {
+      name: "Andy Trinh Phung",
+      jobTitle: "Lead Full-Stack Software Engineer",
+      locality: "Santa Ana",
+      bio: "Andy Trinh Phung is a Lead Full-Stack Software Engineer and technology consultant based in Santa Ana, CA. Through ATP Consulting Services, he helps local businesses bridge the gap between their operations and modern web technologies to drive measurable growth.",
+    },
+    cta: "Fix the name, phone number, and hours on the listing and the site before you spend money on ads.",
+    sections: [
+      {
+        paragraphs: [
+          "When someone searches for a plumber, a landscaper, or a garage organizer, they often pick from the map. They are not reading a homepage first. They look at the name, the stars, the hours, and whether the pin is somewhere they can picture.",
+          "That map result is a Google Business Profile. For a shop with a public door, the pin should sit on that door. For a contractor who drives to the job, the pin should not sit on the house. This note is for that second case: trades that work across a service area and do not want a home address on the internet.",
+        ],
+      },
+      {
+        heading: "1. The listing is a second homepage",
+        paragraphs: [
+          "People decide from the listing before they ever reach your site. The business name should be the name on the truck and the invoice, not a keyword stuffed in front of it. \"Orange County Best Plumbing Services Near Me\" looks like an ad. The real name looks like a business.",
+          "Choose one primary category that matches the search you want. A plumber who also clears drains can add drain cleaning as an extra category. A pile of loosely related categories, from locksmith to roofer, makes the listing harder to trust.",
+          "Write a short description in plain words: what you do, and the cities you actually drive to. Set hours to the times a person answers the phone. Photos should be finished work, the truck, and the crew, not a stock kitchen. A listing with no photos looks closed.",
+        ],
+      },
+      {
+        heading: "2. Hide the address when the storefront is a home",
+        paragraphs: [
+          "Google lets a service-area business hide the street address and show the cities or regions it serves instead. Use that when customers do not visit you. A pin on a house sends people to a driveway that is not a shop, and it publishes an address you may not want public.",
+          "List the cities you will drive to on a normal day. Do not add a whole county because it looks bigger. If you will not take a job in that city, leave it off. A customer who calls from outside your real area wastes the call, and a listing that claims everywhere is less believable than one that names a few towns.",
+          "If you do have a small shop or a yard customers can visit, show that address and skip the hide option. The rule is simple: publish the place people are invited to stand, and hide the place they are not.",
+        ],
+      },
+      {
+        heading: "3. Make the listing and the website agree",
+        paragraphs: [
+          "Searchers and Google both notice when the map says one phone number and the website says another. The business name, the phone number, and the hours should match on the listing, the contact page, and the footer. If the site still shows an old cell number, fix the site the same day you fix the listing.",
+          "Open the three places on a phone and read them out loud. They should sound like the same business.",
+        ],
+        list: [
+          "Business name on the Maps listing, the site header, and the invoice.",
+          "One phone number, the one a person answers during the hours you publish.",
+          "Hours that match, including days you are on jobs and the phone is off.",
+          "Cities on the listing that also appear, in the same words, on the contact page.",
+        ],
+        paragraphsAfter: [
+          "A website link on the listing should open the page that explains the work, not a social profile and not a broken address. If you offer two different trades, link to the page for the one in your primary category.",
+        ],
+      },
+      {
+        heading: "Before you pay for ads",
+        paragraphs: [
+          "An ad can put you at the top of a search for a week. It cannot repair a listing that shows the wrong number. Spend an hour on the name, the category, the service area, and the match between the listing and the site.",
+          "When those agree, the map is already doing the job a nearby customer needs: they can see what you do, where you work, and how to call.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "what-to-put-on-a-local-service-page",
+    title: "What to Put on a Local Service Page",
+    description:
+      "What a contractor, salon, or clinic should put on each service page so a nearby Google search explains the work and gives a way to call.",
+    date: "2026-10-06",
+    author: {
+      name: "Andy Trinh Phung",
+      jobTitle: "Lead Full-Stack Software Engineer",
+      locality: "Santa Ana",
+      bio: "Andy Trinh Phung is a Lead Full-Stack Software Engineer and technology consultant based in Santa Ana, CA. Through ATP Consulting Services, he helps local businesses bridge the gap between their operations and modern web technologies to drive measurable growth.",
+    },
+    cta: "Read the page on a phone. If you cannot tell what to do in a few seconds, a ranking will not turn into a call.",
+    sections: [
+      {
+        paragraphs: [
+          "A homepage can introduce the business. It cannot rank for every job you do. A plumber who also clears drains, or a salon that does both manicures and brows, needs a page for each service, written the way a customer would search for it.",
+          "This note is for contractors, salons, and clinics whose customers start on Google and decide from one page. The page has two jobs: explain the work, and make the call obvious.",
+        ],
+      },
+      {
+        heading: "1. One page, one job",
+        paragraphs: [
+          "Give the page a title a person would type. \"Drain cleaning in Santa Ana\" is a search. \"Our comprehensive solutions\" is not. The first paragraph should name the service and the area you actually cover, in ordinary sentences, not a block of city names.",
+          "Skip a list of every city in Orange County at the bottom of the page. That list does not help someone decide, and it does not make the page more local. Name the cities you will take a job in, the same ones on your Google listing. If the work is different in each city, say how. If it is the same work, one honest area is enough.",
+          "Link related services to their own pages. A drain page can mention water heaters and point to that page. It should not try to be both.",
+        ],
+      },
+      {
+        heading: "2. Answer the questions that happen before a call",
+        paragraphs: [
+          "People call when they can picture the job. They want to know what is included, how you charge, how soon you can come, and whether you come to them. A page that only says the service is \"professional and reliable\" has not answered any of those.",
+          "You do not need a full price list if the work varies. You do need a sentence about how pricing works: a flat trip charge, a quote after a look, or a starting price for the common job. Say what you do not do, if that saves a wasted call.",
+        ],
+        list: [
+          "What the visit includes, in a few concrete lines.",
+          "How pricing works, even if the final number comes after a look.",
+          "How soon you can usually come, and how to book.",
+          "Which cities you serve, matching the Google listing.",
+        ],
+      },
+      {
+        heading: "3. Put the next step where the thumb is",
+        paragraphs: [
+          "On a phone, the first screen should show the phone number and a short form. The number has to be the same one on the Google listing. A second number \"for the office\" is how calls go to a line nobody watches.",
+          [
+            "The listing and the page are one system. The note on a ",
+            {
+              text: "Google Business Profile for a service-area business",
+              href: "/blog/google-business-profile-for-a-service-area-business",
+            },
+            " covers the map side: hide a home address, name the cities you drive to, and keep the name, phone, and hours identical.",
+          ],
+          "The form can ask for a name, a callback number, the city, and the job. That is enough to return the call. A long questionnaire belongs after you have spoken, not before.",
+        ],
+      },
+      {
+        heading: "Read it the way a customer will",
+        paragraphs: [
+          "Publish the page you want Google to send people to, then open it on a phone. In a few seconds you should be able to say what the service is, where you work, and how to reach you.",
+          "If you cannot, fix those three things before you add more pages. A clear page gives a nearby search somewhere useful to land.",
+        ],
+      },
+    ],
+  },
 ];
 
 export const formatBlogDate = (isoDate) => {
