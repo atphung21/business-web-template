@@ -106,6 +106,19 @@ export const Nav = ({ businessName, onConsultClick }) => {
           </li>
           <li>
             <Link
+              to="/blog"
+              className={`site-nav__link${
+                location.pathname === "/blog" || location.pathname.startsWith("/blog/")
+                  ? " is-active"
+                  : ""
+              }`}
+              onClick={closeMenu}
+            >
+              Blog
+            </Link>
+          </li>
+          <li>
+            <Link
               to="/contact"
               className={`site-nav__link${location.pathname === "/contact" ? " is-active" : ""}`}
               onClick={closeMenu}

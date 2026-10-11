@@ -44,6 +44,11 @@ export const PAGE_SEO = {
     description:
       "Answers about small business website cost, project timelines, Orange County and nationwide service, SEO, Google Business Profile, and how to contact ATP Consulting Services. Call (657) 330-1466.",
   },
+  blog: {
+    title: `Small Business Website & SEO Blog | ATP Consulting Services`,
+    description:
+      "Practical notes on small-business websites, local SEO, and getting found on Google. From ATP Consulting Services in Irvine, CA, working with shops and local services nationwide.",
+  },
 };
 
 export const SEO_KEYWORDS = [
@@ -157,6 +162,7 @@ export function businessJsonLd({
       { "@type": "State", name: "California" },
       { "@type": "AdministrativeArea", name: "Orange County" },
       { "@type": "City", name: "Irvine" },
+      { "@type": "City", name: "Santa Ana" },
     ],
     knowsAbout: [
       "small business website design",
@@ -239,6 +245,66 @@ export function businessJsonLd({
   return {
     "@context": "https://schema.org",
     "@graph": graph,
+  };
+}
+
+export function blogIndexJsonLd({ title, description, posts = [] }) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "@id": `${SITE_ORIGIN}/blog#blog`,
+    url: `${SITE_ORIGIN}/blog`,
+    name: title,
+    description,
+    inLanguage: "en-US",
+    publisher: {
+      "@type": "Organization",
+      name: SITE_NAME,
+      url: SITE_ORIGIN,
+    },
+    blogPost: posts.map((post) => ({
+      "@type": "BlogPosting",
+      headline: post.title,
+      description: post.description,
+      datePublished: post.date,
+      url: `${SITE_ORIGIN}/blog/${post.slug}`,
+    })),
+  };
+}
+
+export function blogPostJsonLd(post) {
+  const url = `${SITE_ORIGIN}/blog/${post.slug}`;
+  const businessId = `${SITE_ORIGIN}/#business`;
+  return {
+    "@context": "https://schema.org",
+    "@type": ["BlogPosting", "Article"],
+    "@id": `${url}#article`,
+    headline: post.title,
+    description: post.description,
+    datePublished: post.date,
+    dateModified: post.updated || post.date,
+    inLanguage: "en-US",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": url,
+    },
+    url,
+    image: SITE_IMAGE,
+    author: {
+      "@type": "Person",
+      name: post.author?.name || "Andy Trinh Phung",
+      jobTitle: post.author?.jobTitle || "Lead Full-Stack Software Engineer",
+      worksFor: { "@id": businessId },
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: post.author?.locality || "Santa Ana",
+        addressRegion: "CA",
+        addressCountry: "US",
+      },
+    },
+    publisher: { "@id": businessId },
+    about: { "@id": businessId },
+    isPartOf: { "@id": `${SITE_ORIGIN}/blog#blog` },
   };
 }
 

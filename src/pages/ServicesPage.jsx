@@ -25,6 +25,8 @@ const Footer = () => (
         {" · "}
         <Link to="/faq">FAQ</Link>
         {" · "}
+        <Link to="/blog">Blog</Link>
+        {" · "}
         <Link to="/contact">Contact</Link>
         {" · "}
         <Link to="/blackjack">View a Custom Demo</Link>
@@ -47,7 +49,12 @@ const ServicesPage = () => {
 
   useEffect(() => {
     applyPageSeo({ ...seo, path: "/services" });
-    window.scrollTo(0, 0);
+    const id = window.location.hash.replace("#", "");
+    if (!id) {
+      window.scrollTo(0, 0);
+      return;
+    }
+    document.getElementById(id)?.scrollIntoView();
   }, [seo]);
 
   useEffect(() => {
